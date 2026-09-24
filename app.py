@@ -302,6 +302,10 @@ def main() -> None:
         font=["system-ui", "sans-serif"],
         font_mono=["ui-monospace", "monospace"],
     ).set(
+        background_fill_primary="#fffefa",
+        background_fill_primary_dark="#fffefa",
+        background_fill_secondary="#edf0e9",
+        background_fill_secondary_dark="#edf0e9",
         body_background_fill="#f6f3ed",
         body_background_fill_dark="#f6f3ed",
         body_text_color="#173439",
