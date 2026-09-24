@@ -1,0 +1,63 @@
+{
+  "verified_at": "2026-09-24T18:12:11.764919+00:00",
+  "github": {
+    "url": "https://github.com/Habetyan/semantic-change-radar",
+    "visibility": "public",
+    "release_source_commit": "2d440203f0af319bea5df1ae3dd618a7efe9be11",
+    "ci": {
+      "id": 36039368224,
+      "html_url": "https://github.com/Habetyan/semantic-change-radar/actions/runs/36039368224",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "2d440203f0af319bea5df1ae3dd618a7efe9be11"
+    }
+  },
+  "hugging_face": {
+    "space_url": "https://huggingface.co/spaces/artush-habetyan/semantic-change-radar-demo",
+    "app_url": "https://artush-habetyan-semantic-change-radar-demo.static.hf.space",
+    "commit": "8c3b9bb5e727ec1970c533a00d08b01e5e336c6b",
+    "sdk": "static",
+    "stage": "RUNNING",
+    "hardware": {
+      "current": null,
+      "requested": null
+    },
+    "public_http_status": 200,
+    "authored_html_sha256": "29e3ea9d76581c29f53f64ca6dafe46ce9a64db37b1a85ae0ae647d44f16700f",
+    "public_html_matches_after_platform_metadata_removal": true,
+    "mode": "Recorded model outputs only; live Gradio inference remains local.",
+    "paid_plan_or_hardware_purchased": false,
+    "browser": {
+      "url": "https://artush-habetyan-semantic-change-radar-demo.static.hf.space",
+      "recorded_disclosure": true,
+      "real_example": true,
+      "filters": true,
+      "evidence": true,
+      "json_export": true,
+      "mobile_no_overflow": true,
+      "page_errors": [],
+      "checked_at": "2026-09-24T18:10:48.227158+00:00",
+      "http_status": 200,
+      "deployment_commit": "8c3b9bb5e727ec1970c533a00d08b01e5e336c6b",
+      "desktop_export_passages": [
+        30,
+        77
+      ],
+      "mobile_example": "pip caching",
+      "mobile_export_passages": [
+        25,
+        45
+      ],
+      "mobile_independent_controls_and_download": true,
+      "mobile_page_errors": [],
+      "initial_wrong_host": "Non-static hf.space host did not expose expected app; checks use confirmed static.hf.space deployment."
+    }
+  },
+  "human_review": {
+    "status": "pending",
+    "groups": 471,
+    "cases": 9,
+    "instructions": "docs/review/README.md"
+  },
+  "scope": "CI above verifies the implementation release commit. Subsequent documentation-only release-record commits are visible in GitHub Actions."
+}

@@ -1,8 +1,9 @@
 # Handoff: 2026-09-24
 
-The resume preparation work is complete locally. Publication is in progress;
-external URLs and verification results must be confirmed in
-`artifacts/publication.json` before treating deployment or hosted CI as successful.
+The resume preparation work is published. GitHub CI passed for the implementation
+release, and the public recorded showcase passed desktop and mobile browser checks.
+Exact commits, URLs and verification results are in
+[the publication record](../artifacts/publication.json). Human annotation review remains pending.
 
 ## Current application
 
@@ -67,14 +68,20 @@ and cannot serve as an unseen holdout for future tuning.
 passed**, including cached real-model checks, plus Ruff, formatting, dependency,
 documentation-link, browser, source-hash, and freeze checks. Browser checks cover
 Gradio interactions, exact excerpts, grouped sources, edited provenance, the review
-form, and static showcase behavior. This is local verification, not hosted CI success.
+form, and static showcase behavior.
 
-Publication targets, pending confirmation in `artifacts/publication.json`:
+[GitHub CI](https://github.com/Habetyan/semantic-change-radar/actions/runs/36039368224)
+also passed installation, dependency checks, lint, formatting, unit tests and actual
+CPU inference on a fresh hosted runner. The public showcase passed example selection,
+filters, evidence, JSON downloads and mobile checks with no JavaScript errors.
+
+Verified public links:
 
 - Source: <https://github.com/Habetyan/semantic-change-radar>
 - Recorded showcase: <https://huggingface.co/spaces/artush-habetyan/semantic-change-radar-demo>
 
 The showcase contains recorded outputs with an explicit no-live-inference disclosure.
-It does not compare new text in the browser. Public live inference is not claimed.
-The remaining scientific task is human annotation review; release follow-up is to
-confirm repository, showcase, and CI status against the publication artifact.
+Use the local Gradio app above to compare new text. No paid plan or hardware was
+purchased. The remaining scientific task is human annotation review; use the
+review packet, then version and adjudicate labels before reporting validated scores.
+[INTERVIEW.md](INTERVIEW.md) provides architecture notes and truthful resume wording.
