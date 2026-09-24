@@ -4,6 +4,7 @@ __pycache__/
 .ruff_cache/
 *.py[cod]
 .cache/
+.gradio/
 *.egg-info/
 build/
 dist/
