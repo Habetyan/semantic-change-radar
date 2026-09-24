@@ -1,0 +1,549 @@
+{
+  "case_id": "starlette-responses",
+  "review_status": "ai_reviewed_pending_human",
+  "annotator": "resume_eval",
+  "blind_to_model_predictions": true,
+  "scope": "Complete extracted prose including headings and visible example titles; fenced code and reference destinations excluded. Every passage appears exactly once.",
+  "events": [
+    {
+      "old_indices": [
+        0
+      ],
+      "new_indices": [
+        0
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        1
+      ],
+      "new_indices": [
+        1
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        2
+      ],
+      "new_indices": [
+        2
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        3
+      ],
+      "new_indices": [
+        3
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        4
+      ],
+      "new_indices": [
+        4
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        5
+      ],
+      "new_indices": [
+        5
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        6
+      ],
+      "new_indices": [
+        6
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        7
+      ],
+      "new_indices": [
+        7
+      ],
+      "status": "modified",
+      "rationale": "Adds the exception that an already specified charset is not appended again."
+    },
+    {
+      "old_indices": [
+        8
+      ],
+      "new_indices": [
+        8
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        9
+      ],
+      "new_indices": [
+        9
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        10
+      ],
+      "new_indices": [
+        10
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        11
+      ],
+      "new_indices": [
+        11
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        12
+      ],
+      "new_indices": [
+        12
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        13
+      ],
+      "new_indices": [
+        13
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        14
+      ],
+      "new_indices": [
+        14
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        15
+      ],
+      "new_indices": [
+        15
+      ],
+      "status": "modified",
+      "rationale": "Expands the documented expires argument from an integer to either an integer or a datetime."
+    },
+    {
+      "old_indices": [
+        16
+      ],
+      "new_indices": [
+        16
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        17
+      ],
+      "new_indices": [
+        17
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        18
+      ],
+      "new_indices": [
+        18
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        19
+      ],
+      "new_indices": [
+        19
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        20
+      ],
+      "new_indices": [
+        20
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        21
+      ],
+      "new_indices": [
+        21
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        22
+      ],
+      "new_indices": [
+        22
+      ],
+      "status": "reworded",
+      "rationale": "Corrects Conversly to Conversely without changing the cookie-deletion behavior."
+    },
+    {
+      "old_indices": [
+        23
+      ],
+      "new_indices": [
+        23
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        24
+      ],
+      "new_indices": [
+        24
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        25
+      ],
+      "new_indices": [
+        25
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        26
+      ],
+      "new_indices": [
+        26
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        27
+      ],
+      "new_indices": [
+        27
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        28
+      ],
+      "new_indices": [
+        28
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        29
+      ],
+      "new_indices": [
+        29
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        30
+      ],
+      "new_indices": [
+        30
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        31
+      ],
+      "new_indices": [
+        31
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        32
+      ],
+      "new_indices": [
+        32
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        33
+      ],
+      "new_indices": [
+        33
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        34
+      ],
+      "new_indices": [
+        34
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        35
+      ],
+      "new_indices": [
+        35
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        36
+      ],
+      "new_indices": [
+        36
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        37
+      ],
+      "new_indices": [
+        37
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        38
+      ],
+      "new_indices": [
+        38
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        39
+      ],
+      "new_indices": [
+        39
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        40
+      ],
+      "new_indices": [
+        40
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        41
+      ],
+      "new_indices": [
+        41
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        42
+      ],
+      "new_indices": [
+        42
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        43
+      ],
+      "new_indices": [
+        43
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        44
+      ],
+      "new_indices": [
+        44
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        45
+      ],
+      "new_indices": [
+        45
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        46
+      ],
+      "new_indices": [
+        46
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        47
+      ],
+      "new_indices": [
+        47
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        48
+      ],
+      "new_indices": [
+        51
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        49
+      ],
+      "new_indices": [
+        52
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        50
+      ],
+      "new_indices": [
+        53
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        48
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: File responses also supports HTTP range requests."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        49
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: The Accept-Ranges: bytes header will be included in the response if the file exists. For now, only the bytes range unit is supported."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        50
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: If the request includes a Range header, and the file exists, the response will be a 206 Partial Content response with the requested range of bytes. If the range is invalid, the response will be a 416 Range Not Satisfiable response."
+    }
+  ],
+  "review_notes": [
+    "Read both complete raw Markdown revisions and all 51 old / 54 new extracted passages. Confirmed charset exception and datetime acceptance are modified claims; Conversly repair is reworded; three range-request paragraphs are additions.",
+    "Custom JSON serialization, response constructor/cookie signatures, streaming guidance and third-party EventSourceResponse retain their source scope. Excluded generator-code syntax cleanup does not change a prose label."
+  ],
+  "reviewer": "resume_ui",
+  "review_blind_to_model_predictions": true
+}

@@ -1,0 +1,115 @@
+{
+  "source_line_count": 299,
+  "omissions": [
+    {
+      "start_line": 17,
+      "end_line": 19,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 23,
+      "end_line": 25,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 33,
+      "end_line": 33,
+      "reason": "presentation wrapper or horizontal rule"
+    },
+    {
+      "start_line": 37,
+      "end_line": 39,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 41,
+      "end_line": 41,
+      "reason": "presentation wrapper or horizontal rule"
+    },
+    {
+      "start_line": 53,
+      "end_line": 59,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 69,
+      "end_line": 72,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 82,
+      "end_line": 82,
+      "reason": "reference destination/target; visible labels retained"
+    },
+    {
+      "start_line": 92,
+      "end_line": 112,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 121,
+      "end_line": 131,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 139,
+      "end_line": 147,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 153,
+      "end_line": 165,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 170,
+      "end_line": 173,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 179,
+      "end_line": 182,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 186,
+      "end_line": 191,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 260,
+      "end_line": 260,
+      "reason": "presentation wrapper or horizontal rule"
+    },
+    {
+      "start_line": 263,
+      "end_line": 277,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 279,
+      "end_line": 279,
+      "reason": "presentation wrapper or horizontal rule"
+    }
+  ],
+  "transformations": [
+    {
+      "start_line": 35,
+      "end_line": 35,
+      "reason": "HTML summary label retained; tags removed"
+    },
+    {
+      "start_line": 261,
+      "end_line": 261,
+      "reason": "HTML summary label retained; tags removed"
+    },
+    {
+      "start_line": 261,
+      "end_line": 261,
+      "reason": "inline HTML link/code or Python role normalized to visible text"
+    }
+  ],
+  "retained_indented_lines": [],
+  "policy": "Complete page prose, headings, lists and visible code titles. Omit fenced code, reference destinations and presentation wrappers. Preserve admonition bodies; normalize links, inline code, bold and audited Python object roles.",
+  "indented_blocks_audit": "For these twelve pinned pages, unfenced indented lines were inspected: admonition bodies or list continuations, retained in full."
+}

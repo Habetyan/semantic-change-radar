@@ -1,0 +1,1034 @@
+[
+  {
+    "headings": [],
+    "scope": [],
+    "section": [],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 3,
+    "line_end": 3,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 8,
+    "line_end": 8,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 11,
+    "line_end": 11,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 13,
+    "line_end": 15,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:"
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3
+    ],
+    "kind": "list",
+    "line_start": 19,
+    "line_end": 21,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* prepend (default): The directory path containing each module will be inserted into the *beginning* of sys.path if not already there, and then imported with the importlib.import_module function."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      4
+    ],
+    "kind": "paragraph",
+    "line_start": 23,
+    "line_end": 25,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* prepend (default): The directory path containing each module will be inserted into the *beginning* of sys.path if not already there, and then imported with the importlib.import_module function."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      4
+    ],
+    "kind": "paragraph",
+    "line_start": 27,
+    "line_end": 28,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* prepend (default): The directory path containing each module will be inserted into the *beginning* of sys.path if not already there, and then imported with the importlib.import_module function."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      4
+    ],
+    "kind": "paragraph",
+    "line_start": 30,
+    "line_end": 30,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:"
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3
+    ],
+    "kind": "list",
+    "line_start": 34,
+    "line_end": 35,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* append: the directory containing each module is appended to the end of sys.path if not already there, and imported with importlib.import_module."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      8
+    ],
+    "kind": "paragraph",
+    "line_start": 37,
+    "line_end": 38,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* append: the directory containing each module is appended to the end of sys.path if not already there, and imported with importlib.import_module."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      8
+    ],
+    "kind": "paragraph",
+    "line_start": 46,
+    "line_end": 49,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* append: the directory containing each module is appended to the end of sys.path if not already there, and imported with importlib.import_module."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      8
+    ],
+    "kind": "paragraph",
+    "line_start": 51,
+    "line_end": 52,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:"
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3
+    ],
+    "kind": "list",
+    "line_start": 56,
+    "line_end": 56,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12
+    ],
+    "kind": "paragraph",
+    "line_start": 58,
+    "line_end": 58,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "Advantages of this mode:"
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      13
+    ],
+    "kind": "list",
+    "line_start": 60,
+    "line_end": 60,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "Advantages of this mode:"
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      13
+    ],
+    "kind": "list",
+    "line_start": 61,
+    "line_end": 61,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12
+    ],
+    "kind": "paragraph",
+    "line_start": 63,
+    "line_end": 63,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "Disadvantages:"
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      16
+    ],
+    "kind": "list",
+    "line_start": 65,
+    "line_end": 65,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "Disadvantages:"
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      16
+    ],
+    "kind": "list",
+    "line_start": 66,
+    "line_end": 68,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "Disadvantages:",
+      "* Testing utility modules in the tests directories (for example a tests.helpers module containing test-related functions/classes) are not importable. The recommendation in this case it to place testing utility modules together with the application/library code, for example app.testing.helpers."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      16,
+      18
+    ],
+    "kind": "paragraph",
+    "line_start": 70,
+    "line_end": 72,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12
+    ],
+    "kind": "paragraph",
+    "line_start": 74,
+    "line_end": 74,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "It works like this:"
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      20
+    ],
+    "kind": "list",
+    "line_start": 76,
+    "line_end": 77,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "It works like this:",
+      "1. Given a certain module path, for example tests/core/test_models.py, derives a canonical name like tests.core.test_models and tries to import it."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      20,
+      21
+    ],
+    "kind": "paragraph",
+    "line_start": 79,
+    "line_end": 81,
+    "indent": 5
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "It works like this:",
+      "1. Given a certain module path, for example tests/core/test_models.py, derives a canonical name like tests.core.test_models and tries to import it."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      20,
+      21
+    ],
+    "kind": "paragraph",
+    "line_start": 83,
+    "line_end": 83,
+    "indent": 5
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "It works like this:",
+      "1. Given a certain module path, for example tests/core/test_models.py, derives a canonical name like tests.core.test_models and tries to import it."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      20,
+      21
+    ],
+    "kind": "paragraph",
+    "line_start": 85,
+    "line_end": 85,
+    "indent": 5
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "It works like this:"
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      20
+    ],
+    "kind": "list",
+    "line_start": 87,
+    "line_end": 88,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "It works like this:",
+      "2. If the previous step fails, we import the module directly using importlib facilities, which lets us import it without changing sys.path."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      20,
+      25
+    ],
+    "kind": "paragraph",
+    "line_start": 90,
+    "line_end": 91,
+    "indent": 5
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "It works like this:",
+      "2. If the previous step fails, we import the module directly using importlib facilities, which lets us import it without changing sys.path."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      20,
+      25
+    ],
+    "kind": "paragraph",
+    "line_start": 93,
+    "line_end": 93,
+    "indent": 5
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "It works like this:",
+      "2. If the previous step fails, we import the module directly using importlib facilities, which lets us import it without changing sys.path."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      20,
+      25
+    ],
+    "kind": "paragraph",
+    "line_start": 99,
+    "line_end": 100,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "It works like this:",
+      "2. If the previous step fails, we import the module directly using importlib facilities, which lets us import it without changing sys.path."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      20,
+      25
+    ],
+    "kind": "paragraph",
+    "line_start": 104,
+    "line_end": 105,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "It works like this:",
+      "2. If the previous step fails, we import the module directly using importlib facilities, which lets us import it without changing sys.path."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      20,
+      25
+    ],
+    "kind": "paragraph",
+    "line_start": 109,
+    "line_end": 109,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "It works like this:",
+      "2. If the previous step fails, we import the module directly using importlib facilities, which lets us import it without changing sys.path."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      20,
+      25
+    ],
+    "kind": "paragraph",
+    "line_start": 111,
+    "line_end": 111,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Import modes"
+    ],
+    "scope": [
+      "Importing files in Python is a non-trivial process, so aspects of the import process can be controlled through the --import-mode command-line flag, which can assume these values:",
+      "* importlib: this mode uses more fine control mechanisms provided by importlib to import test modules, without changing sys.path.",
+      "It works like this:",
+      "2. If the previous step fails, we import the module directly using importlib facilities, which lets us import it without changing sys.path."
+    ],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [
+      3,
+      12,
+      20,
+      25
+    ],
+    "kind": "paragraph",
+    "line_start": 113,
+    "line_end": 113,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 116,
+    "line_end": 116,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "prepend and append import modes scenarios"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 119,
+    "line_end": 121,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "prepend and append import modes scenarios"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 123,
+    "line_end": 123,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "prepend and append import modes scenarios",
+      "Test modules / conftest.py files inside packages"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33,
+      35
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 126,
+    "line_end": 126,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "prepend and append import modes scenarios",
+      "Test modules / conftest.py files inside packages"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33,
+      35
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 139,
+    "line_end": 139,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "prepend and append import modes scenarios",
+      "Test modules / conftest.py files inside packages"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33,
+      35
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 145,
+    "line_end": 150,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "prepend and append import modes scenarios",
+      "Test modules / conftest.py files inside packages"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33,
+      35
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 152,
+    "line_end": 152,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "prepend and append import modes scenarios",
+      "Test modules / conftest.py files inside packages"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33,
+      35
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 154,
+    "line_end": 156,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "prepend and append import modes scenarios"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 158,
+    "line_end": 158,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "prepend and append import modes scenarios",
+      "Standalone test modules / conftest.py files"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33,
+      41
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 161,
+    "line_end": 161,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "prepend and append import modes scenarios",
+      "Standalone test modules / conftest.py files"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33,
+      41
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 171,
+    "line_end": 171,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "prepend and append import modes scenarios",
+      "Standalone test modules / conftest.py files"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33,
+      41
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 177,
+    "line_end": 180,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "prepend and append import modes scenarios",
+      "Standalone test modules / conftest.py files"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33,
+      41
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 182,
+    "line_end": 183,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "prepend and append import modes scenarios",
+      "Standalone test modules / conftest.py files"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33,
+      41
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 185,
+    "line_end": 185,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 189,
+    "line_end": 189,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Invoking pytest versus python -m pytest"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      47
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 192,
+    "line_end": 194,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "pytest import mechanisms and sys.path/PYTHONPATH",
+      "Invoking pytest versus python -m pytest"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      47
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 196,
+    "line_end": 196,
+    "indent": 0
+  }
+]

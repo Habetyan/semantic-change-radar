@@ -1,0 +1,55 @@
+{
+  "source_line_count": 89,
+  "omissions": [
+    {
+      "start_line": 1,
+      "end_line": 2,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 4,
+      "end_line": 4,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 9,
+      "end_line": 9,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 22,
+      "end_line": 22,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 30,
+      "end_line": 30,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 56,
+      "end_line": 56,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 61,
+      "end_line": 61,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 71,
+      "end_line": 71,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 88,
+      "end_line": 88,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 89,
+      "end_line": 89,
+      "reason": "reference target"
+    }
+  ]
+}

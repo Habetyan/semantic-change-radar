@@ -1,0 +1,261 @@
+{
+  "created_at": "2026-09-24T16:49:47.770659+00:00",
+  "target": {
+    "case_id": "pytest-goodpractices",
+    "old_index": 23,
+    "new_index": 29,
+    "old_text": "* If you don't have a setup.py file and are relying on the fact that Python by default puts the current directory in sys.path to import your package, you can execute python -m pytest to execute the tests against the local copy directly, without using pip.",
+    "new_text": "If you do not use an editable install and not use the src layout (mypkg directly in the root directory) you can rely on the fact that Python by default puts the current directory in sys.path to import your package and run python -m pytest to execute the tests against the local copy directly.",
+    "expected": "modified"
+  },
+  "model": {
+    "embedding": {
+      "repo": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "file": "onnx/model_quint8_avx2.onnx",
+      "max_tokens": 256
+    },
+    "nli": {
+      "repo": "cross-encoder/nli-MiniLM2-L6-H768",
+      "revision": "b95119ce93d3e065de6214e38cd4a97b0f2f2c6d",
+      "file": "onnx/model_quint8_avx2.onnx",
+      "max_tokens": 512
+    },
+    "runtime": "onnxruntime",
+    "runtime_version": "1.23.2",
+    "provider": "CPUExecutionProvider",
+    "batch_size": 8,
+    "cpu_threads": 2
+  },
+  "archive_sha256": "5daff250ab60962de61403a3d78cf14bfaf80f24b405ad0bba7458dbc165a56f",
+  "runs": {
+    "original_page_batch": {
+      "directional_pair_count": 32,
+      "pair_order_sha256": "d33f81a22b81b2e2f20142290ecb74bad723f039c86910d9e29ec2e60e9a1691",
+      "directions": {
+        "forward": {
+          "global_pair_index": 7,
+          "batch_start": 0,
+          "batch_token_lengths": [
+            98,
+            54,
+            74,
+            27,
+            63,
+            33,
+            19,
+            123
+          ],
+          "probabilities": {
+            "contradiction": 0.00442499341443181,
+            "entailment": 0.8738265037536621,
+            "neutral": 0.12174847722053528
+          }
+        },
+        "reverse": {
+          "global_pair_index": 23,
+          "batch_start": 16,
+          "batch_token_lengths": [
+            98,
+            54,
+            74,
+            27,
+            63,
+            33,
+            19,
+            123
+          ],
+          "probabilities": {
+            "contradiction": 0.009095730260014534,
+            "entailment": 0.8795234560966492,
+            "neutral": 0.11138087511062622
+          }
+        }
+      },
+      "classification": {
+        "old_text": "* If you don't have a setup.py file and are relying on the fact that Python by default puts the current directory in sys.path to import your package, you can execute python -m pytest to execute the tests against the local copy directly, without using pip.",
+        "new_text": "If you do not use an editable install and not use the src layout (mypkg directly in the root directory) you can rely on the fact that Python by default puts the current directory in sys.path to import your package and run python -m pytest to execute the tests against the local copy directly.",
+        "signals": [],
+        "old_entails_new": 0.8738,
+        "new_entails_old": 0.8795,
+        "contradiction_score": 0.0091,
+        "status": "reworded",
+        "category": "Wording only",
+        "explanation": "Both passages imply one another according to the NLI model. This suggests equivalent wording, not a guarantee of equivalence."
+      }
+    },
+    "isolated_bidirectional": {
+      "directional_pair_count": 2,
+      "pair_order_sha256": "1067f8bf3960fab7960d0511657f1cfb533d064ee2f71e55092e20c50c0b1ae8",
+      "directions": {
+        "forward": {
+          "global_pair_index": 0,
+          "batch_start": 0,
+          "batch_token_lengths": [
+            123,
+            123
+          ],
+          "probabilities": {
+            "contradiction": 0.005367230623960495,
+            "entailment": 0.9107478857040405,
+            "neutral": 0.08388489484786987
+          }
+        },
+        "reverse": {
+          "global_pair_index": 1,
+          "batch_start": 0,
+          "batch_token_lengths": [
+            123,
+            123
+          ],
+          "probabilities": {
+            "contradiction": 0.012940854765474796,
+            "entailment": 0.49856480956077576,
+            "neutral": 0.4884943664073944
+          }
+        }
+      },
+      "classification": {
+        "old_text": "* If you don't have a setup.py file and are relying on the fact that Python by default puts the current directory in sys.path to import your package, you can execute python -m pytest to execute the tests against the local copy directly, without using pip.",
+        "new_text": "If you do not use an editable install and not use the src layout (mypkg directly in the root directory) you can rely on the fact that Python by default puts the current directory in sys.path to import your package and run python -m pytest to execute the tests against the local copy directly.",
+        "signals": [],
+        "old_entails_new": 0.9107,
+        "new_entails_old": 0.4986,
+        "contradiction_score": 0.0129,
+        "status": "uncertain",
+        "category": "Needs review",
+        "explanation": "The model cannot confidently distinguish a meaning change from a paraphrase. Review both passages."
+      }
+    },
+    "oracle_35_interleaved": {
+      "directional_pair_count": 70,
+      "pair_order_sha256": "6df9c8248ff4a521140e77dc9a0da8d4fe8d3425d1e0d52d30bf4663ecb80133",
+      "directions": {
+        "forward": {
+          "global_pair_index": 36,
+          "batch_start": 32,
+          "batch_token_lengths": [
+            33,
+            33,
+            19,
+            19,
+            123,
+            123,
+            192,
+            192
+          ],
+          "probabilities": {
+            "contradiction": 0.01270314957946539,
+            "entailment": 0.789453387260437,
+            "neutral": 0.19784340262413025
+          }
+        },
+        "reverse": {
+          "global_pair_index": 37,
+          "batch_start": 32,
+          "batch_token_lengths": [
+            33,
+            33,
+            19,
+            19,
+            123,
+            123,
+            192,
+            192
+          ],
+          "probabilities": {
+            "contradiction": 0.018676869571208954,
+            "entailment": 0.48043349385261536,
+            "neutral": 0.5008896589279175
+          }
+        }
+      },
+      "classification": {
+        "old_text": "* If you don't have a setup.py file and are relying on the fact that Python by default puts the current directory in sys.path to import your package, you can execute python -m pytest to execute the tests against the local copy directly, without using pip.",
+        "new_text": "If you do not use an editable install and not use the src layout (mypkg directly in the root directory) you can rely on the fact that Python by default puts the current directory in sys.path to import your package and run python -m pytest to execute the tests against the local copy directly.",
+        "signals": [],
+        "old_entails_new": 0.7895,
+        "new_entails_old": 0.4804,
+        "contradiction_score": 0.0187,
+        "status": "uncertain",
+        "category": "Needs review",
+        "explanation": "The model cannot confidently distinguish a meaning change from a paraphrase. Review both passages."
+      }
+    },
+    "isolated_each_direction": {
+      "directional_pair_count": 2,
+      "pair_order_sha256": "1067f8bf3960fab7960d0511657f1cfb533d064ee2f71e55092e20c50c0b1ae8",
+      "directions": {
+        "forward": {
+          "global_pair_index": 0,
+          "batch_start": 0,
+          "batch_token_lengths": [
+            123
+          ],
+          "probabilities": {
+            "contradiction": 0.008016053587198257,
+            "entailment": 0.8430449366569519,
+            "neutral": 0.14893896877765656
+          }
+        },
+        "reverse": {
+          "global_pair_index": 0,
+          "batch_start": 0,
+          "batch_token_lengths": [
+            123
+          ],
+          "probabilities": {
+            "contradiction": 0.02290535904467106,
+            "entailment": 0.5413103699684143,
+            "neutral": 0.4357842803001404
+          }
+        }
+      },
+      "classification": {
+        "old_text": "* If you don't have a setup.py file and are relying on the fact that Python by default puts the current directory in sys.path to import your package, you can execute python -m pytest to execute the tests against the local copy directly, without using pip.",
+        "new_text": "If you do not use an editable install and not use the src layout (mypkg directly in the root directory) you can rely on the fact that Python by default puts the current directory in sys.path to import your package and run python -m pytest to execute the tests against the local copy directly.",
+        "signals": [],
+        "old_entails_new": 0.843,
+        "new_entails_old": 0.5413,
+        "contradiction_score": 0.0229,
+        "status": "uncertain",
+        "category": "Needs review",
+        "explanation": "The model cannot confidently distinguish a meaning change from a paraphrase. Review both passages."
+      }
+    }
+  },
+  "original_page_target": {
+    "old_index": 23,
+    "new_index": 29,
+    "old_text": "* If you don't have a setup.py file and are relying on the fact that Python by default puts the current directory in sys.path to import your package, you can execute python -m pytest to execute the tests against the local copy directly, without using pip.",
+    "new_text": "If you do not use an editable install and not use the src layout (mypkg directly in the root directory) you can rely on the fact that Python by default puts the current directory in sys.path to import your package and run python -m pytest to execute the tests against the local copy directly.",
+    "moved": true,
+    "alignment_score": 0.8643,
+    "old_entails_new": 0.8738,
+    "new_entails_old": 0.8795,
+    "contradiction_score": 0.0091,
+    "signals": [],
+    "status": "reworded",
+    "category": "Wording only",
+    "explanation": "Both passages imply one another according to the NLI model. This suggests equivalent wording, not a guarantee of equivalence.",
+    "id": "change-30"
+  },
+  "historical_target": {
+    "alignment_score": 0.8643,
+    "category": "Wording only",
+    "contradiction_score": 0.0091,
+    "explanation": "Both passages imply one another according to the NLI model. This suggests equivalent wording, not a guarantee of equivalence.",
+    "id": "change-30",
+    "moved": true,
+    "new_entails_old": 0.8795,
+    "new_index": 29,
+    "new_text": "If you do not use an editable install and not use the src layout (mypkg directly in the root directory) you can rely on the fact that Python by default puts the current directory in sys.path to import your package and run python -m pytest to execute the tests against the local copy directly.",
+    "old_entails_new": 0.8738,
+    "old_index": 23,
+    "old_text": "* If you don't have a setup.py file and are relying on the fact that Python by default puts the current directory in sys.path to import your package, you can execute python -m pytest to execute the tests against the local copy directly, without using pip.",
+    "signals": [],
+    "status": "reworded"
+  },
+  "source_texts_identical": true,
+  "interpretation": "Identical tokenized target text and fixed model/classifier can change scores with batch composition/padding under quantized ONNX inference. This diagnostic does not isolate padding effects from shared activation quantization scales."
+}

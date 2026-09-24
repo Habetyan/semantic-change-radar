@@ -1,0 +1,928 @@
+[
+  {
+    "headings": [],
+    "scope": [],
+    "section": [],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 2,
+    "line_end": 2,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 5,
+    "line_end": 5,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 7,
+    "line_end": 7,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Why flaky tests are a problem"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 10,
+    "line_end": 10,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 13,
+    "line_end": 13,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Potential root causes"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      4
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 16,
+    "line_end": 16,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Potential root causes",
+      "System state"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      4,
+      5
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 19,
+    "line_end": 19,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Potential root causes",
+      "System state"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      4,
+      5
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 21,
+    "line_end": 21,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Potential root causes",
+      "System state"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      4,
+      5
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 23,
+    "line_end": 23,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Potential root causes",
+      "System state"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      4,
+      5
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 24,
+    "line_end": 24,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Potential root causes",
+      "System state"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      4,
+      5
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 25,
+    "line_end": 25,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Potential root causes"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      4
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 28,
+    "line_end": 28,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Potential root causes",
+      "Overly strict assertion"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      4,
+      11
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 31,
+    "line_end": 31,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 34,
+    "line_end": 34,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Pytest features"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      13
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 37,
+    "line_end": 37,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Pytest features",
+      "Xfail strict"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      13,
+      14
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 40,
+    "line_end": 40,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Pytest features"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      13
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 43,
+    "line_end": 43,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Pytest features",
+      "PYTEST_CURRENT_TEST"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      13,
+      16
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 46,
+    "line_end": 47,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Pytest features"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      13
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 50,
+    "line_end": 50,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Pytest features",
+      "Plugins"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      13,
+      18
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 53,
+    "line_end": 53,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Pytest features",
+      "Plugins"
+    ],
+    "scope": [
+      "Rerunning any failed tests can mitigate the negative effects of flaky tests by giving them additional chances to pass, so that the overall build does not fail. Several pytest plugins support this:"
+    ],
+    "section": [
+      0,
+      13,
+      18
+    ],
+    "scope_indices": [
+      19
+    ],
+    "kind": "list",
+    "line_start": 55,
+    "line_end": 55,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Pytest features",
+      "Plugins"
+    ],
+    "scope": [
+      "Rerunning any failed tests can mitigate the negative effects of flaky tests by giving them additional chances to pass, so that the overall build does not fail. Several pytest plugins support this:"
+    ],
+    "section": [
+      0,
+      13,
+      18
+    ],
+    "scope_indices": [
+      19
+    ],
+    "kind": "list",
+    "line_start": 56,
+    "line_end": 56,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Pytest features",
+      "Plugins"
+    ],
+    "scope": [
+      "Rerunning any failed tests can mitigate the negative effects of flaky tests by giving them additional chances to pass, so that the overall build does not fail. Several pytest plugins support this:"
+    ],
+    "section": [
+      0,
+      13,
+      18
+    ],
+    "scope_indices": [
+      19
+    ],
+    "kind": "list",
+    "line_start": 57,
+    "line_end": 57,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Pytest features",
+      "Plugins"
+    ],
+    "scope": [
+      "Rerunning any failed tests can mitigate the negative effects of flaky tests by giving them additional chances to pass, so that the overall build does not fail. Several pytest plugins support this:"
+    ],
+    "section": [
+      0,
+      13,
+      18
+    ],
+    "scope_indices": [
+      19
+    ],
+    "kind": "list",
+    "line_start": 58,
+    "line_end": 58,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Pytest features",
+      "Plugins"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      13,
+      18
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 60,
+    "line_end": 60,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Pytest features",
+      "Plugins"
+    ],
+    "scope": [
+      "Plugins to deliberately randomize tests can help expose tests with state problems:"
+    ],
+    "section": [
+      0,
+      13,
+      18
+    ],
+    "scope_indices": [
+      24
+    ],
+    "kind": "list",
+    "line_start": 62,
+    "line_end": 62,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Pytest features",
+      "Plugins"
+    ],
+    "scope": [
+      "Plugins to deliberately randomize tests can help expose tests with state problems:"
+    ],
+    "section": [
+      0,
+      13,
+      18
+    ],
+    "scope_indices": [
+      24
+    ],
+    "kind": "list",
+    "line_start": 63,
+    "line_end": 63,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 66,
+    "line_end": 66,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Other general strategies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      27
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 69,
+    "line_end": 69,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Other general strategies",
+      "Split up test suites"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      27,
+      28
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 72,
+    "line_end": 72,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Other general strategies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      27
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 75,
+    "line_end": 75,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Other general strategies",
+      "Video/screenshot on failure"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      27,
+      30
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 78,
+    "line_end": 78,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Other general strategies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      27
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 81,
+    "line_end": 81,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Other general strategies",
+      "Delete or rewrite the test"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      27,
+      32
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 84,
+    "line_end": 84,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Other general strategies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      27
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 87,
+    "line_end": 87,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Other general strategies",
+      "Quarantine"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      27,
+      34
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 90,
+    "line_end": 90,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Other general strategies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      27
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 94,
+    "line_end": 94,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Other general strategies",
+      "CI tools that rerun on failure"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      27,
+      36
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 97,
+    "line_end": 97,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 101,
+    "line_end": 101,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Research"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      38
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 104,
+    "line_end": 104,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Research"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      38
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 106,
+    "line_end": 106,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Research"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      38
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 107,
+    "line_end": 107,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Research"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      38
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 108,
+    "line_end": 108,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 111,
+    "line_end": 111,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Resources"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      43
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 114,
+    "line_end": 114,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Resources"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      43
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 115,
+    "line_end": 115,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Resources"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      43
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 116,
+    "line_end": 116,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Resources"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      43
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 117,
+    "line_end": 117,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Resources"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      43
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 118,
+    "line_end": 118,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Resources"
+    ],
+    "scope": [
+      "* Microsoft:"
+    ],
+    "section": [
+      0,
+      43
+    ],
+    "scope_indices": [
+      48
+    ],
+    "kind": "list",
+    "line_start": 120,
+    "line_end": 120,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Resources"
+    ],
+    "scope": [
+      "* Microsoft:"
+    ],
+    "section": [
+      0,
+      43
+    ],
+    "scope_indices": [
+      48
+    ],
+    "kind": "list",
+    "line_start": 121,
+    "line_end": 121,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Resources"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      43
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 123,
+    "line_end": 123,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Resources"
+    ],
+    "scope": [
+      "* Google:"
+    ],
+    "section": [
+      0,
+      43
+    ],
+    "scope_indices": [
+      51
+    ],
+    "kind": "list",
+    "line_start": 125,
+    "line_end": 125,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "Flaky tests",
+      "Resources"
+    ],
+    "scope": [
+      "* Google:"
+    ],
+    "section": [
+      0,
+      43
+    ],
+    "scope_indices": [
+      51
+    ],
+    "kind": "list",
+    "line_start": 126,
+    "line_end": 126,
+    "indent": 2
+  }
+]

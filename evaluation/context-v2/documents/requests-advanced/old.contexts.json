@@ -1,0 +1,2352 @@
+[
+  {
+    "headings": [],
+    "scope": [],
+    "section": [],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 3,
+    "line_end": 3,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 6,
+    "line_end": 6,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 10,
+    "line_end": 10,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Session Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 13,
+    "line_end": 18,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Session Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 20,
+    "line_end": 20,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Session Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 22,
+    "line_end": 22,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Session Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 33,
+    "line_end": 34,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Session Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 44,
+    "line_end": 46,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Session Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 48,
+    "line_end": 50,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Session Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 63,
+    "line_end": 65,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Session Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 67,
+    "line_end": 67,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Session Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 72,
+    "line_end": 73,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Session Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 76,
+    "line_end": 76,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Session Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 78,
+    "line_end": 80,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Session Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 82,
+    "line_end": 83,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 87,
+    "line_end": 87,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Request and Response Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      15
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 90,
+    "line_end": 96,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Request and Response Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      15
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 100,
+    "line_end": 100,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Request and Response Objects"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      15
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 112,
+    "line_end": 113,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 121,
+    "line_end": 121,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Prepared Requests"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      19
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 124,
+    "line_end": 128,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Prepared Requests"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      19
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 153,
+    "line_end": 156,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Prepared Requests"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      19
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 158,
+    "line_end": 165,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Prepared Requests"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      19
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 190,
+    "line_end": 194,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 211,
+    "line_end": 211,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "SSL Cert Verification"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      24
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 214,
+    "line_end": 216,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "SSL Cert Verification"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      24
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 221,
+    "line_end": 221,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "SSL Cert Verification"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      24
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 226,
+    "line_end": 226,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "SSL Cert Verification"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      24
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 230,
+    "line_end": 230,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "SSL Cert Verification"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      24
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 235,
+    "line_end": 236,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "SSL Cert Verification"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      24
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 238,
+    "line_end": 239,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "SSL Cert Verification"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      24
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 241,
+    "line_end": 241,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "SSL Cert Verification"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      24
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 246,
+    "line_end": 250,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "SSL Cert Verification"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      24
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 252,
+    "line_end": 252,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 254,
+    "line_end": 254,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Client Side Certificates"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      34
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 257,
+    "line_end": 259,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Client Side Certificates"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      34
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 264,
+    "line_end": 264,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Client Side Certificates"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      34
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 269,
+    "line_end": 269,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Client Side Certificates"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      34
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 274,
+    "line_end": 275,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 279,
+    "line_end": 279,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "CA Certificates"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      39
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 282,
+    "line_end": 283,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "CA Certificates"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      39
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 285,
+    "line_end": 289,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "CA Certificates"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      39
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 291,
+    "line_end": 291,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 300,
+    "line_end": 300,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Body Content Workflow"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      43
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 303,
+    "line_end": 306,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Body Content Workflow"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      43
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 311,
+    "line_end": 312,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Body Content Workflow"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      43
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 318,
+    "line_end": 322,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Body Content Workflow"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      43
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 324,
+    "line_end": 329,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 336,
+    "line_end": 336,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Keep-Alive"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      48
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 339,
+    "line_end": 341,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Keep-Alive"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      48
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 343,
+    "line_end": 345,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 349,
+    "line_end": 349,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Streaming Uploads"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      51
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 352,
+    "line_end": 354,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Streaming Uploads"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      51
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 359,
+    "line_end": 363,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 368,
+    "line_end": 368,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Chunk-Encoded Requests"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      54
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 371,
+    "line_end": 373,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Chunk-Encoded Requests"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      54
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 381,
+    "line_end": 386,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 391,
+    "line_end": 391,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "POST Multiple Multipart-Encoded Files"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      57
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 394,
+    "line_end": 395,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "POST Multiple Multipart-Encoded Files"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      57
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 399,
+    "line_end": 399,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "POST Multiple Multipart-Encoded Files"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      57
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 414,
+    "line_end": 418,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 423,
+    "line_end": 423,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Event Hooks"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      61
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 426,
+    "line_end": 427,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Event Hooks"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      61
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 429,
+    "line_end": 429,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Event Hooks"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      61
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 431,
+    "line_end": 432,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Event Hooks"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      61
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 435,
+    "line_end": 437,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Event Hooks"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      61
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 441,
+    "line_end": 442,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Event Hooks"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      61
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 449,
+    "line_end": 449,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Event Hooks"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      61
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 451,
+    "line_end": 453,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Event Hooks"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      61
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 461,
+    "line_end": 461,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Event Hooks"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      61
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 467,
+    "line_end": 467,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Event Hooks"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      61
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 473,
+    "line_end": 474,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Event Hooks"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      61
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 482,
+    "line_end": 483,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 487,
+    "line_end": 487,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Custom Authentication"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      73
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 490,
+    "line_end": 490,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Custom Authentication"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      73
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 492,
+    "line_end": 493,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Custom Authentication"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      73
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 495,
+    "line_end": 498,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Custom Authentication"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      73
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 500,
+    "line_end": 501,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Custom Authentication"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      73
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 518,
+    "line_end": 518,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 525,
+    "line_end": 525,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Streaming Requests"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      79
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 528,
+    "line_end": 532,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Streaming Requests"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      79
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 546,
+    "line_end": 549,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Streaming Requests"
+    ],
+    "scope": [
+      "When using decode_unicode=True with Response.iter_lines() or Response.iter_content(), you'll want to provide a fallback encoding in the event the server doesn't provide one:"
+    ],
+    "section": [
+      0,
+      79
+    ],
+    "scope_indices": [
+      81
+    ],
+    "kind": "paragraph",
+    "line_start": 562,
+    "line_end": 565,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 577,
+    "line_end": 577,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Proxies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      83
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 580,
+    "line_end": 581,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Proxies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      83
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 592,
+    "line_end": 593,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Proxies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      83
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 606,
+    "line_end": 611,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Proxies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      83
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 620,
+    "line_end": 621,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Proxies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      83
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 628,
+    "line_end": 630,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Proxies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      83
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 632,
+    "line_end": 634,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Proxies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      83
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 640,
+    "line_end": 640,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Proxies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      83
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 642,
+    "line_end": 644,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Proxies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      83
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 649,
+    "line_end": 650,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Proxies"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      83
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 659,
+    "line_end": 659,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Proxies",
+      "SOCKS"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      83,
+      93
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 664,
+    "line_end": 666,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Proxies",
+      "SOCKS"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      83,
+      93
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 668,
+    "line_end": 668,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Proxies",
+      "SOCKS"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      83,
+      93
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 674,
+    "line_end": 675,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Proxies",
+      "SOCKS"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      83,
+      93
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 682,
+    "line_end": 682,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 686,
+    "line_end": 686,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Compliance"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      98
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 689,
+    "line_end": 692,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Compliance"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      98
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 694,
+    "line_end": 694,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Compliance",
+      "Encodings"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      98,
+      100
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 697,
+    "line_end": 701,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Compliance",
+      "Encodings"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      98,
+      100
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 703,
+    "line_end": 710,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 714,
+    "line_end": 714,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 717,
+    "line_end": 719,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 721,
+    "line_end": 726,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 731,
+    "line_end": 732,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 739,
+    "line_end": 740,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 755,
+    "line_end": 758,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 766,
+    "line_end": 770,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 778,
+    "line_end": 781,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 783,
+    "line_end": 785,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 801,
+    "line_end": 801,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 817,
+    "line_end": 818,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 825,
+    "line_end": 827,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 838,
+    "line_end": 840,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 855,
+    "line_end": 858,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 872,
+    "line_end": 875,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 885,
+    "line_end": 888,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "HTTP Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      103
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 899,
+    "line_end": 900,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 904,
+    "line_end": 904,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Custom Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      120
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 907,
+    "line_end": 911,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Custom Verbs"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      120
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 917,
+    "line_end": 917,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 922,
+    "line_end": 922,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Link Headers"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      123
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 925,
+    "line_end": 926,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Link Headers"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      123
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 928,
+    "line_end": 929,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Link Headers"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      123
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 936,
+    "line_end": 936,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 946,
+    "line_end": 946,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Transport Adapters"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      127
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 949,
+    "line_end": 953,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Transport Adapters"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      127
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 955,
+    "line_end": 960,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Transport Adapters"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      127
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 962,
+    "line_end": 965,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Transport Adapters"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      127
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 972,
+    "line_end": 974,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Transport Adapters"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      127
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 976,
+    "line_end": 979,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Transport Adapters"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      127
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 981,
+    "line_end": 981,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Transport Adapters",
+      "Example: Specific SSL Version"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      127,
+      133
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 984,
+    "line_end": 987,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Transport Adapters",
+      "Example: Specific SSL Version"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      127,
+      133
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 989,
+    "line_end": 992,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 1013,
+    "line_end": 1013,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Blocking Or Non-Blocking?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      136
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 1016,
+    "line_end": 1021,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Blocking Or Non-Blocking?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      136
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 1023,
+    "line_end": 1025,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 1032,
+    "line_end": 1032,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Header Ordering"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      139
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 1035,
+    "line_end": 1035,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Header Ordering"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      139
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 1037,
+    "line_end": 1037,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 1041,
+    "line_end": 1041,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Timeouts"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      142
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 1044,
+    "line_end": 1047,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Timeouts"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      142
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 1049,
+    "line_end": 1053,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Timeouts"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      142
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 1055,
+    "line_end": 1059,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Timeouts"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      142
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 1061,
+    "line_end": 1061,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Timeouts"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      142
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 1065,
+    "line_end": 1066,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Advanced Usage",
+      "Timeouts"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      142
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 1070,
+    "line_end": 1072,
+    "indent": 0
+  }
+]

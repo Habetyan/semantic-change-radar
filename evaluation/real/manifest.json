@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "selection": "Purposive historical multi-release prose revisions; not a random sample.",
+  "annotation_status": "AI-authored, pending human validation; no training or tuning.",
+  "freeze_path": "docs/real-evaluation-freeze.json",
+  "licenses": [
+    {
+      "path": "evaluation/real/licenses/flask-old-LICENSE.rst",
+      "url": "https://raw.githubusercontent.com/pallets/flask/1ca199f9b38b70a4e97cb47a4252ffd7fccc008c/LICENSE.rst",
+      "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea"
+    },
+    {
+      "path": "evaluation/real/licenses/flask-new-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/pallets/flask/ab8149664182b662453a563161aa89013c806dc9/LICENSE.txt",
+      "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea"
+    },
+    {
+      "path": "evaluation/real/licenses/pytest-old-LICENSE",
+      "url": "https://raw.githubusercontent.com/pytest-dev/pytest/1569fac603d9a50022e1474b494eebf970a2a3af/LICENSE",
+      "sha256": "7898b9b164d4f93fd9a562fd0f592935518b48c4745303964110eb7f7fe64faf"
+    },
+    {
+      "path": "evaluation/real/licenses/pytest-new-LICENSE",
+      "url": "https://raw.githubusercontent.com/pytest-dev/pytest/b55ab2aabb68c0ce94c3903139b062d0c2790152/LICENSE",
+      "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b"
+    },
+    {
+      "path": "evaluation/real/licenses/requests-old-LICENSE",
+      "url": "https://raw.githubusercontent.com/psf/requests/c2b307dbefe21177af03f9feb37181a89a799fcc/LICENSE",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+    },
+    {
+      "path": "evaluation/real/licenses/requests-old-NOTICE",
+      "url": "https://raw.githubusercontent.com/psf/requests/c2b307dbefe21177af03f9feb37181a89a799fcc/NOTICE",
+      "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc"
+    },
+    {
+      "path": "evaluation/real/licenses/requests-new-LICENSE",
+      "url": "https://raw.githubusercontent.com/psf/requests/0e322af87745eff34caffe4df68456ebc20d9068/LICENSE",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+    },
+    {
+      "path": "evaluation/real/licenses/requests-new-NOTICE",
+      "url": "https://raw.githubusercontent.com/psf/requests/0e322af87745eff34caffe4df68456ebc20d9068/NOTICE",
+      "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc"
+    }
+  ],
+  "cases": [
+    {
+      "id": "flask-deploying",
+      "repository": "pallets/flask",
+      "license": "BSD-3-Clause",
+      "annotation_path": "evaluation/real/annotations/flask-deploying.json",
+      "old": {
+        "tag": "1.1.4",
+        "commit": "1ca199f9b38b70a4e97cb47a4252ffd7fccc008c",
+        "upstream_path": "docs/deploying/index.rst",
+        "raw_url": "https://raw.githubusercontent.com/pallets/flask/1ca199f9b38b70a4e97cb47a4252ffd7fccc008c/docs/deploying/index.rst",
+        "source_url": "https://github.com/pallets/flask/blob/1ca199f9b38b70a4e97cb47a4252ffd7fccc008c/docs/deploying/index.rst",
+        "raw_path": "evaluation/real/documents/flask-deploying/old.rst",
+        "text_path": "evaluation/real/documents/flask-deploying/old.txt",
+        "passages_path": "evaluation/real/documents/flask-deploying/old.passages.json",
+        "audit_path": "evaluation/real/documents/flask-deploying/old.extraction.json",
+        "raw_sha256": "9dcdeb989b275af8a22fb0e5d35b362228c13b9920116fc9c7cc19723e5459c7",
+        "text_sha256": "a4076e8bfb47fd6488f67bc912d592fed367f26b2fa7b72c13e0c8f19ad9b3b0",
+        "characters": 676,
+        "passages": 10
+      },
+      "new": {
+        "tag": "3.1.0",
+        "commit": "ab8149664182b662453a563161aa89013c806dc9",
+        "upstream_path": "docs/deploying/index.rst",
+        "raw_url": "https://raw.githubusercontent.com/pallets/flask/ab8149664182b662453a563161aa89013c806dc9/docs/deploying/index.rst",
+        "source_url": "https://github.com/pallets/flask/blob/ab8149664182b662453a563161aa89013c806dc9/docs/deploying/index.rst",
+        "raw_path": "evaluation/real/documents/flask-deploying/new.rst",
+        "text_path": "evaluation/real/documents/flask-deploying/new.txt",
+        "passages_path": "evaluation/real/documents/flask-deploying/new.passages.json",
+        "audit_path": "evaluation/real/documents/flask-deploying/new.extraction.json",
+        "raw_sha256": "2608f551ae1583260af8248c963db3e78cc71d736c17beb57239aa4e6920d63c",
+        "text_sha256": "fd0a6cc304468ba106711f953b4c639899f8a9e9dc25473725ba47569986734b",
+        "characters": 2554,
+        "passages": 17
+      }
+    },
+    {
+      "id": "flask-design",
+      "repository": "pallets/flask",
+      "license": "BSD-3-Clause",
+      "annotation_path": "evaluation/real/annotations/flask-design.json",
+      "old": {
+        "tag": "1.1.4",
+        "commit": "1ca199f9b38b70a4e97cb47a4252ffd7fccc008c",
+        "upstream_path": "docs/design.rst",
+        "raw_url": "https://raw.githubusercontent.com/pallets/flask/1ca199f9b38b70a4e97cb47a4252ffd7fccc008c/docs/design.rst",
+        "source_url": "https://github.com/pallets/flask/blob/1ca199f9b38b70a4e97cb47a4252ffd7fccc008c/docs/design.rst",
+        "raw_path": "evaluation/real/documents/flask-design/old.rst",
+        "text_path": "evaluation/real/documents/flask-design/old.txt",
+        "passages_path": "evaluation/real/documents/flask-design/old.passages.json",
+        "audit_path": "evaluation/real/documents/flask-design/old.extraction.json",
+        "raw_sha256": "b5a90df65071b7c7fdf100d714f578a798d3f241f5a9128289a5e9de4513a084",
+        "text_sha256": "c4a665d04d49feae5d58d4802402a1ad980abeb2391ff4522f70516b966139ae",
+        "characters": 8474,
+        "passages": 32
+      },
+      "new": {
+        "tag": "3.1.0",
+        "commit": "ab8149664182b662453a563161aa89013c806dc9",
+        "upstream_path": "docs/design.rst",
+        "raw_url": "https://raw.githubusercontent.com/pallets/flask/ab8149664182b662453a563161aa89013c806dc9/docs/design.rst",
+        "source_url": "https://github.com/pallets/flask/blob/ab8149664182b662453a563161aa89013c806dc9/docs/design.rst",
+        "raw_path": "evaluation/real/documents/flask-design/new.rst",
+        "text_path": "evaluation/real/documents/flask-design/new.txt",
+        "passages_path": "evaluation/real/documents/flask-design/new.passages.json",
+        "audit_path": "evaluation/real/documents/flask-design/new.extraction.json",
+        "raw_sha256": "50623cdef4a04bcce46713ed55b5229820b769ecce70ffa5304cea74fa087d74",
+        "text_sha256": "1a88fb1ec5728a70177522b955f12490c7830e354ac1f1e32b0d203159860272",
+        "characters": 10535,
+        "passages": 38
+      }
+    },
+    {
+      "id": "flask-security",
+      "repository": "pallets/flask",
+      "license": "BSD-3-Clause",
+      "annotation_path": "evaluation/real/annotations/flask-security.json",
+      "old": {
+        "tag": "1.1.4",
+        "commit": "1ca199f9b38b70a4e97cb47a4252ffd7fccc008c",
+        "upstream_path": "docs/security.rst",
+        "raw_url": "https://raw.githubusercontent.com/pallets/flask/1ca199f9b38b70a4e97cb47a4252ffd7fccc008c/docs/security.rst",
+        "source_url": "https://github.com/pallets/flask/blob/1ca199f9b38b70a4e97cb47a4252ffd7fccc008c/docs/security.rst",
+        "raw_path": "evaluation/real/documents/flask-security/old.rst",
+        "text_path": "evaluation/real/documents/flask-security/old.txt",
+        "passages_path": "evaluation/real/documents/flask-security/old.passages.json",
+        "audit_path": "evaluation/real/documents/flask-security/old.extraction.json",
+        "raw_sha256": "e4152d7925ef4548b4a196a24b2da55c328abba60302a5e06e0ada42437979e2",
+        "text_sha256": "6e5ac5ed7db670b5ab9949878f162dd3a99a21cb838c1db9975d682f09d89584",
+        "characters": 8922,
+        "passages": 61
+      },
+      "new": {
+        "tag": "3.1.0",
+        "commit": "ab8149664182b662453a563161aa89013c806dc9",
+        "upstream_path": "docs/web-security.rst",
+        "raw_url": "https://raw.githubusercontent.com/pallets/flask/ab8149664182b662453a563161aa89013c806dc9/docs/web-security.rst",
+        "source_url": "https://github.com/pallets/flask/blob/ab8149664182b662453a563161aa89013c806dc9/docs/web-security.rst",
+        "raw_path": "evaluation/real/documents/flask-security/new.rst",
+        "text_path": "evaluation/real/documents/flask-security/new.txt",
+        "passages_path": "evaluation/real/documents/flask-security/new.passages.json",
+        "audit_path": "evaluation/real/documents/flask-security/new.extraction.json",
+        "raw_sha256": "c2893ad0c276be3a9f158fd29ff968002484922a38173f44a1009aa78d9d04ad",
+        "text_sha256": "1195b17781719faada6657a366ff7acaa7852561e4a7df14f5d4b534e8308095",
+        "characters": 10445,
+        "passages": 65
+      }
+    },
+    {
+      "id": "pytest-flaky",
+      "repository": "pytest-dev/pytest",
+      "license": "MIT",
+      "annotation_path": "evaluation/real/annotations/pytest-flaky.json",
+      "old": {
+        "tag": "6.2.5",
+        "commit": "1569fac603d9a50022e1474b494eebf970a2a3af",
+        "upstream_path": "doc/en/flaky.rst",
+        "raw_url": "https://raw.githubusercontent.com/pytest-dev/pytest/1569fac603d9a50022e1474b494eebf970a2a3af/doc/en/flaky.rst",
+        "source_url": "https://github.com/pytest-dev/pytest/blob/1569fac603d9a50022e1474b494eebf970a2a3af/doc/en/flaky.rst",
+        "raw_path": "evaluation/real/documents/pytest-flaky/old.rst",
+        "text_path": "evaluation/real/documents/pytest-flaky/old.txt",
+        "passages_path": "evaluation/real/documents/pytest-flaky/old.passages.json",
+        "audit_path": "evaluation/real/documents/pytest-flaky/old.extraction.json",
+        "raw_sha256": "2cee0501bd4b7f6dd80efa13c1a573a94949fa8f9da41d28bdd2bfa7a4de5774",
+        "text_sha256": "77ce790285f14aeeb1b9be1a31f51f42a97540d8828bbccfa087eac85a16026f",
+        "characters": 5471,
+        "passages": 54
+      },
+      "new": {
+        "tag": "8.3.5",
+        "commit": "b55ab2aabb68c0ce94c3903139b062d0c2790152",
+        "upstream_path": "doc/en/explanation/flaky.rst",
+        "raw_url": "https://raw.githubusercontent.com/pytest-dev/pytest/b55ab2aabb68c0ce94c3903139b062d0c2790152/doc/en/explanation/flaky.rst",
+        "source_url": "https://github.com/pytest-dev/pytest/blob/b55ab2aabb68c0ce94c3903139b062d0c2790152/doc/en/explanation/flaky.rst",
+        "raw_path": "evaluation/real/documents/pytest-flaky/new.rst",
+        "text_path": "evaluation/real/documents/pytest-flaky/new.txt",
+        "passages_path": "evaluation/real/documents/pytest-flaky/new.passages.json",
+        "audit_path": "evaluation/real/documents/pytest-flaky/new.extraction.json",
+        "raw_sha256": "2e7d8de4a91054649327fe66d3f4ba6d11f0383d4652f38206129daa8312586b",
+        "text_sha256": "a6c8482c162af6c634387a139aeb6073df7eae1ca5c2ee38093680e7bbd94b36",
+        "characters": 8046,
+        "passages": 70
+      }
+    },
+    {
+      "id": "pytest-goodpractices",
+      "repository": "pytest-dev/pytest",
+      "license": "MIT",
+      "annotation_path": "evaluation/real/annotations/pytest-goodpractices.json",
+      "old": {
+        "tag": "6.2.5",
+        "commit": "1569fac603d9a50022e1474b494eebf970a2a3af",
+        "upstream_path": "doc/en/goodpractices.rst",
+        "raw_url": "https://raw.githubusercontent.com/pytest-dev/pytest/1569fac603d9a50022e1474b494eebf970a2a3af/doc/en/goodpractices.rst",
+        "source_url": "https://github.com/pytest-dev/pytest/blob/1569fac603d9a50022e1474b494eebf970a2a3af/doc/en/goodpractices.rst",
+        "raw_path": "evaluation/real/documents/pytest-goodpractices/old.rst",
+        "text_path": "evaluation/real/documents/pytest-goodpractices/old.txt",
+        "passages_path": "evaluation/real/documents/pytest-goodpractices/old.passages.json",
+        "audit_path": "evaluation/real/documents/pytest-goodpractices/old.extraction.json",
+        "raw_sha256": "c07230cd7b2f7db4133dc87c8f53f187f3c655c1d0310bca54c14d82081730a3",
+        "text_sha256": "a06a3396b97a3315743151862102678dce62ffaece5931c3b9afa429de72d4c9",
+        "characters": 6879,
+        "passages": 47
+      },
+      "new": {
+        "tag": "8.3.5",
+        "commit": "b55ab2aabb68c0ce94c3903139b062d0c2790152",
+        "upstream_path": "doc/en/explanation/goodpractices.rst",
+        "raw_url": "https://raw.githubusercontent.com/pytest-dev/pytest/b55ab2aabb68c0ce94c3903139b062d0c2790152/doc/en/explanation/goodpractices.rst",
+        "source_url": "https://github.com/pytest-dev/pytest/blob/b55ab2aabb68c0ce94c3903139b062d0c2790152/doc/en/explanation/goodpractices.rst",
+        "raw_path": "evaluation/real/documents/pytest-goodpractices/new.rst",
+        "text_path": "evaluation/real/documents/pytest-goodpractices/new.txt",
+        "passages_path": "evaluation/real/documents/pytest-goodpractices/new.passages.json",
+        "audit_path": "evaluation/real/documents/pytest-goodpractices/new.extraction.json",
+        "raw_sha256": "0aa6e3fc4b0be20cb34049f44b79736ad788df5943a07dd7808667ea0b3e2684",
+        "text_sha256": "b80d37c31967418179e52649dfe77744bef0ce36a765d2f6a3e340f36da2ed70",
+        "characters": 8860,
+        "passages": 62
+      }
+    },
+    {
+      "id": "pytest-pythonpath",
+      "repository": "pytest-dev/pytest",
+      "license": "MIT",
+      "annotation_path": "evaluation/real/annotations/pytest-pythonpath.json",
+      "old": {
+        "tag": "6.2.5",
+        "commit": "1569fac603d9a50022e1474b494eebf970a2a3af",
+        "upstream_path": "doc/en/pythonpath.rst",
+        "raw_url": "https://raw.githubusercontent.com/pytest-dev/pytest/1569fac603d9a50022e1474b494eebf970a2a3af/doc/en/pythonpath.rst",
+        "source_url": "https://github.com/pytest-dev/pytest/blob/1569fac603d9a50022e1474b494eebf970a2a3af/doc/en/pythonpath.rst",
+        "raw_path": "evaluation/real/documents/pytest-pythonpath/old.rst",
+        "text_path": "evaluation/real/documents/pytest-pythonpath/old.txt",
+        "passages_path": "evaluation/real/documents/pytest-pythonpath/old.passages.json",
+        "audit_path": "evaluation/real/documents/pytest-pythonpath/old.extraction.json",
+        "raw_sha256": "2b062e6a5e0c8061c3e8b7c54d60e3a4e4683b888f231636ebda277bad273db3",
+        "text_sha256": "59fcd1b99997e45d45569948e2932b2d3b01c930f17290f786cbd3744b3e9f8b",
+        "characters": 4200,
+        "passages": 31
+      },
+      "new": {
+        "tag": "8.3.5",
+        "commit": "b55ab2aabb68c0ce94c3903139b062d0c2790152",
+        "upstream_path": "doc/en/explanation/pythonpath.rst",
+        "raw_url": "https://raw.githubusercontent.com/pytest-dev/pytest/b55ab2aabb68c0ce94c3903139b062d0c2790152/doc/en/explanation/pythonpath.rst",
+        "source_url": "https://github.com/pytest-dev/pytest/blob/b55ab2aabb68c0ce94c3903139b062d0c2790152/doc/en/explanation/pythonpath.rst",
+        "raw_path": "evaluation/real/documents/pytest-pythonpath/new.rst",
+        "text_path": "evaluation/real/documents/pytest-pythonpath/new.txt",
+        "passages_path": "evaluation/real/documents/pytest-pythonpath/new.passages.json",
+        "audit_path": "evaluation/real/documents/pytest-pythonpath/new.extraction.json",
+        "raw_sha256": "cf0a0709226f0c35485b693a258acc073cda26d33e0ed638e69e9ae0e71613c5",
+        "text_sha256": "8f5103079a52f7d20f23f5a79d2ceaa5ea2fcfb0421ce8eab362ca03a00a57fd",
+        "characters": 6287,
+        "passages": 50
+      }
+    },
+    {
+      "id": "requests-faq",
+      "repository": "psf/requests",
+      "license": "Apache-2.0",
+      "annotation_path": "evaluation/real/annotations/requests-faq.json",
+      "old": {
+        "tag": "v2.25.1",
+        "commit": "c2b307dbefe21177af03f9feb37181a89a799fcc",
+        "upstream_path": "docs/community/faq.rst",
+        "raw_url": "https://raw.githubusercontent.com/psf/requests/c2b307dbefe21177af03f9feb37181a89a799fcc/docs/community/faq.rst",
+        "source_url": "https://github.com/psf/requests/blob/c2b307dbefe21177af03f9feb37181a89a799fcc/docs/community/faq.rst",
+        "raw_path": "evaluation/real/documents/requests-faq/old.rst",
+        "text_path": "evaluation/real/documents/requests-faq/old.txt",
+        "passages_path": "evaluation/real/documents/requests-faq/old.passages.json",
+        "audit_path": "evaluation/real/documents/requests-faq/old.extraction.json",
+        "raw_sha256": "03fcb3882a85679fb4eb17ac899c53ecf0aac6c86cc303f4455b7a54041c3b68",
+        "text_sha256": "c0f0dee28248eee99b6359bcda560ad4711aab92ac974e2ddf73152fc3c15c00",
+        "characters": 3135,
+        "passages": 21
+      },
+      "new": {
+        "tag": "v2.32.3",
+        "commit": "0e322af87745eff34caffe4df68456ebc20d9068",
+        "upstream_path": "docs/community/faq.rst",
+        "raw_url": "https://raw.githubusercontent.com/psf/requests/0e322af87745eff34caffe4df68456ebc20d9068/docs/community/faq.rst",
+        "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/docs/community/faq.rst",
+        "raw_path": "evaluation/real/documents/requests-faq/new.rst",
+        "text_path": "evaluation/real/documents/requests-faq/new.txt",
+        "passages_path": "evaluation/real/documents/requests-faq/new.passages.json",
+        "audit_path": "evaluation/real/documents/requests-faq/new.extraction.json",
+        "raw_sha256": "4880fd14bd925a1e1709fd4ac5906d467c8521938c93603ead6d7e28adaafa17",
+        "text_sha256": "c391eb1e86212dc041f8a16244ff69ff82ae2682322a12958cb37fce2e7b991c",
+        "characters": 3034,
+        "passages": 22
+      }
+    },
+    {
+      "id": "requests-advanced",
+      "repository": "psf/requests",
+      "license": "Apache-2.0",
+      "annotation_path": null,
+      "old": {
+        "tag": "v2.25.1",
+        "commit": "c2b307dbefe21177af03f9feb37181a89a799fcc",
+        "upstream_path": "docs/user/advanced.rst",
+        "raw_url": "https://raw.githubusercontent.com/psf/requests/c2b307dbefe21177af03f9feb37181a89a799fcc/docs/user/advanced.rst",
+        "source_url": "https://github.com/psf/requests/blob/c2b307dbefe21177af03f9feb37181a89a799fcc/docs/user/advanced.rst",
+        "raw_path": "evaluation/real/documents/requests-advanced/old.rst",
+        "text_path": "evaluation/real/documents/requests-advanced/old.txt",
+        "passages_path": "evaluation/real/documents/requests-advanced/old.passages.json",
+        "audit_path": "evaluation/real/documents/requests-advanced/old.extraction.json",
+        "raw_sha256": "91cca5c1f8898d407fe6e614a7520b03172a234fa8b350db396c3d0be344dd60",
+        "text_sha256": "df22f89e17040bf53300fa05c6d5518a0f80a92a74456144fe5f604a2d8b90fb",
+        "characters": 22927,
+        "passages": 149
+      },
+      "new": {
+        "tag": "v2.32.3",
+        "commit": "0e322af87745eff34caffe4df68456ebc20d9068",
+        "upstream_path": "docs/user/advanced.rst",
+        "raw_url": "https://raw.githubusercontent.com/psf/requests/0e322af87745eff34caffe4df68456ebc20d9068/docs/user/advanced.rst",
+        "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/docs/user/advanced.rst",
+        "raw_path": "evaluation/real/documents/requests-advanced/new.rst",
+        "text_path": "evaluation/real/documents/requests-advanced/new.txt",
+        "passages_path": "evaluation/real/documents/requests-advanced/new.passages.json",
+        "audit_path": "evaluation/real/documents/requests-advanced/new.extraction.json",
+        "raw_sha256": "8fcb54b1f76f1df0b2e7465c17297f31da30459790fdacdb074de6dbfe41a718",
+        "text_sha256": "dafdf44878113add574a0d3ae6b45acb6cba13dccbb308b686178e2e28f7a0e2",
+        "characters": 25072,
+        "passages": 158
+      }
+    }
+  ]
+}

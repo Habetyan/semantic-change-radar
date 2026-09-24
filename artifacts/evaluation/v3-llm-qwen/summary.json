@@ -1,0 +1,248 @@
+{
+  "scope": "Known development gold-aligned pairs; provisional AI labels; no alignment.",
+  "complete": false,
+  "all_pairs_scored": 35,
+  "failures_counted_as_review": [
+    {
+      "pair": [
+        "flask-deploying",
+        0,
+        0
+      ],
+      "error": "old evidence is not an exact nonempty source substring."
+    },
+    {
+      "pair": [
+        "flask-deploying",
+        3,
+        8
+      ],
+      "error": "old evidence is not an exact nonempty source substring."
+    },
+    {
+      "pair": [
+        "flask-security",
+        1,
+        1
+      ],
+      "error": "old evidence is not an exact nonempty source substring."
+    },
+    {
+      "pair": [
+        "pytest-flaky",
+        13,
+        20
+      ],
+      "error": "old evidence is not an exact nonempty source substring."
+    },
+    {
+      "pair": [
+        "pytest-goodpractices",
+        2,
+        2
+      ],
+      "error": "old evidence is not an exact nonempty source substring."
+    },
+    {
+      "pair": [
+        "pytest-goodpractices",
+        5,
+        6
+      ],
+      "error": "new evidence is not an exact nonempty source substring."
+    },
+    {
+      "pair": [
+        "pytest-goodpractices",
+        14,
+        15
+      ],
+      "error": "old evidence is not an exact nonempty source substring."
+    },
+    {
+      "pair": [
+        "pytest-goodpractices",
+        16,
+        17
+      ],
+      "error": "new evidence is not an exact nonempty source substring."
+    },
+    {
+      "pair": [
+        "pytest-goodpractices",
+        23,
+        29
+      ],
+      "error": "new evidence is not an exact nonempty source substring."
+    },
+    {
+      "pair": [
+        "pytest-goodpractices",
+        44,
+        42
+      ],
+      "error": "old evidence is not an exact nonempty source substring."
+    },
+    {
+      "pair": [
+        "pytest-pythonpath",
+        4,
+        4
+      ],
+      "error": "old evidence is not an exact nonempty source substring."
+    },
+    {
+      "pair": [
+        "pytest-pythonpath",
+        7,
+        8
+      ],
+      "error": "old evidence is not an exact nonempty source substring."
+    },
+    {
+      "pair": [
+        "pytest-pythonpath",
+        9,
+        10
+      ],
+      "error": "old evidence is not an exact nonempty source substring."
+    }
+  ],
+  "baseline": {
+    "count": 35,
+    "confusion": {
+      "reworded": {
+        "uncertain": 4,
+        "reworded": 6,
+        "modified": 8
+      },
+      "modified": {
+        "reworded": 1,
+        "modified": 11,
+        "uncertain": 5
+      }
+    },
+    "material": {
+      "true_positive": 11,
+      "predicted": 19,
+      "expected": 17,
+      "precision": 0.5789473684210527,
+      "recall": 0.6470588235294118,
+      "f1": 0.6111111111111113
+    },
+    "status_accuracy": 0.4857142857142857,
+    "material_as_equivalent_misses": 1,
+    "abstentions": 9
+  },
+  "llm": {
+    "count": 35,
+    "confusion": {
+      "reworded": {
+        "uncertain": 8,
+        "modified": 10
+      },
+      "modified": {
+        "modified": 11,
+        "uncertain": 6
+      }
+    },
+    "material": {
+      "true_positive": 11,
+      "predicted": 21,
+      "expected": 17,
+      "precision": 0.5238095238095238,
+      "recall": 0.6470588235294118,
+      "f1": 0.5789473684210527
+    },
+    "status_accuracy": 0.3142857142857143,
+    "material_as_equivalent_misses": 0,
+    "abstentions": 14
+  },
+  "fallback_on_baseline_uncertain": {
+    "count": 35,
+    "confusion": {
+      "reworded": {
+        "uncertain": 2,
+        "reworded": 6,
+        "modified": 10
+      },
+      "modified": {
+        "reworded": 1,
+        "modified": 13,
+        "uncertain": 3
+      }
+    },
+    "material": {
+      "true_positive": 13,
+      "predicted": 23,
+      "expected": 17,
+      "precision": 0.5652173913043478,
+      "recall": 0.7647058823529411,
+      "f1": 0.65
+    },
+    "status_accuracy": 0.5428571428571428,
+    "material_as_equivalent_misses": 1,
+    "abstentions": 5
+  },
+  "fallback_selected_pairs": 9,
+  "always_material": {
+    "count": 35,
+    "confusion": {
+      "reworded": {
+        "modified": 18
+      },
+      "modified": {
+        "modified": 17
+      }
+    },
+    "material": {
+      "true_positive": 17,
+      "predicted": 35,
+      "expected": 17,
+      "precision": 0.4857142857142857,
+      "recall": 1.0,
+      "f1": 0.6538461538461539
+    },
+    "status_accuracy": 0.4857142857142857,
+    "material_as_equivalent_misses": 0,
+    "abstentions": 0
+  },
+  "literal_evidence_valid": 22,
+  "timing_seconds": {
+    "total": 122.4484205739991,
+    "median_per_pair": 2.8768499099996916,
+    "first_pair_including_model_load": 9.039876885000012
+  },
+  "prompt_tokens": 11064,
+  "generated_tokens": 2571,
+  "runtime_placement": {
+    "models": [
+      {
+        "name": "qwen2.5:7b-instruct",
+        "model": "qwen2.5:7b-instruct",
+        "size": 5341542400,
+        "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "7.6B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-09-24T21:50:09.554229803+04:00",
+        "size_vram": 5341542400,
+        "context_length": 8192
+      }
+    ]
+  },
+  "hosted_inference_fees": "None: local cached model; electricity/compute cost unestimated.",
+  "source_config_sha256": "687d1b71d367f366d8e4a76bd143bee3a6f8b6c80daddb199edbab16a3d75ef3",
+  "limitations": [
+    "Source-substring validation does not establish explanation correctness.",
+    "CPU MiniLM and GPU-capable Ollama timings are not equal-hardware comparisons.",
+    "Single fixed-prompt development run; no human validation or significance claim."
+  ]
+}

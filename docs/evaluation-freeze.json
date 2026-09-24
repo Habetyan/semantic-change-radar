@@ -1,0 +1,23 @@
+{
+  "frozen_at_utc": "2026-09-24T07:47:20.735637+00:00",
+  "reason": "Freeze after development evaluation and independent code review; before first test evaluation. No thresholds fitted on test fixtures.",
+  "alignment_thresholds": {
+    "lexical": 0.38,
+    "semantic": 0.55
+  },
+  "equivalence_threshold": 0.78,
+  "contradiction_threshold": 0.65,
+  "semantic_similarity_weights": {
+    "embedding_cosine": 0.85,
+    "lexical": 0.15
+  },
+  "hashes": {
+    "radar/compare.py": "f6261a095b6b533e7fb8d8b34fb952caf8923639f807b6b7621e8a4837aa4ec2",
+    "radar/models.py": "15a6af5f759bab84edcd53361b8212436869fc3d888d55656722662b7d90f3a1",
+    "evaluation/dev.jsonl": "e085ee8fccc6a1fb433f1b039066da98af88a84f93ce8d3dee2443e2b9430fd7",
+    "evaluation/test.jsonl": "4918a4834711945a8f10fb8eac6332421eb7212de94466886872e6bfe5dd725e",
+    "requirements.txt": "ff3501a4ae317c2f29ed124eb2aeaec275509621add9978cf183213c04ab2b09",
+    "requirements.lock": "b36d7d9d4e0e3175a680908617329175aad41232284de7ff14e2a950171a86ab"
+  },
+  "provenance": "AI-authored synthetic fixtures; unvalidated by a human; this is a pilot evaluation, not a generalization claim."
+}

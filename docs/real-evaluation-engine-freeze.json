@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-09-24T16:18:25.697005+00:00",
+  "phase": "before predictions and annotations",
+  "sha256": {
+    "radar/presentation.py": "8e49000d60d16502171d99476d08ec015e095b16ac1b688eb9b21396944e8ae9",
+    "radar/models.py": "15a6af5f759bab84edcd53361b8212436869fc3d888d55656722662b7d90f3a1",
+    "radar/__init__.py": "4471022079b45c7e207c44dd432242099f2bcbd4fd50a0f28624470db3f15011",
+    "radar/cli.py": "fb7b510c4c4f4fa77a03c66799aea94770710640a7fce57c0089f99169a83aae",
+    "radar/compare.py": "f6261a095b6b533e7fb8d8b34fb952caf8923639f807b6b7621e8a4837aa4ec2",
+    "requirements.txt": "ff3501a4ae317c2f29ed124eb2aeaec275509621add9978cf183213c04ab2b09",
+    "requirements.lock": "b36d7d9d4e0e3175a680908617329175aad41232284de7ff14e2a950171a86ab",
+    "evaluation/real/PROTOCOL.md": "ad9b01706c287b8c9dfce9fe73d3d4ec5bd1a0e9fd3c359a8e9e26f521273064"
+  }
+}

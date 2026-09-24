@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-09-24T18:04:05.464581+00:00",
+  "source_hashes": {
+    "examples.json": "5f5870e2fcd43b3448d0ad05f2dbc793d80e670f6405230870604e6f47ee2916",
+    "app.py": "2918792392b15d11dfd27f43bc5c29ff98f8ffb2ed5b674a3296b813fb1f3987",
+    "radar/__init__.py": "4471022079b45c7e207c44dd432242099f2bcbd4fd50a0f28624470db3f15011",
+    "radar/cli.py": "26f0e59045900d4553d959b92e73a4b13fd987a946a895382f9824e366b6a63d",
+    "radar/compare.py": "db41502fe55d814b09585ceb91b080e851d188a67912c8b00f1e19735edfefde",
+    "radar/details.py": "700b990bf72df4b9f4b6e1aa712248176114efaf1cd75efe6edebf5460beeec8",
+    "radar/grouping.py": "d583c522aa13edf5bc2c32a839cab2213641825258d04a7160172e71768b1527",
+    "radar/models.py": "c51f454e871d6c6797c333dff9c3681b51c7025e28ce30432725303f4b712fb3",
+    "radar/presentation.py": "7b95db92b4c6f6ee0b4eddd52e32e321944ffde0c6f7cc1a7f5b7bcb1b20d545",
+    "radar/structure.py": "1c3413152111fa274bef55a4be95ec6018e62f9f82fcafd1ed1da3ff938797b5"
+  },
+  "examples": 8
+}

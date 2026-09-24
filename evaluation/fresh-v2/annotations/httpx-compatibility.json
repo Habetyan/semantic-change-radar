@@ -1,0 +1,776 @@
+{
+  "case_id": "httpx-compatibility",
+  "review_status": "ai_reviewed_pending_human",
+  "annotator": "fresh_sources",
+  "blind_to_model_predictions": true,
+  "scope": "Complete extracted prose, including headings and visible code-example introductions; actual code examples are excluded. Each index appears once.",
+  "events": [
+    {
+      "old_indices": [
+        0
+      ],
+      "new_indices": [
+        0
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        1
+      ],
+      "new_indices": [
+        1
+      ],
+      "status": "reworded",
+      "rationale": "Both introductions describe intended Requests API compatibility with exceptions; the following unchanged sentence explicitly frames the API differences."
+    },
+    {
+      "old_indices": [
+        2
+      ],
+      "new_indices": [
+        2
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        3
+      ],
+      "new_indices": [
+        11
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        4
+      ],
+      "new_indices": [
+        12,
+        13
+      ],
+      "status": "reworded",
+      "rationale": "The URL-object result and explicit string conversion instruction are unchanged in meaning, but one paragraph is naturally split into two."
+    },
+    {
+      "old_indices": [
+        5
+      ],
+      "new_indices": [
+        31
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        6
+      ],
+      "new_indices": [
+        32
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        7
+      ],
+      "new_indices": [
+        33
+      ],
+      "status": "reworded",
+      "rationale": "Corrects the spelling of synonyms without changing which status-code aliases HTTPX supports."
+    },
+    {
+      "old_indices": [
+        8
+      ],
+      "new_indices": [
+        34
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        9
+      ],
+      "new_indices": [
+        35
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        10
+      ],
+      "new_indices": [
+        36
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        11
+      ],
+      "new_indices": [
+        37
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        12
+      ],
+      "new_indices": [
+        38
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        13
+      ],
+      "new_indices": [
+        39
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        14
+      ],
+      "new_indices": [
+        40
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        15
+      ],
+      "new_indices": [
+        41
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        16
+      ],
+      "new_indices": [
+        42
+      ],
+      "status": "modified",
+      "rationale": "The exposed text attribute changes from request.text to response.text. Although likely correcting a documentation error, the named API object and asserted behavior differ."
+    },
+    {
+      "old_indices": [
+        17
+      ],
+      "new_indices": [
+        52
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        18
+      ],
+      "new_indices": [
+        53
+      ],
+      "status": "modified",
+      "rationale": "The SSL setup rule remains, but the explicit trust_env, verify and cert argument list is replaced with generic SSL configurations, removing specific parameter information."
+    },
+    {
+      "old_indices": [
+        19
+      ],
+      "new_indices": [
+        54
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        20
+      ],
+      "new_indices": [
+        55
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        21
+      ],
+      "new_indices": [
+        56
+      ],
+      "status": "modified",
+      "rationale": "Adds content to the arguments that the named HTTP-method helpers do not support."
+    },
+    {
+      "old_indices": [
+        22
+      ],
+      "new_indices": [
+        57
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        23
+      ],
+      "new_indices": [
+        58
+      ],
+      "status": "modified",
+      "rationale": "The heading expands the stated response-checking scope from 4xx/5xx to success and failure responses."
+    },
+    {
+      "old_indices": [
+        24
+      ],
+      "new_indices": [
+        59
+      ],
+      "status": "modified",
+      "rationale": "Replaces checking the complement of is_error with is_success and explicitly limits success to 2xx, changing the recommended API and criterion."
+    },
+    {
+      "old_indices": [
+        25
+      ],
+      "new_indices": [
+        8
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        26
+      ],
+      "new_indices": [
+        9
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        27
+      ],
+      "new_indices": [
+        10
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        28
+      ],
+      "new_indices": [
+        63
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        29
+      ],
+      "new_indices": [
+        64
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        3
+      ],
+      "status": "added",
+      "rationale": "Adds the redirect behavior section."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        4
+      ],
+      "status": "added",
+      "rationale": "Adds the no-redirects-by-default claim."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        5
+      ],
+      "status": "added",
+      "rationale": "Adds the reason for the redirect default."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        6
+      ],
+      "status": "added",
+      "rationale": "Adds explicit opt-in redirect guidance."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        7
+      ],
+      "status": "added",
+      "rationale": "Adds client-wide redirect opt-in guidance."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        14
+      ],
+      "status": "added",
+      "rationale": "Adds a section on determining the next redirect request."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        15
+      ],
+      "status": "added",
+      "rationale": "Adds the Requests response.next attribute description."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        16
+      ],
+      "status": "added",
+      "rationale": "Adds HTTPX response.next_request as the corresponding attribute."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        17
+      ],
+      "status": "added",
+      "rationale": "Adds the request-content section."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        18
+      ],
+      "status": "added",
+      "rationale": "Adds content versus form-data parameter guidance."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        19
+      ],
+      "status": "added",
+      "rationale": "Adds the raw-content example introduction."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        20
+      ],
+      "status": "added",
+      "rationale": "Adds the form-data example introduction."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        21
+      ],
+      "status": "added",
+      "rationale": "Adds a raw-data deprecation warning and anticipated removal version."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        22
+      ],
+      "status": "added",
+      "rationale": "Adds the file-upload section."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        23
+      ],
+      "status": "added",
+      "rationale": "Adds the binary-mode upload requirement and its encoding rationale."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        24
+      ],
+      "status": "added",
+      "rationale": "Adds the content-encoding section."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        25
+      ],
+      "status": "added",
+      "rationale": "Adds request and response encoding behavior and fallback rules."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        26
+      ],
+      "status": "added",
+      "rationale": "Adds the cookies section."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        27
+      ],
+      "status": "added",
+      "rationale": "Adds the client-level cookie-setting requirement."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        28
+      ],
+      "status": "added",
+      "rationale": "Adds the supported-usage introduction; its code example is excluded by the extraction policy."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        29
+      ],
+      "status": "added",
+      "rationale": "Adds the unsupported-usage introduction; its code example is excluded by the extraction policy."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        30
+      ],
+      "status": "added",
+      "rationale": "Adds the cookie-persistence rationale."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        43
+      ],
+      "status": "added",
+      "rationale": "Adds the timeouts section."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        44
+      ],
+      "status": "added",
+      "rationale": "Adds HTTPX and Requests default-timeout differences."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        45
+      ],
+      "status": "added",
+      "rationale": "Adds disabling timeouts with None."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        46
+      ],
+      "status": "added",
+      "rationale": "Adds the proxy-keys section."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        47
+      ],
+      "status": "added",
+      "rationale": "Adds mounts as the proxy and transport-routing argument."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        48
+      ],
+      "status": "added",
+      "rationale": "Adds URL-scheme key requirements for mounts."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        49
+      ],
+      "status": "added",
+      "rationale": "Adds a comparison with Requests proxy keys."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        50
+      ],
+      "status": "added",
+      "rationale": "Adds complex proxy-routing and exclusion behavior."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        51
+      ],
+      "status": "added",
+      "rationale": "Adds the different per-request proxy/routing parameter availability."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        60
+      ],
+      "status": "added",
+      "rationale": "Adds the request-instantiation section."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        61
+      ],
+      "status": "added",
+      "rationale": "Adds the absence of prepared requests in HTTPX and customization guidance."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        62
+      ],
+      "status": "added",
+      "rationale": "Adds unavailable Request constructor parameters and the APIs where they are accepted."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        65
+      ],
+      "status": "added",
+      "rationale": "Adds the caching section."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        66
+      ],
+      "status": "added",
+      "rationale": "Adds Hishel as an HTTPX caching option."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        67
+      ],
+      "status": "added",
+      "rationale": "Adds the networking-layer section."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        68
+      ],
+      "status": "added",
+      "rationale": "Adds the Requests urllib3 implementation information."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        69
+      ],
+      "status": "added",
+      "rationale": "Adds the HTTPX HTTPCore implementation information."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        70
+      ],
+      "status": "added",
+      "rationale": "Adds the query-parameters section."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        71
+      ],
+      "status": "added",
+      "rationale": "Adds the difference in handling None query parameter values."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        72
+      ],
+      "status": "added",
+      "rationale": "Adds tuple-list and dictionary-list parameter handling differences."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        73
+      ],
+      "status": "added",
+      "rationale": "Adds the event-hooks section."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        74
+      ],
+      "status": "added",
+      "rationale": "Adds Requests event-hook mutation behavior."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        75
+      ],
+      "status": "added",
+      "rationale": "Adds the HTTPX prohibition on mutation through event-hook callbacks."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        76
+      ],
+      "status": "added",
+      "rationale": "Adds custom transports as an option for more control."
+    }
+  ],
+  "reviewer": "explore_core",
+  "review_blind_to_model_predictions": true,
+  "review_summary": {
+    "method": "Independent reading of every saved old/new passage and provisional event, with raw-source checks for paragraph boundaries, heading ownership, and nested lists. No pipeline predictions inspected.",
+    "all_passages_covered_once": true,
+    "unchanged_text_and_scope_checked": true,
+    "label_corrections": 0,
+    "correspondence_corrections": 0,
+    "disagreements": 0,
+    "human_validation": false
+  },
+  "review_notes": [
+    {
+      "old_indices": [
+        1
+      ],
+      "new_indices": [
+        1
+      ],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "reworded",
+      "reviewed_status": "reworded",
+      "initial_rationale": "Both introductions describe intended Requests API compatibility with exceptions; the following unchanged sentence explicitly frames the API differences.",
+      "reviewer_rationale": "Both versions frame Requests compatibility as a design aim with exceptions. The unchanged following sentence already introduces API differences, so the new qualification is wording rather than a new behavioral guarantee."
+    },
+    {
+      "old_indices": [
+        4
+      ],
+      "new_indices": [
+        12,
+        13
+      ],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "reworded",
+      "reviewed_status": "reworded",
+      "initial_rationale": "The URL-object result and explicit string conversion instruction are unchanged in meaning, but one paragraph is naturally split into two.",
+      "reviewer_rationale": "The old source has two adjacent sentences in one paragraph; the revised source puts exactly those sentences in separate paragraphs under Request URLs. Keep one 1:2 rewording event rather than an addition."
+    },
+    {
+      "old_indices": [
+        16
+      ],
+      "new_indices": [
+        42
+      ],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "modified",
+      "reviewed_status": "modified",
+      "initial_rationale": "The exposed text attribute changes from request.text to response.text. Although likely correcting a documentation error, the named API object and asserted behavior differ.",
+      "reviewer_rationale": "A likely documentation typo still changes the explicitly named API object from request.text to response.text. Judge the asserted source meaning, without silently correcting the old text."
+    },
+    {
+      "old_indices": [
+        18
+      ],
+      "new_indices": [
+        53
+      ],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "modified",
+      "reviewed_status": "modified",
+      "initial_rationale": "The SSL setup rule remains, but the explicit trust_env, verify and cert argument list is replaced with generic SSL configurations, removing specific parameter information.",
+      "reviewer_rationale": "Replacing the enumerated trust_env, verify, and cert arguments with generic SSL configurations removes parameter-specific guidance. The shared client-instantiation rule does not make the full passages equivalent."
+    },
+    {
+      "old_indices": [
+        23
+      ],
+      "new_indices": [
+        58
+      ],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "modified",
+      "reviewed_status": "modified",
+      "initial_rationale": "The heading expands the stated response-checking scope from 4xx/5xx to success and failure responses.",
+      "reviewer_rationale": "The heading now covers success as well as failures; the following API recommendation also changes. This is a material scope edit, not merely a renamed section."
+    },
+    {
+      "old_indices": [
+        24
+      ],
+      "new_indices": [
+        59
+      ],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "modified",
+      "reviewed_status": "modified",
+      "initial_rationale": "Replaces checking the complement of is_error with is_success and explicitly limits success to 2xx, changing the recommended API and criterion.",
+      "reviewer_rationale": "The recommendation changes from not is_error to is_success, with an explicit 2xx criterion. Those criteria cannot be treated as interchangeable."
+    }
+  ]
+}

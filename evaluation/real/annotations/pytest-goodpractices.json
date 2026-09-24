@@ -1,0 +1,572 @@
+{
+  "case_id": "pytest-goodpractices",
+  "review_status": "ai_reviewed_pending_human",
+  "annotator": "annotate_pytest",
+  "events": [
+    {
+      "old_indices": [
+        0
+      ],
+      "new_indices": [
+        0
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        1
+      ],
+      "new_indices": [
+        1
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        2
+      ],
+      "new_indices": [
+        2
+      ],
+      "status": "reworded",
+      "rationale": "The venv and pip recommendations are unchanged; displayed reference syntax differs after extraction."
+    },
+    {
+      "old_indices": [
+        3
+      ],
+      "new_indices": [
+        3
+      ],
+      "status": "modified",
+      "rationale": "The recommended package setup file changes from setup.py to pyproject.toml and adds a packaging tutorial reference."
+    },
+    {
+      "old_indices": [
+        4
+      ],
+      "new_indices": [
+        4,
+        5
+      ],
+      "status": "modified",
+      "rationale": "The package-name explanation and editable-install instruction split into separate paragraphs; the explanation now includes PACKAGEVERSION."
+    },
+    {
+      "old_indices": [
+        5
+      ],
+      "new_indices": [
+        6
+      ],
+      "status": "modified",
+      "rationale": "Retains editing and rerunning tests but removes the claimed symlink implementation and comparison with develop commands."
+    },
+    {
+      "old_indices": [
+        6
+      ],
+      "new_indices": [
+        7
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        7
+      ],
+      "new_indices": [
+        8
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        8
+      ],
+      "new_indices": [
+        9
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        9
+      ],
+      "new_indices": [
+        10
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        10
+      ],
+      "new_indices": [
+        11
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        11
+      ],
+      "new_indices": [
+        12
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        12
+      ],
+      "new_indices": [
+        13
+      ],
+      "status": "reworded",
+      "rationale": "Only a final period is added to the test-discovery bullet."
+    },
+    {
+      "old_indices": [
+        13
+      ],
+      "new_indices": [
+        14
+      ],
+      "status": "modified",
+      "rationale": "Explicitly adds discovery of staticmethod and classmethods to the existing class-method guidance."
+    },
+    {
+      "old_indices": [
+        14
+      ],
+      "new_indices": [
+        15
+      ],
+      "status": "reworded",
+      "rationale": "Same test-discovery examples reference; its extracted path gains a leading slash."
+    },
+    {
+      "old_indices": [
+        15
+      ],
+      "new_indices": [
+        16
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        16
+      ],
+      "new_indices": [
+        17
+      ],
+      "status": "reworded",
+      "rationale": "Heading is shortened while still introducing the same test-layout discussion; import-mode guidance is moved later."
+    },
+    {
+      "old_indices": [
+        17
+      ],
+      "new_indices": [
+        18
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        18
+      ],
+      "new_indices": [
+        19
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        19
+      ],
+      "new_indices": [
+        20
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        20
+      ],
+      "new_indices": [
+        21
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        21
+      ],
+      "new_indices": [
+        22
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        22
+      ],
+      "new_indices": [
+        23
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        31
+      ],
+      "new_indices": [
+        24,
+        50
+      ],
+      "status": "modified",
+      "rationale": "The former trial recommendation is split into a new-project recommendation and a relocated drawback explanation; the assertion about not changing sys.modules is removed."
+    },
+    {
+      "old_indices": [
+        29,
+        32
+      ],
+      "new_indices": [
+        25
+      ],
+      "status": "modified",
+      "rationale": "The two src-layout recommendations merge into a general recommendation, especially for prepend, instead of the earlier narrower problematic-layout context."
+    },
+    {
+      "old_indices": [
+        30
+      ],
+      "new_indices": [
+        26
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        27
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        28
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [
+        23
+      ],
+      "new_indices": [
+        29
+      ],
+      "status": "modified",
+      "rationale": "Local test execution guidance changes its condition from lacking setup.py to using neither an editable install nor a src layout."
+    },
+    {
+      "old_indices": [
+        24
+      ],
+      "new_indices": [
+        30
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        33
+      ],
+      "new_indices": [
+        31
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        34
+      ],
+      "new_indices": [
+        32
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        35
+      ],
+      "new_indices": [
+        33
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        36
+      ],
+      "new_indices": [
+        34
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        37
+      ],
+      "new_indices": [
+        35
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        38
+      ],
+      "new_indices": [
+        36
+      ],
+      "status": "modified",
+      "rationale": "The namespace-package discussion retains the import guidance but removes the explicit Python 3.3-and-above constraint."
+    },
+    {
+      "old_indices": [
+        39
+      ],
+      "new_indices": [
+        37
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        40
+      ],
+      "new_indices": [
+        38
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        41
+      ],
+      "new_indices": [
+        39
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        42
+      ],
+      "new_indices": [
+        40
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        43
+      ],
+      "new_indices": [
+        41
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        44
+      ],
+      "new_indices": [
+        42
+      ],
+      "status": "modified",
+      "rationale": "Removes the explicit claim that importlib does not need to change sys.modules while retaining the sys.path claim."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        43
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [
+        25
+      ],
+      "new_indices": [
+        44,
+        45,
+        46
+      ],
+      "status": "modified",
+      "rationale": "The prepend/default explanation and unique-name restriction are split and relocated; the rewrite adds an explicit recommendation of importlib for new projects and historical rationale."
+    },
+    {
+      "old_indices": [
+        26
+      ],
+      "new_indices": [
+        47
+      ],
+      "status": "reworded",
+      "rationale": "Same __init__.py workaround, newly described as a workaround; the action and condition are unchanged."
+    },
+    {
+      "old_indices": [
+        27
+      ],
+      "new_indices": [
+        48
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        28
+      ],
+      "new_indices": [
+        49
+      ],
+      "status": "reworded",
+      "rationale": "The tox warning and installed-versus-local distinction are unchanged; only extracted reference markup differs."
+    },
+    {
+      "old_indices": [
+        45
+      ],
+      "new_indices": [
+        51
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        46
+      ],
+      "new_indices": [
+        52
+      ],
+      "status": "reworded",
+      "rationale": "Retains the same tox recommendation and testing behavior; only a supporting documentation reference is removed."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        53
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        54
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        55
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        56
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        57
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        58
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        59
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        60
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        61
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    }
+  ],
+  "reviewer": "sources",
+  "review_notes": [
+    "Independently read all 47 old and 62 new passages and all events before model predictions. Retained groups and statuses. Reviewed old[25] to new[44,45,46] (default, top-level imports, uniqueness), old[31] to new[24,50] (recommendation and drawback rationale), and old[29,32] to new[25] (merged src-layout advice). Each group carries explicit propositions from its source passage(s), so these are defensible splits/merge rather than topic-only alignments."
+  ]
+}

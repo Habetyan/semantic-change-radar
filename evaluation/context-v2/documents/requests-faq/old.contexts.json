@@ -1,0 +1,330 @@
+[
+  {
+    "headings": [],
+    "scope": [],
+    "section": [],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 3,
+    "line_end": 3,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 6,
+    "line_end": 6,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 8,
+    "line_end": 8,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions",
+      "Encoded Data?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 11,
+    "line_end": 12,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions",
+      "Encoded Data?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 14,
+    "line_end": 15,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 18,
+    "line_end": 18,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions",
+      "Custom User-Agents?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      5
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 21,
+    "line_end": 22,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 26,
+    "line_end": 26,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions",
+      "Why not Httplib2?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      7
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 29,
+    "line_end": 30,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions",
+      "Why not Httplib2?"
+    ],
+    "scope": [
+      "Chris Adams gave an excellent summary on Hacker News:"
+    ],
+    "section": [
+      0,
+      7
+    ],
+    "scope_indices": [
+      8
+    ],
+    "kind": "paragraph",
+    "line_start": 32,
+    "line_end": 39,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions",
+      "Why not Httplib2?"
+    ],
+    "scope": [
+      "Chris Adams gave an excellent summary on Hacker News:"
+    ],
+    "section": [
+      0,
+      7
+    ],
+    "scope_indices": [
+      8
+    ],
+    "kind": "paragraph",
+    "line_start": 41,
+    "line_end": 42,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions",
+      "Why not Httplib2?"
+    ],
+    "scope": [
+      "Chris Adams gave an excellent summary on Hacker News:"
+    ],
+    "section": [
+      0,
+      7
+    ],
+    "scope_indices": [
+      8
+    ],
+    "kind": "list",
+    "line_start": 44,
+    "line_end": 49,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 52,
+    "line_end": 52,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions",
+      "Python 3 Support?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      12
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 55,
+    "line_end": 55,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 57,
+    "line_end": 57,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions",
+      "Python 2 Support?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      14
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 60,
+    "line_end": 65,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions",
+      "Python 2 Support?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      14
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 67,
+    "line_end": 68,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 70,
+    "line_end": 70,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions",
+      "What are \"hostname doesn't match\" errors?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      17
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 73,
+    "line_end": 78,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions",
+      "What are \"hostname doesn't match\" errors?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      17
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 80,
+    "line_end": 84,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Frequently Asked Questions",
+      "What are \"hostname doesn't match\" errors?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      17
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 86,
+    "line_end": 88,
+    "indent": 0
+  }
+]

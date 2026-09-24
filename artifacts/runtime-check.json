@@ -1,0 +1,18 @@
+{
+  "scenario": "80 passages, changed retention limits, reversed ordering",
+  "elapsed_seconds": 1.461,
+  "statuses": {
+    "modified": 80
+  },
+  "aligned_correctly": 80,
+  "passages_before": 80,
+  "passages_after": 80,
+  "offline": true,
+  "python": "3.12.2",
+  "cpu": "13th Gen Intel Core i7-13620H",
+  "logical_cpus": 16,
+  "onnx_threads": 2,
+  "ram_gib": 32,
+  "provenance": "Post-freeze synthetic performance sanity check; not a held-out accuracy result.",
+  "engine_sha256": "f6261a095b6b533e7fb8d8b34fb952caf8923639f807b6b7621e8a4837aa4ec2"
+}

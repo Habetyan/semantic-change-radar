@@ -1,0 +1,720 @@
+{
+  "source_line_count": 1141,
+  "omissions": [
+    {
+      "start_line": 1,
+      "end_line": 2,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 4,
+      "end_line": 4,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 8,
+      "end_line": 9,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 11,
+      "end_line": 11,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 23,
+      "end_line": 32,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 35,
+      "end_line": 43,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 51,
+      "end_line": 62,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 68,
+      "end_line": 71,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 76,
+      "end_line": 76,
+      "reason": "admonition markup only; inline argument and body retained"
+    },
+    {
+      "start_line": 85,
+      "end_line": 86,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 88,
+      "end_line": 88,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 97,
+      "end_line": 99,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 101,
+      "end_line": 111,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 114,
+      "end_line": 118,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 119,
+      "end_line": 120,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 122,
+      "end_line": 122,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 129,
+      "end_line": 152,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 166,
+      "end_line": 189,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 195,
+      "end_line": 208,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 209,
+      "end_line": 210,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 212,
+      "end_line": 212,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 217,
+      "end_line": 220,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 222,
+      "end_line": 225,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 227,
+      "end_line": 229,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 231,
+      "end_line": 234,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 235,
+      "end_line": 235,
+      "reason": "admonition markup only; inline argument and body retained"
+    },
+    {
+      "start_line": 242,
+      "end_line": 245,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 255,
+      "end_line": 255,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 260,
+      "end_line": 263,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 265,
+      "end_line": 268,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 270,
+      "end_line": 273,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 274,
+      "end_line": 274,
+      "reason": "admonition markup only; inline argument and body retained"
+    },
+    {
+      "start_line": 277,
+      "end_line": 278,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 280,
+      "end_line": 280,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 293,
+      "end_line": 293,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 294,
+      "end_line": 294,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 295,
+      "end_line": 295,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 296,
+      "end_line": 297,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 298,
+      "end_line": 299,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 301,
+      "end_line": 301,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 307,
+      "end_line": 310,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 313,
+      "end_line": 317,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 330,
+      "end_line": 333,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 334,
+      "end_line": 335,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 337,
+      "end_line": 337,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 347,
+      "end_line": 348,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 350,
+      "end_line": 350,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 355,
+      "end_line": 358,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 359,
+      "end_line": 359,
+      "reason": "admonition markup only; inline argument and body retained"
+    },
+    {
+      "start_line": 366,
+      "end_line": 367,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 369,
+      "end_line": 369,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 374,
+      "end_line": 380,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 389,
+      "end_line": 390,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 392,
+      "end_line": 392,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 396,
+      "end_line": 398,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 400,
+      "end_line": 413,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 414,
+      "end_line": 414,
+      "reason": "admonition markup only; inline argument and body retained"
+    },
+    {
+      "start_line": 421,
+      "end_line": 422,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 424,
+      "end_line": 424,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 438,
+      "end_line": 440,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 445,
+      "end_line": 448,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 456,
+      "end_line": 460,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 462,
+      "end_line": 466,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 468,
+      "end_line": 472,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 475,
+      "end_line": 481,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 485,
+      "end_line": 486,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 488,
+      "end_line": 488,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 504,
+      "end_line": 517,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 519,
+      "end_line": 522,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 523,
+      "end_line": 524,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 526,
+      "end_line": 526,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 533,
+      "end_line": 545,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 550,
+      "end_line": 559,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 560,
+      "end_line": 560,
+      "reason": "admonition markup only; inline argument and body retained"
+    },
+    {
+      "start_line": 566,
+      "end_line": 574,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 575,
+      "end_line": 576,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 578,
+      "end_line": 578,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 582,
+      "end_line": 591,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 594,
+      "end_line": 605,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 606,
+      "end_line": 606,
+      "reason": "admonition markup only; inline argument and body retained"
+    },
+    {
+      "start_line": 621,
+      "end_line": 629,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 632,
+      "end_line": 637,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 638,
+      "end_line": 638,
+      "reason": "admonition markup only; inline argument and body retained"
+    },
+    {
+      "start_line": 647,
+      "end_line": 649,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 655,
+      "end_line": 658,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 661,
+      "end_line": 668,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 669,
+      "end_line": 670,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 672,
+      "end_line": 672,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 674,
+      "end_line": 675,
+      "reason": "versionadded directive and body"
+    },
+    {
+      "start_line": 682,
+      "end_line": 685,
+      "reason": "code-block directive and body"
+    },
+    {
+      "start_line": 688,
+      "end_line": 693,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 696,
+      "end_line": 697,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 699,
+      "end_line": 699,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 707,
+      "end_line": 707,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 735,
+      "end_line": 736,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 738,
+      "end_line": 738,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 750,
+      "end_line": 753,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 756,
+      "end_line": 761,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 766,
+      "end_line": 777,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 784,
+      "end_line": 788,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 796,
+      "end_line": 800,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 811,
+      "end_line": 823,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 827,
+      "end_line": 839,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 844,
+      "end_line": 847,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 853,
+      "end_line": 860,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 866,
+      "end_line": 877,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 884,
+      "end_line": 894,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 901,
+      "end_line": 907,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 914,
+      "end_line": 921,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 925,
+      "end_line": 926,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 928,
+      "end_line": 928,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 935,
+      "end_line": 939,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 943,
+      "end_line": 944,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 946,
+      "end_line": 946,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 953,
+      "end_line": 958,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 960,
+      "end_line": 966,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 967,
+      "end_line": 968,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 970,
+      "end_line": 970,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 991,
+      "end_line": 994,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 999,
+      "end_line": 999,
+      "reason": "admonition markup only; inline argument and body retained"
+    },
+    {
+      "start_line": 1009,
+      "end_line": 1009,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 1020,
+      "end_line": 1034,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 1036,
+      "end_line": 1036,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 1042,
+      "end_line": 1055,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 1056,
+      "end_line": 1056,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 1057,
+      "end_line": 1057,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 1058,
+      "end_line": 1059,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 1060,
+      "end_line": 1061,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 1063,
+      "end_line": 1063,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 1076,
+      "end_line": 1076,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 1077,
+      "end_line": 1077,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 1078,
+      "end_line": 1078,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 1079,
+      "end_line": 1080,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 1082,
+      "end_line": 1082,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 1088,
+      "end_line": 1089,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 1091,
+      "end_line": 1091,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 1111,
+      "end_line": 1113,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 1116,
+      "end_line": 1118,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 1124,
+      "end_line": 1126,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 1127,
+      "end_line": 1127,
+      "reason": "admonition markup only; inline argument and body retained"
+    },
+    {
+      "start_line": 1134,
+      "end_line": 1134,
+      "reason": "admonition markup only; inline argument and body retained"
+    },
+    {
+      "start_line": 1140,
+      "end_line": 1140,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 1141,
+      "end_line": 1141,
+      "reason": "reference target"
+    }
+  ]
+}

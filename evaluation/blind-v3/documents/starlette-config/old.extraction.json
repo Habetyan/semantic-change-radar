@@ -1,0 +1,64 @@
+{
+  "source_line_count": 234,
+  "omissions": [
+    {
+      "start_line": 9,
+      "end_line": 26,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 30,
+      "end_line": 37,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 58,
+      "end_line": 64,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 69,
+      "end_line": 75,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 82,
+      "end_line": 92,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 110,
+      "end_line": 114,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 130,
+      "end_line": 144,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 148,
+      "end_line": 157,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 161,
+      "end_line": 184,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 192,
+      "end_line": 232,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 234,
+      "end_line": 234,
+      "reason": "reference destination/target; visible labels retained"
+    }
+  ],
+  "transformations": [],
+  "retained_indented_lines": [],
+  "policy": "Complete page prose, headings, lists and visible code titles. Omit fenced code, reference destinations and presentation wrappers. Preserve admonition bodies; normalize links, inline code, bold and audited Python object roles.",
+  "indented_blocks_audit": "For these twelve pinned pages, unfenced indented lines were inspected: admonition bodies or list continuations, retained in full."
+}

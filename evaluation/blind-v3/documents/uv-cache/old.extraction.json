@@ -1,0 +1,30 @@
+{
+  "source_line_count": 107,
+  "omissions": [
+    {
+      "start_line": 38,
+      "end_line": 41,
+      "reason": "fenced code/example; visible title retained when supplied"
+    }
+  ],
+  "transformations": [
+    {
+      "start_line": 38,
+      "end_line": 38,
+      "reason": "visible code-block title retained as prose label"
+    },
+    {
+      "start_line": 97,
+      "end_line": 97,
+      "reason": "admonition label normalized; body retained"
+    }
+  ],
+  "retained_indented_lines": [
+    99,
+    100,
+    102,
+    103
+  ],
+  "policy": "Complete page prose, headings, lists and visible code titles. Omit fenced code, reference destinations and presentation wrappers. Preserve admonition bodies; normalize links, inline code, bold and audited Python object roles.",
+  "indented_blocks_audit": "For these twelve pinned pages, unfenced indented lines were inspected: admonition bodies or list continuations, retained in full."
+}

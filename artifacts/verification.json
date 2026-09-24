@@ -1,0 +1,47 @@
+{
+  "verified_at_utc": "2026-09-24T07:59:33.477940+00:00",
+  "checks": [
+    {
+      "command": "RUN_MODEL_TESTS=1 .venv/bin/python -m pytest -q",
+      "result": "35 passed in 2.65 seconds"
+    },
+    {
+      "command": ".venv/bin/ruff check .",
+      "result": "passed"
+    },
+    {
+      "command": ".venv/bin/ruff format --check .",
+      "result": "passed"
+    },
+    {
+      "command": ".venv/bin/python -m pip check",
+      "result": "no broken requirements"
+    },
+    {
+      "command": ".venv/bin/python -m pip install -e . --no-deps",
+      "result": "editable installation succeeded; change-radar --help passed"
+    },
+    {
+      "command": ".venv/bin/python scripts/browser_smoke.py --url http://127.0.0.1:7862 --chrome /usr/bin/google-chrome",
+      "result": "passed: comparison, filters, evidence, JSON download, stale inputs, mobile layout"
+    },
+    {
+      "command": "HF_HUB_OFFLINE=1 .venv/bin/python -m scripts.stress_check",
+      "result": "80/80 aligned, all80 modified; reproduced in1.792 seconds"
+    },
+    {
+      "command": "SHA-256 comparison with docs/evaluation-freeze.json",
+      "result": "frozen engine,models,data,and dependency files match"
+    },
+    {
+      "command": "local Markdown link validation",
+      "result": "passed"
+    }
+  ],
+  "not_run": [
+    "GitHub-hosted CI",
+    "Hugging Face deployment",
+    "ARM64 inference",
+    "human-annotated real-document evaluation"
+  ]
+}

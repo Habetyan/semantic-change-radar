@@ -1,0 +1,588 @@
+[
+  {
+    "headings": [],
+    "scope": [],
+    "section": [],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 1,
+    "line_end": 1,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 4,
+    "line_end": 7,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 10,
+    "line_end": 10,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "The Explicit Application Object"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 13,
+    "line_end": 17,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "The Explicit Application Object"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 19,
+    "line_end": 19,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "The Explicit Application Object"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 28,
+    "line_end": 28,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "The Explicit Application Object"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 36,
+    "line_end": 45,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "The Explicit Application Object"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 47,
+    "line_end": 51,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "The Explicit Application Object"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 53,
+    "line_end": 68,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "The Explicit Application Object"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 70,
+    "line_end": 74,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "The Explicit Application Object"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 76,
+    "line_end": 78,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 80,
+    "line_end": 80,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "The Routing System"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      11
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 83,
+    "line_end": 88,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "The Routing System"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      11
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 90,
+    "line_end": 93,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 96,
+    "line_end": 96,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "One Template Engine"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      14
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 99,
+    "line_end": 103,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "One Template Engine"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      14
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 105,
+    "line_end": 108,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "One Template Engine"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      14
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 110,
+    "line_end": 117,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "One Template Engine"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      14
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 119,
+    "line_end": 122,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "One Template Engine"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      14
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 124,
+    "line_end": 126,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "One Template Engine"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      14
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 128,
+    "line_end": 130,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 133,
+    "line_end": 133,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "What does \"micro\" mean?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      21
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 136,
+    "line_end": 142,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "What does \"micro\" mean?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      21
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 144,
+    "line_end": 150,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "What does \"micro\" mean?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      21
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 152,
+    "line_end": 163,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "What does \"micro\" mean?"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      21
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 165,
+    "line_end": 169,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 172,
+    "line_end": 172,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "Thread Locals"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      26
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 175,
+    "line_end": 178,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "Thread Locals"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      26
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 180,
+    "line_end": 184,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 187,
+    "line_end": 187,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "Async/await and ASGI support"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      29
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 190,
+    "line_end": 196,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "Async/await and ASGI support"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      29
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 198,
+    "line_end": 201,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "Async/await and ASGI support"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      29
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 203,
+    "line_end": 203,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 206,
+    "line_end": 206,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "What Flask is, What Flask is Not"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 209,
+    "line_end": 213,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "What Flask is, What Flask is Not"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 215,
+    "line_end": 218,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "What Flask is, What Flask is Not"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 220,
+    "line_end": 225,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Design Decisions in Flask",
+      "What Flask is, What Flask is Not"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 227,
+    "line_end": 228,
+    "indent": 0
+  }
+]

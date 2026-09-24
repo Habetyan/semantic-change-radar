@@ -1,0 +1,24 @@
+name: Checks
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -r requirements-dev.txt -c requirements.lock
+      - run: python -m pip check
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: pytest -q
+      - name: Cache pinned inference artifacts
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface/hub
+          key: minilm-onnx-${{ runner.os }}-${{ hashFiles('radar/models.py') }}
+      - name: Verify actual CPU inference
+        run: RUN_MODEL_TESTS=1 pytest tests/test_models.py -q

@@ -1,0 +1,340 @@
+{
+  "case_id": "starlette-config",
+  "review_status": "ai_reviewed_pending_human",
+  "annotator": "resume_eval",
+  "blind_to_model_predictions": true,
+  "scope": "Complete extracted prose including headings and visible example titles; fenced code and reference destinations excluded. Every passage appears exactly once.",
+  "events": [
+    {
+      "old_indices": [
+        0
+      ],
+      "new_indices": [
+        0
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        1
+      ],
+      "new_indices": [
+        1
+      ],
+      "status": "reworded",
+      "rationale": "Quoted .env filename becomes inline-code typography; the configuration recommendation is unchanged."
+    },
+    {
+      "old_indices": [
+        2
+      ],
+      "new_indices": [
+        2
+      ],
+      "status": "modified",
+      "rationale": "Renames the visible example file from app.py to main.py. Only the displayed filename is labeled; excluded code changes are outside scope."
+    },
+    {
+      "old_indices": [
+        3
+      ],
+      "new_indices": [
+        3
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        4
+      ],
+      "new_indices": [
+        4
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        5
+      ],
+      "new_indices": [
+        5
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        6
+      ],
+      "new_indices": [
+        6
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        7
+      ],
+      "new_indices": [
+        7
+      ],
+      "status": "reworded",
+      "rationale": "Changes filename quoting without changing configuration precedence."
+    },
+    {
+      "old_indices": [
+        8
+      ],
+      "new_indices": [
+        8
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        9
+      ],
+      "new_indices": [
+        9
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        10
+      ],
+      "new_indices": [
+        10
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        11
+      ],
+      "new_indices": [
+        11
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        12
+      ],
+      "new_indices": [
+        12
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        13
+      ],
+      "new_indices": [
+        13
+      ],
+      "status": "modified",
+      "rationale": "Replaces a generic URL representation claim with an explicit recommendation to use DatabaseURL from the databases package to prevent URL leakage in logs."
+    },
+    {
+      "old_indices": [
+        14
+      ],
+      "new_indices": [
+        14
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        15
+      ],
+      "new_indices": [
+        15
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        16
+      ],
+      "new_indices": [
+        16
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        17
+      ],
+      "new_indices": [
+        17
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        18
+      ],
+      "new_indices": [
+        18
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        19
+      ],
+      "new_indices": [
+        19
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        20
+      ],
+      "new_indices": [
+        20
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        21
+      ],
+      "new_indices": [
+        24
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        22
+      ],
+      "new_indices": [
+        25
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        23
+      ],
+      "new_indices": [
+        26
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        24
+      ],
+      "new_indices": [
+        27
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        25
+      ],
+      "new_indices": [
+        28
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        26
+      ],
+      "new_indices": [
+        29
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        27
+      ],
+      "new_indices": [
+        30
+      ],
+      "status": "reworded",
+      "rationale": "Adds a colon to the same displayed application filename; no information changes."
+    },
+    {
+      "old_indices": [
+        28
+      ],
+      "new_indices": [
+        31
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        29
+      ],
+      "new_indices": [
+        32
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        21
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: ## Reading prefixed environment variables"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        22
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: You can namespace the environment variables by setting env_prefix argument."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        23
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: myproject/settings.py:"
+    }
+  ],
+  "review_notes": [
+    "Read both complete raw Markdown revisions and all 30 old / 33 new extracted passages. Retained the visible app.py to main.py filename change as modified under the declared visible-title policy, even though it is not a behavioral API change.",
+    "The URL secrecy claim is replaced with a DatabaseURL recommendation and remains modified. Filename quotation/colon changes remain reworded. Matched the original full-example myproject/settings.py to new index 28, not the inserted prefixed-variable example at index 23; tests/conftest.py occurrences retain their distinct local owners.",
+    "New prefixed-variable heading, guidance and example title are additions. Changes inside excluded code, including test setup values, do not influence prose labels."
+  ],
+  "reviewer": "resume_ui",
+  "review_blind_to_model_predictions": true
+}

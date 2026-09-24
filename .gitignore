@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+.cache/
+*.egg-info/
+build/
+dist/
+.env
+.DS_Store
+artifacts/local/
+review-submission-*.json

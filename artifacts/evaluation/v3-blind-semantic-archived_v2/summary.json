@@ -1,0 +1,249 @@
+{
+  "requested_cases": 6,
+  "successful_cases": 6,
+  "failed_cases": 0,
+  "failure_rate": 0.0,
+  "annotated_cases": 6,
+  "scored_cases": 6,
+  "unscored_annotated_cases": 0,
+  "complete": true,
+  "metrics_scope": "successful annotated cases only; inspect failure rate and scored_cases",
+  "metrics": {
+    "gold_events": 306,
+    "predicted_events": 307,
+    "gold_ambiguous_events": 0,
+    "gold_singleton_events": 306,
+    "gold_changed_paired_groups": 19,
+    "gold_split_merge_groups": 0,
+    "conditional_eligible_events": 306,
+    "conditional_scored_events": 303,
+    "conditional_abstentions": 9,
+    "conditional_correct_status": 292,
+    "risky_misses": 1,
+    "material_abstentions": 4,
+    "predicted_material_excluded_ambiguous": 0,
+    "predicted_abstentions": 9,
+    "alignment_edges": {
+      "true_positive": 227,
+      "predicted": 228,
+      "expected": 229,
+      "precision": 0.9956140350877193,
+      "recall": 0.9912663755458515,
+      "f1": 0.9934354485776805
+    },
+    "changed_alignment_edges": {
+      "true_positive": 18,
+      "predicted": 19,
+      "expected": 19,
+      "precision": 0.9473684210526315,
+      "recall": 0.9473684210526315,
+      "f1": 0.9473684210526315
+    },
+    "exact_group_correspondence": {
+      "true_positive": 303,
+      "predicted": 307,
+      "expected": 306,
+      "precision": 0.9869706840390879,
+      "recall": 0.9901960784313726,
+      "f1": 0.9885807504078303
+    },
+    "end_to_end_material": {
+      "true_positive": 81,
+      "predicted": 85,
+      "expected": 88,
+      "precision": 0.9529411764705882,
+      "recall": 0.9204545454545454,
+      "f1": 0.9364161849710982
+    },
+    "conditional_material": {
+      "true_positive": 81,
+      "predicted": 82,
+      "expected": 86,
+      "precision": 0.9878048780487805,
+      "recall": 0.9418604651162791,
+      "f1": 0.9642857142857143
+    },
+    "conditional_confusion": {
+      "added": {
+        "added": 74
+      },
+      "modified": {
+        "modified": 5,
+        "uncertain": 4,
+        "unchanged": 1
+      },
+      "removed": {
+        "removed": 2
+      },
+      "reworded": {
+        "modified": 1,
+        "reworded": 4,
+        "uncertain": 3
+      },
+      "unchanged": {
+        "uncertain": 2,
+        "unchanged": 207
+      }
+    },
+    "conditional_alignment_coverage": 0.9901960784313726,
+    "conditional_status_accuracy": 0.9636963696369637,
+    "conditional_decision_coverage": 0.9702970297029703
+  },
+  "failures_by_stage": {},
+  "latency_ms": {
+    "scope": "Archived subprocess compare_documents calls, including first model initialization; excludes parent lookup/scoring and process startup.",
+    "first_successful_case": 611.8878750003205,
+    "mean_including_initialization": 340.7670393333622,
+    "median": 360.1350670001011,
+    "p95_nearest_rank": 642.0601070003613
+  },
+  "schema_version": 2,
+  "profile": "archived_v2",
+  "backend": "semantic",
+  "created_at": "2026-09-24T17:52:11.012811+00:00",
+  "archive": {
+    "path": "artifacts/evaluation/baseline-v2.zip",
+    "sha256": "3bacea10cd029a5fff2ca3161fba40d0a4b223c3384540f94e3e4c21fd3e674f",
+    "members": {
+      "app.py": "612676ea196fcd4a42e9d72db5909c42ac7b699a4d6e20e21412f21f6b69fb12",
+      "assets/style.css": "8c3dd5b9d74cc07dee8e56b998d7a0986bdc902b0d70d0a5a8fd770053eea28e",
+      "evaluation/acquire_fresh.py": "b9c6af599281829574d43cb6e639395c724a45e9d106debd7b11792dbc9f7ba3",
+      "evaluation/acquire_real.py": "c8522751aad7cca7234801a378f0ff137264136105194cb847963d542a36c017",
+      "evaluation/compare_nli.py": "5a555488b4effd9186678c5a6fd3cd272ded9271d8b1a7f9d0d1ebb2a86c4f4a",
+      "evaluation/context_inputs.py": "8bf0a0404c740df5bbe50ee32eda91381faabf4a515703ccda37adddda48ded7",
+      "evaluation/evaluate.py": "e429d5a78d1f98077c9fa2199247a1f9559b5525e5245c87968f7831a653e001",
+      "evaluation/evaluate_archive.py": "d3e8ff63d6a8737fdb0c5c4aaa2680640e5c9e5e22d7df9ff6bbcce83202d3fb",
+      "evaluation/real_evaluate.py": "e642be0f5bebb7d42d356f3a0ac471b25650e1e385a6ce0c07137f65affbd68f",
+      "evaluation/review_real.py": "c544e6024f7a5f009d1a8d6bb8be2bd6e9b1bd6f7448202d465700c51e7ebecd",
+      "examples.json": "541cb17e0860a6103890f88fb64374ad4667637e018267164358d2df2ccef688",
+      "pyproject.toml": "95a6e92d5cdb61bc6a6fd1003d7265cc32a9d68300ada164a7be1f40f41f5d49",
+      "radar/__init__.py": "4471022079b45c7e207c44dd432242099f2bcbd4fd50a0f28624470db3f15011",
+      "radar/cli.py": "26f0e59045900d4553d959b92e73a4b13fd987a946a895382f9824e366b6a63d",
+      "radar/compare.py": "d3881906ab9d1e1c7d06bfe0bb23d708bd3b0d2a845a67e5d506295ac67871e0",
+      "radar/details.py": "fd4f516c7c04bff28a5bdec11993a54eccfbb31d7a5f6b4096fcdab948a928b8",
+      "radar/grouping.py": "d583c522aa13edf5bc2c32a839cab2213641825258d04a7160172e71768b1527",
+      "radar/models.py": "c51f454e871d6c6797c333dff9c3681b51c7025e28ce30432725303f4b712fb3",
+      "radar/presentation.py": "0a1d3d9c6685ad15005a6b7ae28f7288cef6c8dc507d961a57659fc1caf9fe9b",
+      "radar/structure.py": "1c3413152111fa274bef55a4be95ec6018e62f9f82fcafd1ed1da3ff938797b5",
+      "requirements.lock": "b36d7d9d4e0e3175a680908617329175aad41232284de7ff14e2a950171a86ab",
+      "requirements.txt": "ff3501a4ae317c2f29ed124eb2aeaec275509621add9978cf183213c04ab2b09",
+      "tests/test_cli.py": "0bcd18a6a8cd7adfda4e84dca3426a7a70393246b7b9e24b9d7fe59438f659f7",
+      "tests/test_compare.py": "65a55942f40fb6f76f6d46d628c932a5857d9e81a2f789e167d5de64c8de1ff7",
+      "tests/test_evaluation.py": "a82e8d56cee7dfe9077e560d894305629e91fdb40e373e46cf677e867a09633d",
+      "tests/test_grouped_comparison.py": "2d0c3d98eaebcf680f44312766c5863a6f72bbc6076b94b985e3962bb039bc28",
+      "tests/test_models.py": "faf9dcfcdf12ae59f1da6393d11c5bff77603e6d209b77099cde5dcf00b0fc8f",
+      "tests/test_presentation.py": "fee3bf1936bca594b7630745d093f17c4e81f1d4394bbd3f4488e31283676eed",
+      "tests/test_real_evaluation.py": "363c2e7eecac50f631ea4d20e6c18361ac72604b24b0e2b32cb44004423e37f3",
+      "tests/test_real_extraction.py": "766316568a44919a66d9ddd875b37ea7c19b3191e400562cac131ce23d436314",
+      "tests/test_structure.py": "0194221eaeff40f609e916d9ed07ab31b6d402ae22fb6de2493b97f28535ef48"
+    }
+  },
+  "source_hashes": {
+    "docs/blind-v3-freeze.json": "a87216f4b2dfff72bbd3175fbe3a676040fc24e82b9929c7766dc2856f441c87",
+    "docs/evaluation-freeze.json": "e0afc7da16dae86361eaf328b80bf2084ff603bd03ba44e730a224b800dc7b56",
+    "docs/real-evaluation-freeze.json": "0e069a3e17ae4d27da9669f122cf20b8a31193572f74f40dda6601e41486d20f",
+    "evaluation/blind-v3/annotations/black-basics-2023.json": "11eb54c2f8765af159657592c5f7cd5077c91b3b365f6a8d5bc442ad1d1f3e2d",
+    "evaluation/blind-v3/annotations/black-future-style.json": "eb4ffea30268b23f71ebe66a05761c183619029f0502aca086f607be072520c5",
+    "evaluation/blind-v3/annotations/starlette-config.json": "2fe1656585e9391d007c2968647bdc164b1870b141fed3f769012c2b056e030b",
+    "evaluation/blind-v3/annotations/starlette-responses.json": "af8f67869b6f2f40a97ca36bcaacd9eee8568795df5f054038ca5786eb14d1b3",
+    "evaluation/blind-v3/annotations/starlette-websockets.json": "2b31732686f76527341e3c3e082f4f6944c904d848a6d5a64753b0c4d311dafd",
+    "evaluation/blind-v3/annotations/uv-cache.json": "f1e76b919b263748c348dd7c95a4f3129219d673b41d76a79cda3f2e6562e2c5",
+    "evaluation/blind-v3/documents/black-basics-2023/new.md": "24014eb230a6211966936a1fc24f689ad86f715ea015a076e33860109d8b5b0a",
+    "evaluation/blind-v3/documents/black-basics-2023/new.passages.json": "a9744327b0e3a15f5bf9e84265dd6eae585ba03754dabb13c697d2334f83236a",
+    "evaluation/blind-v3/documents/black-basics-2023/new.txt": "c079934eb0dc965d6b99dc82cf318902648fd310b7b5da8ddf11b05ac57f844f",
+    "evaluation/blind-v3/documents/black-basics-2023/old.md": "249f5ff24e256299176b2924d2fd3827906d8fed78d290fde6305ddee51b3cae",
+    "evaluation/blind-v3/documents/black-basics-2023/old.passages.json": "a4a62d7eb3084ff4a3e52653e5b00d78ab4e4c85bb3fdf336b5aef8d65991a7f",
+    "evaluation/blind-v3/documents/black-basics-2023/old.txt": "73e16660a34a6639aa5c82936eb84dcca9b08e24b1ae6ada68153d74bbe6fe3e",
+    "evaluation/blind-v3/documents/black-future-style/new.md": "d82f5c785e8dc72646f39073c08f518adf3a8c22350364e7781042c8d134eb63",
+    "evaluation/blind-v3/documents/black-future-style/new.passages.json": "cb4183f57434fde329c47b84634b155c827c1bd292cec010219154c2e6a1c7fc",
+    "evaluation/blind-v3/documents/black-future-style/new.txt": "1eb76b9417b27f09f5786d2413c0827ec7c38c50947b56739e63f819f5194fb1",
+    "evaluation/blind-v3/documents/black-future-style/old.md": "33452e8a6b27162bec58b91dbdfa9a8cf16e062b780bf4ae763c253e23f990db",
+    "evaluation/blind-v3/documents/black-future-style/old.passages.json": "6c71501780a9becb96817cc952c1df6896df3a7ebe12871355089cfdf6b95456",
+    "evaluation/blind-v3/documents/black-future-style/old.txt": "dd2fe64bb789e77c3f00982f3f6e697c5e51150407f68bf79971eb178dcc7b27",
+    "evaluation/blind-v3/documents/starlette-config/new.md": "455c2eed67b8f43f43231fd390fde84e4fb41bf631aee3535c56589d5261e484",
+    "evaluation/blind-v3/documents/starlette-config/new.passages.json": "54c1a1f51b76728405b2f19c12357a18fb95497a40ffab0216fa8d9e754b1125",
+    "evaluation/blind-v3/documents/starlette-config/new.txt": "f879df977a7c719350509a320212924bc63e6620c9533da737dbf3d92c377838",
+    "evaluation/blind-v3/documents/starlette-config/old.md": "36b80c9009093c884422943b45ee129d894ed82b945c6eda9a74330664dd38cf",
+    "evaluation/blind-v3/documents/starlette-config/old.passages.json": "8df778d1d3603b6ea6c5da5a3ece33618ae2049479cc95fe3da4c0f4f160bcda",
+    "evaluation/blind-v3/documents/starlette-config/old.txt": "c40c066cca3ad9fe8c5a659ffefb5ea2f9c2cabdfa60e8c5f704476e132e04f5",
+    "evaluation/blind-v3/documents/starlette-responses/new.md": "be32713c96d09230268eff6bcaa609513f854ba8f64940208ba7a6ff57f00bac",
+    "evaluation/blind-v3/documents/starlette-responses/new.passages.json": "00a6b9bc3de62d0ef6ee496e6369b8ab5ecbe8019e1604e2cdffda0a5c65b625",
+    "evaluation/blind-v3/documents/starlette-responses/new.txt": "d8c3df86a0f754c84ab644f55e1997f64d088092b19c5a4011f938ce55bb9554",
+    "evaluation/blind-v3/documents/starlette-responses/old.md": "56ccd0b2fb1d04318b1b45d9a07b99acb216b40b98b4a0534c71bc8d73dab600",
+    "evaluation/blind-v3/documents/starlette-responses/old.passages.json": "65f18590bc1a6c07f9d061dcfff4f861a1ebd3180b608ffde6ca2257b002f0cc",
+    "evaluation/blind-v3/documents/starlette-responses/old.txt": "8e05ff8f6352f215a089b5d210b4a5e2bdd7fa70dddcd810f96691223de7fce5",
+    "evaluation/blind-v3/documents/starlette-websockets/new.md": "713259167c41fb334fc029731cd0f55fe7e161ab7d4df00f52519c26adf945db",
+    "evaluation/blind-v3/documents/starlette-websockets/new.passages.json": "11591edf69e4956f72c50b82bc36d6fd6bba9c22fc5e6656a9563a6ce300454c",
+    "evaluation/blind-v3/documents/starlette-websockets/new.txt": "f584ebee0652d3a5e542d5d5c0e1aa21d09746bc581dcc2db2ca934997194f25",
+    "evaluation/blind-v3/documents/starlette-websockets/old.md": "503dd2a1d43f08e37f4ddef60d7eb53b7f1f4f0c1e09901bf04cadd0a2f2c5b1",
+    "evaluation/blind-v3/documents/starlette-websockets/old.passages.json": "fa6fbebc4937041e6877f80dc7ff60c5e71f79f6da4584a2ca99ef365ec22dae",
+    "evaluation/blind-v3/documents/starlette-websockets/old.txt": "651716fa6c94325e646bf9f4170bd721aed64c583c03d0679382ba6f2f10a483",
+    "evaluation/blind-v3/documents/uv-cache/new.md": "f2a27553fef3b79c9193045179748d558b3585fa3954b07af7872b9f967d0ad6",
+    "evaluation/blind-v3/documents/uv-cache/new.passages.json": "257ba52c53ebdb4132250640340a8ea7d82cef5a659478be21f01941080c9f21",
+    "evaluation/blind-v3/documents/uv-cache/new.txt": "b2c24ba7d44df0094d538b29d563f4c00d8a3d4f9d26b2fd069a70b69f35547a",
+    "evaluation/blind-v3/documents/uv-cache/old.md": "bd829d82f4946b713f3357f4c985b804fb6f594b89756f6bcd8931bb7434ea45",
+    "evaluation/blind-v3/documents/uv-cache/old.passages.json": "f14fb1dc6eb1ad1f7712aa05b71391153eea60529dcadf5a036bc61cd877a181",
+    "evaluation/blind-v3/documents/uv-cache/old.txt": "a210acde4659a91b7f950590c740bb74396b49d99486a4f406e34d5ad17eabd1",
+    "evaluation/blind-v3/manifest.json": "5bef0fbbff94c5a18e81b0633afa0523ea89523c726be85aacc1b4cf6e8ba75a",
+    "evaluation/evaluate.py": "e429d5a78d1f98077c9fa2199247a1f9559b5525e5245c87968f7831a653e001",
+    "evaluation/real_evaluate.py": "e642be0f5bebb7d42d356f3a0ac471b25650e1e385a6ce0c07137f65affbd68f",
+    "pyproject.toml": "95a6e92d5cdb61bc6a6fd1003d7265cc32a9d68300ada164a7be1f40f41f5d49",
+    "radar/__init__.py": "4471022079b45c7e207c44dd432242099f2bcbd4fd50a0f28624470db3f15011",
+    "radar/cli.py": "26f0e59045900d4553d959b92e73a4b13fd987a946a895382f9824e366b6a63d",
+    "radar/compare.py": "db41502fe55d814b09585ceb91b080e851d188a67912c8b00f1e19735edfefde",
+    "radar/details.py": "700b990bf72df4b9f4b6e1aa712248176114efaf1cd75efe6edebf5460beeec8",
+    "radar/grouping.py": "d583c522aa13edf5bc2c32a839cab2213641825258d04a7160172e71768b1527",
+    "radar/models.py": "c51f454e871d6c6797c333dff9c3681b51c7025e28ce30432725303f4b712fb3",
+    "radar/presentation.py": "7b95db92b4c6f6ee0b4eddd52e32e321944ffde0c6f7cc1a7f5b7bcb1b20d545",
+    "radar/structure.py": "1c3413152111fa274bef55a4be95ec6018e62f9f82fcafd1ed1da3ff938797b5",
+    "requirements.lock": "b36d7d9d4e0e3175a680908617329175aad41232284de7ff14e2a950171a86ab",
+    "requirements.txt": "ff3501a4ae317c2f29ed124eb2aeaec275509621add9978cf183213c04ab2b09",
+    "evaluation/evaluate_archive.py": "d7f14296733a3f46ce61d7c201c5caa4dba42744d841f602cc42f76f5d0e5b1b"
+  },
+  "provenance": "Archived inference; current group metrics and input validation. Current radar hashes describe validation/provenance, not executed inference. Context sidecars are passed only if the archived API supports them.",
+  "configured_model_artifacts": {
+    "embedding": {
+      "repo": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "file_hashes": {
+        "onnx/model_quint8_avx2.onnx": "b941bf19f1f1283680f449fa6a7336bb5600bdcd5f84d10ddc5cd72218a0fd21",
+        "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+        "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+        "tokenizer_config.json": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+        "sentence_bert_config.json": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7"
+      }
+    },
+    "nli": {
+      "repo": "cross-encoder/nli-MiniLM2-L6-H768",
+      "revision": "b95119ce93d3e065de6214e38cd4a97b0f2f2c6d",
+      "file_hashes": {
+        "onnx/model_quint8_avx2.onnx": "44391a5241a62e0083c1a8899a71e69a092b95aea5ba89e14062925468eceac7",
+        "config.json": "8b0e41caff7567c0f53e6983f35591c3dec59507c9173ab125c5823394fb57f3",
+        "tokenizer.json": "82139106e603ee4e1d5bc99d056ccbed5a92bc24848b1b5a7137c26e00d0dbf6",
+        "tokenizer_config.json": "e06f5c3c435fc0255b08b5574cd574eec685390f60c85b27f83d785eb8ecaaa1"
+      }
+    }
+  },
+  "models": {
+    "embedding": {
+      "repo": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "file": "onnx/model_quint8_avx2.onnx",
+      "max_tokens": 256
+    },
+    "nli": {
+      "repo": "cross-encoder/nli-MiniLM2-L6-H768",
+      "revision": "b95119ce93d3e065de6214e38cd4a97b0f2f2c6d",
+      "file": "onnx/model_quint8_avx2.onnx",
+      "max_tokens": 512
+    },
+    "runtime": "onnxruntime",
+    "runtime_version": "1.23.2",
+    "provider": "CPUExecutionProvider",
+    "batch_size": 8,
+    "nli_batch_size": 1,
+    "cpu_threads": 2
+  },
+  "archive_subprocess_seconds": 2.451192414000616,
+  "archive_subprocess_stderr": ""
+}

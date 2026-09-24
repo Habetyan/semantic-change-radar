@@ -1,0 +1,55 @@
+{
+  "source_line_count": 198,
+  "omissions": [
+    {
+      "start_line": 21,
+      "end_line": 29,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 57,
+      "end_line": 65,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 71,
+      "end_line": 79,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 85,
+      "end_line": 93,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 103,
+      "end_line": 113,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 123,
+      "end_line": 134,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 140,
+      "end_line": 158,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 176,
+      "end_line": 184,
+      "reason": "fenced code/example; visible title retained when supplied"
+    }
+  ],
+  "transformations": [
+    {
+      "start_line": 160,
+      "end_line": 160,
+      "reason": "inline HTML link/code or Python role normalized to visible text"
+    }
+  ],
+  "retained_indented_lines": [],
+  "policy": "Complete page prose, headings, lists and visible code titles. Omit fenced code, reference destinations and presentation wrappers. Preserve admonition bodies; normalize links, inline code, bold and audited Python object roles.",
+  "indented_blocks_audit": "For these twelve pinned pages, unfenced indented lines were inspected: admonition bodies or list continuations, retained in full."
+}

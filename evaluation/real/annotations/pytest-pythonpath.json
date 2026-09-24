@@ -1,0 +1,446 @@
+{
+  "case_id": "pytest-pythonpath",
+  "review_status": "ai_reviewed_pending_human",
+  "annotator": "annotate_pytest",
+  "events": [
+    {
+      "old_indices": [
+        0
+      ],
+      "new_indices": [
+        0
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        1
+      ],
+      "new_indices": [
+        1
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        2
+      ],
+      "new_indices": [
+        2
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        3
+      ],
+      "new_indices": [
+        3
+      ],
+      "status": "modified",
+      "rationale": "Removes the temporal qualification and claim that importing often requires changing sys.path; retains the import-mode introduction."
+    },
+    {
+      "old_indices": [
+        4
+      ],
+      "new_indices": [
+        4
+      ],
+      "status": "modified",
+      "rationale": "The documented importing mechanism changes from the __import__ builtin to importlib.import_module."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        5
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [
+        5
+      ],
+      "new_indices": [
+        6
+      ],
+      "status": "modified",
+      "rationale": "Retains the uniqueness requirement, adds the explicit duplicate-name error behavior, and removes the sys.modules rationale."
+    },
+    {
+      "old_indices": [
+        6
+      ],
+      "new_indices": [
+        7
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        7
+      ],
+      "new_indices": [
+        8
+      ],
+      "status": "modified",
+      "rationale": "The append-mode importing mechanism changes from __import__ to importlib.import_module."
+    },
+    {
+      "old_indices": [
+        8
+      ],
+      "new_indices": [
+        9
+      ],
+      "status": "reworded",
+      "rationale": "Adds users to repair the phrasing without changing the installed-package import claim."
+    },
+    {
+      "old_indices": [
+        9
+      ],
+      "new_indices": [
+        10
+      ],
+      "status": "reworded",
+      "rationale": "The installed-versus-local behavior and src-layout recommendation remain; punctuation and reference-label spelling change."
+    },
+    {
+      "old_indices": [
+        10
+      ],
+      "new_indices": [
+        11
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        11
+      ],
+      "new_indices": [
+        12,
+        14,
+        26
+      ],
+      "status": "modified",
+      "rationale": "The importlib definition and unchanged-sys.path assertion split; the old claim that sys.modules is not changed is explicitly corrected by the later explanation that pytest adds the module to sys.modules."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        13
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [
+        12
+      ],
+      "new_indices": [
+        15,
+        17,
+        18
+      ],
+      "status": "modified",
+      "rationale": "The previous paragraph becomes separate benefit/drawback bullets; adds rootdir-based unique names and replaces package-based import advice with utility-module placement advice."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        16
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        19
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        20
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        21
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        22
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        23
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        24
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        25
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        27
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [
+        13
+      ],
+      "new_indices": [
+        28
+      ],
+      "status": "modified",
+      "rationale": "Reverses the intended default change: importlib was planned as default, but prepend will now remain the default."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        29
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        30
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        31
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        32
+      ],
+      "status": "added",
+      "rationale": "New heading, reference, or prose detail with no corresponding old passage."
+    },
+    {
+      "old_indices": [
+        14
+      ],
+      "new_indices": [
+        33
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        15
+      ],
+      "new_indices": [
+        34
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        16
+      ],
+      "new_indices": [
+        35
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        17
+      ],
+      "new_indices": [
+        36
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        18
+      ],
+      "new_indices": [
+        37
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        19
+      ],
+      "new_indices": [
+        38
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        20
+      ],
+      "new_indices": [
+        39
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        21
+      ],
+      "new_indices": [
+        40
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        22
+      ],
+      "new_indices": [
+        41
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        23
+      ],
+      "new_indices": [
+        42
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        24
+      ],
+      "new_indices": [
+        43
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        25
+      ],
+      "new_indices": [
+        44
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        26
+      ],
+      "new_indices": [
+        45
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        27
+      ],
+      "new_indices": [
+        46
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        28
+      ],
+      "new_indices": [
+        47
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        29
+      ],
+      "new_indices": [
+        48
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose; topic and surrounding discussion still correspond, including any relocation."
+    },
+    {
+      "old_indices": [
+        30
+      ],
+      "new_indices": [
+        49
+      ],
+      "status": "uncertain",
+      "rationale": "Only unresolved cross-reference identifiers cmdline and invoke-python remain after extraction; without their rendered labels/context, a semantic change cannot be established confidently."
+    }
+  ],
+  "reviewer": "sources",
+  "review_notes": [
+    "Independently read all 31 old and 50 new passages and all annotation events before model predictions. Retained all other statuses and groups, including old[12] to new[15,17,18]: name uniqueness, mutual-import limitation, and import-workaround advice are explicitly revised across those bullets. Retained unresolved cross-reference-only change as uncertain.",
+    "Grouping disagreement resolved before predictions: previous modified old[11] to new[12,14] plus added new[26] became one modified group old[11] to new[12,14,26]. The old paragraph explicitly claims sys.modules is unchanged; new[26] explicitly says the module is added there. This is a revised assertion, not an unrelated addition. Original annotator annotate_pytest agreed. Other newly added procedural details remain separate."
+  ]
+}

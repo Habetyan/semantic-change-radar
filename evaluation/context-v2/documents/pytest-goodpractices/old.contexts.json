@@ -1,0 +1,848 @@
+[
+  {
+    "headings": [],
+    "scope": [],
+    "section": [],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 4,
+    "line_end": 4,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 7,
+    "line_end": 7,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Install package with pip"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 10,
+    "line_end": 13,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Install package with pip"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 15,
+    "line_end": 15,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Install package with pip"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 23,
+    "line_end": 23,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Install package with pip"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      1
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 29,
+    "line_end": 31,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 36,
+    "line_end": 36,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Conventions for Python test discovery"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      6
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 39,
+    "line_end": 39,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Conventions for Python test discovery"
+    ],
+    "scope": [
+      "pytest implements the following standard test discovery:"
+    ],
+    "section": [
+      0,
+      6
+    ],
+    "scope_indices": [
+      7
+    ],
+    "kind": "list",
+    "line_start": 41,
+    "line_end": 43,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Conventions for Python test discovery"
+    ],
+    "scope": [
+      "pytest implements the following standard test discovery:"
+    ],
+    "section": [
+      0,
+      6
+    ],
+    "scope_indices": [
+      7
+    ],
+    "kind": "list",
+    "line_start": 44,
+    "line_end": 44,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Conventions for Python test discovery"
+    ],
+    "scope": [
+      "pytest implements the following standard test discovery:"
+    ],
+    "section": [
+      0,
+      6
+    ],
+    "scope_indices": [
+      7
+    ],
+    "kind": "list",
+    "line_start": 45,
+    "line_end": 45,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Conventions for Python test discovery"
+    ],
+    "scope": [
+      "pytest implements the following standard test discovery:"
+    ],
+    "section": [
+      0,
+      6
+    ],
+    "scope_indices": [
+      7
+    ],
+    "kind": "list",
+    "line_start": 46,
+    "line_end": 46,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Conventions for Python test discovery"
+    ],
+    "scope": [
+      "pytest implements the following standard test discovery:",
+      "* From those files, collect test items:"
+    ],
+    "section": [
+      0,
+      6
+    ],
+    "scope_indices": [
+      7,
+      11
+    ],
+    "kind": "list",
+    "line_start": 48,
+    "line_end": 48,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Conventions for Python test discovery"
+    ],
+    "scope": [
+      "pytest implements the following standard test discovery:",
+      "* From those files, collect test items:"
+    ],
+    "section": [
+      0,
+      6
+    ],
+    "scope_indices": [
+      7,
+      11
+    ],
+    "kind": "list",
+    "line_start": 49,
+    "line_end": 49,
+    "indent": 2
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Conventions for Python test discovery"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      6
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 51,
+    "line_end": 51,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Conventions for Python test discovery"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      6
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 53,
+    "line_end": 54,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 57,
+    "line_end": 57,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 60,
+    "line_end": 60,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 62,
+    "line_end": 62,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests outside application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      18
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 65,
+    "line_end": 67,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests outside application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      18
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 81,
+    "line_end": 81,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests outside application code"
+    ],
+    "scope": [
+      "This has the following benefits:"
+    ],
+    "section": [
+      0,
+      16,
+      18
+    ],
+    "scope_indices": [
+      20
+    ],
+    "kind": "list",
+    "line_start": 83,
+    "line_end": 83,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests outside application code"
+    ],
+    "scope": [
+      "This has the following benefits:"
+    ],
+    "section": [
+      0,
+      16,
+      18
+    ],
+    "scope_indices": [
+      20
+    ],
+    "kind": "list",
+    "line_start": 84,
+    "line_end": 84,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests outside application code"
+    ],
+    "scope": [
+      "This has the following benefits:"
+    ],
+    "section": [
+      0,
+      16,
+      18
+    ],
+    "scope_indices": [
+      20
+    ],
+    "kind": "list",
+    "line_start": 85,
+    "line_end": 87,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests outside application code"
+    ],
+    "scope": [
+      "This has the following benefits:",
+      "* If you don't have a setup.py file and are relying on the fact that Python by default puts the current directory in sys.path to import your package, you can execute python -m pytest to execute the tests against the local copy directly, without using pip."
+    ],
+    "section": [
+      0,
+      16,
+      18
+    ],
+    "scope_indices": [
+      20,
+      23
+    ],
+    "kind": "paragraph",
+    "line_start": 91,
+    "line_end": 92,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests outside application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      18
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 94,
+    "line_end": 99,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests outside application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      18
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 101,
+    "line_end": 102,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests outside application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      18
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 118,
+    "line_end": 121,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests outside application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      18
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 123,
+    "line_end": 124,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests outside application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      18
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 128,
+    "line_end": 129,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests outside application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      18
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 149,
+    "line_end": 150,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests outside application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      18
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 153,
+    "line_end": 156,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests outside application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      18
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 158,
+    "line_end": 158,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 161,
+    "line_end": 161,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests as part of application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 164,
+    "line_end": 166,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests as part of application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 181,
+    "line_end": 181,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests as part of application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 187,
+    "line_end": 187,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests as part of application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 189,
+    "line_end": 189,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests as part of application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 194,
+    "line_end": 200,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests as part of application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 206,
+    "line_end": 208,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests as part of application code"
+    ],
+    "scope": [
+      "In prepend and append import-modes, if pytest finds a \"a/b/test_module.py\" test file while recursing into the filesystem it determines the import name as follows:"
+    ],
+    "section": [
+      0,
+      16,
+      33
+    ],
+    "scope_indices": [
+      39
+    ],
+    "kind": "list",
+    "line_start": 210,
+    "line_end": 213,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests as part of application code"
+    ],
+    "scope": [
+      "In prepend and append import-modes, if pytest finds a \"a/b/test_module.py\" test file while recursing into the filesystem it determines the import name as follows:"
+    ],
+    "section": [
+      0,
+      16,
+      33
+    ],
+    "scope_indices": [
+      39
+    ],
+    "kind": "list",
+    "line_start": 215,
+    "line_end": 216,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests as part of application code"
+    ],
+    "scope": [
+      "In prepend and append import-modes, if pytest finds a \"a/b/test_module.py\" test file while recursing into the filesystem it determines the import name as follows:"
+    ],
+    "section": [
+      0,
+      16,
+      33
+    ],
+    "scope_indices": [
+      39
+    ],
+    "kind": "list",
+    "line_start": 218,
+    "line_end": 221,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests as part of application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 223,
+    "line_end": 226,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "Choosing a test layout / import rules",
+      "Tests as part of application code"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      16,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 228,
+    "line_end": 230,
+    "indent": 4
+  },
+  {
+    "headings": [
+      "Good Integration Practices"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 239,
+    "line_end": 239,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Good Integration Practices",
+      "tox"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      45
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 242,
+    "line_end": 250,
+    "indent": 0
+  }
+]

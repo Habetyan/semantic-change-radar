@@ -1,0 +1,2217 @@
+{
+  "created_at": "2026-09-24T17:54:34.317223+00:00",
+  "scope": "Saved predictions only; no engine changes or inference reruns. Provisional AI labels, not human validation.",
+  "checks": {
+    "docs/v3-engine-freeze.json": {
+      "checked": 7,
+      "mismatches": []
+    },
+    "docs/blind-v3-freeze.json": {
+      "checked": 93,
+      "mismatches": []
+    },
+    "archive": {
+      "members_checked": 31,
+      "mismatches": []
+    }
+  },
+  "runs": {
+    "v3-blind-lexical-baseline": {
+      "artifacts_sha256": {
+        "summary.json": "dbc005a5ce7a13eacd203354ae8935857adc06daffdd20f995ddae49b4f9c06c",
+        "predictions.jsonl": "4ed46f67a0c2307e59d00dfa4e72e5287039c092dbb1485f7623326f84d2c6ca"
+      },
+      "checks_failed": [],
+      "counts": {
+        "gold_unchanged": 210,
+        "gold_modified": 11,
+        "gold_reworded": 8,
+        "gold_added": 75,
+        "old_passages": 231,
+        "new_passages": 304,
+        "gold_removed": 2
+      },
+      "successful_cases": 6,
+      "failed_cases": 0,
+      "all_event_material": {
+        "true_positive": 84,
+        "predicted": 95,
+        "expected": 88,
+        "precision": 0.8842105263157894,
+        "recall": 0.9545454545454546,
+        "f1": 0.9180327868852459
+      },
+      "changed_alignment": {
+        "true_positive": 18,
+        "predicted": 20,
+        "expected": 19,
+        "precision": 0.9,
+        "recall": 0.9473684210526315,
+        "f1": 0.9230769230769231
+      },
+      "paired_only_material": {
+        "true_positive": 9,
+        "predicted": 16,
+        "expected": 11,
+        "precision": 0.5625,
+        "recall": 0.8181818181818182,
+        "f1": 0.6666666666666666
+      },
+      "paired_material_outcomes": {
+        "modified": 9,
+        "misaligned": 1,
+        "unchanged": 1
+      },
+      "split_merge_correspondence": {
+        "recovered": 0,
+        "expected": 0,
+        "recall": null
+      },
+      "risky_singleton_misses": 1,
+      "raw_reviews": 0,
+      "scope_review_records": 0,
+      "scope_owner_groups": 0,
+      "other_reviews": 0,
+      "ui_review_tasks": 0,
+      "missed_paired_material_or_failures": [
+        {
+          "case": "starlette-config",
+          "gold_old": [
+            13
+          ],
+          "gold_new": [
+            13
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "Replaces a generic URL representation claim with an explicit recommendation to use DatabaseURL from the databases package to prevent URL leakage in logs.",
+          "intersecting_predictions": [
+            {
+              "old": [],
+              "new": [
+                13
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [
+                13
+              ],
+              "new": [],
+              "status": "removed",
+              "category": "Removed passage"
+            }
+          ]
+        },
+        {
+          "case": "black-future-style",
+          "gold_old": [
+            10
+          ],
+          "gold_new": [
+            26
+          ],
+          "gold_status": "modified",
+          "prediction": "unchanged",
+          "rationale": "The full-page scope changes string_processing availability from --preview to --unstable, explicitly identified by new passages 3 and 14-15, although the body wording is identical.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                10
+              ],
+              "new": [
+                26
+              ],
+              "status": "unchanged",
+              "category": "Unchanged"
+            }
+          ]
+        }
+      ]
+    },
+    "v3-blind-semantic-baseline": {
+      "artifacts_sha256": {
+        "summary.json": "79c6a0beee6902c5511fdd373d6c47608008a4743e8a58ece367ef02fd4c8344",
+        "predictions.jsonl": "639a6d66de4f2de8068659481f09327d7427aa753f1ca03cc205241808b7e25b"
+      },
+      "checks_failed": [],
+      "counts": {
+        "gold_unchanged": 210,
+        "gold_modified": 11,
+        "gold_reworded": 8,
+        "gold_added": 75,
+        "old_passages": 231,
+        "new_passages": 304,
+        "gold_removed": 2
+      },
+      "successful_cases": 6,
+      "failed_cases": 0,
+      "all_event_material": {
+        "true_positive": 80,
+        "predicted": 85,
+        "expected": 88,
+        "precision": 0.9411764705882353,
+        "recall": 0.9090909090909091,
+        "f1": 0.9248554913294799
+      },
+      "changed_alignment": {
+        "true_positive": 18,
+        "predicted": 20,
+        "expected": 19,
+        "precision": 0.9,
+        "recall": 0.9473684210526315,
+        "f1": 0.9230769230769231
+      },
+      "paired_only_material": {
+        "true_positive": 5,
+        "predicted": 6,
+        "expected": 11,
+        "precision": 0.8333333333333334,
+        "recall": 0.45454545454545453,
+        "f1": 0.5882352941176471
+      },
+      "paired_material_outcomes": {
+        "modified": 5,
+        "misaligned": 1,
+        "unchanged": 1,
+        "uncertain": 1,
+        "reworded": 3
+      },
+      "split_merge_correspondence": {
+        "recovered": 0,
+        "expected": 0,
+        "recall": null
+      },
+      "risky_singleton_misses": 4,
+      "raw_reviews": 2,
+      "scope_review_records": 0,
+      "scope_owner_groups": 0,
+      "other_reviews": 2,
+      "ui_review_tasks": 2,
+      "missed_paired_material_or_failures": [
+        {
+          "case": "starlette-config",
+          "gold_old": [
+            13
+          ],
+          "gold_new": [
+            13
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "Replaces a generic URL representation claim with an explicit recommendation to use DatabaseURL from the databases package to prevent URL leakage in logs.",
+          "intersecting_predictions": [
+            {
+              "old": [],
+              "new": [
+                13
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [
+                13
+              ],
+              "new": [],
+              "status": "removed",
+              "category": "Removed passage"
+            }
+          ]
+        },
+        {
+          "case": "black-future-style",
+          "gold_old": [
+            10
+          ],
+          "gold_new": [
+            26
+          ],
+          "gold_status": "modified",
+          "prediction": "unchanged",
+          "rationale": "The full-page scope changes string_processing availability from --preview to --unstable, explicitly identified by new passages 3 and 14-15, although the body wording is identical.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                10
+              ],
+              "new": [
+                26
+              ],
+              "status": "unchanged",
+              "category": "Unchanged"
+            }
+          ]
+        },
+        {
+          "case": "uv-cache",
+          "gold_old": [
+            14
+          ],
+          "gold_new": [
+            26
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Restricts always-reinstall guidance to metadata not covered by cache-keys and identifies the tool.uv.reinstall-package list explicitly.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                14
+              ],
+              "new": [
+                26
+              ],
+              "status": "uncertain",
+              "category": "Needs review"
+            }
+          ]
+        },
+        {
+          "case": "uv-cache",
+          "gold_old": [
+            13
+          ],
+          "gold_new": [
+            13
+          ],
+          "gold_status": "modified",
+          "prediction": "reworded",
+          "rationale": "Adds rebuilding, specifies the directory root, and makes the file-change rule a default rather than unqualified behavior.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                13
+              ],
+              "new": [
+                13
+              ],
+              "status": "reworded",
+              "category": "Wording only"
+            }
+          ]
+        },
+        {
+          "case": "uv-cache",
+          "gold_old": [
+            29
+          ],
+          "gold_new": [
+            41
+          ],
+          "gold_status": "modified",
+          "prediction": "reworded",
+          "rationale": "Adds unzipped source distributions to the artifacts removed by uv cache prune --ci.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                29
+              ],
+              "new": [
+                41
+              ],
+              "status": "reworded",
+              "category": "Wording only"
+            }
+          ]
+        },
+        {
+          "case": "uv-cache",
+          "gold_old": [
+            10
+          ],
+          "gold_new": [
+            10
+          ],
+          "gold_status": "modified",
+          "prediction": "reworded",
+          "rationale": "Corrects the documented option name from --refresh-dependency to --refresh-package; the command users are told to pass changes.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                10
+              ],
+              "new": [
+                10
+              ],
+              "status": "reworded",
+              "category": "Wording only"
+            }
+          ]
+        }
+      ]
+    },
+    "v3-blind-semantic-archived_v2": {
+      "artifacts_sha256": {
+        "summary.json": "6ca96a49d54e2054f66b984c3fae4028438d5191e1cad2c55abadd29b02688bb",
+        "predictions.jsonl": "32d93b7ed89402011f520825762069f25ffb625f0cf16bc8b674911fbe40be34"
+      },
+      "checks_failed": [],
+      "counts": {
+        "gold_unchanged": 210,
+        "gold_modified": 11,
+        "gold_reworded": 8,
+        "gold_added": 75,
+        "old_passages": 231,
+        "new_passages": 304,
+        "gold_removed": 2
+      },
+      "successful_cases": 6,
+      "failed_cases": 0,
+      "all_event_material": {
+        "true_positive": 81,
+        "predicted": 85,
+        "expected": 88,
+        "precision": 0.9529411764705882,
+        "recall": 0.9204545454545454,
+        "f1": 0.9364161849710982
+      },
+      "changed_alignment": {
+        "true_positive": 18,
+        "predicted": 19,
+        "expected": 19,
+        "precision": 0.9473684210526315,
+        "recall": 0.9473684210526315,
+        "f1": 0.9473684210526315
+      },
+      "paired_only_material": {
+        "true_positive": 5,
+        "predicted": 6,
+        "expected": 11,
+        "precision": 0.8333333333333334,
+        "recall": 0.45454545454545453,
+        "f1": 0.5882352941176471
+      },
+      "paired_material_outcomes": {
+        "modified": 5,
+        "misaligned": 1,
+        "unchanged": 1,
+        "uncertain": 4
+      },
+      "split_merge_correspondence": {
+        "recovered": 0,
+        "expected": 0,
+        "recall": null
+      },
+      "risky_singleton_misses": 1,
+      "raw_reviews": 9,
+      "scope_review_records": 0,
+      "scope_owner_groups": 0,
+      "other_reviews": 9,
+      "ui_review_tasks": 9,
+      "missed_paired_material_or_failures": [
+        {
+          "case": "starlette-config",
+          "gold_old": [
+            13
+          ],
+          "gold_new": [
+            13
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "Replaces a generic URL representation claim with an explicit recommendation to use DatabaseURL from the databases package to prevent URL leakage in logs.",
+          "intersecting_predictions": [
+            {
+              "old": [],
+              "new": [
+                13
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [
+                13
+              ],
+              "new": [],
+              "status": "removed",
+              "category": "Removed passage"
+            }
+          ]
+        },
+        {
+          "case": "black-future-style",
+          "gold_old": [
+            10
+          ],
+          "gold_new": [
+            26
+          ],
+          "gold_status": "modified",
+          "prediction": "unchanged",
+          "rationale": "The full-page scope changes string_processing availability from --preview to --unstable, explicitly identified by new passages 3 and 14-15, although the body wording is identical.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                10
+              ],
+              "new": [
+                26
+              ],
+              "status": "unchanged",
+              "category": "Unchanged"
+            }
+          ]
+        },
+        {
+          "case": "uv-cache",
+          "gold_old": [
+            14
+          ],
+          "gold_new": [
+            26
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Restricts always-reinstall guidance to metadata not covered by cache-keys and identifies the tool.uv.reinstall-package list explicitly.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                14
+              ],
+              "new": [
+                26
+              ],
+              "status": "uncertain",
+              "category": "Needs review"
+            }
+          ]
+        },
+        {
+          "case": "uv-cache",
+          "gold_old": [
+            13
+          ],
+          "gold_new": [
+            13
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Adds rebuilding, specifies the directory root, and makes the file-change rule a default rather than unqualified behavior.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                13
+              ],
+              "new": [
+                13
+              ],
+              "status": "uncertain",
+              "category": "Changed detail needs review"
+            }
+          ]
+        },
+        {
+          "case": "uv-cache",
+          "gold_old": [
+            29
+          ],
+          "gold_new": [
+            41
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Adds unzipped source distributions to the artifacts removed by uv cache prune --ci.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                29
+              ],
+              "new": [
+                41
+              ],
+              "status": "uncertain",
+              "category": "Changed detail needs review"
+            }
+          ]
+        },
+        {
+          "case": "uv-cache",
+          "gold_old": [
+            10
+          ],
+          "gold_new": [
+            10
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Corrects the documented option name from --refresh-dependency to --refresh-package; the command users are told to pass changes.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                10
+              ],
+              "new": [
+                10
+              ],
+              "status": "uncertain",
+              "category": "Changed detail needs review"
+            }
+          ]
+        }
+      ]
+    },
+    "v3-blind-semantic-verified": {
+      "artifacts_sha256": {
+        "summary.json": "1619843e71687a69b1f1a28fdb5a059925290f8225e650695771d1bb2a1c1d35",
+        "predictions.jsonl": "0317ed2041d713ff0eadb1d60c5b5a9428f43d6c86c386d0ae19feabaca0d990"
+      },
+      "checks_failed": [],
+      "counts": {
+        "gold_unchanged": 210,
+        "gold_modified": 11,
+        "gold_reworded": 8,
+        "gold_added": 75,
+        "old_passages": 231,
+        "new_passages": 304,
+        "gold_removed": 2
+      },
+      "successful_cases": 6,
+      "failed_cases": 0,
+      "all_event_material": {
+        "true_positive": 81,
+        "predicted": 85,
+        "expected": 88,
+        "precision": 0.9529411764705882,
+        "recall": 0.9204545454545454,
+        "f1": 0.9364161849710982
+      },
+      "changed_alignment": {
+        "true_positive": 18,
+        "predicted": 19,
+        "expected": 19,
+        "precision": 0.9473684210526315,
+        "recall": 0.9473684210526315,
+        "f1": 0.9473684210526315
+      },
+      "paired_only_material": {
+        "true_positive": 5,
+        "predicted": 6,
+        "expected": 11,
+        "precision": 0.8333333333333334,
+        "recall": 0.45454545454545453,
+        "f1": 0.5882352941176471
+      },
+      "paired_material_outcomes": {
+        "modified": 5,
+        "misaligned": 1,
+        "unchanged": 1,
+        "uncertain": 4
+      },
+      "split_merge_correspondence": {
+        "recovered": 0,
+        "expected": 0,
+        "recall": null
+      },
+      "risky_singleton_misses": 1,
+      "raw_reviews": 9,
+      "scope_review_records": 3,
+      "scope_owner_groups": 1,
+      "other_reviews": 6,
+      "ui_review_tasks": 7,
+      "missed_paired_material_or_failures": [
+        {
+          "case": "starlette-config",
+          "gold_old": [
+            13
+          ],
+          "gold_new": [
+            13
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "Replaces a generic URL representation claim with an explicit recommendation to use DatabaseURL from the databases package to prevent URL leakage in logs.",
+          "intersecting_predictions": [
+            {
+              "old": [],
+              "new": [
+                13
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [
+                13
+              ],
+              "new": [],
+              "status": "removed",
+              "category": "Removed passage"
+            }
+          ]
+        },
+        {
+          "case": "black-future-style",
+          "gold_old": [
+            10
+          ],
+          "gold_new": [
+            26
+          ],
+          "gold_status": "modified",
+          "prediction": "unchanged",
+          "rationale": "The full-page scope changes string_processing availability from --preview to --unstable, explicitly identified by new passages 3 and 14-15, although the body wording is identical.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                10
+              ],
+              "new": [
+                26
+              ],
+              "status": "unchanged",
+              "category": "Unchanged"
+            }
+          ]
+        },
+        {
+          "case": "uv-cache",
+          "gold_old": [
+            14
+          ],
+          "gold_new": [
+            26
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Restricts always-reinstall guidance to metadata not covered by cache-keys and identifies the tool.uv.reinstall-package list explicitly.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                14
+              ],
+              "new": [
+                26
+              ],
+              "status": "uncertain",
+              "category": "Needs review"
+            }
+          ]
+        },
+        {
+          "case": "uv-cache",
+          "gold_old": [
+            13
+          ],
+          "gold_new": [
+            13
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Adds rebuilding, specifies the directory root, and makes the file-change rule a default rather than unqualified behavior.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                13
+              ],
+              "new": [
+                13
+              ],
+              "status": "uncertain",
+              "category": "Changed detail needs review"
+            }
+          ]
+        },
+        {
+          "case": "uv-cache",
+          "gold_old": [
+            29
+          ],
+          "gold_new": [
+            41
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Adds unzipped source distributions to the artifacts removed by uv cache prune --ci.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                29
+              ],
+              "new": [
+                41
+              ],
+              "status": "uncertain",
+              "category": "Changed detail needs review"
+            }
+          ]
+        },
+        {
+          "case": "uv-cache",
+          "gold_old": [
+            10
+          ],
+          "gold_new": [
+            10
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Corrects the documented option name from --refresh-dependency to --refresh-package; the command users are told to pass changes.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                10
+              ],
+              "new": [
+                10
+              ],
+              "status": "uncertain",
+              "category": "Changed detail needs review"
+            }
+          ]
+        }
+      ],
+      "additional_error_details": [
+        {
+          "type": "false_material_event",
+          "case": "starlette-config",
+          "old_indices": [],
+          "new_indices": [
+            13
+          ],
+          "predicted_status": "added",
+          "gold": null,
+          "old_text": "",
+          "new_text": "Tip: You can use DatabaseURL from databases package here to store database URLs and avoid leaking them in the logs."
+        },
+        {
+          "type": "false_material_event",
+          "case": "starlette-config",
+          "old_indices": [
+            13
+          ],
+          "new_indices": [],
+          "predicted_status": "removed",
+          "gold": null,
+          "old_text": "Similarly, the URL class will hide any password component in their representations.",
+          "new_text": ""
+        },
+        {
+          "type": "false_material_event",
+          "case": "black-future-style",
+          "old_indices": [
+            5
+          ],
+          "new_indices": [
+            47
+          ],
+          "predicted_status": "modified",
+          "gold": {
+            "new_indices": [
+              47
+            ],
+            "old_indices": [
+              5
+            ],
+            "rationale": "Both versions describe future, not implemented formatting; the new wording makes that future condition explicit.",
+            "status": "reworded"
+          },
+          "old_text": "So _Black_ will eventually format it like this:",
+          "new_text": "So _Black_ will, when we implement this, format it like this:"
+        },
+        {
+          "type": "missed_addition_or_removal",
+          "case": "uv-cache",
+          "gold": {
+            "new_indices": [
+              16
+            ],
+            "old_indices": [],
+            "rationale": "Adds this visible prose unit in its document context: pyproject.toml:",
+            "status": "added"
+          }
+        },
+        {
+          "type": "false_material_event",
+          "case": "uv-cache",
+          "old_indices": [],
+          "new_indices": [
+            27
+          ],
+          "predicted_status": "added",
+          "gold": null,
+          "old_text": "",
+          "new_text": "pyproject.toml:"
+        }
+      ]
+    },
+    "v3-dev-semantic-verified": {
+      "artifacts_sha256": {
+        "summary.json": "4a0511429440b16797b47bebff35c828a349021ea329b21cc47647cb872bbe82",
+        "predictions.jsonl": "9eea4ac245ba2cc6a9f02bb7008b7d4f350bfc5b19d6db838e5d0f497aa6816a"
+      },
+      "checks_failed": [],
+      "counts": {
+        "gold_reworded": 18,
+        "gold_modified": 25,
+        "gold_added": 65,
+        "gold_uncertain": 2,
+        "gold_removed": 6,
+        "old_passages": 256,
+        "new_passages": 324,
+        "gold_unchanged": 204
+      },
+      "successful_cases": 7,
+      "failed_cases": 1,
+      "all_event_material": {
+        "true_positive": 80,
+        "predicted": 117,
+        "expected": 96,
+        "precision": 0.6837606837606838,
+        "recall": 0.8333333333333334,
+        "f1": 0.7511737089201879
+      },
+      "changed_alignment": {
+        "true_positive": 35,
+        "predicted": 36,
+        "expected": 56,
+        "precision": 0.9722222222222222,
+        "recall": 0.625,
+        "f1": 0.7608695652173912
+      },
+      "paired_only_material": {
+        "true_positive": 10,
+        "predicted": 21,
+        "expected": 25,
+        "precision": 0.47619047619047616,
+        "recall": 0.4,
+        "f1": 0.43478260869565216
+      },
+      "paired_material_outcomes": {
+        "misaligned": 9,
+        "uncertain": 6,
+        "modified": 10
+      },
+      "split_merge_correspondence": {
+        "recovered": 0,
+        "expected": 8,
+        "recall": 0.0
+      },
+      "risky_singleton_misses": 0,
+      "raw_reviews": 45,
+      "scope_review_records": 32,
+      "scope_owner_groups": 7,
+      "other_reviews": 13,
+      "ui_review_tasks": 20,
+      "missed_paired_material_or_failures": [
+        {
+          "case": "flask-deploying",
+          "gold_old": [
+            2
+          ],
+          "gold_new": [
+            4,
+            7
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The WSGI application definition and guidance for unlisted servers are split across two paragraphs; HTTP-to-WSGI translation is explained and server-selection advice replaces consulting an unlisted server manual.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                2
+              ],
+              "new": [
+                4
+              ],
+              "status": "modified",
+              "category": "Negation change"
+            },
+            {
+              "old": [],
+              "new": [
+                7
+              ],
+              "status": "added",
+              "category": "Added passage"
+            }
+          ]
+        },
+        {
+          "case": "flask-deploying",
+          "gold_old": [
+            1
+          ],
+          "gold_new": [
+            1,
+            2
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The original warning is split and expanded: production explicitly includes private or single-user deployments, and security and stability concerns join scaling; debugger and reloader restrictions are added.",
+          "intersecting_predictions": [
+            {
+              "old": [],
+              "new": [
+                1
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [],
+              "new": [
+                2
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [
+                1
+              ],
+              "new": [],
+              "status": "removed",
+              "category": "Removed passage"
+            }
+          ]
+        },
+        {
+          "case": "flask-design",
+          "gold_old": [
+            17
+          ],
+          "gold_new": [
+            17
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Removes the assertion that Jinja2 uses Unicode for all operations; the remaining comparison is reflowed.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                17
+              ],
+              "new": [
+                17
+              ],
+              "status": "uncertain",
+              "category": "Changed detail needs review"
+            }
+          ]
+        },
+        {
+          "case": "pytest-goodpractices",
+          "gold_old": [
+            23
+          ],
+          "gold_new": [
+            29
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Local test execution guidance changes its condition from lacking setup.py to using neither an editable install nor a src layout.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                23
+              ],
+              "new": [
+                29
+              ],
+              "status": "uncertain",
+              "category": "Needs review"
+            }
+          ]
+        },
+        {
+          "case": "pytest-goodpractices",
+          "gold_old": [
+            29,
+            32
+          ],
+          "gold_new": [
+            25
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The two src-layout recommendations merge into a general recommendation, especially for prepend, instead of the earlier narrower problematic-layout context.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                29
+              ],
+              "new": [
+                25
+              ],
+              "status": "modified",
+              "category": "Condition change"
+            },
+            {
+              "old": [
+                32
+              ],
+              "new": [],
+              "status": "removed",
+              "category": "Removed passage"
+            }
+          ]
+        },
+        {
+          "case": "pytest-goodpractices",
+          "gold_old": [
+            4
+          ],
+          "gold_new": [
+            4,
+            5
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The package-name explanation and editable-install instruction split into separate paragraphs; the explanation now includes PACKAGEVERSION.",
+          "intersecting_predictions": [
+            {
+              "old": [],
+              "new": [
+                4
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [
+                4
+              ],
+              "new": [
+                5
+              ],
+              "status": "modified",
+              "category": "Scope change"
+            }
+          ]
+        },
+        {
+          "case": "pytest-goodpractices",
+          "gold_old": [
+            3
+          ],
+          "gold_new": [
+            3
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The recommended package setup file changes from setup.py to pyproject.toml and adds a packaging tutorial reference.",
+          "intersecting_predictions": [
+            {
+              "old": [],
+              "new": [
+                3
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [
+                3
+              ],
+              "new": [],
+              "status": "removed",
+              "category": "Removed passage"
+            }
+          ]
+        },
+        {
+          "case": "pytest-goodpractices",
+          "gold_old": [
+            25
+          ],
+          "gold_new": [
+            44,
+            45,
+            46
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The prepend/default explanation and unique-name restriction are split and relocated; the rewrite adds an explicit recommendation of importlib for new projects and historical rationale.",
+          "intersecting_predictions": [
+            {
+              "old": [],
+              "new": [
+                44
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [
+                25
+              ],
+              "new": [
+                45
+              ],
+              "status": "modified",
+              "category": "Condition change"
+            },
+            {
+              "old": [],
+              "new": [
+                46
+              ],
+              "status": "added",
+              "category": "Added passage"
+            }
+          ]
+        },
+        {
+          "case": "pytest-goodpractices",
+          "gold_old": [
+            31
+          ],
+          "gold_new": [
+            24,
+            50
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The former trial recommendation is split into a new-project recommendation and a relocated drawback explanation; the assertion about not changing sys.modules is removed.",
+          "intersecting_predictions": [
+            {
+              "old": [],
+              "new": [
+                24
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [
+                31
+              ],
+              "new": [
+                50
+              ],
+              "status": "modified",
+              "category": "Condition change"
+            }
+          ]
+        },
+        {
+          "case": "pytest-goodpractices",
+          "gold_old": [
+            13
+          ],
+          "gold_new": [
+            14
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Explicitly adds discovery of staticmethod and classmethods to the existing class-method guidance.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                13
+              ],
+              "new": [
+                14
+              ],
+              "status": "uncertain",
+              "category": "Needs review"
+            }
+          ]
+        },
+        {
+          "case": "pytest-pythonpath",
+          "gold_old": [
+            4
+          ],
+          "gold_new": [
+            4
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "The documented importing mechanism changes from the __import__ builtin to importlib.import_module.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                4
+              ],
+              "new": [
+                4
+              ],
+              "status": "uncertain",
+              "category": "Source scope needs review"
+            }
+          ]
+        },
+        {
+          "case": "pytest-pythonpath",
+          "gold_old": [
+            7
+          ],
+          "gold_new": [
+            8
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "The append-mode importing mechanism changes from __import__ to importlib.import_module.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                7
+              ],
+              "new": [
+                8
+              ],
+              "status": "uncertain",
+              "category": "Source scope needs review"
+            }
+          ]
+        },
+        {
+          "case": "pytest-pythonpath",
+          "gold_old": [
+            12
+          ],
+          "gold_new": [
+            15,
+            17,
+            18
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The previous paragraph becomes separate benefit/drawback bullets; adds rootdir-based unique names and replaces package-based import advice with utility-module placement advice.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                12
+              ],
+              "new": [
+                5
+              ],
+              "status": "uncertain",
+              "category": "Weak alignment"
+            },
+            {
+              "old": [],
+              "new": [
+                15
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [],
+              "new": [
+                17
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [],
+              "new": [
+                18
+              ],
+              "status": "added",
+              "category": "Added passage"
+            }
+          ]
+        },
+        {
+          "case": "pytest-pythonpath",
+          "gold_old": [
+            13
+          ],
+          "gold_new": [
+            28
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Reverses the intended default change: importlib was planned as default, but prepend will now remain the default.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                13
+              ],
+              "new": [
+                28
+              ],
+              "status": "uncertain",
+              "category": "Source scope needs review"
+            }
+          ]
+        },
+        {
+          "case": "pytest-pythonpath",
+          "gold_old": [
+            11
+          ],
+          "gold_new": [
+            12,
+            14,
+            26
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The importlib definition and unchanged-sys.path assertion split; the old claim that sys.modules is not changed is explicitly corrected by the later explanation that pytest adds the module to sys.modules.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                11
+              ],
+              "new": [
+                12
+              ],
+              "status": "modified",
+              "category": "Quantity or date change"
+            },
+            {
+              "old": [],
+              "new": [
+                14
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [],
+              "new": [
+                26
+              ],
+              "status": "added",
+              "category": "Added passage"
+            }
+          ]
+        },
+        {
+          "case": "requests-advanced",
+          "failure": "ValueError: Each document must contain at most 80 passages.",
+          "stage": null
+        }
+      ]
+    },
+    "v3-known-fresh-semantic-verified": {
+      "artifacts_sha256": {
+        "summary.json": "30cc63ee82747c2dd773eae1f3a62ac9ef908c1499cdf524a07e333908b5811f",
+        "predictions.jsonl": "24aeb6dcec776cc3a8fdba9354df46bb871fceb9ead3ab8c1fb15b283487a727"
+      },
+      "checks_failed": [],
+      "counts": {
+        "gold_unchanged": 70,
+        "gold_reworded": 5,
+        "gold_modified": 7,
+        "gold_added": 80,
+        "old_passages": 85,
+        "new_passages": 163,
+        "gold_removed": 3
+      },
+      "successful_cases": 3,
+      "failed_cases": 0,
+      "all_event_material": {
+        "true_positive": 86,
+        "predicted": 88,
+        "expected": 90,
+        "precision": 0.9772727272727273,
+        "recall": 0.9555555555555556,
+        "f1": 0.9662921348314608
+      },
+      "changed_alignment": {
+        "true_positive": 13,
+        "predicted": 14,
+        "expected": 13,
+        "precision": 0.9285714285714286,
+        "recall": 1.0,
+        "f1": 0.962962962962963
+      },
+      "paired_only_material": {
+        "true_positive": 5,
+        "predicted": 7,
+        "expected": 7,
+        "precision": 0.7142857142857143,
+        "recall": 0.7142857142857143,
+        "f1": 0.7142857142857143
+      },
+      "paired_material_outcomes": {
+        "modified": 5,
+        "uncertain": 2
+      },
+      "split_merge_correspondence": {
+        "recovered": 1,
+        "expected": 1,
+        "recall": 1.0
+      },
+      "risky_singleton_misses": 0,
+      "raw_reviews": 3,
+      "scope_review_records": 0,
+      "scope_owner_groups": 0,
+      "other_reviews": 3,
+      "ui_review_tasks": 3,
+      "missed_paired_material_or_failures": [
+        {
+          "case": "httpx-compatibility",
+          "gold_old": [
+            21
+          ],
+          "gold_new": [
+            56
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Adds content to the arguments that the named HTTP-method helpers do not support.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                21
+              ],
+              "new": [
+                56
+              ],
+              "status": "uncertain",
+              "category": "Changed detail needs review"
+            }
+          ]
+        },
+        {
+          "case": "httpx-compatibility",
+          "gold_old": [
+            16
+          ],
+          "gold_new": [
+            42
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "The exposed text attribute changes from request.text to response.text. Although likely correcting a documentation error, the named API object and asserted behavior differ.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                16
+              ],
+              "new": [
+                42
+              ],
+              "status": "uncertain",
+              "category": "Needs review"
+            }
+          ]
+        }
+      ]
+    },
+    "v2-dev-semantic-verified": {
+      "artifacts_sha256": {
+        "summary.json": "a1902cc14470fe21cb0819fbddf5d4e68bdd3e3a6bf4959409e9b0f88dddd585",
+        "predictions.jsonl": "9b9db008076d7f04f6af1ca345ac5c27b4af9f884656a376d043f011fad6be61"
+      },
+      "checks_failed": [],
+      "counts": {
+        "gold_reworded": 18,
+        "gold_modified": 25,
+        "gold_added": 65,
+        "gold_uncertain": 2,
+        "gold_removed": 6,
+        "old_passages": 256,
+        "new_passages": 324,
+        "gold_unchanged": 204
+      },
+      "successful_cases": 7,
+      "failed_cases": 1,
+      "all_event_material": {
+        "true_positive": 83,
+        "predicted": 125,
+        "expected": 96,
+        "precision": 0.664,
+        "recall": 0.8645833333333334,
+        "f1": 0.751131221719457
+      },
+      "changed_alignment": {
+        "true_positive": 35,
+        "predicted": 36,
+        "expected": 56,
+        "precision": 0.9722222222222222,
+        "recall": 0.625,
+        "f1": 0.7608695652173912
+      },
+      "paired_only_material": {
+        "true_positive": 13,
+        "predicted": 29,
+        "expected": 25,
+        "precision": 0.4482758620689655,
+        "recall": 0.52,
+        "f1": 0.48148148148148145
+      },
+      "paired_material_outcomes": {
+        "misaligned": 9,
+        "uncertain": 3,
+        "modified": 13
+      },
+      "split_merge_correspondence": {
+        "recovered": 0,
+        "expected": 8,
+        "recall": 0.0
+      },
+      "risky_singleton_misses": 0,
+      "raw_reviews": 40,
+      "scope_review_records": 0,
+      "scope_owner_groups": 0,
+      "other_reviews": 40,
+      "ui_review_tasks": 40,
+      "missed_paired_material_or_failures": [
+        {
+          "case": "flask-deploying",
+          "gold_old": [
+            2
+          ],
+          "gold_new": [
+            4,
+            7
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The WSGI application definition and guidance for unlisted servers are split across two paragraphs; HTTP-to-WSGI translation is explained and server-selection advice replaces consulting an unlisted server manual.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                2
+              ],
+              "new": [
+                4
+              ],
+              "status": "modified",
+              "category": "Source scope changed"
+            },
+            {
+              "old": [],
+              "new": [
+                7
+              ],
+              "status": "added",
+              "category": "Added passage"
+            }
+          ]
+        },
+        {
+          "case": "flask-deploying",
+          "gold_old": [
+            1
+          ],
+          "gold_new": [
+            1,
+            2
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The original warning is split and expanded: production explicitly includes private or single-user deployments, and security and stability concerns join scaling; debugger and reloader restrictions are added.",
+          "intersecting_predictions": [
+            {
+              "old": [],
+              "new": [
+                1
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [],
+              "new": [
+                2
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [
+                1
+              ],
+              "new": [],
+              "status": "removed",
+              "category": "Removed passage"
+            }
+          ]
+        },
+        {
+          "case": "flask-design",
+          "gold_old": [
+            17
+          ],
+          "gold_new": [
+            17
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Removes the assertion that Jinja2 uses Unicode for all operations; the remaining comparison is reflowed.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                17
+              ],
+              "new": [
+                17
+              ],
+              "status": "uncertain",
+              "category": "Changed detail needs review"
+            }
+          ]
+        },
+        {
+          "case": "pytest-goodpractices",
+          "gold_old": [
+            23
+          ],
+          "gold_new": [
+            29
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Local test execution guidance changes its condition from lacking setup.py to using neither an editable install nor a src layout.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                23
+              ],
+              "new": [
+                29
+              ],
+              "status": "uncertain",
+              "category": "Needs review"
+            }
+          ]
+        },
+        {
+          "case": "pytest-goodpractices",
+          "gold_old": [
+            29,
+            32
+          ],
+          "gold_new": [
+            25
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The two src-layout recommendations merge into a general recommendation, especially for prepend, instead of the earlier narrower problematic-layout context.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                29
+              ],
+              "new": [
+                25
+              ],
+              "status": "modified",
+              "category": "Source scope changed"
+            },
+            {
+              "old": [
+                32
+              ],
+              "new": [],
+              "status": "removed",
+              "category": "Removed passage"
+            }
+          ]
+        },
+        {
+          "case": "pytest-goodpractices",
+          "gold_old": [
+            4
+          ],
+          "gold_new": [
+            4,
+            5
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The package-name explanation and editable-install instruction split into separate paragraphs; the explanation now includes PACKAGEVERSION.",
+          "intersecting_predictions": [
+            {
+              "old": [],
+              "new": [
+                4
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [
+                4
+              ],
+              "new": [
+                5
+              ],
+              "status": "modified",
+              "category": "Scope change"
+            }
+          ]
+        },
+        {
+          "case": "pytest-goodpractices",
+          "gold_old": [
+            3
+          ],
+          "gold_new": [
+            3
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The recommended package setup file changes from setup.py to pyproject.toml and adds a packaging tutorial reference.",
+          "intersecting_predictions": [
+            {
+              "old": [],
+              "new": [
+                3
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [
+                3
+              ],
+              "new": [],
+              "status": "removed",
+              "category": "Removed passage"
+            }
+          ]
+        },
+        {
+          "case": "pytest-goodpractices",
+          "gold_old": [
+            25
+          ],
+          "gold_new": [
+            44,
+            45,
+            46
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The prepend/default explanation and unique-name restriction are split and relocated; the rewrite adds an explicit recommendation of importlib for new projects and historical rationale.",
+          "intersecting_predictions": [
+            {
+              "old": [],
+              "new": [
+                44
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [
+                25
+              ],
+              "new": [
+                45
+              ],
+              "status": "modified",
+              "category": "Source scope changed"
+            },
+            {
+              "old": [],
+              "new": [
+                46
+              ],
+              "status": "added",
+              "category": "Added passage"
+            }
+          ]
+        },
+        {
+          "case": "pytest-goodpractices",
+          "gold_old": [
+            31
+          ],
+          "gold_new": [
+            24,
+            50
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The former trial recommendation is split into a new-project recommendation and a relocated drawback explanation; the assertion about not changing sys.modules is removed.",
+          "intersecting_predictions": [
+            {
+              "old": [],
+              "new": [
+                24
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [
+                31
+              ],
+              "new": [
+                50
+              ],
+              "status": "modified",
+              "category": "Source scope changed"
+            }
+          ]
+        },
+        {
+          "case": "pytest-goodpractices",
+          "gold_old": [
+            13
+          ],
+          "gold_new": [
+            14
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Explicitly adds discovery of staticmethod and classmethods to the existing class-method guidance.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                13
+              ],
+              "new": [
+                14
+              ],
+              "status": "uncertain",
+              "category": "Needs review"
+            }
+          ]
+        },
+        {
+          "case": "pytest-pythonpath",
+          "gold_old": [
+            12
+          ],
+          "gold_new": [
+            15,
+            17,
+            18
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The previous paragraph becomes separate benefit/drawback bullets; adds rootdir-based unique names and replaces package-based import advice with utility-module placement advice.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                12
+              ],
+              "new": [
+                5
+              ],
+              "status": "uncertain",
+              "category": "Weak alignment"
+            },
+            {
+              "old": [],
+              "new": [
+                15
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [],
+              "new": [
+                17
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [],
+              "new": [
+                18
+              ],
+              "status": "added",
+              "category": "Added passage"
+            }
+          ]
+        },
+        {
+          "case": "pytest-pythonpath",
+          "gold_old": [
+            11
+          ],
+          "gold_new": [
+            12,
+            14,
+            26
+          ],
+          "gold_status": "modified",
+          "prediction": "misaligned",
+          "rationale": "The importlib definition and unchanged-sys.path assertion split; the old claim that sys.modules is not changed is explicitly corrected by the later explanation that pytest adds the module to sys.modules.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                11
+              ],
+              "new": [
+                12
+              ],
+              "status": "modified",
+              "category": "Source scope changed"
+            },
+            {
+              "old": [],
+              "new": [
+                14
+              ],
+              "status": "added",
+              "category": "Added passage"
+            },
+            {
+              "old": [],
+              "new": [
+                26
+              ],
+              "status": "added",
+              "category": "Added passage"
+            }
+          ]
+        },
+        {
+          "case": "requests-advanced",
+          "failure": "ValueError: Each document must contain at most 80 passages.",
+          "stage": null
+        }
+      ]
+    },
+    "v2-fresh-semantic-verified": {
+      "artifacts_sha256": {
+        "summary.json": "323f9fbc35ae37504cfba56ee15c5380038ff47c05afe72275fd2d1260715b5f",
+        "predictions.jsonl": "89258997197e74023bc55a7838557b7549cee0b060a23a2563490e6ca412e63d"
+      },
+      "checks_failed": [],
+      "counts": {
+        "gold_unchanged": 70,
+        "gold_reworded": 5,
+        "gold_modified": 7,
+        "gold_added": 80,
+        "old_passages": 85,
+        "new_passages": 163,
+        "gold_removed": 3
+      },
+      "successful_cases": 3,
+      "failed_cases": 0,
+      "all_event_material": {
+        "true_positive": 86,
+        "predicted": 88,
+        "expected": 90,
+        "precision": 0.9772727272727273,
+        "recall": 0.9555555555555556,
+        "f1": 0.9662921348314608
+      },
+      "changed_alignment": {
+        "true_positive": 13,
+        "predicted": 14,
+        "expected": 13,
+        "precision": 0.9285714285714286,
+        "recall": 1.0,
+        "f1": 0.962962962962963
+      },
+      "paired_only_material": {
+        "true_positive": 5,
+        "predicted": 7,
+        "expected": 7,
+        "precision": 0.7142857142857143,
+        "recall": 0.7142857142857143,
+        "f1": 0.7142857142857143
+      },
+      "paired_material_outcomes": {
+        "modified": 5,
+        "uncertain": 2
+      },
+      "split_merge_correspondence": {
+        "recovered": 1,
+        "expected": 1,
+        "recall": 1.0
+      },
+      "risky_singleton_misses": 0,
+      "raw_reviews": 3,
+      "scope_review_records": 0,
+      "scope_owner_groups": 0,
+      "other_reviews": 3,
+      "ui_review_tasks": 3,
+      "missed_paired_material_or_failures": [
+        {
+          "case": "httpx-compatibility",
+          "gold_old": [
+            21
+          ],
+          "gold_new": [
+            56
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "Adds content to the arguments that the named HTTP-method helpers do not support.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                21
+              ],
+              "new": [
+                56
+              ],
+              "status": "uncertain",
+              "category": "Changed detail needs review"
+            }
+          ]
+        },
+        {
+          "case": "httpx-compatibility",
+          "gold_old": [
+            16
+          ],
+          "gold_new": [
+            42
+          ],
+          "gold_status": "modified",
+          "prediction": "uncertain",
+          "rationale": "The exposed text attribute changes from request.text to response.text. Although likely correcting a documentation error, the named API object and asserted behavior differ.",
+          "intersecting_predictions": [
+            {
+              "old": [
+                16
+              ],
+              "new": [
+                42
+              ],
+              "status": "uncertain",
+              "category": "Needs review"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "comparisons": {
+    "v3-blind-semantic-archived_v2 -> v3-blind-semantic-verified": [],
+    "v2-dev-semantic-verified -> v3-dev-semantic-verified": [
+      {
+        "case": "pytest-flaky",
+        "old": [
+          22
+        ],
+        "new": [
+          27
+        ],
+        "gold": "unchanged",
+        "before": "uncertain",
+        "after": "reworded"
+      },
+      {
+        "case": "pytest-goodpractices",
+        "old": [
+          24
+        ],
+        "new": [
+          30
+        ],
+        "gold": "unchanged",
+        "before": "modified",
+        "after": "uncertain"
+      },
+      {
+        "case": "pytest-goodpractices",
+        "old": [
+          40
+        ],
+        "new": [
+          38
+        ],
+        "gold": "unchanged",
+        "before": "uncertain",
+        "after": "reworded"
+      },
+      {
+        "case": "pytest-goodpractices",
+        "old": [
+          39
+        ],
+        "new": [
+          37
+        ],
+        "gold": "unchanged",
+        "before": "uncertain",
+        "after": "reworded"
+      },
+      {
+        "case": "pytest-pythonpath",
+        "old": [
+          6
+        ],
+        "new": [
+          7
+        ],
+        "gold": "unchanged",
+        "before": "modified",
+        "after": "uncertain"
+      },
+      {
+        "case": "pytest-pythonpath",
+        "old": [
+          4
+        ],
+        "new": [
+          4
+        ],
+        "gold": "modified",
+        "before": "modified",
+        "after": "uncertain"
+      },
+      {
+        "case": "pytest-pythonpath",
+        "old": [
+          7
+        ],
+        "new": [
+          8
+        ],
+        "gold": "modified",
+        "before": "modified",
+        "after": "uncertain"
+      },
+      {
+        "case": "pytest-pythonpath",
+        "old": [
+          10
+        ],
+        "new": [
+          11
+        ],
+        "gold": "unchanged",
+        "before": "modified",
+        "after": "uncertain"
+      },
+      {
+        "case": "pytest-pythonpath",
+        "old": [
+          13
+        ],
+        "new": [
+          28
+        ],
+        "gold": "modified",
+        "before": "modified",
+        "after": "uncertain"
+      },
+      {
+        "case": "pytest-pythonpath",
+        "old": [
+          9
+        ],
+        "new": [
+          10
+        ],
+        "gold": "reworded",
+        "before": "modified",
+        "after": "uncertain"
+      },
+      {
+        "case": "pytest-pythonpath",
+        "old": [
+          8
+        ],
+        "new": [
+          9
+        ],
+        "gold": "reworded",
+        "before": "modified",
+        "after": "uncertain"
+      }
+    ],
+    "v2-fresh-semantic-verified -> v3-known-fresh-semantic-verified": []
+  },
+  "definitions": {
+    "paired_only_material": "Gold modified groups with both sides nonempty; predicted modified groups with both sides nonempty; exact group identity required; predictions touching ambiguous gold excluded. Additions/removals excluded.",
+    "split_merge_correspondence": "Exactly recovered gold paired groups with at least one side longer than one passage, independent of predicted status. Null recall when denominator is zero.",
+    "ui_review_tasks": "Current radar.presentation._review_tasks called separately for each document, then summed. Canonical raw events unchanged.",
+    "recomputation": "Per-case metrics and aggregate recomputed with evaluator; paired metrics, split recall, and task counts computed separately. Source text and exact partitions checked against manifest files."
+  }
+}

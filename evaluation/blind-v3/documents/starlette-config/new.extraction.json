@@ -1,0 +1,114 @@
+{
+  "source_line_count": 227,
+  "omissions": [
+    {
+      "start_line": 7,
+      "end_line": 24,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 26,
+      "end_line": 33,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 54,
+      "end_line": 60,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 73,
+      "end_line": 83,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 99,
+      "end_line": 103,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 109,
+      "end_line": 121,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 135,
+      "end_line": 145,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 147,
+      "end_line": 156,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 158,
+      "end_line": 182,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 188,
+      "end_line": 225,
+      "reason": "fenced code/example; visible title retained when supplied"
+    },
+    {
+      "start_line": 227,
+      "end_line": 227,
+      "reason": "reference destination/target; visible labels retained"
+    }
+  ],
+  "transformations": [
+    {
+      "start_line": 7,
+      "end_line": 7,
+      "reason": "visible code-block title retained as prose label"
+    },
+    {
+      "start_line": 26,
+      "end_line": 26,
+      "reason": "visible code-block title retained as prose label"
+    },
+    {
+      "start_line": 62,
+      "end_line": 62,
+      "reason": "admonition label normalized; body retained"
+    },
+    {
+      "start_line": 99,
+      "end_line": 99,
+      "reason": "visible code-block title retained as prose label"
+    },
+    {
+      "start_line": 109,
+      "end_line": 109,
+      "reason": "visible code-block title retained as prose label"
+    },
+    {
+      "start_line": 135,
+      "end_line": 135,
+      "reason": "visible code-block title retained as prose label"
+    },
+    {
+      "start_line": 147,
+      "end_line": 147,
+      "reason": "visible code-block title retained as prose label"
+    },
+    {
+      "start_line": 158,
+      "end_line": 158,
+      "reason": "visible code-block title retained as prose label"
+    },
+    {
+      "start_line": 188,
+      "end_line": 188,
+      "reason": "visible code-block title retained as prose label"
+    }
+  ],
+  "retained_indented_lines": [
+    64,
+    65,
+    66
+  ],
+  "policy": "Complete page prose, headings, lists and visible code titles. Omit fenced code, reference destinations and presentation wrappers. Preserve admonition bodies; normalize links, inline code, bold and audited Python object roles.",
+  "indented_blocks_audit": "For these twelve pinned pages, unfenced indented lines were inspected: admonition bodies or list continuations, retained in full."
+}

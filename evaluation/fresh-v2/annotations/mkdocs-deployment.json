@@ -1,0 +1,518 @@
+{
+  "case_id": "mkdocs-deployment",
+  "review_status": "ai_reviewed_pending_human",
+  "annotator": "fresh_sources",
+  "blind_to_model_predictions": true,
+  "scope": "Complete extracted prose, including headings and visible code-example introductions; actual code examples are excluded. Each index appears once.",
+  "events": [
+    {
+      "old_indices": [
+        0
+      ],
+      "new_indices": [
+        0
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        1
+      ],
+      "new_indices": [
+        1
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        2
+      ],
+      "new_indices": [
+        2
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        3
+      ],
+      "new_indices": [
+        3
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        4
+      ],
+      "new_indices": [
+        4
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        5
+      ],
+      "new_indices": [
+        5
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        6
+      ],
+      "new_indices": [
+        6
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        7
+      ],
+      "new_indices": [
+        7
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        8
+      ],
+      "new_indices": [
+        8
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        9
+      ],
+      "new_indices": [
+        9
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        10
+      ],
+      "new_indices": [
+        11
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        11
+      ],
+      "new_indices": [
+        12
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        12
+      ],
+      "new_indices": [
+        13
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        13
+      ],
+      "new_indices": [
+        14
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        14
+      ],
+      "new_indices": [],
+      "status": "removed",
+      "rationale": "Removes the duplicated pre-push verification advice from Organization and User Pages; the identical passage remains in the separate Project Pages subsection."
+    },
+    {
+      "old_indices": [
+        15
+      ],
+      "new_indices": [],
+      "status": "removed",
+      "rationale": "Removes the duplicated manual-edit warning from Organization and User Pages; the identical warning remains in the separate Project Pages subsection."
+    },
+    {
+      "old_indices": [
+        16
+      ],
+      "new_indices": [
+        15
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        17
+      ],
+      "new_indices": [
+        16
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        18
+      ],
+      "new_indices": [
+        17
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        19
+      ],
+      "new_indices": [
+        18
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        20
+      ],
+      "new_indices": [
+        19
+      ],
+      "status": "modified",
+      "rationale": "Narrows the listed import version-control support from Mercurial, Git, Subversion and Bazaar to Git."
+    },
+    {
+      "old_indices": [
+        21
+      ],
+      "new_indices": [],
+      "status": "removed",
+      "rationale": "Removes the Read the Docs theme requirement and the incompatibility claim about Sphinx themes."
+    },
+    {
+      "old_indices": [
+        22
+      ],
+      "new_indices": [
+        20
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        23
+      ],
+      "new_indices": [
+        21
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        24
+      ],
+      "new_indices": [
+        22
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        25
+      ],
+      "new_indices": [
+        23
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        26
+      ],
+      "new_indices": [
+        24
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        27
+      ],
+      "new_indices": [
+        25
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        28
+      ],
+      "new_indices": [
+        39
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        29
+      ],
+      "new_indices": [
+        40
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        10
+      ],
+      "status": "added",
+      "rationale": "Adds the warning that local untracked files and uncommitted work are deployed."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        26
+      ],
+      "status": "added",
+      "rationale": "Adds the local-file distribution section."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        27
+      ],
+      "status": "added",
+      "rationale": "Adds direct file distribution and browser file-scheme viewing."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        28
+      ],
+      "status": "added",
+      "rationale": "Adds browser-security limitations and the need for specific configuration."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        29
+      ],
+      "status": "added",
+      "rationale": "Adds the site_url list-item scope."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        30
+      ],
+      "status": "added",
+      "rationale": "Adds the empty-site_url requirement for local-file viewing."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        31
+      ],
+      "status": "added",
+      "rationale": "Adds the use_directory_urls list-item scope."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        32
+      ],
+      "status": "added",
+      "rationale": "Adds the requirement to disable directory URLs to preserve internal links."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        33
+      ],
+      "status": "added",
+      "rationale": "Adds the search list-item scope."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        34
+      ],
+      "status": "added",
+      "rationale": "Adds the requirement to disable or replace search for file-scheme viewing and how to disable all plugins."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        35
+      ],
+      "status": "added",
+      "rationale": "Adds how to retain other plugins while excluding search within the same search list-item scope."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        36
+      ],
+      "status": "added",
+      "rationale": "Adds relative-URL requirements for distributed files on different devices."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        37
+      ],
+      "status": "added",
+      "rationale": "Adds offline theme asset requirements and warns about CDN dependencies."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        38
+      ],
+      "status": "added",
+      "rationale": "Adds distribution or format-conversion guidance for locally built output. The similar server-upload paragraph remains separately unchanged under Other Providers."
+    }
+  ],
+  "reviewer": "explore_core",
+  "review_blind_to_model_predictions": true,
+  "review_summary": {
+    "method": "Independent reading of every saved old/new passage and provisional event, with raw-source checks for paragraph boundaries, heading ownership, and nested lists. No pipeline predictions inspected.",
+    "all_passages_covered_once": true,
+    "unchanged_text_and_scope_checked": true,
+    "label_corrections": 0,
+    "correspondence_corrections": 0,
+    "disagreements": 0,
+    "human_validation": false
+  },
+  "review_notes": [
+    {
+      "old_indices": [
+        8
+      ],
+      "new_indices": [
+        8
+      ],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "unchanged",
+      "reviewed_status": "unchanged",
+      "initial_rationale": "Identical extracted text with the same subject and section scope.",
+      "reviewer_rationale": "This surviving verification advice belongs to Project Pages in both raw sources. Do not match it to the duplicate advice removed from Organization and User Pages."
+    },
+    {
+      "old_indices": [
+        9
+      ],
+      "new_indices": [
+        9
+      ],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "unchanged",
+      "reviewed_status": "unchanged",
+      "initial_rationale": "Identical extracted text with the same subject and section scope.",
+      "reviewer_rationale": "This surviving manual-edit warning belongs to Project Pages in both versions. The duplicate under Organization and User Pages has distinct ownership."
+    },
+    {
+      "old_indices": [
+        14
+      ],
+      "new_indices": [],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "removed",
+      "reviewed_status": "removed",
+      "initial_rationale": "Removes the duplicated pre-push verification advice from Organization and User Pages; the identical passage remains in the separate Project Pages subsection.",
+      "reviewer_rationale": "The full raw source places this verification advice inside Organization and User Pages. Its removal remains a removal despite identical text surviving in Project Pages."
+    },
+    {
+      "old_indices": [
+        15
+      ],
+      "new_indices": [],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "removed",
+      "reviewed_status": "removed",
+      "initial_rationale": "Removes the duplicated manual-edit warning from Organization and User Pages; the identical warning remains in the separate Project Pages subsection.",
+      "reviewer_rationale": "The full raw source places this manual-edit warning inside Organization and User Pages. The retained Project Pages warning cannot consume this occurrence."
+    },
+    {
+      "old_indices": [
+        20
+      ],
+      "new_indices": [
+        19
+      ],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "modified",
+      "reviewed_status": "modified",
+      "initial_rationale": "Narrows the listed import version-control support from Mercurial, Git, Subversion and Bazaar to Git.",
+      "reviewer_rationale": "The old passage explicitly lists several import version-control systems; the new passage only describes Git. Label the loss of stated import options as modified without inferring that the software now forbids every other system."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        35
+      ],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "added",
+      "reviewed_status": "added",
+      "initial_rationale": "Adds how to retain other plugins while excluding search within the same search list-item scope.",
+      "reviewer_rationale": "Raw indentation confirms this paragraph remains under the search list item. Its instruction preserves other plugins while excluding search; it is an addition within Local Files."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        38
+      ],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "added",
+      "reviewed_status": "added",
+      "initial_rationale": "Adds distribution or format-conversion guidance for locally built output. The similar server-upload paragraph remains separately unchanged under Other Providers.",
+      "reviewer_rationale": "The original server-upload paragraph still has its own unchanged counterpart under Other Providers. This new Local Files paragraph adds distribution and format-conversion guidance; shared build wording does not make it the counterpart of the old upload paragraph."
+    }
+  ]
+}

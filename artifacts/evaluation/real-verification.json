@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-09-24T16:25:44.673248+00:00",
+  "frozen_files_verified": 96,
+  "engine_changes": false,
+  "pytest": {
+    "passed": 44,
+    "skipped": 1,
+    "skip_reason": "opt-in model unit test; actual complete semantic corpus run performed separately"
+  },
+  "ruff_check": "passed",
+  "ruff_format_check": "passed",
+  "review_html": {
+    "rows": 320,
+    "case_filter": "passed",
+    "unchanged_filter": "passed",
+    "javascript_errors": []
+  },
+  "evaluation_commands_exit_code": {
+    "lexical": 1,
+    "semantic": 1
+  },
+  "expected_failure": "requests-advanced exceeds 80 passages on both backends"
+}

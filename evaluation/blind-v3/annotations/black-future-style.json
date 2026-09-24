@@ -1,0 +1,448 @@
+{
+  "case_id": "black-future-style",
+  "review_status": "ai_reviewed_pending_human",
+  "annotator": "resume_eval",
+  "blind_to_model_predictions": true,
+  "scope": "Complete extracted prose including headings and visible example titles; fenced code and reference destinations excluded. Every passage appears exactly once.",
+  "events": [
+    {
+      "old_indices": [
+        0
+      ],
+      "new_indices": [
+        0
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        2
+      ],
+      "new_indices": [
+        44
+      ],
+      "status": "reworded",
+      "rationale": "The same section title changes heading depth when moved under Potential future changes; the title subject is unchanged."
+    },
+    {
+      "old_indices": [
+        3
+      ],
+      "new_indices": [
+        45
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        4
+      ],
+      "new_indices": [
+        46
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        5
+      ],
+      "new_indices": [
+        47
+      ],
+      "status": "reworded",
+      "rationale": "Both versions describe future, not implemented formatting; the new wording makes that future condition explicit."
+    },
+    {
+      "old_indices": [
+        6
+      ],
+      "new_indices": [
+        48
+      ],
+      "status": "modified",
+      "rationale": "Changes future parentheses formatting into a present behavior restricted to --preview mode."
+    },
+    {
+      "old_indices": [
+        7
+      ],
+      "new_indices": [
+        1
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        8
+      ],
+      "new_indices": [
+        2
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        9
+      ],
+      "new_indices": [
+        25
+      ],
+      "status": "unchanged",
+      "rationale": "The identical topic heading still names improved string processing. The changed feature-availability claim is recorded on the associated behavior paragraph old 10 / new 26, using the explicit new unstable-feature inventory."
+    },
+    {
+      "old_indices": [
+        10
+      ],
+      "new_indices": [
+        26
+      ],
+      "status": "modified",
+      "rationale": "The full-page scope changes string_processing availability from --preview to --unstable, explicitly identified by new passages 3 and 14-15, although the body wording is identical."
+    },
+    {
+      "old_indices": [
+        1
+      ],
+      "new_indices": [],
+      "status": "removed",
+      "rationale": "Removes this complete visible prose unit: Warning: Changes to this document often aren't tied and don't relate to releases of _Black_. It's recommended that you read the latest version available."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        3
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: In the past, the preview style included some features with known bugs, so that we were unable to move these features to the stable style. Therefore, such features are now moved to the --unstable style. All features in the --preview style are expected to make it to next year's stable style; features in the --unstable style will be stabilized only if issues with them are fixed. If bugs are discovered in a --preview feature, it is demoted to the --unstable style. To avoid thrash when a feature is demoted from the --preview to the --unstable style, users can use the --enable-unstable-feature flag to enable specific unstable features."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        4
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: Currently, the following features are included in the preview style:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        5
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: - hex_codes_in_unicode_sequences: normalize casing of Unicode escape characters in strings"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        6
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: - unify_docstring_detection: fix inconsistencies in whether certain strings are detected as docstrings"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        7
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: - no_normalize_fmt_skip_whitespace: whitespace before # fmt: skip comments is no longer normalized"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        8
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: - typed_params_trailing_comma: consistently add trailing commas to typed function parameters"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        9
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: - is_simple_lookup_for_doublestar_expression: fix line length computation for certain expressions that involve the power operator"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        10
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: - docstring_check_for_newline: checks if there is a newline before the terminating quotes of a docstring"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        11
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: - remove_redundant_guard_parens: Removes redundant parentheses in if guards for case blocks."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        12
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: - parens_for_long_if_clauses_in_case_block: Adds parentheses to if clauses in case blocks when the line is too long"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        13
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: - pep646_typed_star_arg_type_var_tuple: fix type annotation spacing between * and more complex type variable tuple (i.e. def fn(*args: *tuple[*Ts, T]) -> None: pass)"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        14
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: The unstable style additionally includes the following features:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        15
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: - string_processing: split long string literals and related changes (see below)"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        16
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: - wrap_long_dict_values_in_parens: add parentheses to long values in dictionaries (see below)"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        17
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: - multiline_string_handling: more compact formatting of expressions involving multiline strings (see below)"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        18
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: - hug_parens_with_braces_and_square_brackets: more compact formatting of nested brackets (see below)"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        19
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: ### Improved multiline dictionary and list indentation for sole function parameter"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        20
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: For better readability and less verticality, _Black_ now pairs parentheses (\"(\", \")\") with braces (\"{\", \"}\") and square brackets (\"[\", \"]\") on the same line. For example:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        21
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: will be changed to:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        22
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: This also applies to list and dictionary unpacking:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        23
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: will become:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        24
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: You can use a magic trailing comma to avoid this compacting behavior; by default, _Black_ will not reformat the following code:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        27
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: ### Improved parentheses management in dicts"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        28
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: For dict literals with long values, they are now wrapped in parentheses. Unnecessary parentheses are now removed. For example:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        29
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: will be changed to:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        30
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: ### Improved multiline string handling"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        31
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: _Black_ is smarter when formatting multiline strings, especially in function arguments, to avoid introducing extra line breaks. Previously, it would always consider multiline strings as not fitting on a single line. With this new feature, _Black_ looks at the context around the multiline string to decide if it should be inlined or split to a separate line. For example, when a multiline string is passed to a function, _Black_ will only split the multiline string if a line is too long or if multiple arguments are being passed."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        32
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: For example, _Black_ will reformat"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        33
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: to:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        34
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: And:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        35
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: to:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        36
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: Implicit multiline strings are special, because they can have inline comments. Strings without comments are merged, for example"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        37
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: becomes"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        38
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: A comment on any line of the string (or between two string lines) will block the merging, so"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        39
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: and"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        40
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: will not be merged. Having the comment after or before the string lines (but still inside the parens) will merge the string. For example"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        41
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: becomes"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        42
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: ## Potential future changes"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        43
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: This section lists changes that we may want to make in the future, but that aren't implemented yet."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        49
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: An alternative to consider if the backslashes in the above formatting are undesirable is to use contextlib.ExitStack to combine context managers in the following way:"
+    }
+  ],
+  "review_notes": [
+    "Read both complete raw Markdown revisions and all 11 old / 50 new extracted passages, including preview/unstable inventory and the future-changes section. Corrected old 10 / new 26 from unchanged to modified: unchanged string-processing behavior is now assigned to --unstable rather than the former --preview scope.",
+    "Availability evidence is explicit in new indices 14-15 and the preview/unstable policy in new index 3. The same ### Improved string processing title remains unchanged as a topic label, not a separate availability assertion. The new inventory bullet remains added prose; this decision does not fabricate a textual body edit.",
+    "Retained old 2 / new 44 as reworded heading-depth change and old 5 / new 47 as equivalent future implementation wording. Old 6 / new 48 remains modified because parentheses behavior is now present and explicitly restricted to preview mode.",
+    "Bare transition prose such as to:, and, or becomes is retained by the fixed extraction policy. Its addition labels indicate visible added prose units, not standalone substantive claims. No code-only behavior was inferred."
+  ],
+  "annotation_caveats": [
+    "Repeated bare code-example transitions remain visible prose units with weak standalone meaning. String-processing availability is a contextual modification on old 10 / new 26; the topic heading itself remains unchanged. Human review remains pending."
+  ],
+  "reviewer": "resume_ui",
+  "review_blind_to_model_predictions": true
+}

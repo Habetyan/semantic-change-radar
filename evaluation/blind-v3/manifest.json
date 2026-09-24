@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "selection": "Six full Markdown revision pairs from three previously unseen repositories; twelve screened pairs; source-only purposive selection.",
+  "annotation_status": "ai_reviewed_pending_human",
+  "freeze_path": "docs/blind-v3-freeze.json",
+  "prediction_access_during_selection_and_annotation": false,
+  "licenses": [
+    {
+      "path": "evaluation/blind-v3/licenses/starlette-responses-old-LICENSE.md",
+      "url": "https://raw.githubusercontent.com/encode/starlette/830f3486537916bae6b46948ff922adc14a22b7c/LICENSE.md",
+      "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf"
+    },
+    {
+      "path": "evaluation/blind-v3/licenses/starlette-responses-new-LICENSE.md",
+      "url": "https://raw.githubusercontent.com/encode/starlette/46131a1af875a5be2190d91713a43ee80c8311c6/LICENSE.md",
+      "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf"
+    },
+    {
+      "path": "evaluation/blind-v3/licenses/starlette-config-old-LICENSE.md",
+      "url": "https://raw.githubusercontent.com/encode/starlette/830f3486537916bae6b46948ff922adc14a22b7c/LICENSE.md",
+      "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf"
+    },
+    {
+      "path": "evaluation/blind-v3/licenses/starlette-config-new-LICENSE.md",
+      "url": "https://raw.githubusercontent.com/encode/starlette/46131a1af875a5be2190d91713a43ee80c8311c6/LICENSE.md",
+      "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf"
+    },
+    {
+      "path": "evaluation/blind-v3/licenses/black-future-style-old-LICENSE",
+      "url": "https://raw.githubusercontent.com/psf/black/ae2c0758c9e61a385df9700dc9c231bf54887041/LICENSE",
+      "sha256": "9c0428f0c3b4779850cf5bd96e11aaa8afc72d4a86d4a36223d7aba2e58d6e00"
+    },
+    {
+      "path": "evaluation/blind-v3/licenses/black-future-style-new-LICENSE",
+      "url": "https://raw.githubusercontent.com/psf/black/1b2427a2b785cc4aac97c19bb4b9a0de063f9547/LICENSE",
+      "sha256": "9c0428f0c3b4779850cf5bd96e11aaa8afc72d4a86d4a36223d7aba2e58d6e00"
+    },
+    {
+      "path": "evaluation/blind-v3/licenses/uv-cache-old-LICENSE-MIT",
+      "url": "https://raw.githubusercontent.com/astral-sh/uv/dd1934c9c36ee22cd3c467317503ecd7b040c43a/LICENSE-MIT",
+      "sha256": "1796740a9bbc416c9b957c1786b4a8d1bf569985d0c5dd4bc0b8d52c96706e22"
+    },
+    {
+      "path": "evaluation/blind-v3/licenses/uv-cache-old-LICENSE-APACHE",
+      "url": "https://raw.githubusercontent.com/astral-sh/uv/dd1934c9c36ee22cd3c467317503ecd7b040c43a/LICENSE-APACHE",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+    },
+    {
+      "path": "evaluation/blind-v3/licenses/uv-cache-new-LICENSE-MIT",
+      "url": "https://raw.githubusercontent.com/astral-sh/uv/591f38c25e577d29bb4fd0dde7cdb614f3129bfc/LICENSE-MIT",
+      "sha256": "860e3d7a86b84e6a7012c7a635fc64df475cebc6cce34dfeb73a5982ec58176c"
+    },
+    {
+      "path": "evaluation/blind-v3/licenses/uv-cache-new-LICENSE-APACHE",
+      "url": "https://raw.githubusercontent.com/astral-sh/uv/591f38c25e577d29bb4fd0dde7cdb614f3129bfc/LICENSE-APACHE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "evaluation/blind-v3/licenses/black-basics-2023-old-LICENSE",
+      "url": "https://raw.githubusercontent.com/psf/black/ae2c0758c9e61a385df9700dc9c231bf54887041/LICENSE",
+      "sha256": "9c0428f0c3b4779850cf5bd96e11aaa8afc72d4a86d4a36223d7aba2e58d6e00"
+    },
+    {
+      "path": "evaluation/blind-v3/licenses/black-basics-2023-new-LICENSE",
+      "url": "https://raw.githubusercontent.com/psf/black/b0d1fba7ac3be53c71fb0d3211d911e629f8aecb/LICENSE",
+      "sha256": "9c0428f0c3b4779850cf5bd96e11aaa8afc72d4a86d4a36223d7aba2e58d6e00"
+    },
+    {
+      "path": "evaluation/blind-v3/licenses/starlette-websockets-old-LICENSE.md",
+      "url": "https://raw.githubusercontent.com/encode/starlette/830f3486537916bae6b46948ff922adc14a22b7c/LICENSE.md",
+      "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf"
+    },
+    {
+      "path": "evaluation/blind-v3/licenses/starlette-websockets-new-LICENSE.md",
+      "url": "https://raw.githubusercontent.com/encode/starlette/46131a1af875a5be2190d91713a43ee80c8311c6/LICENSE.md",
+      "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf"
+    }
+  ],
+  "cases": [
+    {
+      "id": "starlette-responses",
+      "repository": "encode/starlette",
+      "license": "BSD-3-Clause",
+      "annotation_path": "evaluation/blind-v3/annotations/starlette-responses.json",
+      "old": {
+        "tag": "0.20.0",
+        "commit": "830f3486537916bae6b46948ff922adc14a22b7c",
+        "commit_date": "2022-05-03",
+        "upstream_path": "docs/responses.md",
+        "raw_url": "https://raw.githubusercontent.com/encode/starlette/830f3486537916bae6b46948ff922adc14a22b7c/docs/responses.md",
+        "source_url": "https://github.com/encode/starlette/blob/830f3486537916bae6b46948ff922adc14a22b7c/docs/responses.md",
+        "raw_sha256": "56ccd0b2fb1d04318b1b45d9a07b99acb216b40b98b4a0534c71bc8d73dab600",
+        "text_sha256": "8e05ff8f6352f215a089b5d210b4a5e2bdd7fa70dddcd810f96691223de7fce5",
+        "raw_characters": 6511,
+        "characters": 3926,
+        "passages": 51,
+        "app_limits_passed": true,
+        "raw_path": "evaluation/blind-v3/documents/starlette-responses/old.md",
+        "text_path": "evaluation/blind-v3/documents/starlette-responses/old.txt",
+        "passages_path": "evaluation/blind-v3/documents/starlette-responses/old.passages.json",
+        "audit_path": "evaluation/blind-v3/documents/starlette-responses/old.extraction.json"
+      },
+      "new": {
+        "tag": "0.41.0",
+        "commit": "46131a1af875a5be2190d91713a43ee80c8311c6",
+        "commit_date": "2024-10-15",
+        "upstream_path": "docs/responses.md",
+        "raw_url": "https://raw.githubusercontent.com/encode/starlette/46131a1af875a5be2190d91713a43ee80c8311c6/docs/responses.md",
+        "source_url": "https://github.com/encode/starlette/blob/46131a1af875a5be2190d91713a43ee80c8311c6/docs/responses.md",
+        "raw_sha256": "be32713c96d09230268eff6bcaa609513f854ba8f64940208ba7a6ff57f00bac",
+        "text_sha256": "d8c3df86a0f754c84ab644f55e1997f64d088092b19c5a4011f938ce55bb9554",
+        "raw_characters": 7094,
+        "characters": 4431,
+        "passages": 54,
+        "app_limits_passed": true,
+        "raw_path": "evaluation/blind-v3/documents/starlette-responses/new.md",
+        "text_path": "evaluation/blind-v3/documents/starlette-responses/new.txt",
+        "passages_path": "evaluation/blind-v3/documents/starlette-responses/new.passages.json",
+        "audit_path": "evaluation/blind-v3/documents/starlette-responses/new.extraction.json"
+      }
+    },
+    {
+      "id": "starlette-config",
+      "repository": "encode/starlette",
+      "license": "BSD-3-Clause",
+      "annotation_path": "evaluation/blind-v3/annotations/starlette-config.json",
+      "old": {
+        "tag": "0.20.0",
+        "commit": "830f3486537916bae6b46948ff922adc14a22b7c",
+        "commit_date": "2022-05-03",
+        "upstream_path": "docs/config.md",
+        "raw_url": "https://raw.githubusercontent.com/encode/starlette/830f3486537916bae6b46948ff922adc14a22b7c/docs/config.md",
+        "source_url": "https://github.com/encode/starlette/blob/830f3486537916bae6b46948ff922adc14a22b7c/docs/config.md",
+        "raw_sha256": "36b80c9009093c884422943b45ee129d894ed82b945c6eda9a74330664dd38cf",
+        "text_sha256": "c40c066cca3ad9fe8c5a659ffefb5ea2f9c2cabdfa60e8c5f704476e132e04f5",
+        "raw_characters": 6538,
+        "characters": 2343,
+        "passages": 30,
+        "app_limits_passed": true,
+        "raw_path": "evaluation/blind-v3/documents/starlette-config/old.md",
+        "text_path": "evaluation/blind-v3/documents/starlette-config/old.txt",
+        "passages_path": "evaluation/blind-v3/documents/starlette-config/old.passages.json",
+        "audit_path": "evaluation/blind-v3/documents/starlette-config/old.extraction.json"
+      },
+      "new": {
+        "tag": "0.41.0",
+        "commit": "46131a1af875a5be2190d91713a43ee80c8311c6",
+        "commit_date": "2024-10-15",
+        "upstream_path": "docs/config.md",
+        "raw_url": "https://raw.githubusercontent.com/encode/starlette/46131a1af875a5be2190d91713a43ee80c8311c6/docs/config.md",
+        "source_url": "https://github.com/encode/starlette/blob/46131a1af875a5be2190d91713a43ee80c8311c6/docs/config.md",
+        "raw_sha256": "455c2eed67b8f43f43231fd390fde84e4fb41bf631aee3535c56589d5261e484",
+        "text_sha256": "f879df977a7c719350509a320212924bc63e6620c9533da737dbf3d92c377838",
+        "raw_characters": 6614,
+        "characters": 2529,
+        "passages": 33,
+        "app_limits_passed": true,
+        "raw_path": "evaluation/blind-v3/documents/starlette-config/new.md",
+        "text_path": "evaluation/blind-v3/documents/starlette-config/new.txt",
+        "passages_path": "evaluation/blind-v3/documents/starlette-config/new.passages.json",
+        "audit_path": "evaluation/blind-v3/documents/starlette-config/new.extraction.json"
+      }
+    },
+    {
+      "id": "black-future-style",
+      "repository": "psf/black",
+      "license": "MIT",
+      "annotation_path": "evaluation/blind-v3/annotations/black-future-style.json",
+      "old": {
+        "tag": "22.3.0",
+        "commit": "ae2c0758c9e61a385df9700dc9c231bf54887041",
+        "commit_date": "2022-03-28",
+        "upstream_path": "docs/the_black_code_style/future_style.md",
+        "raw_url": "https://raw.githubusercontent.com/psf/black/ae2c0758c9e61a385df9700dc9c231bf54887041/docs/the_black_code_style/future_style.md",
+        "source_url": "https://github.com/psf/black/blob/ae2c0758c9e61a385df9700dc9c231bf54887041/docs/the_black_code_style/future_style.md",
+        "raw_sha256": "33452e8a6b27162bec58b91dbdfa9a8cf16e062b780bf4ae763c253e23f990db",
+        "text_sha256": "dd2fe64bb789e77c3f00982f3f6e697c5e51150407f68bf79971eb178dcc7b27",
+        "raw_characters": 2023,
+        "characters": 1505,
+        "passages": 11,
+        "app_limits_passed": true,
+        "raw_path": "evaluation/blind-v3/documents/black-future-style/old.md",
+        "text_path": "evaluation/blind-v3/documents/black-future-style/old.txt",
+        "passages_path": "evaluation/blind-v3/documents/black-future-style/old.passages.json",
+        "audit_path": "evaluation/blind-v3/documents/black-future-style/old.extraction.json"
+      },
+      "new": {
+        "tag": "24.10.0",
+        "commit": "1b2427a2b785cc4aac97c19bb4b9a0de063f9547",
+        "commit_date": "2024-10-07",
+        "upstream_path": "docs/the_black_code_style/future_style.md",
+        "raw_url": "https://raw.githubusercontent.com/psf/black/1b2427a2b785cc4aac97c19bb4b9a0de063f9547/docs/the_black_code_style/future_style.md",
+        "source_url": "https://github.com/psf/black/blob/1b2427a2b785cc4aac97c19bb4b9a0de063f9547/docs/the_black_code_style/future_style.md",
+        "raw_sha256": "d82f5c785e8dc72646f39073c08f518adf3a8c22350364e7781042c8d134eb63",
+        "text_sha256": "1eb76b9417b27f09f5786d2413c0827ec7c38c50947b56739e63f819f5194fb1",
+        "raw_characters": 8481,
+        "characters": 5547,
+        "passages": 50,
+        "app_limits_passed": true,
+        "raw_path": "evaluation/blind-v3/documents/black-future-style/new.md",
+        "text_path": "evaluation/blind-v3/documents/black-future-style/new.txt",
+        "passages_path": "evaluation/blind-v3/documents/black-future-style/new.passages.json",
+        "audit_path": "evaluation/blind-v3/documents/black-future-style/new.extraction.json"
+      }
+    },
+    {
+      "id": "uv-cache",
+      "repository": "astral-sh/uv",
+      "license": "MIT OR Apache-2.0",
+      "annotation_path": "evaluation/blind-v3/annotations/uv-cache.json",
+      "old": {
+        "tag": "0.3.0",
+        "commit": "dd1934c9c36ee22cd3c467317503ecd7b040c43a",
+        "commit_date": "2024-08-20",
+        "upstream_path": "docs/concepts/cache.md",
+        "raw_url": "https://raw.githubusercontent.com/astral-sh/uv/dd1934c9c36ee22cd3c467317503ecd7b040c43a/docs/concepts/cache.md",
+        "source_url": "https://github.com/astral-sh/uv/blob/dd1934c9c36ee22cd3c467317503ecd7b040c43a/docs/concepts/cache.md",
+        "raw_sha256": "bd829d82f4946b713f3357f4c985b804fb6f594b89756f6bcd8931bb7434ea45",
+        "text_sha256": "a210acde4659a91b7f950590c740bb74396b49d99486a4f406e34d5ad17eabd1",
+        "raw_characters": 5688,
+        "characters": 5435,
+        "passages": 38,
+        "app_limits_passed": true,
+        "raw_path": "evaluation/blind-v3/documents/uv-cache/old.md",
+        "text_path": "evaluation/blind-v3/documents/uv-cache/old.txt",
+        "passages_path": "evaluation/blind-v3/documents/uv-cache/old.passages.json",
+        "audit_path": "evaluation/blind-v3/documents/uv-cache/old.extraction.json"
+      },
+      "new": {
+        "tag": "0.6.0",
+        "commit": "591f38c25e577d29bb4fd0dde7cdb614f3129bfc",
+        "commit_date": "2025-02-14",
+        "upstream_path": "docs/concepts/cache.md",
+        "raw_url": "https://raw.githubusercontent.com/astral-sh/uv/591f38c25e577d29bb4fd0dde7cdb614f3129bfc/docs/concepts/cache.md",
+        "source_url": "https://github.com/astral-sh/uv/blob/591f38c25e577d29bb4fd0dde7cdb614f3129bfc/docs/concepts/cache.md",
+        "raw_sha256": "f2a27553fef3b79c9193045179748d558b3585fa3954b07af7872b9f967d0ad6",
+        "text_sha256": "b2c24ba7d44df0094d538b29d563f4c00d8a3d4f9d26b2fd069a70b69f35547a",
+        "raw_characters": 8639,
+        "characters": 7904,
+        "passages": 55,
+        "app_limits_passed": true,
+        "raw_path": "evaluation/blind-v3/documents/uv-cache/new.md",
+        "text_path": "evaluation/blind-v3/documents/uv-cache/new.txt",
+        "passages_path": "evaluation/blind-v3/documents/uv-cache/new.passages.json",
+        "audit_path": "evaluation/blind-v3/documents/uv-cache/new.extraction.json"
+      }
+    },
+    {
+      "id": "black-basics-2023",
+      "repository": "psf/black",
+      "license": "MIT",
+      "annotation_path": "evaluation/blind-v3/annotations/black-basics-2023.json",
+      "old": {
+        "tag": "22.3.0",
+        "commit": "ae2c0758c9e61a385df9700dc9c231bf54887041",
+        "commit_date": "2022-03-28",
+        "upstream_path": "docs/usage_and_configuration/the_basics.md",
+        "raw_url": "https://raw.githubusercontent.com/psf/black/ae2c0758c9e61a385df9700dc9c231bf54887041/docs/usage_and_configuration/the_basics.md",
+        "source_url": "https://github.com/psf/black/blob/ae2c0758c9e61a385df9700dc9c231bf54887041/docs/usage_and_configuration/the_basics.md",
+        "raw_sha256": "249f5ff24e256299176b2924d2fd3827906d8fed78d290fde6305ddee51b3cae",
+        "text_sha256": "73e16660a34a6639aa5c82936eb84dcca9b08e24b1ae6ada68153d74bbe6fe3e",
+        "raw_characters": 9920,
+        "characters": 6814,
+        "passages": 64,
+        "app_limits_passed": true,
+        "raw_path": "evaluation/blind-v3/documents/black-basics-2023/old.md",
+        "text_path": "evaluation/blind-v3/documents/black-basics-2023/old.txt",
+        "passages_path": "evaluation/blind-v3/documents/black-basics-2023/old.passages.json",
+        "audit_path": "evaluation/blind-v3/documents/black-basics-2023/old.extraction.json"
+      },
+      "new": {
+        "tag": "23.1.0",
+        "commit": "b0d1fba7ac3be53c71fb0d3211d911e629f8aecb",
+        "commit_date": "2023-02-01",
+        "upstream_path": "docs/usage_and_configuration/the_basics.md",
+        "raw_url": "https://raw.githubusercontent.com/psf/black/b0d1fba7ac3be53c71fb0d3211d911e629f8aecb/docs/usage_and_configuration/the_basics.md",
+        "source_url": "https://github.com/psf/black/blob/b0d1fba7ac3be53c71fb0d3211d911e629f8aecb/docs/usage_and_configuration/the_basics.md",
+        "raw_sha256": "24014eb230a6211966936a1fc24f689ad86f715ea015a076e33860109d8b5b0a",
+        "text_sha256": "c079934eb0dc965d6b99dc82cf318902648fd310b7b5da8ddf11b05ac57f844f",
+        "raw_characters": 10094,
+        "characters": 6792,
+        "passages": 64,
+        "app_limits_passed": true,
+        "raw_path": "evaluation/blind-v3/documents/black-basics-2023/new.md",
+        "text_path": "evaluation/blind-v3/documents/black-basics-2023/new.txt",
+        "passages_path": "evaluation/blind-v3/documents/black-basics-2023/new.passages.json",
+        "audit_path": "evaluation/blind-v3/documents/black-basics-2023/new.extraction.json"
+      }
+    },
+    {
+      "id": "starlette-websockets",
+      "repository": "encode/starlette",
+      "license": "BSD-3-Clause",
+      "annotation_path": "evaluation/blind-v3/annotations/starlette-websockets.json",
+      "old": {
+        "tag": "0.20.0",
+        "commit": "830f3486537916bae6b46948ff922adc14a22b7c",
+        "commit_date": "2022-05-03",
+        "upstream_path": "docs/websockets.md",
+        "raw_url": "https://raw.githubusercontent.com/encode/starlette/830f3486537916bae6b46948ff922adc14a22b7c/docs/websockets.md",
+        "source_url": "https://github.com/encode/starlette/blob/830f3486537916bae6b46948ff922adc14a22b7c/docs/websockets.md",
+        "raw_sha256": "503dd2a1d43f08e37f4ddef60d7eb53b7f1f4f0c1e09901bf04cadd0a2f2c5b1",
+        "text_sha256": "651716fa6c94325e646bf9f4170bd721aed64c583c03d0679382ba6f2f10a483",
+        "raw_characters": 2491,
+        "characters": 2164,
+        "passages": 37,
+        "app_limits_passed": true,
+        "raw_path": "evaluation/blind-v3/documents/starlette-websockets/old.md",
+        "text_path": "evaluation/blind-v3/documents/starlette-websockets/old.txt",
+        "passages_path": "evaluation/blind-v3/documents/starlette-websockets/old.passages.json",
+        "audit_path": "evaluation/blind-v3/documents/starlette-websockets/old.extraction.json"
+      },
+      "new": {
+        "tag": "0.41.0",
+        "commit": "46131a1af875a5be2190d91713a43ee80c8311c6",
+        "commit_date": "2024-10-15",
+        "upstream_path": "docs/websockets.md",
+        "raw_url": "https://raw.githubusercontent.com/encode/starlette/46131a1af875a5be2190d91713a43ee80c8311c6/docs/websockets.md",
+        "source_url": "https://github.com/encode/starlette/blob/46131a1af875a5be2190d91713a43ee80c8311c6/docs/websockets.md",
+        "raw_sha256": "713259167c41fb334fc029731cd0f55fe7e161ab7d4df00f52519c26adf945db",
+        "text_sha256": "f584ebee0652d3a5e542d5d5c0e1aa21d09746bc581dcc2db2ca934997194f25",
+        "raw_characters": 3645,
+        "characters": 2944,
+        "passages": 48,
+        "app_limits_passed": true,
+        "raw_path": "evaluation/blind-v3/documents/starlette-websockets/new.md",
+        "text_path": "evaluation/blind-v3/documents/starlette-websockets/new.txt",
+        "passages_path": "evaluation/blind-v3/documents/starlette-websockets/new.passages.json",
+        "audit_path": "evaluation/blind-v3/documents/starlette-websockets/new.extraction.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "protocol_sha256": "53d8bad1cc16ddf04831a8fe22bfff9253e549a257a67c623e69a1886a318275",
+  "screened_pairs": 12,
+  "prediction_access": false,
+  "candidates": [
+    {
+      "id": "starlette-responses",
+      "repository": "encode/starlette",
+      "license": "BSD-3-Clause",
+      "license_paths": [
+        "LICENSE.md"
+      ],
+      "upstream_path": "docs/responses.md",
+      "old": {
+        "tag": "0.20.0",
+        "commit": "830f3486537916bae6b46948ff922adc14a22b7c",
+        "commit_date": "2022-05-03",
+        "bytes": 6511,
+        "raw_sha256": "56ccd0b2fb1d04318b1b45d9a07b99acb216b40b98b4a0534c71bc8d73dab600"
+      },
+      "new": {
+        "tag": "0.41.0",
+        "commit": "46131a1af875a5be2190d91713a43ee80c8311c6",
+        "commit_date": "2024-10-15",
+        "bytes": 7094,
+        "raw_sha256": "be32713c96d09230268eff6bcaa609513f854ba8f64940208ba7a6ff57f00bac"
+      },
+      "decision": "selected",
+      "reason": "Complete page with natural prose changes, compatible audited markup and app limits."
+    },
+    {
+      "id": "starlette-config",
+      "repository": "encode/starlette",
+      "license": "BSD-3-Clause",
+      "license_paths": [
+        "LICENSE.md"
+      ],
+      "upstream_path": "docs/config.md",
+      "old": {
+        "tag": "0.20.0",
+        "commit": "830f3486537916bae6b46948ff922adc14a22b7c",
+        "commit_date": "2022-05-03",
+        "bytes": 6538,
+        "raw_sha256": "36b80c9009093c884422943b45ee129d894ed82b945c6eda9a74330664dd38cf"
+      },
+      "new": {
+        "tag": "0.41.0",
+        "commit": "46131a1af875a5be2190d91713a43ee80c8311c6",
+        "commit_date": "2024-10-15",
+        "bytes": 6614,
+        "raw_sha256": "455c2eed67b8f43f43231fd390fde84e4fb41bf631aee3535c56589d5261e484"
+      },
+      "decision": "selected",
+      "reason": "Complete page with natural prose changes, compatible audited markup and app limits."
+    },
+    {
+      "id": "black-file-collection-and-discovery",
+      "repository": "psf/black",
+      "license": "MIT",
+      "license_paths": [
+        "LICENSE"
+      ],
+      "upstream_path": "docs/usage_and_configuration/file_collection_and_discovery.md",
+      "old": {
+        "tag": "22.3.0",
+        "commit": "ae2c0758c9e61a385df9700dc9c231bf54887041",
+        "commit_date": "2022-03-28",
+        "bytes": 1870,
+        "raw_sha256": "50197db15be759b133ea2de1184fdaa145a57840d8fe697c5365d475e73ad66d"
+      },
+      "new": {
+        "tag": "24.10.0",
+        "commit": "1b2427a2b785cc4aac97c19bb4b9a0de063f9547",
+        "commit_date": "2024-10-07",
+        "bytes": 1870,
+        "raw_sha256": "50197db15be759b133ea2de1184fdaa145a57840d8fe697c5365d475e73ad66d"
+      },
+      "decision": "rejected",
+      "reason": "No raw changes across these revisions."
+    },
+    {
+      "id": "black-future-style",
+      "repository": "psf/black",
+      "license": "MIT",
+      "license_paths": [
+        "LICENSE"
+      ],
+      "upstream_path": "docs/the_black_code_style/future_style.md",
+      "old": {
+        "tag": "22.3.0",
+        "commit": "ae2c0758c9e61a385df9700dc9c231bf54887041",
+        "commit_date": "2022-03-28",
+        "bytes": 2023,
+        "raw_sha256": "33452e8a6b27162bec58b91dbdfa9a8cf16e062b780bf4ae763c253e23f990db"
+      },
+      "new": {
+        "tag": "24.10.0",
+        "commit": "1b2427a2b785cc4aac97c19bb4b9a0de063f9547",
+        "commit_date": "2024-10-07",
+        "bytes": 8481,
+        "raw_sha256": "d82f5c785e8dc72646f39073c08f518adf3a8c22350364e7781042c8d134eb63"
+      },
+      "decision": "selected",
+      "reason": "Complete page with natural prose changes, compatible audited markup and app limits."
+    },
+    {
+      "id": "uv-cache",
+      "repository": "astral-sh/uv",
+      "license": "MIT OR Apache-2.0",
+      "license_paths": [
+        "LICENSE-MIT",
+        "LICENSE-APACHE"
+      ],
+      "upstream_path": "docs/concepts/cache.md",
+      "old": {
+        "tag": "0.3.0",
+        "commit": "dd1934c9c36ee22cd3c467317503ecd7b040c43a",
+        "commit_date": "2024-08-20",
+        "bytes": 5690,
+        "raw_sha256": "bd829d82f4946b713f3357f4c985b804fb6f594b89756f6bcd8931bb7434ea45"
+      },
+      "new": {
+        "tag": "0.6.0",
+        "commit": "591f38c25e577d29bb4fd0dde7cdb614f3129bfc",
+        "commit_date": "2025-02-14",
+        "bytes": 8641,
+        "raw_sha256": "f2a27553fef3b79c9193045179748d558b3585fa3954b07af7872b9f967d0ad6"
+      },
+      "decision": "selected",
+      "reason": "Complete page with natural prose changes, compatible audited markup and app limits."
+    },
+    {
+      "id": "uv-sync",
+      "repository": "astral-sh/uv",
+      "license": "MIT OR Apache-2.0",
+      "license_paths": [
+        "LICENSE-MIT",
+        "LICENSE-APACHE"
+      ],
+      "upstream_path": "docs/concepts/projects/sync.md",
+      "old": {
+        "tag": "0.3.0",
+        "commit": "dd1934c9c36ee22cd3c467317503ecd7b040c43a",
+        "commit_date": "2024-08-20",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "new": {
+        "tag": "0.6.0",
+        "commit": "591f38c25e577d29bb4fd0dde7cdb614f3129bfc",
+        "commit_date": "2025-02-14",
+        "bytes": 2482,
+        "raw_sha256": "51b0fd048d500dc7d948f479834de1e20a004c93e31995c2ba625bd5ca451740"
+      },
+      "decision": "rejected",
+      "reason": "Old path unavailable (HTTP 404); not a complete comparable pair."
+    },
+    {
+      "id": "black-the-basics",
+      "repository": "psf/black",
+      "license": "MIT",
+      "license_paths": [
+        "LICENSE"
+      ],
+      "upstream_path": "docs/usage_and_configuration/the_basics.md",
+      "old": {
+        "tag": "22.3.0",
+        "commit": "ae2c0758c9e61a385df9700dc9c231bf54887041",
+        "commit_date": "2022-03-28",
+        "bytes": 9986,
+        "raw_sha256": "249f5ff24e256299176b2924d2fd3827906d8fed78d290fde6305ddee51b3cae"
+      },
+      "new": {
+        "tag": "24.10.0",
+        "commit": "1b2427a2b785cc4aac97c19bb4b9a0de063f9547",
+        "commit_date": "2024-10-07",
+        "bytes": 19329,
+        "raw_sha256": "08f1983e06ba14b4666058d8a0e67510ef406eb8b0ba78dc091669a77040785c"
+      },
+      "decision": "rejected",
+      "reason": "New full extracted page exceeds the 80-passage app limit."
+    },
+    {
+      "id": "black-compatible-configs",
+      "repository": "psf/black",
+      "license": "MIT",
+      "license_paths": [
+        "LICENSE"
+      ],
+      "upstream_path": "docs/compatible_configs.md",
+      "old": {
+        "tag": "22.3.0",
+        "commit": "ae2c0758c9e61a385df9700dc9c231bf54887041",
+        "commit_date": "2022-03-28",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "new": {
+        "tag": "24.10.0",
+        "commit": "1b2427a2b785cc4aac97c19bb4b9a0de063f9547",
+        "commit_date": "2024-10-07",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "decision": "rejected",
+      "reason": "Path unavailable at both pinned revisions (HTTP 404)."
+    },
+    {
+      "id": "starlette-exceptions",
+      "repository": "encode/starlette",
+      "license": "BSD-3-Clause",
+      "license_paths": [
+        "LICENSE.md"
+      ],
+      "upstream_path": "docs/exceptions.md",
+      "old": {
+        "tag": "0.20.0",
+        "commit": "830f3486537916bae6b46948ff922adc14a22b7c",
+        "commit_date": "2022-05-03",
+        "bytes": 4050,
+        "raw_sha256": "7ce6724cbcaef9fd72af7c71631469b64c4ce6c274e1c0885876212ac38b8d45"
+      },
+      "new": {
+        "tag": "0.41.0",
+        "commit": "46131a1af875a5be2190d91713a43ee80c8311c6",
+        "commit_date": "2024-10-15",
+        "bytes": 5183,
+        "raw_sha256": "76239b4a2df05c7c7f337b9b3a13fe54de04ace2ffc1d5f387aa913c11b352a9"
+      },
+      "decision": "rejected",
+      "reason": "Lower changed-pair yield; available slots prefer other source-only screened cases."
+    },
+    {
+      "id": "uv-compatibility",
+      "repository": "astral-sh/uv",
+      "license": "MIT OR Apache-2.0",
+      "license_paths": [
+        "LICENSE-MIT",
+        "LICENSE-APACHE"
+      ],
+      "upstream_path": "docs/pip/compatibility.md",
+      "old": {
+        "tag": "0.3.0",
+        "commit": "dd1934c9c36ee22cd3c467317503ecd7b040c43a",
+        "commit_date": "2024-08-20",
+        "bytes": 23245,
+        "raw_sha256": "68b2f3ca4b4b16707839d3f0d8302340a1b7b6f0304da7ccbf7d13a5ee3eb6af"
+      },
+      "new": {
+        "tag": "0.6.0",
+        "commit": "591f38c25e577d29bb4fd0dde7cdb614f3129bfc",
+        "commit_date": "2025-02-14",
+        "bytes": 24113,
+        "raw_sha256": "3b176cbc732d9ddec053485e793c08b65803faf2b23278bca906ca4de5a09afc"
+      },
+      "decision": "rejected",
+      "reason": "Both full extracted pages exceed the 80-passage app limit."
+    },
+    {
+      "id": "black-basics-2023",
+      "repository": "psf/black",
+      "license": "MIT",
+      "license_paths": [
+        "LICENSE"
+      ],
+      "upstream_path": "docs/usage_and_configuration/the_basics.md",
+      "old": {
+        "tag": "22.3.0",
+        "commit": "ae2c0758c9e61a385df9700dc9c231bf54887041",
+        "commit_date": "2022-03-28",
+        "bytes": 9986,
+        "raw_sha256": "249f5ff24e256299176b2924d2fd3827906d8fed78d290fde6305ddee51b3cae"
+      },
+      "new": {
+        "tag": "23.1.0",
+        "commit": "b0d1fba7ac3be53c71fb0d3211d911e629f8aecb",
+        "commit_date": "2023-02-01",
+        "bytes": 10160,
+        "raw_sha256": "24014eb230a6211966936a1fc24f689ad86f715ea015a076e33860109d8b5b0a"
+      },
+      "decision": "selected",
+      "reason": "Complete page with natural prose changes, compatible audited markup and app limits."
+    },
+    {
+      "id": "starlette-websockets",
+      "repository": "encode/starlette",
+      "license": "BSD-3-Clause",
+      "license_paths": [
+        "LICENSE.md"
+      ],
+      "upstream_path": "docs/websockets.md",
+      "old": {
+        "tag": "0.20.0",
+        "commit": "830f3486537916bae6b46948ff922adc14a22b7c",
+        "commit_date": "2022-05-03",
+        "bytes": 2491,
+        "raw_sha256": "503dd2a1d43f08e37f4ddef60d7eb53b7f1f4f0c1e09901bf04cadd0a2f2c5b1"
+      },
+      "new": {
+        "tag": "0.41.0",
+        "commit": "46131a1af875a5be2190d91713a43ee80c8311c6",
+        "commit_date": "2024-10-15",
+        "bytes": 3645,
+        "raw_sha256": "713259167c41fb334fc029731cd0f55fe7e161ab7d4df00f52519c26adf945db"
+      },
+      "decision": "selected",
+      "reason": "Complete page with natural prose changes, compatible audited markup and app limits."
+    }
+  ]
+}

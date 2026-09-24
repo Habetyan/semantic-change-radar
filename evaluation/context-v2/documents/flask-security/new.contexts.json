@@ -1,0 +1,1088 @@
+[
+  {
+    "headings": [],
+    "scope": [],
+    "section": [],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 1,
+    "line_end": 1,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 4,
+    "line_end": 10,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 12,
+    "line_end": 12,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Resource Use"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 15,
+    "line_end": 19,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Resource Use"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 21,
+    "line_end": 23,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Resource Use"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 25,
+    "line_end": 28,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Resource Use"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 29,
+    "line_end": 31,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Resource Use"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 32,
+    "line_end": 35,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Resource Use"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      2
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 37,
+    "line_end": 40,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 44,
+    "line_end": 44,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Scripting (XSS)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      9
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 47,
+    "line_end": 52,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Scripting (XSS)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      9
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 54,
+    "line_end": 57,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Scripting (XSS)"
+    ],
+    "scope": [
+      "Flask configures Jinja2 to automatically escape all values unless explicitly told otherwise.  This should rule out all XSS problems caused in templates, but there are still other places where you have to be careful:"
+    ],
+    "section": [
+      0,
+      9
+    ],
+    "scope_indices": [
+      11
+    ],
+    "kind": "list",
+    "line_start": 59,
+    "line_end": 59,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Scripting (XSS)"
+    ],
+    "scope": [
+      "Flask configures Jinja2 to automatically escape all values unless explicitly told otherwise.  This should rule out all XSS problems caused in templates, but there are still other places where you have to be careful:"
+    ],
+    "section": [
+      0,
+      9
+    ],
+    "scope_indices": [
+      11
+    ],
+    "kind": "list",
+    "line_start": 60,
+    "line_end": 60,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Scripting (XSS)"
+    ],
+    "scope": [
+      "Flask configures Jinja2 to automatically escape all values unless explicitly told otherwise.  This should rule out all XSS problems caused in templates, but there are still other places where you have to be careful:"
+    ],
+    "section": [
+      0,
+      9
+    ],
+    "scope_indices": [
+      11
+    ],
+    "kind": "list",
+    "line_start": 61,
+    "line_end": 62,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Scripting (XSS)"
+    ],
+    "scope": [
+      "Flask configures Jinja2 to automatically escape all values unless explicitly told otherwise.  This should rule out all XSS problems caused in templates, but there are still other places where you have to be careful:"
+    ],
+    "section": [
+      0,
+      9
+    ],
+    "scope_indices": [
+      11
+    ],
+    "kind": "list",
+    "line_start": 63,
+    "line_end": 65,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Scripting (XSS)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      9
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 67,
+    "line_end": 71,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Scripting (XSS)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      9
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 77,
+    "line_end": 79,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Scripting (XSS)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      9
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 85,
+    "line_end": 90,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Scripting (XSS)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      9
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 92,
+    "line_end": 94,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Scripting (XSS)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      9
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 101,
+    "line_end": 101,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 103,
+    "line_end": 103,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Request Forgery (CSRF)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      21
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 106,
+    "line_end": 108,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Request Forgery (CSRF)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      21
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 110,
+    "line_end": 116,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Request Forgery (CSRF)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      21
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 118,
+    "line_end": 122,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Request Forgery (CSRF)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      21
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 124,
+    "line_end": 127,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Request Forgery (CSRF)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      21
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 129,
+    "line_end": 133,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Cross-Site Request Forgery (CSRF)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      21
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 135,
+    "line_end": 136,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 140,
+    "line_end": 140,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "JSON Security"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      28
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 143,
+    "line_end": 144,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "JSON Security"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      28
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 146,
+    "line_end": 151,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 153,
+    "line_end": 153,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 156,
+    "line_end": 159,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 163,
+    "line_end": 163,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "HTTP Strict Transport Security (HSTS)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 166,
+    "line_end": 167,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "HTTP Strict Transport Security (HSTS)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      33
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 171,
+    "line_end": 171,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 175,
+    "line_end": 175,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "Content Security Policy (CSP)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      36
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 178,
+    "line_end": 180,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "Content Security Policy (CSP)"
+    ],
+    "scope": [
+      "Tell the browser where it can load various types of resource from. This header should be used whenever possible, but requires some work to define the correct policy for your site. A very strict policy would be:"
+    ],
+    "section": [
+      0,
+      31,
+      36
+    ],
+    "scope_indices": [
+      37
+    ],
+    "kind": "list",
+    "line_start": 184,
+    "line_end": 184,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "Content Security Policy (CSP)"
+    ],
+    "scope": [
+      "Tell the browser where it can load various types of resource from. This header should be used whenever possible, but requires some work to define the correct policy for your site. A very strict policy would be:"
+    ],
+    "section": [
+      0,
+      31,
+      36
+    ],
+    "scope_indices": [
+      37
+    ],
+    "kind": "list",
+    "line_start": 185,
+    "line_end": 185,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 187,
+    "line_end": 187,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "X-Content-Type-Options"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      40
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 190,
+    "line_end": 192,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "X-Content-Type-Options"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      40
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 196,
+    "line_end": 196,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 198,
+    "line_end": 198,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "X-Frame-Options"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      43
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 201,
+    "line_end": 204,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "X-Frame-Options"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      43
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 208,
+    "line_end": 208,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 212,
+    "line_end": 212,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "Set-Cookie options"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      46
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 215,
+    "line_end": 217,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "Set-Cookie options"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      46
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 219,
+    "line_end": 219,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "Set-Cookie options"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      46
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 220,
+    "line_end": 221,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "Set-Cookie options"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      46
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 222,
+    "line_end": 226,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "Set-Cookie options"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      46
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 238,
+    "line_end": 240,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "Set-Cookie options"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      46
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 245,
+    "line_end": 249,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "Set-Cookie options"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      46
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 263,
+    "line_end": 264,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "Set-Cookie options"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      46
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 266,
+    "line_end": 266,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "Set-Cookie options"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      46
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 267,
+    "line_end": 267,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 272,
+    "line_end": 272,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "HTTP Public Key Pinning (HPKP)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      56
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 275,
+    "line_end": 276,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "HTTP Public Key Pinning (HPKP)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      56
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 279,
+    "line_end": 280,
+    "indent": 3
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Security Headers",
+      "HTTP Public Key Pinning (HPKP)"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      31,
+      56
+    ],
+    "scope_indices": [],
+    "kind": "list",
+    "line_start": 282,
+    "line_end": 282,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations"
+    ],
+    "scope": [],
+    "section": [
+      0
+    ],
+    "scope_indices": [],
+    "kind": "heading",
+    "line_start": 285,
+    "line_end": 285,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Copy/Paste to Terminal"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      60
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 288,
+    "line_end": 290,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Copy/Paste to Terminal"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      60
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 292,
+    "line_end": 294,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Copy/Paste to Terminal"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      60
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 296,
+    "line_end": 298,
+    "indent": 0
+  },
+  {
+    "headings": [
+      "Security Considerations",
+      "Copy/Paste to Terminal"
+    ],
+    "scope": [],
+    "section": [
+      0,
+      60
+    ],
+    "scope_indices": [],
+    "kind": "paragraph",
+    "line_start": 304,
+    "line_end": 308,
+    "indent": 0
+  }
+]

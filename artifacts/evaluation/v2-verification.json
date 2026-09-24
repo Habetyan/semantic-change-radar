@@ -1,0 +1,1030 @@
+{
+  "created_at": "2026-09-24T17:10:46.192247+00:00",
+  "scope": "Completed structural improvements; no engine, threshold or label changes after development-stage and fresh evaluation freezes.",
+  "unit_and_model_tests": {
+    "command": "HF_HUB_OFFLINE=1 RUN_MODEL_TESTS=1 .venv/bin/python -m pytest -q",
+    "observed_result": "63 passed in 2.78s",
+    "phase": "Before frozen development/fresh evaluations; engine and test sources unchanged afterward."
+  },
+  "static_checks": {
+    "ruff_check": "passed",
+    "ruff_format_check": "29 files already formatted",
+    "git_diff_check": "passed; original upstream document/license bytes excluded from whitespace lint",
+    "local_documentation_links": "passed"
+  },
+  "browser": {
+    "grouped_render_and_export": "passed",
+    "group_indices": {
+      "old": [
+        1
+      ],
+      "new": [
+        1,
+        2
+      ]
+    },
+    "detail_status": "modified",
+    "localized_evidence_count": 0,
+    "httpx_localized_status": "uncertain",
+    "httpx_localized_evidence_count": 1,
+    "httpx_localized_render_and_export": "passed",
+    "httpx_evidence_source_check": "matches after comma/semicolon delimiter normalization",
+    "browser_page_errors": []
+  },
+  "browser_updated_copy": {
+    "updated_app_copy": "passed",
+    "url": "http://127.0.0.1:7863",
+    "normalized_excerpts_explained": true,
+    "heading_review_cost_explained": true
+  },
+  "browser_standard_smoke": "passed: semantic comparison, filters, evidence, JSON export, stale inputs, desktop and 390px mobile layout; no page errors",
+  "browser_artifacts": "artifacts/local/browser-v2 (local screenshots and downloads; excluded from git)",
+  "integrity": {
+    "freezes": {
+      "improvement-freeze": {
+        "file_count": 88,
+        "mismatches": []
+      },
+      "fresh-v2-label-freeze": {
+        "file_count": 35,
+        "mismatches": []
+      },
+      "fresh-v2-freeze": {
+        "file_count": 52,
+        "mismatches": []
+      }
+    },
+    "protected_historical_files_unchanged": 96,
+    "modified_existing_paths": [
+      "README.md",
+      "app.py",
+      "THIRD_PARTY_NOTICES.md",
+      "tests/test_compare.py",
+      "tests/test_models.py",
+      "tests/test_real_evaluation.py",
+      "tests/test_cli.py",
+      "tests/test_presentation.py",
+      "radar/presentation.py",
+      "radar/models.py",
+      "radar/cli.py",
+      "radar/compare.py",
+      "evaluation/README.md",
+      "evaluation/real_evaluate.py",
+      "docs/HANDOFF.md",
+      "docs/design.md"
+    ]
+  },
+  "independent_audit": "All successful outputs partition every source index exactly once; source text and all per-case/aggregate metrics recomputed; no dropped failures. Archive and pinned cached model file hashes verified.",
+  "independent_review": "No remaining must-fix coverage, model budget, runtime or consumer defects. Normalized clause excerpts were incorrectly described as verbatim quotes; docs and app explanatory copy corrected without changing inference.",
+  "evaluation_runs": [
+    {
+      "summary": "artifacts/evaluation/v2-dev-lexical-baseline/summary.json",
+      "sha256": "874ac1941202ade4bd2f1f26de167cd5f6087c8ba85678a6333a5e4cebe5b7be",
+      "scored_cases": 7,
+      "failed_cases": 1,
+      "metrics": {
+        "alignment_edges": {
+          "expected": 260,
+          "f1": 0.9601593625498008,
+          "precision": 0.9958677685950413,
+          "predicted": 242,
+          "recall": 0.926923076923077,
+          "true_positive": 241
+        },
+        "changed_alignment_edges": {
+          "expected": 56,
+          "f1": 0.7872340425531915,
+          "precision": 0.9736842105263158,
+          "predicted": 38,
+          "recall": 0.6607142857142857,
+          "true_positive": 37
+        },
+        "conditional_abstentions": 0,
+        "conditional_alignment_coverage": 0.9838709677419355,
+        "conditional_confusion": {
+          "added": {
+            "added": 65
+          },
+          "modified": {
+            "modified": 15
+          },
+          "removed": {
+            "removed": 6
+          },
+          "reworded": {
+            "modified": 15
+          },
+          "unchanged": {
+            "unchanged": 204
+          }
+        },
+        "conditional_correct_status": 290,
+        "conditional_decision_coverage": 1.0,
+        "conditional_eligible_events": 310,
+        "conditional_material": {
+          "expected": 86,
+          "f1": 0.9197860962566845,
+          "precision": 0.8514851485148515,
+          "predicted": 101,
+          "recall": 1.0,
+          "true_positive": 86
+        },
+        "conditional_scored_events": 305,
+        "conditional_status_accuracy": 0.9508196721311475,
+        "end_to_end_material": {
+          "expected": 96,
+          "f1": 0.7577092511013216,
+          "precision": 0.6564885496183206,
+          "predicted": 131,
+          "recall": 0.8958333333333334,
+          "true_positive": 86
+        },
+        "exact_group_correspondence": {
+          "expected": 320,
+          "f1": 0.9300911854103343,
+          "precision": 0.9053254437869822,
+          "predicted": 338,
+          "recall": 0.95625,
+          "true_positive": 306
+        },
+        "gold_ambiguous_events": 2,
+        "gold_changed_paired_groups": 45,
+        "gold_events": 320,
+        "gold_singleton_events": 312,
+        "gold_split_merge_groups": 8,
+        "material_abstentions": 0,
+        "predicted_abstentions": 0,
+        "predicted_events": 338,
+        "predicted_material_excluded_ambiguous": 3,
+        "risky_misses": 0
+      }
+    },
+    {
+      "summary": "artifacts/evaluation/v2-dev-semantic-baseline/summary.json",
+      "sha256": "79b882bfbc467713d1cbdf679b965a45402ba90066a9b26f60e5bc18af632984",
+      "scored_cases": 7,
+      "failed_cases": 1,
+      "metrics": {
+        "alignment_edges": {
+          "expected": 260,
+          "f1": 0.9563492063492065,
+          "precision": 0.9877049180327869,
+          "predicted": 244,
+          "recall": 0.926923076923077,
+          "true_positive": 241
+        },
+        "changed_alignment_edges": {
+          "expected": 56,
+          "f1": 0.7708333333333333,
+          "precision": 0.925,
+          "predicted": 40,
+          "recall": 0.6607142857142857,
+          "true_positive": 37
+        },
+        "conditional_abstentions": 9,
+        "conditional_alignment_coverage": 0.9806451612903225,
+        "conditional_confusion": {
+          "added": {
+            "added": 63
+          },
+          "modified": {
+            "modified": 10,
+            "reworded": 1,
+            "uncertain": 4
+          },
+          "removed": {
+            "removed": 6
+          },
+          "reworded": {
+            "modified": 6,
+            "reworded": 5,
+            "uncertain": 5
+          },
+          "unchanged": {
+            "unchanged": 204
+          }
+        },
+        "conditional_correct_status": 288,
+        "conditional_decision_coverage": 0.9703947368421053,
+        "conditional_eligible_events": 310,
+        "conditional_material": {
+          "expected": 84,
+          "f1": 0.9349112426035503,
+          "precision": 0.9294117647058824,
+          "predicted": 85,
+          "recall": 0.9404761904761905,
+          "true_positive": 79
+        },
+        "conditional_scored_events": 304,
+        "conditional_status_accuracy": 0.9473684210526315,
+        "end_to_end_material": {
+          "expected": 96,
+          "f1": 0.7596153846153847,
+          "precision": 0.7053571428571429,
+          "predicted": 112,
+          "recall": 0.8229166666666666,
+          "true_positive": 79
+        },
+        "exact_group_correspondence": {
+          "expected": 320,
+          "f1": 0.9268292682926829,
+          "precision": 0.9047619047619048,
+          "predicted": 336,
+          "recall": 0.95,
+          "true_positive": 304
+        },
+        "gold_ambiguous_events": 2,
+        "gold_changed_paired_groups": 45,
+        "gold_events": 320,
+        "gold_singleton_events": 312,
+        "gold_split_merge_groups": 8,
+        "material_abstentions": 4,
+        "predicted_abstentions": 10,
+        "predicted_events": 336,
+        "predicted_material_excluded_ambiguous": 4,
+        "risky_misses": 1
+      }
+    },
+    {
+      "summary": "artifacts/evaluation/v2-dev-semantic-context/summary.json",
+      "sha256": "2ae7878dbb616c7d5445bbe57d7841f6d7c0008d168991a1838601beee629611",
+      "scored_cases": 7,
+      "failed_cases": 1,
+      "metrics": {
+        "alignment_edges": {
+          "expected": 260,
+          "f1": 0.956,
+          "precision": 0.9958333333333333,
+          "predicted": 240,
+          "recall": 0.9192307692307692,
+          "true_positive": 239
+        },
+        "changed_alignment_edges": {
+          "expected": 56,
+          "f1": 0.7608695652173912,
+          "precision": 0.9722222222222222,
+          "predicted": 36,
+          "recall": 0.625,
+          "true_positive": 35
+        },
+        "conditional_abstentions": 37,
+        "conditional_alignment_coverage": 0.9774193548387097,
+        "conditional_confusion": {
+          "added": {
+            "added": 64
+          },
+          "modified": {
+            "modified": 13,
+            "reworded": 1,
+            "uncertain": 2
+          },
+          "removed": {
+            "removed": 6
+          },
+          "reworded": {
+            "modified": 7,
+            "reworded": 3,
+            "uncertain": 3
+          },
+          "unchanged": {
+            "modified": 3,
+            "uncertain": 32,
+            "unchanged": 169
+          }
+        },
+        "conditional_correct_status": 255,
+        "conditional_decision_coverage": 0.8778877887788779,
+        "conditional_eligible_events": 310,
+        "conditional_material": {
+          "expected": 86,
+          "f1": 0.9273743016759777,
+          "precision": 0.8924731182795699,
+          "predicted": 93,
+          "recall": 0.9651162790697675,
+          "true_positive": 83
+        },
+        "conditional_scored_events": 303,
+        "conditional_status_accuracy": 0.8415841584158416,
+        "end_to_end_material": {
+          "expected": 96,
+          "f1": 0.751131221719457,
+          "precision": 0.664,
+          "predicted": 125,
+          "recall": 0.8645833333333334,
+          "true_positive": 83
+        },
+        "exact_group_correspondence": {
+          "expected": 320,
+          "f1": 0.9181818181818182,
+          "precision": 0.8911764705882353,
+          "predicted": 340,
+          "recall": 0.946875,
+          "true_positive": 303
+        },
+        "gold_ambiguous_events": 2,
+        "gold_changed_paired_groups": 45,
+        "gold_events": 320,
+        "gold_singleton_events": 312,
+        "gold_split_merge_groups": 8,
+        "material_abstentions": 2,
+        "predicted_abstentions": 38,
+        "predicted_events": 340,
+        "predicted_material_excluded_ambiguous": 4,
+        "risky_misses": 1
+      }
+    },
+    {
+      "summary": "artifacts/evaluation/v2-dev-semantic-groups/summary.json",
+      "sha256": "3be328fdd4911ee9ac58b691d38b9f623eb62ac833acd2f186c95db4520be7b4",
+      "scored_cases": 7,
+      "failed_cases": 1,
+      "metrics": {
+        "alignment_edges": {
+          "expected": 260,
+          "f1": 0.956,
+          "precision": 0.9958333333333333,
+          "predicted": 240,
+          "recall": 0.9192307692307692,
+          "true_positive": 239
+        },
+        "changed_alignment_edges": {
+          "expected": 56,
+          "f1": 0.7608695652173912,
+          "precision": 0.9722222222222222,
+          "predicted": 36,
+          "recall": 0.625,
+          "true_positive": 35
+        },
+        "conditional_abstentions": 37,
+        "conditional_alignment_coverage": 0.9774193548387097,
+        "conditional_confusion": {
+          "added": {
+            "added": 64
+          },
+          "modified": {
+            "modified": 13,
+            "reworded": 1,
+            "uncertain": 2
+          },
+          "removed": {
+            "removed": 6
+          },
+          "reworded": {
+            "modified": 7,
+            "reworded": 3,
+            "uncertain": 3
+          },
+          "unchanged": {
+            "modified": 3,
+            "uncertain": 32,
+            "unchanged": 169
+          }
+        },
+        "conditional_correct_status": 255,
+        "conditional_decision_coverage": 0.8778877887788779,
+        "conditional_eligible_events": 310,
+        "conditional_material": {
+          "expected": 86,
+          "f1": 0.9273743016759777,
+          "precision": 0.8924731182795699,
+          "predicted": 93,
+          "recall": 0.9651162790697675,
+          "true_positive": 83
+        },
+        "conditional_scored_events": 303,
+        "conditional_status_accuracy": 0.8415841584158416,
+        "end_to_end_material": {
+          "expected": 96,
+          "f1": 0.751131221719457,
+          "precision": 0.664,
+          "predicted": 125,
+          "recall": 0.8645833333333334,
+          "true_positive": 83
+        },
+        "exact_group_correspondence": {
+          "expected": 320,
+          "f1": 0.9181818181818182,
+          "precision": 0.8911764705882353,
+          "predicted": 340,
+          "recall": 0.946875,
+          "true_positive": 303
+        },
+        "gold_ambiguous_events": 2,
+        "gold_changed_paired_groups": 45,
+        "gold_events": 320,
+        "gold_singleton_events": 312,
+        "gold_split_merge_groups": 8,
+        "material_abstentions": 2,
+        "predicted_abstentions": 38,
+        "predicted_events": 340,
+        "predicted_material_excluded_ambiguous": 4,
+        "risky_misses": 1
+      }
+    },
+    {
+      "summary": "artifacts/evaluation/v2-dev-semantic-verified/summary.json",
+      "sha256": "a1902cc14470fe21cb0819fbddf5d4e68bdd3e3a6bf4959409e9b0f88dddd585",
+      "scored_cases": 7,
+      "failed_cases": 1,
+      "metrics": {
+        "alignment_edges": {
+          "expected": 260,
+          "f1": 0.956,
+          "precision": 0.9958333333333333,
+          "predicted": 240,
+          "recall": 0.9192307692307692,
+          "true_positive": 239
+        },
+        "changed_alignment_edges": {
+          "expected": 56,
+          "f1": 0.7608695652173912,
+          "precision": 0.9722222222222222,
+          "predicted": 36,
+          "recall": 0.625,
+          "true_positive": 35
+        },
+        "conditional_abstentions": 39,
+        "conditional_alignment_coverage": 0.9774193548387097,
+        "conditional_confusion": {
+          "added": {
+            "added": 64
+          },
+          "modified": {
+            "modified": 13,
+            "uncertain": 3
+          },
+          "removed": {
+            "removed": 6
+          },
+          "reworded": {
+            "modified": 7,
+            "reworded": 2,
+            "uncertain": 4
+          },
+          "unchanged": {
+            "modified": 3,
+            "uncertain": 32,
+            "unchanged": 169
+          }
+        },
+        "conditional_correct_status": 254,
+        "conditional_decision_coverage": 0.8712871287128713,
+        "conditional_eligible_events": 310,
+        "conditional_material": {
+          "expected": 86,
+          "f1": 0.9273743016759777,
+          "precision": 0.8924731182795699,
+          "predicted": 93,
+          "recall": 0.9651162790697675,
+          "true_positive": 83
+        },
+        "conditional_scored_events": 303,
+        "conditional_status_accuracy": 0.8382838283828383,
+        "end_to_end_material": {
+          "expected": 96,
+          "f1": 0.751131221719457,
+          "precision": 0.664,
+          "predicted": 125,
+          "recall": 0.8645833333333334,
+          "true_positive": 83
+        },
+        "exact_group_correspondence": {
+          "expected": 320,
+          "f1": 0.9181818181818182,
+          "precision": 0.8911764705882353,
+          "predicted": 340,
+          "recall": 0.946875,
+          "true_positive": 303
+        },
+        "gold_ambiguous_events": 2,
+        "gold_changed_paired_groups": 45,
+        "gold_events": 320,
+        "gold_singleton_events": 312,
+        "gold_split_merge_groups": 8,
+        "material_abstentions": 3,
+        "predicted_abstentions": 40,
+        "predicted_events": 340,
+        "predicted_material_excluded_ambiguous": 4,
+        "risky_misses": 0
+      }
+    },
+    {
+      "summary": "artifacts/evaluation/v2-fresh-lexical-baseline/summary.json",
+      "sha256": "06d9e2c33581e87dba664efc8614f24047858e79b22bd1f91f47c6855b6c7fd3",
+      "scored_cases": 3,
+      "failed_cases": 0,
+      "metrics": {
+        "alignment_edges": {
+          "expected": 83,
+          "f1": 0.9761904761904762,
+          "precision": 0.9647058823529412,
+          "predicted": 85,
+          "recall": 0.9879518072289156,
+          "true_positive": 82
+        },
+        "changed_alignment_edges": {
+          "expected": 13,
+          "f1": 0.8571428571428571,
+          "precision": 0.8,
+          "predicted": 15,
+          "recall": 0.9230769230769231,
+          "true_positive": 12
+        },
+        "conditional_abstentions": 0,
+        "conditional_alignment_coverage": 0.9634146341463414,
+        "conditional_confusion": {
+          "added": {
+            "added": 77
+          },
+          "modified": {
+            "modified": 7
+          },
+          "reworded": {
+            "modified": 4
+          },
+          "unchanged": {
+            "unchanged": 70
+          }
+        },
+        "conditional_correct_status": 154,
+        "conditional_decision_coverage": 1.0,
+        "conditional_eligible_events": 164,
+        "conditional_material": {
+          "expected": 84,
+          "f1": 0.9767441860465117,
+          "precision": 0.9545454545454546,
+          "predicted": 88,
+          "recall": 1.0,
+          "true_positive": 84
+        },
+        "conditional_scored_events": 158,
+        "conditional_status_accuracy": 0.9746835443037974,
+        "end_to_end_material": {
+          "expected": 90,
+          "f1": 0.9180327868852459,
+          "precision": 0.9032258064516129,
+          "predicted": 93,
+          "recall": 0.9333333333333333,
+          "true_positive": 84
+        },
+        "exact_group_correspondence": {
+          "expected": 165,
+          "f1": 0.9634146341463414,
+          "precision": 0.9693251533742331,
+          "predicted": 163,
+          "recall": 0.9575757575757575,
+          "true_positive": 158
+        },
+        "gold_ambiguous_events": 0,
+        "gold_changed_paired_groups": 12,
+        "gold_events": 165,
+        "gold_singleton_events": 164,
+        "gold_split_merge_groups": 1,
+        "material_abstentions": 0,
+        "predicted_abstentions": 0,
+        "predicted_events": 163,
+        "predicted_material_excluded_ambiguous": 0,
+        "risky_misses": 0
+      }
+    },
+    {
+      "summary": "artifacts/evaluation/v2-fresh-semantic-archived_v1/summary.json",
+      "sha256": "3de1cf9fa8f5347f0ddb79c3644e5276c3d13509984b0a77d7763b10f86a1401",
+      "scored_cases": 3,
+      "failed_cases": 0,
+      "metrics": {
+        "gold_events": 165,
+        "predicted_events": 165,
+        "gold_ambiguous_events": 0,
+        "gold_singleton_events": 164,
+        "gold_changed_paired_groups": 12,
+        "gold_split_merge_groups": 1,
+        "conditional_eligible_events": 164,
+        "conditional_scored_events": 162,
+        "conditional_abstentions": 2,
+        "conditional_correct_status": 158,
+        "risky_misses": 2,
+        "material_abstentions": 0,
+        "predicted_material_excluded_ambiguous": 0,
+        "predicted_abstentions": 2,
+        "alignment_edges": {
+          "true_positive": 82,
+          "predicted": 83,
+          "expected": 83,
+          "precision": 0.9879518072289156,
+          "recall": 0.9879518072289156,
+          "f1": 0.9879518072289156
+        },
+        "changed_alignment_edges": {
+          "true_positive": 12,
+          "predicted": 13,
+          "expected": 13,
+          "precision": 0.9230769230769231,
+          "recall": 0.9230769230769231,
+          "f1": 0.9230769230769231
+        },
+        "exact_group_correspondence": {
+          "true_positive": 162,
+          "predicted": 165,
+          "expected": 165,
+          "precision": 0.9818181818181818,
+          "recall": 0.9818181818181818,
+          "f1": 0.9818181818181818
+        },
+        "end_to_end_material": {
+          "true_positive": 86,
+          "predicted": 89,
+          "expected": 90,
+          "precision": 0.9662921348314607,
+          "recall": 0.9555555555555556,
+          "f1": 0.9608938547486034
+        },
+        "conditional_material": {
+          "true_positive": 86,
+          "predicted": 86,
+          "expected": 88,
+          "precision": 1.0,
+          "recall": 0.9772727272727273,
+          "f1": 0.9885057471264368
+        },
+        "conditional_confusion": {
+          "added": {
+            "added": 79
+          },
+          "modified": {
+            "modified": 5,
+            "reworded": 2
+          },
+          "removed": {
+            "removed": 2
+          },
+          "reworded": {
+            "reworded": 2,
+            "uncertain": 2
+          },
+          "unchanged": {
+            "unchanged": 70
+          }
+        },
+        "conditional_alignment_coverage": 0.9878048780487805,
+        "conditional_status_accuracy": 0.9753086419753086,
+        "conditional_decision_coverage": 0.9876543209876543
+      }
+    },
+    {
+      "summary": "artifacts/evaluation/v2-fresh-semantic-baseline/summary.json",
+      "sha256": "949dad1e8f993862507d50ea693196519ce029f07053e1e103beac05a37230b4",
+      "scored_cases": 3,
+      "failed_cases": 0,
+      "metrics": {
+        "alignment_edges": {
+          "expected": 83,
+          "f1": 0.9879518072289156,
+          "precision": 0.9879518072289156,
+          "predicted": 83,
+          "recall": 0.9879518072289156,
+          "true_positive": 82
+        },
+        "changed_alignment_edges": {
+          "expected": 13,
+          "f1": 0.9230769230769231,
+          "precision": 0.9230769230769231,
+          "predicted": 13,
+          "recall": 0.9230769230769231,
+          "true_positive": 12
+        },
+        "conditional_abstentions": 3,
+        "conditional_alignment_coverage": 0.9878048780487805,
+        "conditional_confusion": {
+          "added": {
+            "added": 79
+          },
+          "modified": {
+            "modified": 5,
+            "reworded": 1,
+            "uncertain": 1
+          },
+          "removed": {
+            "removed": 2
+          },
+          "reworded": {
+            "reworded": 2,
+            "uncertain": 2
+          },
+          "unchanged": {
+            "unchanged": 70
+          }
+        },
+        "conditional_correct_status": 158,
+        "conditional_decision_coverage": 0.9814814814814815,
+        "conditional_eligible_events": 164,
+        "conditional_material": {
+          "expected": 88,
+          "f1": 0.9885057471264368,
+          "precision": 1.0,
+          "predicted": 86,
+          "recall": 0.9772727272727273,
+          "true_positive": 86
+        },
+        "conditional_scored_events": 162,
+        "conditional_status_accuracy": 0.9753086419753086,
+        "end_to_end_material": {
+          "expected": 90,
+          "f1": 0.9608938547486034,
+          "precision": 0.9662921348314607,
+          "predicted": 89,
+          "recall": 0.9555555555555556,
+          "true_positive": 86
+        },
+        "exact_group_correspondence": {
+          "expected": 165,
+          "f1": 0.9818181818181818,
+          "precision": 0.9818181818181818,
+          "predicted": 165,
+          "recall": 0.9818181818181818,
+          "true_positive": 162
+        },
+        "gold_ambiguous_events": 0,
+        "gold_changed_paired_groups": 12,
+        "gold_events": 165,
+        "gold_singleton_events": 164,
+        "gold_split_merge_groups": 1,
+        "material_abstentions": 1,
+        "predicted_abstentions": 3,
+        "predicted_events": 165,
+        "predicted_material_excluded_ambiguous": 0,
+        "risky_misses": 1
+      }
+    },
+    {
+      "summary": "artifacts/evaluation/v2-fresh-semantic-context/summary.json",
+      "sha256": "bc0945369d0e1015591554ec5ce552af3f7db00af760d922dafc4f861cf40c48",
+      "scored_cases": 3,
+      "failed_cases": 0,
+      "metrics": {
+        "alignment_edges": {
+          "expected": 83,
+          "f1": 0.9879518072289156,
+          "precision": 0.9879518072289156,
+          "predicted": 83,
+          "recall": 0.9879518072289156,
+          "true_positive": 82
+        },
+        "changed_alignment_edges": {
+          "expected": 13,
+          "f1": 0.9230769230769231,
+          "precision": 0.9230769230769231,
+          "predicted": 13,
+          "recall": 0.9230769230769231,
+          "true_positive": 12
+        },
+        "conditional_abstentions": 2,
+        "conditional_alignment_coverage": 0.9878048780487805,
+        "conditional_confusion": {
+          "added": {
+            "added": 79
+          },
+          "modified": {
+            "modified": 5,
+            "reworded": 1,
+            "uncertain": 1
+          },
+          "removed": {
+            "removed": 2
+          },
+          "reworded": {
+            "modified": 1,
+            "reworded": 2,
+            "uncertain": 1
+          },
+          "unchanged": {
+            "unchanged": 70
+          }
+        },
+        "conditional_correct_status": 158,
+        "conditional_decision_coverage": 0.9876543209876543,
+        "conditional_eligible_events": 164,
+        "conditional_material": {
+          "expected": 88,
+          "f1": 0.9828571428571428,
+          "precision": 0.9885057471264368,
+          "predicted": 87,
+          "recall": 0.9772727272727273,
+          "true_positive": 86
+        },
+        "conditional_scored_events": 162,
+        "conditional_status_accuracy": 0.9753086419753086,
+        "end_to_end_material": {
+          "expected": 90,
+          "f1": 0.9555555555555556,
+          "precision": 0.9555555555555556,
+          "predicted": 90,
+          "recall": 0.9555555555555556,
+          "true_positive": 86
+        },
+        "exact_group_correspondence": {
+          "expected": 165,
+          "f1": 0.9818181818181818,
+          "precision": 0.9818181818181818,
+          "predicted": 165,
+          "recall": 0.9818181818181818,
+          "true_positive": 162
+        },
+        "gold_ambiguous_events": 0,
+        "gold_changed_paired_groups": 12,
+        "gold_events": 165,
+        "gold_singleton_events": 164,
+        "gold_split_merge_groups": 1,
+        "material_abstentions": 1,
+        "predicted_abstentions": 2,
+        "predicted_events": 165,
+        "predicted_material_excluded_ambiguous": 0,
+        "risky_misses": 1
+      }
+    },
+    {
+      "summary": "artifacts/evaluation/v2-fresh-semantic-groups/summary.json",
+      "sha256": "4771a0488d73b710bacd0453b9340f80a0f846dddb48444cb74090eac8eec655",
+      "scored_cases": 3,
+      "failed_cases": 0,
+      "metrics": {
+        "alignment_edges": {
+          "expected": 83,
+          "f1": 0.9940119760479043,
+          "precision": 0.9880952380952381,
+          "predicted": 84,
+          "recall": 1.0,
+          "true_positive": 83
+        },
+        "changed_alignment_edges": {
+          "expected": 13,
+          "f1": 0.962962962962963,
+          "precision": 0.9285714285714286,
+          "predicted": 14,
+          "recall": 1.0,
+          "true_positive": 13
+        },
+        "conditional_abstentions": 2,
+        "conditional_alignment_coverage": 0.9878048780487805,
+        "conditional_confusion": {
+          "added": {
+            "added": 79
+          },
+          "modified": {
+            "modified": 5,
+            "reworded": 1,
+            "uncertain": 1
+          },
+          "removed": {
+            "removed": 2
+          },
+          "reworded": {
+            "modified": 1,
+            "reworded": 2,
+            "uncertain": 1
+          },
+          "unchanged": {
+            "unchanged": 70
+          }
+        },
+        "conditional_correct_status": 158,
+        "conditional_decision_coverage": 0.9876543209876543,
+        "conditional_eligible_events": 164,
+        "conditional_material": {
+          "expected": 88,
+          "f1": 0.9828571428571428,
+          "precision": 0.9885057471264368,
+          "predicted": 87,
+          "recall": 0.9772727272727273,
+          "true_positive": 86
+        },
+        "conditional_scored_events": 162,
+        "conditional_status_accuracy": 0.9753086419753086,
+        "end_to_end_material": {
+          "expected": 90,
+          "f1": 0.9662921348314608,
+          "precision": 0.9772727272727273,
+          "predicted": 88,
+          "recall": 0.9555555555555556,
+          "true_positive": 86
+        },
+        "exact_group_correspondence": {
+          "expected": 165,
+          "f1": 0.9908814589665653,
+          "precision": 0.9939024390243902,
+          "predicted": 164,
+          "recall": 0.9878787878787879,
+          "true_positive": 163
+        },
+        "gold_ambiguous_events": 0,
+        "gold_changed_paired_groups": 12,
+        "gold_events": 165,
+        "gold_singleton_events": 164,
+        "gold_split_merge_groups": 1,
+        "material_abstentions": 1,
+        "predicted_abstentions": 2,
+        "predicted_events": 164,
+        "predicted_material_excluded_ambiguous": 0,
+        "risky_misses": 1
+      }
+    },
+    {
+      "summary": "artifacts/evaluation/v2-fresh-semantic-verified/summary.json",
+      "sha256": "323f9fbc35ae37504cfba56ee15c5380038ff47c05afe72275fd2d1260715b5f",
+      "scored_cases": 3,
+      "failed_cases": 0,
+      "metrics": {
+        "alignment_edges": {
+          "expected": 83,
+          "f1": 0.9940119760479043,
+          "precision": 0.9880952380952381,
+          "predicted": 84,
+          "recall": 1.0,
+          "true_positive": 83
+        },
+        "changed_alignment_edges": {
+          "expected": 13,
+          "f1": 0.962962962962963,
+          "precision": 0.9285714285714286,
+          "predicted": 14,
+          "recall": 1.0,
+          "true_positive": 13
+        },
+        "conditional_abstentions": 3,
+        "conditional_alignment_coverage": 0.9878048780487805,
+        "conditional_confusion": {
+          "added": {
+            "added": 79
+          },
+          "modified": {
+            "modified": 5,
+            "uncertain": 2
+          },
+          "removed": {
+            "removed": 2
+          },
+          "reworded": {
+            "modified": 1,
+            "reworded": 2,
+            "uncertain": 1
+          },
+          "unchanged": {
+            "unchanged": 70
+          }
+        },
+        "conditional_correct_status": 158,
+        "conditional_decision_coverage": 0.9814814814814815,
+        "conditional_eligible_events": 164,
+        "conditional_material": {
+          "expected": 88,
+          "f1": 0.9828571428571428,
+          "precision": 0.9885057471264368,
+          "predicted": 87,
+          "recall": 0.9772727272727273,
+          "true_positive": 86
+        },
+        "conditional_scored_events": 162,
+        "conditional_status_accuracy": 0.9753086419753086,
+        "end_to_end_material": {
+          "expected": 90,
+          "f1": 0.9662921348314608,
+          "precision": 0.9772727272727273,
+          "predicted": 88,
+          "recall": 0.9555555555555556,
+          "true_positive": 86
+        },
+        "exact_group_correspondence": {
+          "expected": 165,
+          "f1": 0.9908814589665653,
+          "precision": 0.9939024390243902,
+          "predicted": 164,
+          "recall": 0.9878787878787879,
+          "true_positive": 163
+        },
+        "gold_ambiguous_events": 0,
+        "gold_changed_paired_groups": 12,
+        "gold_events": 165,
+        "gold_singleton_events": 164,
+        "gold_split_merge_groups": 1,
+        "material_abstentions": 2,
+        "predicted_abstentions": 3,
+        "predicted_events": 164,
+        "predicted_material_excluded_ambiguous": 0,
+        "risky_misses": 0
+      }
+    }
+  ],
+  "limitations": [
+    "Labels independently AI-reviewed but not human validated.",
+    "Fresh set has only three pages and seven paired material edits; all-event material metrics are dominated by additions.",
+    "Risky-miss metric is conditional on exact singleton correspondence and does not mean zero total missed edits.",
+    "Renamed headings increase review workload and can cause false material alerts.",
+    "Bounded grouping recovers one fresh split and no development gold groups.",
+    "Candidate DeBERTa was evaluated only on development pairs, not adopted."
+  ],
+  "resolved_check_failures": [
+    "New browser script initially required Ruff formatting; formatted and final check passed."
+  ],
+  "preview_url": "http://127.0.0.1:7863",
+  "published": false
+}

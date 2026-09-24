@@ -1,0 +1,218 @@
+{
+  "created_at": "2026-09-24T16:51:52.828171+00:00",
+  "scope": "Known development data; provisional AI-reviewed labels, not a fresh holdout.",
+  "unit": "Gold-aligned changed singleton passage pairs; alignment bypassed.",
+  "excluded_gold": [
+    "unchanged",
+    "uncertain",
+    "added",
+    "removed",
+    "split/merge"
+  ],
+  "eligible_count": 35,
+  "class_counts": {
+    "reworded": 18,
+    "modified": 17
+  },
+  "source_hashes": {
+    "evaluation/real/manifest.json": "577f304d052e063ab49d88423890e19ea58def3f3fdb4af9714459553a5f92ad",
+    "evaluation/real/annotations/flask-deploying.json": "64f1c9a7622c38cc41d3efd23e0a55f612d53a22495dbfd290575d717b13aec4",
+    "evaluation/real/documents/flask-deploying/old.passages.json": "b42ae06920d06d4ee1842f21d29a37d6754a453258feb9bbb4f46652ed2c97f9",
+    "evaluation/real/documents/flask-deploying/new.passages.json": "4a931f7bf6a48343a9c2419a0b95dbc00076b69d758e195ffd7ec16ba925b1ae",
+    "evaluation/real/annotations/flask-design.json": "41ded705ef6ac843f370c7fb69980afb4385d755ee41c339b86184a27b9a2cf5",
+    "evaluation/real/documents/flask-design/old.passages.json": "77f000df2f02d1a3b20e09f64f255330a581f8248dc3d08178d3fd8cec26fad3",
+    "evaluation/real/documents/flask-design/new.passages.json": "447b51440ee19021a0de96b433624a662c6853cfb27cf62fb9ea897e2fce24a4",
+    "evaluation/real/annotations/flask-security.json": "d419f6721dbe5715906d9c4acee3f914b50cfd394a5a15dfdd636a309a784c97",
+    "evaluation/real/documents/flask-security/old.passages.json": "5510ab4a14f184c7d17ee76b28ed93d9323252fc2097eae9de8d2e8565684ba5",
+    "evaluation/real/documents/flask-security/new.passages.json": "00723c5815f5dfed7245074cb0211c696682214ce492d1638c130da79b340b97",
+    "evaluation/real/annotations/pytest-flaky.json": "f5c7cb6930ed2c18a72a729ee6c794d69527a9d0a32e4206c5118be46a38c77d",
+    "evaluation/real/documents/pytest-flaky/old.passages.json": "ad3f597e188e6134976762adc9bc0dfb151a2135bac4f55ff8cc7b0af0fde8f2",
+    "evaluation/real/documents/pytest-flaky/new.passages.json": "1b56e264e1c5083287a442f59d30d67eda5b4dfbb33253b45ca65b5e544b074b",
+    "evaluation/real/annotations/pytest-goodpractices.json": "fbdc4ac24b25d36e2b83a68308bccaadd7e81734c17fcafd3913347b105dbfa1",
+    "evaluation/real/documents/pytest-goodpractices/old.passages.json": "27fe3083a71718e2c01749f5a53e50a094565f78dee1a848e9cbc9c45176e973",
+    "evaluation/real/documents/pytest-goodpractices/new.passages.json": "75930d157b5907031fec07aee51c1e749285620012e1c2070fca308827d0856d",
+    "evaluation/real/annotations/pytest-pythonpath.json": "52d7f97068766725811bd4e2aa236c00d2a97da036c679ff9364eec6f5807dbb",
+    "evaluation/real/documents/pytest-pythonpath/old.passages.json": "8fb1ad9e3cdb823ae4d2b2a6947681ece92c8cec8a7075d7483b767fbd90fe5a",
+    "evaluation/real/documents/pytest-pythonpath/new.passages.json": "612f2ed4018b8290acd04828d7f2b7264b37a2d0c48b7fcf09cd10c38512a388",
+    "evaluation/real/annotations/requests-faq.json": "ddf77f70d91e0dab30ad306319a390cd84676ad5d8f368f2d172e423f05888a7",
+    "evaluation/real/documents/requests-faq/old.passages.json": "6f8601d8e9c954bffc6bf9bc2e682ff80f0e753ae3cba536e920ff4f28cb6cff",
+    "evaluation/real/documents/requests-faq/new.passages.json": "6bd17abfca8a9d65ebbba41d233c65f17557ef125777bbb236ae59cdce0b1f99"
+  },
+  "classifier_sha256": "b8c21bc1560791927cb10370a0824d0be979ea6470533fea62301dfaaad52d8a",
+  "code_hashes": {
+    "radar/compare.py": "d3881906ab9d1e1c7d06bfe0bb23d708bd3b0d2a845a67e5d506295ac67871e0",
+    "radar/models.py": "c51f454e871d6c6797c333dff9c3681b51c7025e28ce30432725303f4b712fb3",
+    "evaluation/compare_nli.py": "5a555488b4effd9186678c5a6fd3cd272ded9271d8b1a7f9d0d1ebb2a86c4f4a"
+  },
+  "runtime": {
+    "python": "3.12.2",
+    "onnxruntime": "1.23.2",
+    "provider": "CPUExecutionProvider",
+    "cpu_threads": 2,
+    "inter_op_threads": 1,
+    "batch_size": 1,
+    "platform": "Linux-6.11.0-29-generic-x86_64-with-glibc2.39"
+  },
+  "models": {
+    "minilm": {
+      "repo": "cross-encoder/nli-MiniLM2-L6-H768",
+      "revision": "b95119ce93d3e065de6214e38cd4a97b0f2f2c6d",
+      "file": "onnx/model_quint8_avx2.onnx",
+      "max_tokens": 512,
+      "initialization_seconds": 0.2043914380001297,
+      "artifacts": {
+        "config.json": {
+          "sha256": "8b0e41caff7567c0f53e6983f35591c3dec59507c9173ab125c5823394fb57f3",
+          "bytes": 875
+        },
+        "tokenizer_config.json": {
+          "sha256": "e06f5c3c435fc0255b08b5574cd574eec685390f60c85b27f83d785eb8ecaaa1",
+          "bytes": 330
+        },
+        "tokenizer.json": {
+          "sha256": "82139106e603ee4e1d5bc99d056ccbed5a92bc24848b1b5a7137c26e00d0dbf6",
+          "bytes": 1356048
+        },
+        "onnx/model_quint8_avx2.onnx": {
+          "sha256": "44391a5241a62e0083c1a8899a71e69a092b95aea5ba89e14062925468eceac7",
+          "bytes": 82823063
+        }
+      },
+      "labels": [
+        "contradiction",
+        "entailment",
+        "neutral"
+      ],
+      "metrics": {
+        "count": 35,
+        "confusion": {
+          "reworded": {
+            "uncertain": 4,
+            "reworded": 6,
+            "modified": 8
+          },
+          "modified": {
+            "reworded": 1,
+            "modified": 11,
+            "uncertain": 5
+          }
+        },
+        "material": {
+          "true_positive": 11,
+          "predicted": 19,
+          "expected": 17,
+          "precision": 0.5789473684210527,
+          "recall": 0.6470588235294118,
+          "f1": 0.6111111111111113
+        },
+        "status_accuracy": 0.4857142857142857,
+        "material_as_equivalent_misses": 1,
+        "abstentions": 9
+      },
+      "first_inference_seconds": 1.0764281089996075,
+      "first_total_seconds": 1.2808195469997372,
+      "warm_seconds": [
+        0.9573941339999692,
+        0.9567122550001841,
+        0.9476151260000734
+      ],
+      "warm_median_seconds": 0.9567122550001841
+    },
+    "deberta": {
+      "repo": "cross-encoder/nli-deberta-v3-small",
+      "revision": "fa2804872c3b4bd748f38c0185cc85775361e735",
+      "file": "onnx/model_quint8_avx2.onnx",
+      "max_tokens": 512,
+      "initialization_seconds": 0.7407081320002362,
+      "artifacts": {
+        "config.json": {
+          "sha256": "885d0dceae8fa5c136da9209121ec9eb11160488e840de3bc1f29353674e5712",
+          "bytes": 1052
+        },
+        "tokenizer_config.json": {
+          "sha256": "f3eecd07c370ef0bf7dd3780d3cd68cf9c8b00c267e21a208ddcd8f82bfec1a6",
+          "bytes": 1346
+        },
+        "tokenizer.json": {
+          "sha256": "5124ef2ead1a10a717703bc436de7f353da76d6340e4587719b42b1693707964",
+          "bytes": 8656624
+        },
+        "onnx/model_quint8_avx2.onnx": {
+          "sha256": "03c2221313dc0c3eac9cec1f746d1319d33f2c2901fcce1c0f08f4daac9b6dae",
+          "bytes": 172503005
+        }
+      },
+      "labels": [
+        "contradiction",
+        "entailment",
+        "neutral"
+      ],
+      "metrics": {
+        "count": 35,
+        "confusion": {
+          "reworded": {
+            "uncertain": 2,
+            "reworded": 8,
+            "modified": 8
+          },
+          "modified": {
+            "reworded": 1,
+            "modified": 10,
+            "uncertain": 6
+          }
+        },
+        "material": {
+          "true_positive": 10,
+          "predicted": 18,
+          "expected": 17,
+          "precision": 0.5555555555555556,
+          "recall": 0.5882352941176471,
+          "f1": 0.5714285714285715
+        },
+        "status_accuracy": 0.5142857142857142,
+        "material_as_equivalent_misses": 1,
+        "abstentions": 8
+      },
+      "first_inference_seconds": 1.6680633329997363,
+      "first_total_seconds": 2.4087714649999725,
+      "warm_seconds": [
+        1.6561571530000947,
+        1.634354386999803,
+        1.614320307000071
+      ],
+      "warm_median_seconds": 1.634354386999803
+    }
+  },
+  "failures": [],
+  "token_limit_exclusions": [],
+  "limitations": [
+    "Fixed production classification guards and thresholds; candidate was not calibrated.",
+    "Models trained on SNLI/MultiNLI; documentation is a domain shift.",
+    "Deterministic CPU inference; warm repetitions measure timing, not statistical uncertainty.",
+    "First initialization includes any cache misses/downloads; warm timing excludes initialization."
+  ],
+  "common_scored_count": 35,
+  "always_material_baseline": {
+    "count": 35,
+    "confusion": {
+      "reworded": {
+        "modified": 18
+      },
+      "modified": {
+        "modified": 17
+      }
+    },
+    "material": {
+      "true_positive": 17,
+      "predicted": 35,
+      "expected": 17,
+      "precision": 0.4857142857142857,
+      "recall": 1.0,
+      "f1": 0.6538461538461539
+    },
+    "status_accuracy": 0.4857142857142857,
+    "material_as_equivalent_misses": 0,
+    "abstentions": 0
+  },
+  "complete": true
+}

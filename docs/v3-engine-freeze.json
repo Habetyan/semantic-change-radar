@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-09-24T17:44:18.718487+00:00",
+  "phase": "After known DEV diagnostics, before reading blind-v3 content or predictions",
+  "sha256": {
+    "radar/compare.py": "db41502fe55d814b09585ceb91b080e851d188a67912c8b00f1e19735edfefde",
+    "radar/details.py": "700b990bf72df4b9f4b6e1aa712248176114efaf1cd75efe6edebf5460beeec8",
+    "radar/grouping.py": "d583c522aa13edf5bc2c32a839cab2213641825258d04a7160172e71768b1527",
+    "radar/models.py": "c51f454e871d6c6797c333dff9c3681b51c7025e28ce30432725303f4b712fb3",
+    "radar/structure.py": "1c3413152111fa274bef55a4be95ec6018e62f9f82fcafd1ed1da3ff938797b5",
+    "radar/__init__.py": "4471022079b45c7e207c44dd432242099f2bcbd4fd50a0f28624470db3f15011",
+    "radar/cli.py": "26f0e59045900d4553d959b92e73a4b13fd987a946a895382f9824e366b6a63d"
+  }
+}

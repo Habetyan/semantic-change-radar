@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Human annotation review | Semantic Change Radar</title>
+<style>
+:root{color:#173439;background:#f6f3ed;font:16px/1.55 system-ui,sans-serif}*{box-sizing:border-box}
+body{max-width:1200px;margin:0 auto;padding:32px 24px}h1{font:600 2.4rem/1.15 Georgia,serif;margin:12px 0}
+h2{font-size:1.15rem}p{max-width:90ch}.eyebrow{color:#176d67;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase}
+a{color:#176d67}button,.file-button{background:#176d67;color:white;border:0;border-radius:6px;padding:10px 16px;cursor:pointer;font:inherit}
+button.secondary,.file-button{background:#e5eae4;color:#173439}input,select,textarea{font:inherit;color:inherit;border:1px solid #aab7ad;background:#fffefb;border-radius:5px;padding:8px;width:100%}
+label{display:block;font-size:.9rem;font-weight:600}label>*{margin-top:5px}textarea{min-height:90px}
+nav,.toolbar{display:flex;gap:16px;align-items:end;flex-wrap:wrap;margin:22px 0}nav label{flex:1;min-width:200px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{background:#fffefb;border:1px solid #d7ddd3;border-radius:10px;padding:20px;margin:16px 0}
+.source{white-space:pre-wrap;overflow-wrap:anywhere}.passage-label{font-size:.8rem;color:#176d67;font-weight:700}
+small,.muted{color:#536862}summary{cursor:pointer;font-weight:600}details{margin-top:12px}#message{min-height:1.5em;font-weight:600}#message.error,#storage-warning{color:#8c3023}
+#proposal{background:#edf2e8;padding:16px;margin-top:12px}#packet-info{overflow-wrap:anywhere;font-size:.75rem}
+[hidden]{display:none!important}.file-button input{display:none}button:focus-visible,summary:focus-visible{outline:3px solid #bc8420;outline-offset:3px}
+@media(max-width:650px){body{padding:20px 12px}.grid{grid-template-columns:1fr}h1{font-size:2rem}}
+</style></head><body>
+<header><div class="eyebrow">Semantic Change Radar / Human review</div><h1>Read the change. Record your judgment.</h1>
+<p>Proposed passage alignment is visible. Proposed classifications and rationales stay hidden until you explicitly reveal them. This supports classification-independent review, <strong>not alignment-blind review</strong>. The proposed data is embedded in this offline file and can be inspected in its source.</p>
+<p>Review the correspondence first, then classify the meaning. <strong>Unchanged</strong>: same text and meaning; <strong>reworded</strong>: equivalent meaning; <strong>modified</strong>: substantive detail changed; <strong>added / removed</strong>: no counterpart; <strong>uncertain</strong>: unresolved. Full extracted prose is below each group; upstream links provide the original source, including omitted code.</p>
+<p class="muted">Export creates a pending adjudication submission. It never changes frozen annotations or marks this corpus human-validated. Historical source revisions are not current technical advice.</p></header>
+<div class="toolbar"><label>Reviewer name<input id="reviewer" autocomplete="name" placeholder="Your name"></label><button id="export">Export review JSON</button><label class="file-button">Import review JSON<input id="import" type="file" accept="application/json,.json"></label></div>
+<p id="storage-warning" role="alert" hidden></p><p id="message" role="status" aria-live="polite"></p>
+<nav><label>Document<select id="case"></select></label><label>Proposed group<select id="event"></select></label><button class="secondary" id="previous">Previous</button><button class="secondary" id="next">Next</button></nav>
+<p id="progress" class="muted"></p>
+<main id="review"><div class="grid"><section class="card"><h2>Before</h2><a id="old-link" target="_blank" rel="noopener noreferrer"></a><div id="old-source"></div><details><summary>Full extracted document context</summary><div id="old-context"></div></details></section><section class="card"><h2>After</h2><a id="new-link" target="_blank" rel="noopener noreferrer"></a><div id="new-source"></div><details><summary>Full extracted document context</summary><div id="new-context"></div></details></section></div>
+<section class="card"><h2>Your review</h2><div class="grid"><label>Correspondence judgment<select id="correspondence"><option value="">Not reviewed</option><option value="accepted">Accept proposed correspondence</option><option value="corrected">Correct correspondence below</option><option value="uncertain">Correspondence uncertain</option></select></label><label>Human classification<select id="human-status"><option value="">Not classified</option><option>unchanged</option><option>reworded</option><option>modified</option><option>added</option><option>removed</option><option>uncertain</option></select></label><label>Old passage indices<input id="old-indices" placeholder="0, 1, 2 or empty"></label><label>New passage indices<input id="new-indices" placeholder="0, 1, 2 or empty"></label></div><p class="muted">Indices are zero-based. Correcting a group may affect other groups; explain those dependencies for adjudication.</p><label>Notes<textarea id="notes" placeholder="Evidence, rationale, or unresolved correspondence"></textarea></label>
+<button id="reveal" class="secondary">Reveal proposed classification and rationale</button><div id="proposal" hidden><strong id="proposed-status"></strong><p id="proposed-rationale"></p></div><p id="exposure" class="muted"></p></section></main>
+<details><summary>Packet provenance</summary><pre id="packet-info"></pre></details>
+<script type="application/json" id="packet-data">__PACKET_DATA__</script>
+<script>
+'use strict';
+const packet=JSON.parse(document.getElementById('packet-data').textContent);
+const $=id=>document.getElementById(id), statuses=['','unchanged','reworded','modified','added','removed','uncertain'];
+const eventMap=new Map(packet.cases.flatMap(c=>c.events.map(e=>[e.id,{event:e,case:c}])));
+const storageKey='semantic-change-review:'+packet.packet_hash;
+const blank=e=>({event_id:e.id,human_status:'',correspondence:'',old_indices:[...e.old_indices],new_indices:[...e.new_indices],notes:'',updated_at:null,first_judged_at:null,revealed_at:null,reveal_before_judgment:null});
+let state={reviewer_name:'',reviews:Object.fromEntries([...eventMap].map(([id,x])=>[id,blank(x.event)]))};
+let activeId=null;
+const now=()=>new Date().toISOString();
+function message(text,error=false){$('message').textContent=text;$('message').classList.toggle('error',error);}
+function exposure(r){if(r.first_judged_at===null)return null;if(r.revealed_at===null)return false;if(r.revealed_at===r.first_judged_at)return r.reveal_before_judgment===true;return r.revealed_at<r.first_judged_at;}
+function submission(){return {schema_version:1,submission_status:'review_submission_pending_adjudication',packet_hash:packet.packet_hash,corpus_hash:packet.corpus_hash,annotation_hash:packet.annotation_hash,reviewer_name:state.reviewer_name,exported_at:now(),reviews:Object.values(state.reviews)};}
+function save(){try{localStorage.setItem(storageKey,JSON.stringify(submission()));return true;}catch(error){$('storage-warning').hidden=false;$('storage-warning').textContent='Browser storage is unavailable or full. Keep this tab open and export JSON to save your work.';return false;}}
+function validTime(t){return t===null||(typeof t==='string'&&Number.isFinite(Date.parse(t))&&new Date(t).toISOString()===t);}
+function validIndices(v,n){return Array.isArray(v)&&v.every(i=>Number.isInteger(i)&&i>=0&&i<n)&&new Set(v).size===v.length;}
+function same(a,b){return JSON.stringify(a)===JSON.stringify(b);}
+function validate(data){
+ if(!data||typeof data!=='object'||Array.isArray(data)||data.schema_version!==1||data.submission_status!=='review_submission_pending_adjudication')throw Error('Not a pending review submission.');
+ for(const key of ['packet_hash','corpus_hash','annotation_hash'])if(data[key]!==packet[key])throw Error('Packet or corpus hash mismatch.');
+ if(typeof data.reviewer_name!=='string'||data.reviewer_name.length>300||!validTime(data.exported_at)||data.exported_at===null||!Array.isArray(data.reviews)||data.reviews.length!==eventMap.size)throw Error('Invalid reviewer, timestamp, or review count.');
+ const reviews=Object.create(null);
+ for(const r of data.reviews){
+  if(!r||typeof r!=='object'||Array.isArray(r)||typeof r.event_id!=='string'||!eventMap.has(r.event_id)||Object.hasOwn(reviews,r.event_id))throw Error('Unknown or duplicate event ID.');
+  const entry=eventMap.get(r.event_id),e=entry.event,c=entry.case;
+  if(!statuses.includes(r.human_status)||!['','accepted','corrected','uncertain'].includes(r.correspondence)||typeof r.notes!=='string'||r.notes.length>100000)throw Error('Invalid status, correspondence, or notes.');
+  if(!validIndices(r.old_indices,c.old.passages.length)||!validIndices(r.new_indices,c.new.passages.length)||(!r.old_indices.length&&!r.new_indices.length))throw Error('Invalid passage indices.');
+  if(r.correspondence==='accepted'&&(!same(r.old_indices,e.old_indices)||!same(r.new_indices,e.new_indices)))throw Error('Accepted correspondence must retain the proposed indices.');
+  if(r.human_status==='added'&&r.old_indices.length||r.human_status==='removed'&&r.new_indices.length||['unchanged','reworded','modified'].includes(r.human_status)&&(!r.old_indices.length||!r.new_indices.length))throw Error('Classification disagrees with correspondence.');
+  if(![r.updated_at,r.first_judged_at,r.revealed_at].every(validTime)||r.human_status&&r.first_judged_at===null||![null,true,false].includes(r.reveal_before_judgment)||r.reveal_before_judgment!==exposure(r))throw Error('Invalid judgment or reveal history.');
+  if((r.human_status||r.correspondence||r.notes||r.revealed_at)&&r.updated_at===null||r.updated_at!==null&&[r.first_judged_at,r.revealed_at].some(t=>t!==null&&t>r.updated_at))throw Error('Inconsistent review timestamps.');
+  reviews[r.event_id]={event_id:r.event_id,human_status:r.human_status,correspondence:r.correspondence,old_indices:[...r.old_indices],new_indices:[...r.new_indices],notes:r.notes,updated_at:r.updated_at,first_judged_at:r.first_judged_at,revealed_at:r.revealed_at,reveal_before_judgment:r.reveal_before_judgment};
+ }
+ return {reviewer_name:data.reviewer_name,reviews};
+}
+function parseIndices(text){if(!text.trim())return [];if(!/^\s*\d+(?:\s*,\s*\d+)*\s*$/.test(text))throw Error('Use comma-separated nonnegative passage indices.');return text.split(',').map(x=>Number(x.trim()));}
+function capture(){
+ if(!activeId)return true;
+ const prior=state.reviews[activeId];
+ try{
+  const r={...prior,human_status:$('human-status').value,correspondence:$('correspondence').value,old_indices:parseIndices($('old-indices').value),new_indices:parseIndices($('new-indices').value),notes:$('notes').value};
+  if(r.human_status&&!r.first_judged_at){r.first_judged_at=now();r.reveal_before_judgment=Boolean(r.revealed_at);}
+  r.reveal_before_judgment=exposure(r);r.updated_at=now();
+  const trial=submission();trial.reviewer_name=$('reviewer').value;trial.reviews=trial.reviews.map(x=>x.event_id===activeId?r:x);
+  state=validate(trial);const persisted=save();message(persisted?'Saved in this browser. Export a copy for adjudication.':'Kept in this tab only. Export JSON to save your work.',!persisted);return true;
+ }catch(error){message(error.message+' Current edits have not been saved.',true);return false;}
+}
+function textNode(tag,text,parent,cls){const node=document.createElement(tag);node.textContent=text;if(cls)node.className=cls;parent.append(node);return node;}
+function passages(target,source,indices,side){target.replaceChildren();if(!indices.length)textNode('p','No passage on this side.',target);for(const i of indices){textNode('p',side+'['+i+']',target,'passage-label');textNode('p',source[i],target,'source');}}
+function show(){
+ const entry=eventMap.get(activeId);$('review').hidden=!entry;if(!entry)return;
+ const {event:e,case:c}=entry,r=state.reviews[activeId];
+ for(const side of ['old','new']){
+  passages($(side+'-source'),c[side].passages,e[side+'_indices'],side);
+  passages($(side+'-context'),c[side].passages,c[side].passages.map((_,i)=>i),side);
+  $(side+'-link').textContent=c[side].revision;$(side+'-link').hidden=!c[side].source_url;
+  if(c[side].source_url)$(side+'-link').href=c[side].source_url;
+  $(side+'-indices').value=r[side+'_indices'].join(', ');
+ }
+ $('correspondence').value=r.correspondence;$('human-status').value=r.human_status;$('notes').value=r.notes;
+ $('proposal').hidden=!r.revealed_at;$('proposed-status').textContent=r.revealed_at?e.proposed_status:'';$('proposed-rationale').textContent=r.revealed_at?e.proposed_rationale:'';
+ $('reveal').disabled=Boolean(r.revealed_at);
+ $('exposure').textContent=r.revealed_at?'Proposal revealed at '+r.revealed_at+'. '+(r.first_judged_at?(exposure(r)?'Revealed before first classification.':'First classification recorded before reveal.'):'No classification recorded yet.'):'Proposed classification has not been revealed.';
+ const done=Object.values(state.reviews).filter(x=>x.human_status&&x.correspondence).length;
+ $('progress').textContent=done+' / '+eventMap.size+' groups have a classification and correspondence judgment. Event '+e.id;
+}
+function chooseCase(){const c=packet.cases.find(x=>x.id===$('case').value);$('event').replaceChildren();for(const [i,e] of c.events.entries()){const option=textNode('option','Group '+(i+1)+' · old ['+e.old_indices.join(', ')+'] → new ['+e.new_indices.join(', ')+']',$('event'));option.value=e.id;}activeId=c.events[0]?.id||null;show();}
+for(const c of packet.cases){const option=textNode('option',c.name+' · '+c.manifest,$('case'));option.value=c.id;}
+$('packet-info').textContent=JSON.stringify({packet_hash:packet.packet_hash,corpus_hash:packet.corpus_hash,annotation_hash:packet.annotation_hash,corpus_files:packet.corpus_files,annotation_files:packet.annotation_files},null,2);
+try{const saved=localStorage.getItem(storageKey);if(saved)state=validate(JSON.parse(saved));}catch(error){$('storage-warning').hidden=false;$('storage-warning').textContent='Saved review could not be loaded: '+error.message+' Import a saved JSON copy or export this session before closing.';}
+$('reviewer').value=state.reviewer_name;
+if(packet.cases.length)chooseCase();else $('review').hidden=true;
+$('case').addEventListener('change',()=>{if(capture())chooseCase();else if(activeId)$('case').value=eventMap.get(activeId).case.id;});
+$('event').addEventListener('change',()=>{if(capture()){activeId=$('event').value;show();}else $('event').value=activeId;});
+for(const id of ['reviewer','human-status','correspondence','old-indices','new-indices','notes'])$(id).addEventListener('change',()=>{if(capture())show();});
+$('notes').addEventListener('input',()=>capture());$('reviewer').addEventListener('input',()=>capture());
+for(const [id,step] of [['previous',-1],['next',1]])$(id).addEventListener('click',()=>{if(!capture())return;const ids=[...eventMap.keys()],n=ids.indexOf(activeId)+step;if(n<0||n>=ids.length)return;activeId=ids[n];$('case').value=eventMap.get(activeId).case.id;const chosen=activeId;chooseCase();activeId=chosen;$('event').value=chosen;show();});
+$('reveal').addEventListener('click',()=>{if(!capture())return;const r=state.reviews[activeId];r.revealed_at=r.revealed_at||now();r.reveal_before_judgment=exposure(r);r.updated_at=now();save();show();});
+$('export').addEventListener('click',()=>{if(!capture())return;if(!state.reviewer_name.trim()){message('Enter your reviewer name before exporting.',true);return;}const data=submission();validate(data);const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='review-submission-'+packet.packet_hash.slice(0,12)+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);message('Exported a pending adjudication submission. Frozen annotations are unchanged.');});
+$('import').addEventListener('change',async()=>{const file=$('import').files[0];if(!file)return;try{if(file.size>10000000)throw Error('Import exceeds 10 MB.');const next=validate(JSON.parse(await file.text()));
+ // Import must not erase proposal exposure already recorded in this browser.
+ for(const [id,r] of Object.entries(next.reviews)){const seen=state.reviews[id].revealed_at;if(seen&&(!r.revealed_at||seen<r.revealed_at)){r.revealed_at=seen;if(!r.updated_at||r.updated_at<seen)r.updated_at=seen;}r.reveal_before_judgment=exposure(r);}
+ state=next;$('reviewer').value=state.reviewer_name;save();show();message('Imported pending review. Existing local proposal exposure was retained.');}catch(error){message('Import rejected: '+error.message,true);}finally{$('import').value='';}});
+window.addEventListener('beforeunload',event=>{if(!capture()){event.preventDefault();event.returnValue='';}});
+</script></body></html>

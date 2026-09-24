@@ -1,0 +1,474 @@
+{
+  "case_id": "pip-caching",
+  "review_status": "ai_reviewed_pending_human",
+  "annotator": "fresh_sources",
+  "blind_to_model_predictions": true,
+  "scope": "Complete extracted prose, including headings and visible code-example introductions; actual code examples are excluded. Each index appears once.",
+  "events": [
+    {
+      "old_indices": [
+        0
+      ],
+      "new_indices": [
+        0
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        1
+      ],
+      "new_indices": [
+        1
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        2
+      ],
+      "new_indices": [
+        2
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        3
+      ],
+      "new_indices": [
+        3
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        4
+      ],
+      "new_indices": [
+        4
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        5
+      ],
+      "new_indices": [
+        5
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        6
+      ],
+      "new_indices": [
+        6
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        7
+      ],
+      "new_indices": [
+        7
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        8
+      ],
+      "new_indices": [
+        8
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        9
+      ],
+      "new_indices": [
+        10
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        10
+      ],
+      "new_indices": [
+        11
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        11
+      ],
+      "new_indices": [
+        12
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        12
+      ],
+      "new_indices": [
+        13
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        13
+      ],
+      "new_indices": [
+        15
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        14
+      ],
+      "new_indices": [
+        26
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        15
+      ],
+      "new_indices": [
+        27
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        16
+      ],
+      "new_indices": [
+        28
+      ],
+      "status": "reworded",
+      "rationale": "Deletes the stray word for from the cached-wheel explanation; the C-extension scenario and cache assumption are unchanged."
+    },
+    {
+      "old_indices": [
+        17
+      ],
+      "new_indices": [
+        29
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        18
+      ],
+      "new_indices": [
+        30
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        19
+      ],
+      "new_indices": [
+        31
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        20
+      ],
+      "new_indices": [
+        32
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        21
+      ],
+      "new_indices": [
+        17
+      ],
+      "status": "reworded",
+      "rationale": "Moves the same implementation-detail caveat into a caution under cache location and clarifies cache contents; the instability claim is unchanged."
+    },
+    {
+      "old_indices": [
+        22
+      ],
+      "new_indices": [
+        42
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        23
+      ],
+      "new_indices": [
+        43
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted text with the same subject and section scope."
+    },
+    {
+      "old_indices": [
+        24
+      ],
+      "new_indices": [
+        44
+      ],
+      "status": "modified",
+      "rationale": "Adds an exception permitting disabled pip caching when a higher-level cache exists, qualifying the previous unconditional recommendation."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        9
+      ],
+      "status": "added",
+      "rationale": "Adds the versioned http-v2 cache-format migration and possible removal of the old cache directory."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        14
+      ],
+      "status": "added",
+      "rationale": "Adds the distinction between direct-path wheel reuse within a run and caching across runs."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        16
+      ],
+      "status": "added",
+      "rationale": "Adds the cache-location section."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        18
+      ],
+      "status": "added",
+      "rationale": "Adds the cache-directory command subsection."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        19
+      ],
+      "status": "added",
+      "rationale": "Adds the version in which the cache-directory command became available."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        20
+      ],
+      "status": "added",
+      "rationale": "Adds how to inspect the configured cache directory."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        21
+      ],
+      "status": "added",
+      "rationale": "Adds the default-paths subsection; path code blocks are excluded by the extraction policy."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        22
+      ],
+      "status": "added",
+      "rationale": "Adds the Linux tab label as a heading."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        23
+      ],
+      "status": "added",
+      "rationale": "Adds support for XDG_CACHE_HOME in the Linux context."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        24
+      ],
+      "status": "added",
+      "rationale": "Adds the MacOS tab label; its code-formatted path is excluded by policy."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        25
+      ],
+      "status": "added",
+      "rationale": "Adds the Windows tab label; its code-formatted path is excluded by policy."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        33
+      ],
+      "status": "added",
+      "rationale": "Adds a cache overview subsection."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        34
+      ],
+      "status": "added",
+      "rationale": "Adds the cache info command and the information it reports."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        35
+      ],
+      "status": "added",
+      "rationale": "Adds a single-package cache-removal subsection."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        36
+      ],
+      "status": "added",
+      "rationale": "Adds the wheel-only scope of package-specific cache removal."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        37
+      ],
+      "status": "added",
+      "rationale": "Adds a whole-cache removal subsection."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        38
+      ],
+      "status": "added",
+      "rationale": "Adds the wheel and HTTP scope of cache purge."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        39
+      ],
+      "status": "added",
+      "rationale": "Adds a cache listing subsection."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        40
+      ],
+      "status": "added",
+      "rationale": "Adds the command listing cached wheels."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        41
+      ],
+      "status": "added",
+      "rationale": "Adds package-specific cached-wheel listing."
+    }
+  ],
+  "reviewer": "explore_core",
+  "review_blind_to_model_predictions": true,
+  "review_summary": {
+    "method": "Independent reading of every saved old/new passage and provisional event, with raw-source checks for paragraph boundaries, heading ownership, and nested lists. No pipeline predictions inspected.",
+    "all_passages_covered_once": true,
+    "unchanged_text_and_scope_checked": true,
+    "label_corrections": 0,
+    "correspondence_corrections": 0,
+    "disagreements": 0,
+    "human_validation": false
+  },
+  "review_notes": [
+    {
+      "old_indices": [
+        16
+      ],
+      "new_indices": [
+        28
+      ],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "reworded",
+      "reviewed_status": "reworded",
+      "initial_rationale": "Deletes the stray word for from the cached-wheel explanation; the C-extension scenario and cache assumption are unchanged.",
+      "reviewer_rationale": "Deleting the stray word for repairs grammar only; the C-extension example, reuse rule, and determinism assumption remain the same."
+    },
+    {
+      "old_indices": [
+        21
+      ],
+      "new_indices": [
+        17
+      ],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "reworded",
+      "reviewed_status": "reworded",
+      "initial_rationale": "Moves the same implementation-detail caveat into a caution under cache location and clarifies cache contents; the instability claim is unchanged.",
+      "reviewer_rationale": "The implementation-detail caveat moves from Cache management to Where is the cache stored and gains a Caution label. Both passages concern the filesystem arrangement of cache contents and its instability across pip versions; no new constraint or guarantee is asserted."
+    },
+    {
+      "old_indices": [
+        24
+      ],
+      "new_indices": [
+        44
+      ],
+      "decision": "confirmed",
+      "disagreement": false,
+      "initial_status": "modified",
+      "reviewed_status": "modified",
+      "initial_rationale": "Adds an exception permitting disabled pip caching when a higher-level cache exists, qualifying the previous unconditional recommendation.",
+      "reviewer_rationale": "The higher-level-cache exception materially qualifies the recommendation not to disable caching. Retain modified even though most of the paragraph is identical."
+    }
+  ]
+}

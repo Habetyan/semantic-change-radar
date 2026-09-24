@@ -1,0 +1,161 @@
+{
+  "annotated_cases": 3,
+  "backend": "lexical",
+  "complete": true,
+  "configured_model_artifacts": {},
+  "created_at": "2026-09-24T16:58:30.793526+00:00",
+  "environment": {
+    "packages": {
+      "gradio": "6.28.0",
+      "huggingface-hub": "1.32.0",
+      "numpy": "1.26.4",
+      "onnxruntime": "1.23.2",
+      "scipy": "1.15.3",
+      "tokenizers": "0.23.2"
+    },
+    "platform": "Linux-6.11.0-29-generic-x86_64-with-glibc2.39",
+    "python": "3.12.2"
+  },
+  "failed_cases": 0,
+  "failure_rate": 0.0,
+  "failures_by_stage": {},
+  "latency_ms": {
+    "first_successful_case": 20.85867200003122,
+    "mean_including_initialization": 11.627288333177907,
+    "median": 7.167012999616418,
+    "p95_nearest_rank": 20.85867200003122,
+    "scope": "successful cases, including file loading and scoring"
+  },
+  "metric_notes": [
+    "Alignment edges are Cartesian group membership; complex rewrites can overexpand edges.",
+    "Changed alignment removes gold unchanged edges from both edge sets; wrong edges remain.",
+    "Exact groups retain passage indices; duplicate text occurrences are not interchangeable.",
+    "Conditional status scores require exact singleton correspondence, including adds/removes.",
+    "Ambiguous gold is excluded from status metrics; alignment still includes it.",
+    "Material predictions touching ambiguous gold are excluded from material precision.",
+    "End-to-end material credit requires the exact gold group and a material prediction.",
+    "PRF is micro-averaged; zero denominators produce 0; empty conditional ratios are null."
+  ],
+  "metrics": {
+    "alignment_edges": {
+      "expected": 83,
+      "f1": 0.9761904761904762,
+      "precision": 0.9647058823529412,
+      "predicted": 85,
+      "recall": 0.9879518072289156,
+      "true_positive": 82
+    },
+    "changed_alignment_edges": {
+      "expected": 13,
+      "f1": 0.8571428571428571,
+      "precision": 0.8,
+      "predicted": 15,
+      "recall": 0.9230769230769231,
+      "true_positive": 12
+    },
+    "conditional_abstentions": 0,
+    "conditional_alignment_coverage": 0.9634146341463414,
+    "conditional_confusion": {
+      "added": {
+        "added": 77
+      },
+      "modified": {
+        "modified": 7
+      },
+      "reworded": {
+        "modified": 4
+      },
+      "unchanged": {
+        "unchanged": 70
+      }
+    },
+    "conditional_correct_status": 154,
+    "conditional_decision_coverage": 1.0,
+    "conditional_eligible_events": 164,
+    "conditional_material": {
+      "expected": 84,
+      "f1": 0.9767441860465117,
+      "precision": 0.9545454545454546,
+      "predicted": 88,
+      "recall": 1.0,
+      "true_positive": 84
+    },
+    "conditional_scored_events": 158,
+    "conditional_status_accuracy": 0.9746835443037974,
+    "end_to_end_material": {
+      "expected": 90,
+      "f1": 0.9180327868852459,
+      "precision": 0.9032258064516129,
+      "predicted": 93,
+      "recall": 0.9333333333333333,
+      "true_positive": 84
+    },
+    "exact_group_correspondence": {
+      "expected": 165,
+      "f1": 0.9634146341463414,
+      "precision": 0.9693251533742331,
+      "predicted": 163,
+      "recall": 0.9575757575757575,
+      "true_positive": 158
+    },
+    "gold_ambiguous_events": 0,
+    "gold_changed_paired_groups": 12,
+    "gold_events": 165,
+    "gold_singleton_events": 164,
+    "gold_split_merge_groups": 1,
+    "material_abstentions": 0,
+    "predicted_abstentions": 0,
+    "predicted_events": 163,
+    "predicted_material_excluded_ambiguous": 0,
+    "risky_misses": 0
+  },
+  "metrics_scope": "successful annotated cases only; inspect failure rate and scored_cases",
+  "models": {},
+  "profile": "baseline",
+  "provenance": "Real source revisions with provisional AI-reviewed labels, not human validated.",
+  "requested_cases": 3,
+  "schema_version": 2,
+  "scored_cases": 3,
+  "source_hashes": {
+    "docs/evaluation-freeze.json": "e0afc7da16dae86361eaf328b80bf2084ff603bd03ba44e730a224b800dc7b56",
+    "docs/fresh-v2-freeze.json": "c7a8febd1cc220f6131112de2f4c88426600b3f1f295af5b14f43e69b85f8859",
+    "docs/real-evaluation-freeze.json": "0e069a3e17ae4d27da9669f122cf20b8a31193572f74f40dda6601e41486d20f",
+    "evaluation/evaluate.py": "e429d5a78d1f98077c9fa2199247a1f9559b5525e5245c87968f7831a653e001",
+    "evaluation/fresh-v2/annotations/httpx-compatibility.json": "11c0eb5ea5e96d83a1b090c472ac2c8605a62e1860409bc82be15e00a57bfdbe",
+    "evaluation/fresh-v2/annotations/mkdocs-deployment.json": "60abbfc1a119cf36edd7f01892fa3e06789b7294db50bcacab344afc290f1b0e",
+    "evaluation/fresh-v2/annotations/pip-caching.json": "81b2f58acea3400cff5aeadad52a4ec76332ca158823c50cc8dc2115c2400ec6",
+    "evaluation/fresh-v2/documents/httpx-compatibility/new.md": "e30d0a254fc89e5a891739607e289432b48930ac68be285810dd4e540f304776",
+    "evaluation/fresh-v2/documents/httpx-compatibility/new.passages.json": "82bcbd49d9870b85c3b4568182667a1d744c5d268d9b5ddeaa4fe8f5722881b6",
+    "evaluation/fresh-v2/documents/httpx-compatibility/new.txt": "bf9f81fb1c98827ba5fab85af29efafe7c637c3209c46116e09c6453996a2d67",
+    "evaluation/fresh-v2/documents/httpx-compatibility/old.md": "39236a3023277b418d97df54a4dfb728539aafb6efc83be7a4d6bf16c8c4fca8",
+    "evaluation/fresh-v2/documents/httpx-compatibility/old.passages.json": "ebc044caea9cbb6b1df813906c6a7d2f50a073398a05bb361a0945adcc147d82",
+    "evaluation/fresh-v2/documents/httpx-compatibility/old.txt": "be8992ebf8845106d89ecfc10328db67bd8c19ccd606bd8778b1731c520c1c9d",
+    "evaluation/fresh-v2/documents/mkdocs-deployment/new.md": "e2051b1f5122337aea34ee93cd37e4df8808d9aa33d2d5a5ecec4c99ec6a5633",
+    "evaluation/fresh-v2/documents/mkdocs-deployment/new.passages.json": "0bce1497e31209dfea4bdeca55994b702d145c1aabdcae93d8dd396507bf0574",
+    "evaluation/fresh-v2/documents/mkdocs-deployment/new.txt": "2bb2a1f84131ad3130805743a6b9a3d255560356e4dab7a3f69bd45a2eaf3554",
+    "evaluation/fresh-v2/documents/mkdocs-deployment/old.md": "8f0449b866466c582c466048fa6e2a255b5b825c413dfcc8c14bb88bbde6d41c",
+    "evaluation/fresh-v2/documents/mkdocs-deployment/old.passages.json": "f5dca67d583d4311ef5c854bbc88abf96bcf2f68a281e7ed1ac7d47ae52dfedf",
+    "evaluation/fresh-v2/documents/mkdocs-deployment/old.txt": "5956ef23d7639494246c269dfb467b7a2c35964a5d40b845ebbedddd073715e5",
+    "evaluation/fresh-v2/documents/pip-caching/new.md": "6e73541a5844784df061c71e53e3386ca4006179983c45c6e4b2c7dc1bf440a2",
+    "evaluation/fresh-v2/documents/pip-caching/new.passages.json": "bc7a690579e8d06db1c6be25c55afdbf831dd00c2a766315f9e30ca2c8202ec3",
+    "evaluation/fresh-v2/documents/pip-caching/new.txt": "96a6144356c1d3d72b7a478de6fecea2d08b1b804ab7024e681216c3ac528fd4",
+    "evaluation/fresh-v2/documents/pip-caching/old.md": "f9ffa045b2c9b409b4614b5df59ef443f2f49b2c8c23109433c2a6cd5868a174",
+    "evaluation/fresh-v2/documents/pip-caching/old.passages.json": "f8144e762a256ac7ddb4ab529e2afccf3c8caa394597d463c0eb53313c5297dd",
+    "evaluation/fresh-v2/documents/pip-caching/old.txt": "6b68843afd9648e63bfd3b97cbc843649f14c3926be712caafacf11ba74b6a98",
+    "evaluation/fresh-v2/manifest.json": "f986145047b3188bbcd430896a67be39bd86d23cd6cb269a03e9277303ca380a",
+    "evaluation/real_evaluate.py": "e642be0f5bebb7d42d356f3a0ac471b25650e1e385a6ce0c07137f65affbd68f",
+    "pyproject.toml": "95a6e92d5cdb61bc6a6fd1003d7265cc32a9d68300ada164a7be1f40f41f5d49",
+    "radar/__init__.py": "4471022079b45c7e207c44dd432242099f2bcbd4fd50a0f28624470db3f15011",
+    "radar/cli.py": "26f0e59045900d4553d959b92e73a4b13fd987a946a895382f9824e366b6a63d",
+    "radar/compare.py": "d3881906ab9d1e1c7d06bfe0bb23d708bd3b0d2a845a67e5d506295ac67871e0",
+    "radar/details.py": "fd4f516c7c04bff28a5bdec11993a54eccfbb31d7a5f6b4096fcdab948a928b8",
+    "radar/grouping.py": "d583c522aa13edf5bc2c32a839cab2213641825258d04a7160172e71768b1527",
+    "radar/models.py": "c51f454e871d6c6797c333dff9c3681b51c7025e28ce30432725303f4b712fb3",
+    "radar/presentation.py": "0a1d3d9c6685ad15005a6b7ae28f7288cef6c8dc507d961a57659fc1caf9fe9b",
+    "radar/structure.py": "1c3413152111fa274bef55a4be95ec6018e62f9f82fcafd1ed1da3ff938797b5",
+    "requirements.lock": "b36d7d9d4e0e3175a680908617329175aad41232284de7ff14e2a950171a86ab",
+    "requirements.txt": "ff3501a4ae317c2f29ed124eb2aeaec275509621add9978cf183213c04ab2b09"
+  },
+  "successful_cases": 3,
+  "unscored_annotated_cases": 0
+}

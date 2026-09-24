@@ -1,0 +1,53 @@
+[
+  {
+    "repository": "encode/starlette",
+    "commit": "830f3486537916bae6b46948ff922adc14a22b7c",
+    "root_license_notice_files": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "repository": "encode/starlette",
+    "commit": "46131a1af875a5be2190d91713a43ee80c8311c6",
+    "root_license_notice_files": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "repository": "psf/black",
+    "commit": "ae2c0758c9e61a385df9700dc9c231bf54887041",
+    "root_license_notice_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "repository": "psf/black",
+    "commit": "1b2427a2b785cc4aac97c19bb4b9a0de063f9547",
+    "root_license_notice_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "repository": "astral-sh/uv",
+    "commit": "dd1934c9c36ee22cd3c467317503ecd7b040c43a",
+    "root_license_notice_files": [
+      "LICENSE-APACHE",
+      "LICENSE-MIT"
+    ]
+  },
+  {
+    "repository": "astral-sh/uv",
+    "commit": "591f38c25e577d29bb4fd0dde7cdb614f3129bfc",
+    "root_license_notice_files": [
+      "LICENSE-APACHE",
+      "LICENSE-MIT"
+    ]
+  },
+  {
+    "repository": "psf/black",
+    "commit": "b0d1fba7ac3be53c71fb0d3211d911e629f8aecb",
+    "root_license_notice_files": [
+      "LICENSE"
+    ]
+  }
+]

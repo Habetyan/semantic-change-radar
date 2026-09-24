@@ -1,0 +1,110 @@
+{
+  "source_line_count": 196,
+  "omissions": [
+    {
+      "start_line": 1,
+      "end_line": 2,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 4,
+      "end_line": 4,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 6,
+      "end_line": 7,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 9,
+      "end_line": 9,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 17,
+      "end_line": 18,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 32,
+      "end_line": 33,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 41,
+      "end_line": 45,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 54,
+      "end_line": 55,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 95,
+      "end_line": 96,
+      "reason": "versionadded directive and body"
+    },
+    {
+      "start_line": 97,
+      "end_line": 97,
+      "reason": "admonition markup only; inline argument and body retained"
+    },
+    {
+      "start_line": 102,
+      "end_line": 102,
+      "reason": "admonition markup only; inline argument and body retained"
+    },
+    {
+      "start_line": 107,
+      "end_line": 107,
+      "reason": "admonition markup only; inline argument and body retained"
+    },
+    {
+      "start_line": 117,
+      "end_line": 117,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 124,
+      "end_line": 124,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 127,
+      "end_line": 138,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 141,
+      "end_line": 144,
+      "reason": "code-block directive and body"
+    },
+    {
+      "start_line": 159,
+      "end_line": 159,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 162,
+      "end_line": 170,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 173,
+      "end_line": 176,
+      "reason": "code-block directive and body"
+    },
+    {
+      "start_line": 187,
+      "end_line": 188,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 190,
+      "end_line": 190,
+      "reason": "heading underline; heading retained"
+    }
+  ]
+}

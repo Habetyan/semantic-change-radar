@@ -1,0 +1,23 @@
+{
+  "source_line_count": 69,
+  "omissions": [
+    {
+      "start_line": 24,
+      "end_line": 27,
+      "reason": "actual fenced code/example block"
+    },
+    {
+      "start_line": 57,
+      "end_line": 59,
+      "reason": "actual fenced code/example block"
+    },
+    {
+      "start_line": 63,
+      "end_line": 65,
+      "reason": "actual fenced code/example block"
+    }
+  ],
+  "transformations": [],
+  "policy": "Complete page prose; preserve heading levels, list markers and indentation; normalize visible links, inline code and bold; preserve single-star wildcards. Retain prose directives and omit actual code examples, reference targets and rules.",
+  "indented_blocks_audit": "All unfenced indented blocks in these pinned pages are admonition bodies or list prose, so all are retained. No selective truncation."
+}

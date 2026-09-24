@@ -1,0 +1,100 @@
+{
+  "source_line_count": 151,
+  "omissions": [
+    {
+      "start_line": 3,
+      "end_line": 3,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 8,
+      "end_line": 8,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 14,
+      "end_line": 14,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 17,
+      "end_line": 17,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 29,
+      "end_line": 29,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 34,
+      "end_line": 34,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 48,
+      "end_line": 48,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 51,
+      "end_line": 51,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 57,
+      "end_line": 57,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 64,
+      "end_line": 64,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 79,
+      "end_line": 79,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 82,
+      "end_line": 82,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 88,
+      "end_line": 88,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 94,
+      "end_line": 94,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 100,
+      "end_line": 100,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 107,
+      "end_line": 107,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 114,
+      "end_line": 114,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 127,
+      "end_line": 127,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 151,
+      "end_line": 151,
+      "reason": "reference target"
+    }
+  ]
+}

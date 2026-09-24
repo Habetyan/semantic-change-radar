@@ -1,0 +1,74 @@
+{
+  "source_line_count": 152,
+  "omissions": [
+    {
+      "start_line": 37,
+      "end_line": 37,
+      "reason": "link destination or MyST reference target; visible labels retained"
+    },
+    {
+      "start_line": 78,
+      "end_line": 80,
+      "reason": "actual fenced code/example block"
+    },
+    {
+      "start_line": 86,
+      "end_line": 88,
+      "reason": "actual fenced code/example block"
+    },
+    {
+      "start_line": 92,
+      "end_line": 94,
+      "reason": "actual fenced code/example block"
+    },
+    {
+      "start_line": 116,
+      "end_line": 119,
+      "reason": "actual fenced code/example block"
+    }
+  ],
+  "transformations": [
+    {
+      "start_line": 3,
+      "end_line": 5,
+      "reason": "MyST directive label and prose retained; fence markup removed"
+    },
+    {
+      "start_line": 30,
+      "end_line": 35,
+      "reason": "MyST directive label and prose retained; fence markup removed"
+    },
+    {
+      "start_line": 55,
+      "end_line": 58,
+      "reason": "MyST directive label and prose retained; fence markup removed"
+    },
+    {
+      "start_line": 62,
+      "end_line": 65,
+      "reason": "MyST directive label and prose retained; fence markup removed"
+    },
+    {
+      "start_line": 69,
+      "end_line": 71,
+      "reason": "MyST directive label and prose retained; fence markup removed"
+    },
+    {
+      "start_line": 77,
+      "end_line": 83,
+      "reason": "MyST directive label and prose retained; fence markup removed"
+    },
+    {
+      "start_line": 85,
+      "end_line": 89,
+      "reason": "MyST directive label and prose retained; fence markup removed"
+    },
+    {
+      "start_line": 91,
+      "end_line": 95,
+      "reason": "MyST directive label and prose retained; fence markup removed"
+    }
+  ],
+  "policy": "Complete page prose; preserve heading levels, list markers and indentation; normalize visible links, inline code and bold; preserve single-star wildcards. Retain prose directives and omit actual code examples, reference targets and rules.",
+  "indented_blocks_audit": "All unfenced indented blocks in these pinned pages are admonition bodies or list prose, so all are retained. No selective truncation."
+}

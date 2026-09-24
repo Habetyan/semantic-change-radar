@@ -1,0 +1,162 @@
+{
+  "case_id": "flask-deploying",
+  "review_status": "ai_reviewed_pending_human",
+  "annotator": "sources",
+  "events": [
+    {
+      "old_indices": [
+        0
+      ],
+      "new_indices": [
+        0
+      ],
+      "status": "reworded",
+      "rationale": "The page heading still introduces production deployment options."
+    },
+    {
+      "old_indices": [
+        1
+      ],
+      "new_indices": [
+        1,
+        2
+      ],
+      "status": "modified",
+      "rationale": "The original warning is split and expanded: production explicitly includes private or single-user deployments, and security and stability concerns join scaling; debugger and reloader restrictions are added."
+    },
+    {
+      "old_indices": [
+        9
+      ],
+      "new_indices": [
+        3
+      ],
+      "status": "reworded",
+      "rationale": "Self-hosted options retain the same subject despite capitalization and relocation."
+    },
+    {
+      "old_indices": [
+        2
+      ],
+      "new_indices": [
+        4,
+        7
+      ],
+      "status": "modified",
+      "rationale": "The WSGI application definition and guidance for unlisted servers are split across two paragraphs; HTTP-to-WSGI translation is explained and server-selection advice replaces consulting an unlisted server manual."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        5
+      ],
+      "status": "added",
+      "rationale": "Adds an explicit explanation of the documentation scope and the range of server configurations."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        6
+      ],
+      "status": "added",
+      "rationale": "Adds the reverse-proxy definition and reasons to put a dedicated HTTP server before WSGI."
+    },
+    {
+      "old_indices": [
+        3
+      ],
+      "new_indices": [
+        8
+      ],
+      "status": "reworded",
+      "rationale": "Renamed and relocated heading for externally hosted deployment options."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        9
+      ],
+      "status": "added",
+      "rationale": "Adds what managed hosting provides, potential free-tier limits, and its relation to WSGI servers."
+    },
+    {
+      "old_indices": [
+        8
+      ],
+      "new_indices": [
+        10
+      ],
+      "status": "reworded",
+      "rationale": "The PythonAnywhere hosting option is relocated and its visible label shortened."
+    },
+    {
+      "old_indices": [
+        5
+      ],
+      "new_indices": [
+        11
+      ],
+      "status": "reworded",
+      "rationale": "The same Google App Engine hosting option has a shorter visible label."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        12
+      ],
+      "status": "added",
+      "rationale": "Adds Google Cloud Run as a named hosting option."
+    },
+    {
+      "old_indices": [
+        6
+      ],
+      "new_indices": [
+        13
+      ],
+      "status": "reworded",
+      "rationale": "The same AWS Elastic Beanstalk hosting option has a shorter visible label."
+    },
+    {
+      "old_indices": [
+        7
+      ],
+      "new_indices": [
+        14
+      ],
+      "status": "uncertain",
+      "rationale": "Both labels refer to Azure, but removing the IIS qualifier could be a shortened label or a scope change. Excluded link destinations cannot settle that distinction."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        15
+      ],
+      "status": "added",
+      "rationale": "Adds caveats about the non-exhaustive platform list and selection based on pricing, features, and support."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        16
+      ],
+      "status": "added",
+      "rationale": "Adds a proxy-fix recommendation for most hosting platforms."
+    },
+    {
+      "old_indices": [
+        4
+      ],
+      "new_indices": [],
+      "status": "removed",
+      "rationale": "Heroku is no longer listed among the hosting options."
+    }
+  ],
+  "reviewer": "annotate_pytest",
+  "review_notes": [
+    "Independently read all old and new extracted passages before any model predictions. All correspondences and statuses retained.",
+    "Retained old [1] -> new [1, 2] as modified: the warning is expanded to debugger/reloader, private deployments, and stability/security.",
+    "Retained old [2] -> new [4, 7] as modified: its WSGI identity and unlisted-server advice are distributed across a definition and revised selection guidance. Fine-grained links remain a human-review judgment.",
+    "Retained Azure old [7] -> new [14] as uncertain: the removed IIS qualifier could reflect broader scope or merely a shorter link label."
+  ]
+}

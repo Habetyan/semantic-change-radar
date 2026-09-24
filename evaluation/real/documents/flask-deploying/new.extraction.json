@@ -1,0 +1,30 @@
+{
+  "source_line_count": 79,
+  "omissions": [
+    {
+      "start_line": 2,
+      "end_line": 2,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 18,
+      "end_line": 18,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 31,
+      "end_line": 41,
+      "reason": "toctree directive and body"
+    },
+    {
+      "start_line": 46,
+      "end_line": 52,
+      "reason": "toctree directive and body"
+    },
+    {
+      "start_line": 59,
+      "end_line": 59,
+      "reason": "heading underline; heading retained"
+    }
+  ]
+}

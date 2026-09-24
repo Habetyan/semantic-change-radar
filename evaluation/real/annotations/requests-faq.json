@@ -1,0 +1,231 @@
+{
+  "case_id": "requests-faq",
+  "review_status": "ai_reviewed_pending_human",
+  "annotator": "sources",
+  "events": [
+    {
+      "old_indices": [
+        0
+      ],
+      "new_indices": [
+        0
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        1
+      ],
+      "new_indices": [
+        1
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        2
+      ],
+      "new_indices": [
+        2
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        3
+      ],
+      "new_indices": [
+        3
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        4
+      ],
+      "status": "added",
+      "rationale": "Adds conditional support for Brotli decompression when either named optional package is installed."
+    },
+    {
+      "old_indices": [
+        4
+      ],
+      "new_indices": [
+        5
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        5
+      ],
+      "new_indices": [
+        6
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        6
+      ],
+      "new_indices": [
+        7
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        7
+      ],
+      "new_indices": [
+        8
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        8
+      ],
+      "new_indices": [
+        9
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        9
+      ],
+      "new_indices": [
+        10
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        10
+      ],
+      "new_indices": [
+        11
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        11
+      ],
+      "new_indices": [
+        12
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        12
+      ],
+      "new_indices": [
+        13
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        13
+      ],
+      "new_indices": [
+        14
+      ],
+      "status": "modified",
+      "rationale": "Drops Python 2.7 and raises the supported Python 3 minimum from 3.5 to 3.8; PyPy remains supported."
+    },
+    {
+      "old_indices": [
+        14
+      ],
+      "new_indices": [
+        15
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        15
+      ],
+      "new_indices": [
+        16
+      ],
+      "status": "modified",
+      "rationale": "Reverses the commitment to Python 2.7 support, identifies its removal in Requests 2.28.0, and adds a version-pinning recommendation."
+    },
+    {
+      "old_indices": [
+        16
+      ],
+      "new_indices": [
+        17
+      ],
+      "status": "modified",
+      "rationale": "Raises the recommended migration target from Python 3.6+ to Python 3.8+."
+    },
+    {
+      "old_indices": [
+        17
+      ],
+      "new_indices": [
+        18
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        18
+      ],
+      "new_indices": [
+        19
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        19
+      ],
+      "new_indices": [
+        20
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        20
+      ],
+      "new_indices": [
+        21
+      ],
+      "status": "modified",
+      "rationale": "Retains Python 3 native SNI support but removes the Python 2.7.9+ assertion and the workaround referral for earlier versions."
+    }
+  ],
+  "reviewer": "annotate_pytest",
+  "review_notes": [
+    "Independently read all old and new extracted passages before any model predictions. All correspondences and statuses retained.",
+    "Verified the Brotli paragraph is an addition and the supported Python versions, Python 2 removal/version-pinning advice, migration target, and retained SNI description each have corresponding substantive changes.",
+    "The older hostname-error advice remains unchanged in the source even though Python 2 support is dropped elsewhere; annotation tracks the prose, not upstream factual consistency."
+  ]
+}

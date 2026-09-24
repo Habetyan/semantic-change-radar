@@ -1,0 +1,536 @@
+{
+  "case_id": "uv-cache",
+  "review_status": "ai_reviewed_pending_human",
+  "annotator": "resume_eval",
+  "blind_to_model_predictions": true,
+  "scope": "Complete extracted prose including headings and visible example titles; fenced code and reference destinations excluded. Every passage appears exactly once.",
+  "events": [
+    {
+      "old_indices": [
+        0
+      ],
+      "new_indices": [
+        0
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        1
+      ],
+      "new_indices": [
+        1
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        2
+      ],
+      "new_indices": [
+        2
+      ],
+      "status": "reworded",
+      "rationale": "Moves the closing parenthesis to repair the parallel wording without changing what is cached."
+    },
+    {
+      "old_indices": [
+        3
+      ],
+      "new_indices": [
+        3
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        4
+      ],
+      "new_indices": [
+        4
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        5
+      ],
+      "new_indices": [
+        5
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        6
+      ],
+      "new_indices": [
+        6
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        7
+      ],
+      "new_indices": [
+        7
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        8
+      ],
+      "new_indices": [
+        8
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        9
+      ],
+      "new_indices": [
+        9
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        10
+      ],
+      "new_indices": [
+        10
+      ],
+      "status": "modified",
+      "rationale": "Corrects the documented option name from --refresh-dependency to --refresh-package; the command users are told to pass changes."
+    },
+    {
+      "old_indices": [
+        11
+      ],
+      "new_indices": [
+        11
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        12
+      ],
+      "new_indices": [
+        12
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        13
+      ],
+      "new_indices": [
+        13
+      ],
+      "status": "modified",
+      "rationale": "Adds rebuilding, specifies the directory root, and makes the file-change rule a default rather than unqualified behavior."
+    },
+    {
+      "old_indices": [
+        14
+      ],
+      "new_indices": [
+        26
+      ],
+      "status": "modified",
+      "rationale": "Restricts always-reinstall guidance to metadata not covered by cache-keys and identifies the tool.uv.reinstall-package list explicitly."
+    },
+    {
+      "old_indices": [
+        15
+      ],
+      "new_indices": [
+        27
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        16
+      ],
+      "new_indices": [
+        28
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        17
+      ],
+      "new_indices": [
+        29
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        18
+      ],
+      "new_indices": [
+        30
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        19
+      ],
+      "new_indices": [
+        31
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        20
+      ],
+      "new_indices": [
+        32
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        21
+      ],
+      "new_indices": [
+        33
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        22
+      ],
+      "new_indices": [
+        34
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        23
+      ],
+      "new_indices": [
+        35
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        24
+      ],
+      "new_indices": [
+        36
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        25
+      ],
+      "new_indices": [
+        37
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        26
+      ],
+      "new_indices": [
+        38
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        27
+      ],
+      "new_indices": [
+        39
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        28
+      ],
+      "new_indices": [
+        40
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        29
+      ],
+      "new_indices": [
+        41
+      ],
+      "status": "modified",
+      "rationale": "Adds unzipped source distributions to the artifacts removed by uv cache prune --ci."
+    },
+    {
+      "old_indices": [
+        30
+      ],
+      "new_indices": [
+        42
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        31
+      ],
+      "new_indices": [
+        43
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        32
+      ],
+      "new_indices": [
+        44
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        33
+      ],
+      "new_indices": [
+        45
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        34
+      ],
+      "new_indices": [
+        46
+      ],
+      "status": "reworded",
+      "rationale": "Replaces the Windows LocalAppData known-folder notation with the environment-variable notation for the same cache location."
+    },
+    {
+      "old_indices": [
+        35
+      ],
+      "new_indices": [
+        47
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        36
+      ],
+      "new_indices": [
+        48
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [
+        37
+      ],
+      "new_indices": [
+        49
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose with the same discussion and referent; any relocation preserves the proposition. Excluded code is not labeled."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        14
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: To incorporate other information into the cache key for a given package, you can add cache key entries under tool.uv.cache-keys, which can include both file paths and Git commit hashes."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        15
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: For example, if a project uses setuptools-scm, and should be rebuilt whenever the commit hash changes, you can add the following to the project's pyproject.toml:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        16
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: pyproject.toml:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        17
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: If your dynamic metadata incorporates information from the set of Git tags, you can expand the cache key to include the tags:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        18
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: pyproject.toml:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        19
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: Similarly, if a project reads from a requirements.txt to populate its dependencies, you can add the following to the project's pyproject.toml:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        20
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: pyproject.toml:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        21
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: Globs are supported, following the syntax of the glob crate. For example, to invalidate the cache whenever a .toml file in the project directory or any of its subdirectories is modified, use the following:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        22
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: pyproject.toml:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        23
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: Note: The use of globs can be expensive, as uv may need to walk the filesystem to determine whether any files have changed. This may, in turn, requiring traversal of large or deeply nested directories."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        24
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: Similarly, if a project relies on an environment variable, you can add the following to the project's pyproject.toml to invalidate the cache whenever the environment variable changes:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        25
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: pyproject.toml:"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        50
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: ## Cache versioning"
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        51
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: The uv cache is composed of a number of buckets (e.g., a bucket for wheels, a bucket for source distributions, a bucket for Git repositories, and so on). Each bucket is versioned, such that if a release contains a breaking change to the cache format, uv will not attempt to read from or write to an incompatible cache bucket."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        52
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: For example, uv 0.4.13 included a breaking change to the core metadata bucket. As such, the bucket version was increased from v12 to v13. Within a cache version, changes are guaranteed to be both forwards- and backwards-compatible."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        53
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: Since changes in the cache format are accompanied by changes in the cache version, multiple versions of uv can safely read and write to the same cache directory. However, if the cache version changed between a given pair of uv releases, then those releases may not be able to share the same underlying cache entries."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        54
+      ],
+      "status": "added",
+      "rationale": "Adds this visible prose unit in its document context: For example, it's safe to use a single shared cache for uv 0.4.12 and uv 0.4.13, though the cache itself may contain duplicate entries in the core metadata bucket due to the change in cache version."
+    }
+  ],
+  "review_notes": [
+    "Read both complete raw Markdown revisions and all 38 old / 55 new extracted passages. Confirmed four modifications: refresh option spelling, default directory-root cache invalidation rule, narrowed reinstall-package recommendation, and pruning unzipped source distributions.",
+    "Confirmed repeated pyproject.toml title alignment: old 15 corresponds to new 27, the always-reinstall example, based on adjacent prose. New titles 16, 18, 20, 22 and 25 belong to newly added cache-key examples and remain additions.",
+    "Retained old 16 / new 28 unchanged: the configured always-reinstall outcome is still unconditional on file timestamps; new preceding text narrows when the option is recommended, not what it does once configured.",
+    "Retained Windows path notation as reworded for the conventional LocalAppData cache location. This assumes ordinary known-folder/environment-variable equivalence, not customized or overridden environment values. Human review of this equivalence remains useful."
+  ],
+  "annotation_caveats": [
+    "Repeated pyproject.toml labels belong to distinct code examples. The original always-reinstall example title maps to the later escape-hatch example, not newly inserted examples."
+  ],
+  "reviewer": "resume_ui",
+  "review_blind_to_model_predictions": true
+}

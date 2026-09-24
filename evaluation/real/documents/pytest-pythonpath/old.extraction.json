@@ -1,0 +1,75 @@
+{
+  "source_line_count": 136,
+  "omissions": [
+    {
+      "start_line": 1,
+      "end_line": 2,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 4,
+      "end_line": 4,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 6,
+      "end_line": 7,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 9,
+      "end_line": 9,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 33,
+      "end_line": 37,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 57,
+      "end_line": 57,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 64,
+      "end_line": 64,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 67,
+      "end_line": 78,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 81,
+      "end_line": 84,
+      "reason": "code-block directive and body"
+    },
+    {
+      "start_line": 99,
+      "end_line": 99,
+      "reason": "heading underline; heading retained"
+    },
+    {
+      "start_line": 102,
+      "end_line": 110,
+      "reason": "literal/code block"
+    },
+    {
+      "start_line": 113,
+      "end_line": 116,
+      "reason": "code-block directive and body"
+    },
+    {
+      "start_line": 127,
+      "end_line": 128,
+      "reason": "reference target"
+    },
+    {
+      "start_line": 130,
+      "end_line": 130,
+      "reason": "heading underline; heading retained"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "source_line_count": 86,
+  "omissions": [
+    {
+      "start_line": 65,
+      "end_line": 68,
+      "reason": "actual fenced code/example block"
+    }
+  ],
+  "transformations": [
+    {
+      "start_line": 3,
+      "end_line": 4,
+      "reason": "MyST directive label and prose retained; fence markup removed"
+    },
+    {
+      "start_line": 41,
+      "end_line": 44,
+      "reason": "MyST directive label and prose retained; fence markup removed"
+    }
+  ],
+  "policy": "Complete page prose; preserve heading levels, list markers and indentation; normalize visible links, inline code and bold; preserve single-star wildcards. Retain prose directives and omit actual code examples, reference targets and rules.",
+  "indented_blocks_audit": "All unfenced indented blocks in these pinned pages are admonition bodies or list prose, so all are retained. No selective truncation."
+}

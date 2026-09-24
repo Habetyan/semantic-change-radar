@@ -1,0 +1,388 @@
+{
+  "case_id": "flask-design",
+  "review_status": "ai_reviewed_pending_human",
+  "annotator": "sources",
+  "events": [
+    {
+      "old_indices": [
+        0
+      ],
+      "new_indices": [
+        0
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        1
+      ],
+      "new_indices": [
+        1
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        2
+      ],
+      "new_indices": [
+        2
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        3
+      ],
+      "new_indices": [
+        3
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        4
+      ],
+      "new_indices": [
+        4
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        5
+      ],
+      "new_indices": [
+        5
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        6
+      ],
+      "new_indices": [
+        6
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        7
+      ],
+      "new_indices": [
+        7
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        8
+      ],
+      "new_indices": [
+        8
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        9
+      ],
+      "new_indices": [
+        9
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        10
+      ],
+      "new_indices": [
+        10
+      ],
+      "status": "reworded",
+      "rationale": "The factory-function benefit is unchanged; only the implicit documentation-reference text differs."
+    },
+    {
+      "old_indices": [
+        11
+      ],
+      "new_indices": [
+        11
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        12
+      ],
+      "new_indices": [
+        12
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        13
+      ],
+      "new_indices": [
+        13
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        14
+      ],
+      "new_indices": [
+        14
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        15
+      ],
+      "new_indices": [
+        15
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        16
+      ],
+      "new_indices": [
+        16
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        17
+      ],
+      "new_indices": [
+        17
+      ],
+      "status": "modified",
+      "rationale": "Removes the assertion that Jinja2 uses Unicode for all operations; the remaining comparison is reflowed."
+    },
+    {
+      "old_indices": [
+        18
+      ],
+      "new_indices": [
+        18
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        19
+      ],
+      "new_indices": [
+        19
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        20
+      ],
+      "new_indices": [
+        20
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        21
+      ],
+      "new_indices": [
+        21
+      ],
+      "status": "reworded",
+      "rationale": "Renames the heading that explains Flask as a microframework; new explanations below are separate additions."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        22
+      ],
+      "status": "added",
+      "rationale": "Adds an explicit definition of microframework and clarifies that micro does not imply a single file or missing functionality."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        23
+      ],
+      "status": "added",
+      "rationale": "Adds an overview of extension-provided functionality and an explicit production-readiness claim."
+    },
+    {
+      "old_indices": [
+        22
+      ],
+      "new_indices": [
+        24
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        23
+      ],
+      "new_indices": [
+        25
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        24
+      ],
+      "new_indices": [
+        26
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        25
+      ],
+      "new_indices": [
+        27
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        26
+      ],
+      "new_indices": [
+        28
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        29
+      ],
+      "status": "added",
+      "rationale": "Adds a section heading for async/await and ASGI support."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        30
+      ],
+      "status": "added",
+      "rationale": "Adds coroutine execution, compatibility rationale, and the thread-overhead performance tradeoff."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        31
+      ],
+      "status": "added",
+      "rationale": "Adds the uncertainty about simultaneous ASGI/WSGI support and work toward that support."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        32
+      ],
+      "status": "added",
+      "rationale": "Adds a referral to the async/await discussion."
+    },
+    {
+      "old_indices": [
+        28
+      ],
+      "new_indices": [
+        33
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        29
+      ],
+      "new_indices": [
+        34
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        30
+      ],
+      "new_indices": [
+        35
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [],
+      "new_indices": [
+        36
+      ],
+      "status": "added",
+      "rationale": "Adds explicit guidance for growing applications, including SQLAlchemy, non-relational persistence, and framework-independent WSGI tools."
+    },
+    {
+      "old_indices": [
+        31
+      ],
+      "new_indices": [
+        37
+      ],
+      "status": "unchanged",
+      "rationale": "Identical extracted prose."
+    },
+    {
+      "old_indices": [
+        27
+      ],
+      "new_indices": [],
+      "status": "removed",
+      "rationale": "Removes the referral to separate documentation about larger applications."
+    }
+  ],
+  "reviewer": "annotate_pytest",
+  "review_notes": [
+    "Independently read all old and new extracted passages before any model predictions. All correspondences and statuses retained.",
+    "Retained old [17] -> new [17] as modified: deleting the Unicode-for-all-operations assertion removes substantive detail under this protocol, even though much of the paragraph is unchanged.",
+    "Retained old [10] -> new [10] as reworded because the factory-function proposition is identical and only the implicit documentation reference differs.",
+    "Retained old [27] as removed and new [36] as added: a deleted cross-reference and new in-page architecture guidance share a broad subject but do not establish a sufficiently specific paragraph correspondence."
+  ]
+}

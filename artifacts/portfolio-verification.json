@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-24T18:05:07.137557+00:00",
+  "tests": {
+    "command": "HF_HUB_OFFLINE=1 RUN_MODEL_TESTS=1 .venv/bin/python -m pytest -q",
+    "result": "81 passed in 2.88s"
+  },
+  "static_checks": {
+    "ruff": "passed",
+    "format": "38 files already formatted",
+    "pip_check": "No broken requirements found",
+    "documentation_links": "passed"
+  },
+  "historical_files_unchanged": 184,
+  "freezes": {
+    "docs/v3-engine-freeze.json": {
+      "count": 7,
+      "mismatches": []
+    },
+    "docs/blind-v3-freeze.json": {
+      "count": 93,
+      "mismatches": []
+    }
+  },
+  "independent_metric_audit": "artifacts/evaluation/v3-audit.json",
+  "browser_checks": [
+    "Gradio desktop/mobile comparison, filters, sources, exports and stale inputs passed.",
+    "Scope reviews consolidate without removing source entries.",
+    "HTTPX exact localized quotes and grouped parts passed.",
+    "Offline annotation labels, persistence, import/export, schema rejection, script escaping and storage failure passed.",
+    "Static showcase disclosure, actual example selection, evidence, exports and mobile overflow passed.",
+    "Edited historical-example provenance regression passed."
+  ],
+  "video": {
+    "path": "docs/images/walkthrough.mp4",
+    "duration_seconds": 59.72,
+    "bytes": 2687419,
+    "kind": "Silent actual Gradio browser interaction; no generated predictions injected."
+  },
+  "known_experiment_failure": "Local LLM completed 35 calls; 13 invalid literal quotes counted as review. Preserved summary complete=false, all 35 retained.",
+  "human_review": "Prepared 471 groups across 9 cases; no human validation performed.",
+  "publication": "See artifacts/publication.json for final external status."
+}

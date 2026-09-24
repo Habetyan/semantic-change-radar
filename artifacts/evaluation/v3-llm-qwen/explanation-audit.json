@@ -1,0 +1,827 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-24T17:50:15.138944+00:00",
+  "auditor": "resume_eval independent AI audit",
+  "human_validation": false,
+  "scope": "All 35 known development gold-aligned singleton pairs; provisional AI labels; no alignment evaluation, reruns, prompt changes, or new-corpus access.",
+  "source_sha256": {
+    "run-config.json": "687d1b71d367f366d8e4a76bd143bee3a6f8b6c80daddb199edbab16a3d75ef3",
+    "predictions.jsonl": "a8ed9965d5ecc8edb3e82b2e6cda3fbec7021bb85741ea0ce0a1410bfe8d0451",
+    "summary.json": "7f67df5f2ff9b01895a4247c119e5a09e752a4bd20e15c20801415ec28f311c1"
+  },
+  "assessment_definitions": {
+    "supported": "Reason describes a real supplied-text difference or equivalence; does not necessarily justify its status, cover all differences, or establish full-document semantics.",
+    "overinterprets_harmless_rewrite": "Observed lexical/presentation difference is promoted to material change without sufficient semantic support, assessed against supplied text and provisional document labels.",
+    "unsupported_assertion": "At least one factual characterization in the reason is absent from or contradicted by supplied text."
+  },
+  "reviewed_pairs": 35,
+  "assessment_counts": {
+    "overinterprets_harmless_rewrite": 10,
+    "unsupported_assertion": 7,
+    "supported": 18
+  },
+  "quote_validation": {
+    "valid": 22,
+    "invalid": 13,
+    "all_invalid_retained_as_uncertain": true,
+    "invalid_row_indices": [
+      0,
+      2,
+      9,
+      10,
+      11,
+      13,
+      16,
+      17,
+      18,
+      20,
+      25,
+      27,
+      29
+    ],
+    "additional_valid_quote_raw_uncertain": 1,
+    "complete_summary_false_preserved": true
+  },
+  "recomputed_metrics_match_saved_summary": true,
+  "metrics": {
+    "baseline": {
+      "count": 35,
+      "confusion": {
+        "reworded": {
+          "uncertain": 4,
+          "reworded": 6,
+          "modified": 8
+        },
+        "modified": {
+          "reworded": 1,
+          "modified": 11,
+          "uncertain": 5
+        }
+      },
+      "material": {
+        "true_positive": 11,
+        "predicted": 19,
+        "expected": 17,
+        "precision": 0.5789473684210527,
+        "recall": 0.6470588235294118,
+        "f1": 0.6111111111111113
+      },
+      "status_accuracy": 0.4857142857142857,
+      "material_as_equivalent_misses": 1,
+      "abstentions": 9
+    },
+    "llm": {
+      "count": 35,
+      "confusion": {
+        "reworded": {
+          "uncertain": 8,
+          "modified": 10
+        },
+        "modified": {
+          "modified": 11,
+          "uncertain": 6
+        }
+      },
+      "material": {
+        "true_positive": 11,
+        "predicted": 21,
+        "expected": 17,
+        "precision": 0.5238095238095238,
+        "recall": 0.6470588235294118,
+        "f1": 0.5789473684210527
+      },
+      "status_accuracy": 0.3142857142857143,
+      "material_as_equivalent_misses": 0,
+      "abstentions": 14
+    },
+    "fallback_on_baseline_uncertain": {
+      "count": 35,
+      "confusion": {
+        "reworded": {
+          "uncertain": 2,
+          "reworded": 6,
+          "modified": 10
+        },
+        "modified": {
+          "reworded": 1,
+          "modified": 13,
+          "uncertain": 3
+        }
+      },
+      "material": {
+        "true_positive": 13,
+        "predicted": 23,
+        "expected": 17,
+        "precision": 0.5652173913043478,
+        "recall": 0.7647058823529411,
+        "f1": 0.65
+      },
+      "status_accuracy": 0.5428571428571428,
+      "material_as_equivalent_misses": 1,
+      "abstentions": 5
+    },
+    "always_material": {
+      "count": 35,
+      "confusion": {
+        "reworded": {
+          "modified": 18
+        },
+        "modified": {
+          "modified": 17
+        }
+      },
+      "material": {
+        "true_positive": 17,
+        "predicted": 35,
+        "expected": 17,
+        "precision": 0.4857142857142857,
+        "recall": 1.0,
+        "f1": 0.6538461538461539
+      },
+      "status_accuracy": 0.4857142857142857,
+      "material_as_equivalent_misses": 0,
+      "abstentions": 0
+    }
+  },
+  "fallback_selected_pairs": 9,
+  "fallback_selected_outcomes": {
+    "reworded -> uncertain": 2,
+    "reworded -> modified": 2,
+    "modified -> modified": 2,
+    "modified -> uncertain": 3
+  },
+  "fallback_interpretation": "Relative to baseline, fallback resolves two genuine material abstentions, creates two material false positives on rewordings, leaves five selected cases uncertain, and preserves the baseline equivalent miss outside its nine-pair routing set. Standalone LLM never returns reworded: 34 raw modified and one uncertain; after evidence validation 21 modified and 14 uncertain. Fallback F1 0.65 remains below the trivial always-material F1 0.653846 on this selected DEV slice.",
+  "limitations": [
+    "AI explanation judgments are provisional, not human validation.",
+    "Labels were authored with complete document context, while LLM input contains isolated gold-aligned passages. Short headings and link labels can therefore have a context mismatch.",
+    "Exact source substrings do not validate the truth or relevance of a reason.",
+    "The 35-pair slice contains no unchanged, added or removed events and cannot measure document-level performance or unseen generalization."
+  ],
+  "pairs": [
+    {
+      "row_index": 0,
+      "case_id": "flask-deploying",
+      "old_index": 0,
+      "new_index": 0,
+      "provisional_expected": "reworded",
+      "baseline_status": "uncertain",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "uncertain",
+      "reason": "The title has been changed from 'Deployment Options' to 'Deploying to Production'.",
+      "assessment": "overinterprets_harmless_rewrite",
+      "audit_note": "Accurately reports a title replacement but does not identify a substantive change. Provisional document-level label treats it as the same deployment topic; title-only inputs limit scope judgment.",
+      "literal_quote_valid": false,
+      "quote_valid_by_side": {
+        "old": false,
+        "new": false
+      },
+      "selected_for_fallback": true
+    },
+    {
+      "row_index": 1,
+      "case_id": "flask-deploying",
+      "old_index": 9,
+      "new_index": 3,
+      "provisional_expected": "reworded",
+      "baseline_status": "reworded",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The title has been capitalized differently.",
+      "assessment": "overinterprets_harmless_rewrite",
+      "audit_note": "Capitalization changed, as stated. That is presentation alone, so it does not justify modified.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 2,
+      "case_id": "flask-deploying",
+      "old_index": 3,
+      "new_index": 8,
+      "provisional_expected": "reworded",
+      "baseline_status": "reworded",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "uncertain",
+      "reason": "The title has been changed from 'Hosted options' to 'Hosting Platforms'.",
+      "assessment": "overinterprets_harmless_rewrite",
+      "audit_note": "Reports the new title without establishing a different hosting topic or proposition.",
+      "literal_quote_valid": false,
+      "quote_valid_by_side": {
+        "old": false,
+        "new": false
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 3,
+      "case_id": "flask-deploying",
+      "old_index": 8,
+      "new_index": 10,
+      "provisional_expected": "reworded",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The location of the deployment instruction has changed from 'on PythonAnywhere' to just 'PythonAnywhere'.",
+      "assessment": "unsupported_assertion",
+      "audit_note": "The named destination is PythonAnywhere in both texts; claiming a changed location mistakes shorter wording for a location change.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 4,
+      "case_id": "flask-deploying",
+      "old_index": 5,
+      "new_index": 11,
+      "provisional_expected": "reworded",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The after passage omits the information about deploying Flask.",
+      "assessment": "overinterprets_harmless_rewrite",
+      "audit_note": "Deploying Flask is omitted literally, but the reason treats a shortened platform link label as substantive loss. The provisional label uses document context unavailable in this isolated pair.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 5,
+      "case_id": "flask-deploying",
+      "old_index": 6,
+      "new_index": 13,
+      "provisional_expected": "reworded",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The location of the action has changed from being part of a step to just mentioning the service.",
+      "assessment": "unsupported_assertion",
+      "audit_note": "Neither supplied text describes a step or a change of action location. Both identify AWS Elastic Beanstalk; only the link-label wording is shortened.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 6,
+      "case_id": "flask-design",
+      "old_index": 10,
+      "new_index": 10,
+      "provisional_expected": "reworded",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The reference to app factories has been updated.",
+      "assessment": "overinterprets_harmless_rewrite",
+      "audit_note": "Correctly notices a changed reference target, but the factory-function assertion is identical. Residual extraction markup does not establish a material change.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 7,
+      "case_id": "flask-design",
+      "old_index": 17,
+      "new_index": 17,
+      "provisional_expected": "modified",
+      "baseline_status": "reworded",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The passage about Jinja2 has been expanded with 'supports iterative template rendering'.",
+      "assessment": "unsupported_assertion",
+      "audit_note": "Supports iterative template rendering appears in BOTH versions, so it was not added. The actual deleted assertion is uses Unicode for all operations. Correct modified status has a false explanation.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 8,
+      "case_id": "flask-design",
+      "old_index": 21,
+      "new_index": 21,
+      "provisional_expected": "reworded",
+      "baseline_status": "uncertain",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The title has changed from explaining 'Micro with Dependencies' to asking what 'micro' means.",
+      "assessment": "overinterprets_harmless_rewrite",
+      "audit_note": "Accurately contrasts title forms, but a statement-to-question title rewrite alone does not establish changed information. Document-level provisional label treats the subject as preserved.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": true
+    },
+    {
+      "row_index": 9,
+      "case_id": "flask-security",
+      "old_index": 1,
+      "new_index": 1,
+      "provisional_expected": "modified",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "uncertain",
+      "reason": "The after passage introduces new information about default solutions being tradeoffs, depending on specific needs, and mentions that some security issues might be handled by hosting platforms.",
+      "assessment": "supported",
+      "audit_note": "New text explicitly adds tradeoffs, application needs/threat models and hosting-platform handling. Brief explanation is supported despite invalid literal evidence formatting.",
+      "literal_quote_valid": false,
+      "quote_valid_by_side": {
+        "old": false,
+        "new": false
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 10,
+      "case_id": "pytest-flaky",
+      "old_index": 13,
+      "new_index": 20,
+      "provisional_expected": "reworded",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "uncertain",
+      "reason": "The title has been changed to refer to a broader topic.",
+      "assessment": "unsupported_assertion",
+      "audit_note": "The title changes, but Related features does not by itself prove that the topic became broader. Claimed semantic broadening is unsupported by the supplied headings.",
+      "literal_quote_valid": false,
+      "quote_valid_by_side": {
+        "old": false,
+        "new": false
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 11,
+      "case_id": "pytest-goodpractices",
+      "old_index": 2,
+      "new_index": 2,
+      "provisional_expected": "reworded",
+      "baseline_status": "reworded",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "uncertain",
+      "reason": "The term 'pip_' has been changed to 'pip:index'.",
+      "assessment": "overinterprets_harmless_rewrite",
+      "audit_note": "Correctly reports pip_ becoming pip:index, but those are residual reference forms. The environment-isolation recommendation is unchanged.",
+      "literal_quote_valid": false,
+      "quote_valid_by_side": {
+        "old": false,
+        "new": false
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 12,
+      "case_id": "pytest-goodpractices",
+      "old_index": 3,
+      "new_index": 3,
+      "provisional_expected": "modified",
+      "baseline_status": "uncertain",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The required file type and name changed from setup.py to pyproject.toml.",
+      "assessment": "supported",
+      "audit_note": "The instruction changes the required configuration file from setup.py to pyproject.toml. Reason identifies the substantive difference.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": true
+    },
+    {
+      "row_index": 13,
+      "case_id": "pytest-goodpractices",
+      "old_index": 5,
+      "new_index": 6,
+      "provisional_expected": "modified",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "uncertain",
+      "reason": "The after passage omits the comparison to other installation methods.",
+      "assessment": "supported",
+      "audit_note": "The comparison with setup.py develop/conda develop is removed; the explanation is accurate, though it omits the also-removed symlink detail.",
+      "literal_quote_valid": false,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": false
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 14,
+      "case_id": "pytest-goodpractices",
+      "old_index": 12,
+      "new_index": 13,
+      "provisional_expected": "reworded",
+      "baseline_status": "reworded",
+      "raw_llm_status": "uncertain",
+      "effective_llm_status": "uncertain",
+      "reason": "The passages are identical except for the added period at the end in the 'after' version, which is a minor punctuation difference that does not change the meaning.",
+      "assessment": "supported",
+      "audit_note": "Reason correctly says a final period does not change meaning. Raw uncertain status is unnecessarily conservative relative to its own reason and the provisional reworded label.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 15,
+      "case_id": "pytest-goodpractices",
+      "old_index": 13,
+      "new_index": 14,
+      "provisional_expected": "modified",
+      "baseline_status": "uncertain",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The after passage includes additional information about methods decorated with @staticmethod and @classmethods.",
+      "assessment": "supported",
+      "audit_note": "New sentence explicitly includes staticmethod/classmethod-decorated methods. Reason identifies the added detail.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": true
+    },
+    {
+      "row_index": 16,
+      "case_id": "pytest-goodpractices",
+      "old_index": 14,
+      "new_index": 15,
+      "provisional_expected": "reworded",
+      "baseline_status": "reworded",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "uncertain",
+      "reason": "The path separator has changed from a dot (.) to a slash (/).",
+      "assessment": "unsupported_assertion",
+      "audit_note": "No dot is replaced by a slash: the old path already contains a slash, and the new path gains a leading slash. The described edit is false.",
+      "literal_quote_valid": false,
+      "quote_valid_by_side": {
+        "old": false,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 17,
+      "case_id": "pytest-goodpractices",
+      "old_index": 16,
+      "new_index": 17,
+      "provisional_expected": "reworded",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "uncertain",
+      "reason": "The after passage omits the '/ import rules' part which is present in the before passage.",
+      "assessment": "supported",
+      "audit_note": "Literal removal of / import rules is accurately described. That observation alone does not justify modified: provisional document-level annotation treats the shortened section title as reworded.",
+      "literal_quote_valid": false,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": false
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 18,
+      "case_id": "pytest-goodpractices",
+      "old_index": 23,
+      "new_index": 29,
+      "provisional_expected": "modified",
+      "baseline_status": "uncertain",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "uncertain",
+      "reason": "The condition for not needing an editable install or src layout is added, which changes the requirement.",
+      "assessment": "supported",
+      "audit_note": "The new conditions explicitly concern absence of editable install and src layout rather than absence of setup.py. Reason is awkwardly phrased but points to a real change in applicability.",
+      "literal_quote_valid": false,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": false
+      },
+      "selected_for_fallback": true
+    },
+    {
+      "row_index": 19,
+      "case_id": "pytest-goodpractices",
+      "old_index": 38,
+      "new_index": 36,
+      "provisional_expected": "modified",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The condition for namespace packages working without __init__.py has been slightly altered.",
+      "assessment": "supported",
+      "audit_note": "A real condition changes: the Python 3.3-and-above qualifier disappears. The reason is accurate but too vague to explain this version-scope removal clearly.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 20,
+      "case_id": "pytest-goodpractices",
+      "old_index": 44,
+      "new_index": 42,
+      "provisional_expected": "modified",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "uncertain",
+      "reason": "The mention of sys.modules is removed in the new passage.",
+      "assessment": "supported",
+      "audit_note": "The guarantee of not changing sys.modules is removed. Reason directly identifies the textual deletion.",
+      "literal_quote_valid": false,
+      "quote_valid_by_side": {
+        "old": false,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 21,
+      "case_id": "pytest-goodpractices",
+      "old_index": 26,
+      "new_index": 47,
+      "provisional_expected": "reworded",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The term 'as a workaround' is added in the new passage, implying this is not the ideal solution.",
+      "assessment": "overinterprets_harmless_rewrite",
+      "audit_note": "As a workaround is added, but the same conditional recommendation remains. Inferring non-ideality is plausible commentary, not a changed requirement; provisional label is reworded.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 22,
+      "case_id": "pytest-goodpractices",
+      "old_index": 28,
+      "new_index": 49,
+      "provisional_expected": "reworded",
+      "baseline_status": "uncertain",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The tool name 'tox' is underlined in the second passage.",
+      "assessment": "unsupported_assertion",
+      "audit_note": "The new text has a trailing underscore in tox_, not underlining. The reason invents a presentation effect from residual reference markup.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": true
+    },
+    {
+      "row_index": 23,
+      "case_id": "pytest-goodpractices",
+      "old_index": 46,
+      "new_index": 52,
+      "provisional_expected": "reworded",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The after passage omits 'pytest support' which is present in the before passage.",
+      "assessment": "supported",
+      "audit_note": "The phrase and its pytest support is indeed removed. Reason is text-supported, but provisional gold calls this reworded in context. Isolated passage evaluation cannot resolve that context-dependent disagreement.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 24,
+      "case_id": "pytest-pythonpath",
+      "old_index": 3,
+      "new_index": 3,
+      "provisional_expected": "modified",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The description of importing files being 'non-trivial' has been moved to the beginning and is now more assertive.",
+      "assessment": "unsupported_assertion",
+      "audit_note": "Non-trivial is already in the opening sentence in both versions, so it was not moved to the beginning. Removing at least until recently may make the statement less qualified, but the explanation also misses the removed sys.path assertion.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 25,
+      "case_id": "pytest-pythonpath",
+      "old_index": 4,
+      "new_index": 4,
+      "provisional_expected": "modified",
+      "baseline_status": "uncertain",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "uncertain",
+      "reason": "The method used for importing modules has changed from __import___ to importlib.import_module.",
+      "assessment": "supported",
+      "audit_note": "The explicitly named import mechanism changes from __import___ to importlib.import_module. Reason is supported even though quote validation failed.",
+      "literal_quote_valid": false,
+      "quote_valid_by_side": {
+        "old": false,
+        "new": false
+      },
+      "selected_for_fallback": true
+    },
+    {
+      "row_index": 26,
+      "case_id": "pytest-pythonpath",
+      "old_index": 5,
+      "new_index": 6,
+      "provisional_expected": "modified",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The requirement for uniqueness has been expanded and rephrased.",
+      "assessment": "supported",
+      "audit_note": "New text explicitly describes duplicate-name errors and omits the sys.modules explanation. Expanded and rephrased is broadly supported but insufficiently specific about these substantive details.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 27,
+      "case_id": "pytest-pythonpath",
+      "old_index": 7,
+      "new_index": 8,
+      "provisional_expected": "modified",
+      "baseline_status": "uncertain",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "uncertain",
+      "reason": "The method used for importing the module has changed from `__import__` to `importlib.import_module`.",
+      "assessment": "supported",
+      "audit_note": "The named import mechanism changes from __import__ to importlib.import_module. Reason is correct despite invalid exact-quote formatting.",
+      "literal_quote_valid": false,
+      "quote_valid_by_side": {
+        "old": false,
+        "new": false
+      },
+      "selected_for_fallback": true
+    },
+    {
+      "row_index": 28,
+      "case_id": "pytest-pythonpath",
+      "old_index": 8,
+      "new_index": 9,
+      "provisional_expected": "reworded",
+      "baseline_status": "reworded",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The passage now explicitly mentions 'users', which was implied but not stated before.",
+      "assessment": "overinterprets_harmless_rewrite",
+      "audit_note": "The reason itself says users was already implied. Making the implicit subject grammatical adds no substantive information.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 29,
+      "case_id": "pytest-pythonpath",
+      "old_index": 9,
+      "new_index": 10,
+      "provisional_expected": "reworded",
+      "baseline_status": "uncertain",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "uncertain",
+      "reason": "The term 'src layouts' in the first passage has been changed to 'src-layouts' in the second passage.",
+      "assessment": "overinterprets_harmless_rewrite",
+      "audit_note": "Correctly identifies hyphenation, but spelling/presentation changes do not alter the import behavior.",
+      "literal_quote_valid": false,
+      "quote_valid_by_side": {
+        "old": false,
+        "new": false
+      },
+      "selected_for_fallback": true
+    },
+    {
+      "row_index": 30,
+      "case_id": "pytest-pythonpath",
+      "old_index": 13,
+      "new_index": 28,
+      "provisional_expected": "modified",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The original statement was an intention without any conditions or outcomes, while the new one includes a change in plans and reasons.",
+      "assessment": "supported",
+      "audit_note": "A future plan is explicitly reversed: prepend will remain the default due to importlib drawbacks. Reason captures the changed plan.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 31,
+      "case_id": "requests-faq",
+      "old_index": 13,
+      "new_index": 14,
+      "provisional_expected": "modified",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The minimum supported version of Python has been updated from 3.5 to 3.8.",
+      "assessment": "supported",
+      "audit_note": "Python 3 minimum rises from 3.5 to 3.8, as stated. Explanation is incomplete because Python 2.7 support also disappears.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 32,
+      "case_id": "requests-faq",
+      "old_index": 15,
+      "new_index": 16,
+      "provisional_expected": "modified",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The stance on supporting Python 2.7 has changed from a commitment to maintain support until pip stops supporting it, to stating that Requests no longer supports Python 2.7.",
+      "assessment": "supported",
+      "audit_note": "The commitment to Python 2.7 support is replaced by ended support and a pinning recommendation. Reason accurately captures the reversal.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 33,
+      "case_id": "requests-faq",
+      "old_index": 16,
+      "new_index": 17,
+      "provisional_expected": "modified",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The minimum version for migration has changed from Python 3.6+ to Python 3.8+",
+      "assessment": "supported",
+      "audit_note": "The migration recommendation changes from Python 3.6+ to 3.8+. Reason is directly supported.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    },
+    {
+      "row_index": 34,
+      "case_id": "requests-faq",
+      "old_index": 20,
+      "new_index": 21,
+      "provisional_expected": "modified",
+      "baseline_status": "modified",
+      "raw_llm_status": "modified",
+      "effective_llm_status": "modified",
+      "reason": "The after passage omits the mention of Python 2.7.9+ and its native support, which is present in the before passage.",
+      "assessment": "supported",
+      "audit_note": "Python 2.7.9+ native SNI support is removed from the text, as stated. Explanation omits the simultaneous removal of guidance for older Python versions.",
+      "literal_quote_valid": true,
+      "quote_valid_by_side": {
+        "old": true,
+        "new": true
+      },
+      "selected_for_fallback": false
+    }
+  ]
+}
