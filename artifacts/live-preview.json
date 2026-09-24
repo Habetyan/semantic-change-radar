@@ -1,7 +1,7 @@
 {
   "checked_at": "2026-09-24T19:05:14.757549+00:00",
   "mode": "temporary Gradio share tunnel to local real CPU inference",
-  "url": "https://f80d35f140cdfc08a3.gradio.live",
+  "url": "https://46184dfad9c6d14d8e.gradio.live",
   "local_port": 7867,
   "availability": "Process and local machine must remain online. Up to one week, best effort; not permanent HF hosting.",
   "paid_plan_or_hardware_purchased": false,
@@ -71,8 +71,28 @@
       "no JavaScript errors"
     ]
   },
-  "app_sha256": "499fec46a8402eb400268bc165d280d75fa3f9d08bcf635f73a7d76efad07877",
+  "app_sha256": "6ad000d4f4026e4e28cdccf6d942187eec659163b9ed3cf3a078ff4ea229e31b",
   "engine_and_blind_freezes": "Both unchanged; no model or comparison logic change.",
   "start_command": "HF_HUB_OFFLINE=1 GRADIO_SERVER_PORT=7867 GRADIO_SHARE=1 .venv/bin/python app.py",
-  "restarting": "Starting again generally produces a new public URL."
+  "restarting": "Starting again generally produces a new public URL.",
+  "previous_url": "https://f80d35f140cdfc08a3.gradio.live",
+  "latest_preview_verified_at": "2026-09-24T19:15:24.440622+00:00",
+  "previous_app_sha256": "499fec46a8402eb400268bc165d280d75fa3f9d08bcf635f73a7d76efad07877",
+  "restart_note": "The previous public URL stopped serving after the app restart. This replacement uses a fresh Gradio share tunnel.",
+  "dropdown_fix_verification": {
+    "local": "Desktop and mobile checked in light, OS-dark and forced-dark mode, including normal/hover/keyboard menu states and scenario selection.",
+    "public": {
+      "url": "https://46184dfad9c6d14d8e.gradio.live/?__theme=dark",
+      "popup_background": "rgb(255, 254, 250)",
+      "active_background": "rgb(237, 240, 233)",
+      "text_color": "rgb(23, 52, 57)",
+      "selected": "Warranty: a missing condition",
+      "status": "0.0s\n\nCompared 4 before and 4 after passages with the semantic models.",
+      "cards": 2,
+      "errors": []
+    },
+    "cause": "Popup and active-row backgrounds inherited dark Gradio colors while text used the app fixed dark ink.",
+    "fix": "Primary and secondary surface colors now explicitly use the app light palette in both theme modes.",
+    "prior_evidence": "Fresh-input API and original browser records below retain their original URL and verification time."
+  }
 }
