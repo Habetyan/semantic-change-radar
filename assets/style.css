@@ -1,6 +1,6 @@
 :root { --scr-ink: #173439; --scr-muted: #56686a; --scr-line: #d9dfd9; --scr-green: #176d67; --scr-paper: #f6f3ed; }
 /* Gradio scopes media rules beneath .contain; keep outer spacing fluid. */
-.gradio-container { max-width: 1220px !important; margin: auto !important; padding: clamp(20px, 3vw, 36px) clamp(16px, 3vw, 36px) 24px !important; }
+.gradio-container { width: 100%; max-width: 1220px !important; margin: auto !important; padding: clamp(20px, 3vw, 36px) clamp(16px, 3vw, 36px) 24px !important; }
 .gradio-container .main { padding: 0 !important; }
 body { background: var(--scr-paper) !important; }
 .scr-topline { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid #c7d0c9; padding-bottom: 18px; color: var(--scr-muted); font-size: 10px; letter-spacing: .13em; font-weight: 600; }
@@ -34,6 +34,18 @@ body { background: var(--scr-paper) !important; }
 .scr-helper { font-size: 11px; line-height: 1.7; color: var(--scr-muted); margin: 4px 0 8px; max-width: 1000px; }
 #scr-run-status { border-left: 3px solid var(--scr-green); padding: 5px 12px; background: #eaf0e9; border-radius: 0 5px 5px 0; }
 #scr-run-status p { font-size: 12px; color: var(--scr-ink); }
+/* Gradio's JSON syntax colors are separate from its theme tokens. */
+#scr-raw-report .json-node {
+  --text-color: #8d3e21;
+  --key-color: var(--scr-ink);
+  --string-color: var(--scr-green);
+  --number-color: #805412;
+  --bracket-color: var(--scr-muted);
+  --square-bracket-color: #405b80;
+  --punctuation-color: var(--scr-muted);
+  --line-number-color: var(--scr-muted);
+  --separator-color: var(--scr-line);
+}
 .scr-summary { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--scr-line); background: #fffefa; border-radius: 10px; padding: 21px 0; }
 .scr-stat { display: flex; flex-direction: column; gap: 7px; padding: 0 24px; border-right: 1px solid var(--scr-line); }
 .scr-stat:last-child { border: 0; }

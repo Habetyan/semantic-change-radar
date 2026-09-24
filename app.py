@@ -219,7 +219,7 @@ def create_app() -> gr.Blocks:
                 "context, and subtle exceptions can still need manual review."
             )
         with gr.Accordion("Inspect the complete JSON report", open=False):
-            raw_report = gr.JSON(label="Report", value=None)
+            raw_report = gr.JSON(label="Report", value=None, elem_id="scr-raw-report")
         gr.HTML(
             '<div class="scr-footer"><span>Built for inspectable document review.</span>'
             "<span>Text is processed on the app server. Downloads are cleared after about one hour.</span></div>"
@@ -303,18 +303,19 @@ def main() -> None:
         font_mono=["ui-monospace", "monospace"],
     ).set(
         background_fill_primary="#fffefa",
-        background_fill_primary_dark="#fffefa",
         background_fill_secondary="#edf0e9",
-        background_fill_secondary_dark="#edf0e9",
         body_background_fill="#f6f3ed",
-        body_background_fill_dark="#f6f3ed",
         body_text_color="#173439",
-        body_text_color_dark="#173439",
+        body_text_color_subdued="#56686a",
+        block_label_text_color="#173439",
+        block_title_text_color="#173439",
         block_background_fill="#ffffff",
-        block_background_fill_dark="#ffffff",
         input_background_fill="#ffffff",
-        input_background_fill_dark="#ffffff",
     )
+    # The custom UI has one paper palette. Match every Gradio surface and control
+    # to it, including file rows and radio states when the browser prefers dark.
+    tokens = theme.to_dict()["theme"]
+    theme.set(**{key: tokens[key.removesuffix("_dark")] for key in tokens if key.endswith("_dark")})
     create_app().launch(
         server_name=os.getenv(
             "GRADIO_SERVER_NAME", "0.0.0.0" if os.getenv("SPACE_ID") else "127.0.0.1"
