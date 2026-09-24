@@ -197,5 +197,18 @@ paid HF plan, although CPU Basic has no hourly hardware charge. Static Spaces ar
 free. The current public showcase uses static hosting and clearly labels its outputs
 as recorded. [Hugging Face hosting documentation](https://huggingface.co/docs/hub/spaces-overview).
 
+An actual CPU Basic creation request on the project's free HF account also returned
+HTTP 402 with a PRO subscription requirement. For a temporary public preview from
+your own machine, enable Gradio's built-in sharing:
+
+```bash
+GRADIO_SHARE=1 python app.py
+```
+
+The printed public URL runs real inference on your machine. Keep the process running
+and the machine online. Share links last up to one week on a best-effort basis;
+they are temporary review links, not permanent portfolio hosting. Sharing is off by
+default. [Gradio sharing documentation](https://gradio.app/guides/sharing-your-app).
+
 Source code is MIT licensed. Upstream documentation and pretrained models retain
 their own licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

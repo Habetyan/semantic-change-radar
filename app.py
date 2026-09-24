@@ -315,7 +315,7 @@ def main() -> None:
         server_name=os.getenv(
             "GRADIO_SERVER_NAME", "0.0.0.0" if os.getenv("SPACE_ID") else "127.0.0.1"
         ),
-        share=False,
+        share=os.getenv("GRADIO_SHARE") == "1",
         theme=theme,
         css=CSS,
         footer_links=[],

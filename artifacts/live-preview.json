@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-09-24T19:05:14.757549+00:00",
+  "mode": "temporary Gradio share tunnel to local real CPU inference",
+  "url": "https://f80d35f140cdfc08a3.gradio.live",
+  "local_port": 7867,
+  "availability": "Process and local machine must remain online. Up to one week, best effort; not permanent HF hosting.",
+  "paid_plan_or_hardware_purchased": false,
+  "hf_cpu_basic_attempt": {
+    "account": "artush-habetyan",
+    "requested_repo": "artush-habetyan/semantic-change-radar",
+    "hardware": "cpu-basic",
+    "sdk": "gradio",
+    "http_status": 402,
+    "server_message": "Static Spaces are free for everyone, but hosting Gradio and Docker Spaces on free cpu-basic requires a PRO subscription. Subscribe at https://huggingface.co/pro"
+  },
+  "fresh_input_api_check": {
+    "checked_at": "2026-09-24T19:03:41.318736+00:00",
+    "url": "https://f80d35f140cdfc08a3.gradio.live",
+    "api": "/compare",
+    "fresh_input_not_in_examples": true,
+    "before": "Harbor workspace policy\n\nTeam members can download activity reports.\n\nAudit records are retained for 42 days.\n\nSupport requests are answered on weekdays.",
+    "after": "Harbor workspace policy\n\nOnly administrators can download activity reports.\n\nAudit records are retained for 84 days.\n\nOn weekdays, the support team responds to requests.",
+    "status": "Compared 4 before and 4 after passages with the semantic models.",
+    "engine": "semantic",
+    "passage_counts": [
+      4,
+      4
+    ],
+    "labels": [
+      "unchanged",
+      "modified",
+      "modified",
+      "reworded"
+    ]
+  },
+  "models": {
+    "embedding": {
+      "repo": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "file": "onnx/model_quint8_avx2.onnx",
+      "max_tokens": 256
+    },
+    "nli": {
+      "repo": "cross-encoder/nli-MiniLM2-L6-H768",
+      "revision": "b95119ce93d3e065de6214e38cd4a97b0f2f2c6d",
+      "file": "onnx/model_quint8_avx2.onnx",
+      "max_tokens": 512
+    },
+    "runtime": "onnxruntime",
+    "runtime_version": "1.23.2",
+    "provider": "CPUExecutionProvider",
+    "batch_size": 8,
+    "nli_batch_size": 1,
+    "cpu_threads": 2
+  },
+  "browser": {
+    "result": "passed",
+    "script": "scripts/browser_smoke.py",
+    "url": "https://f80d35f140cdfc08a3.gradio.live",
+    "remote_expectation_timeout_ms": 60000,
+    "initial_attempt": "Default five-second element timeout expired during public startup; unchanged script passed with a 60-second Playwright expectation timeout.",
+    "verified": [
+      "semantic comparison",
+      "source passage map",
+      "status filters",
+      "evidence expansion",
+      "JSON download",
+      "stale input notice",
+      "edited historical example and recomparison",
+      "mobile layout with no overflow",
+      "no JavaScript errors"
+    ]
+  },
+  "app_sha256": "499fec46a8402eb400268bc165d280d75fa3f9d08bcf635f73a7d76efad07877",
+  "engine_and_blind_freezes": "Both unchanged; no model or comparison logic change.",
+  "start_command": "HF_HUB_OFFLINE=1 GRADIO_SERVER_PORT=7867 GRADIO_SHARE=1 .venv/bin/python app.py",
+  "restarting": "Starting again generally produces a new public URL."
+}

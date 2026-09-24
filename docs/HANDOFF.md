@@ -20,6 +20,10 @@ localized excerpts preserve exact source punctuation; historical v2 exports are
 unchanged and may contain normalized excerpts.
 
 - Live local Gradio: **http://127.0.0.1:7864**
+- A temporary public live preview is started separately with `GRADIO_SHARE=1` on
+  port 7867. See [its verification record](../artifacts/live-preview.json) for the
+  URL and check time. It depends on this machine staying online and expires within
+  about one week; the static showcase remains the published recorded companion.
 - Local annotation review: **http://127.0.0.1:7866**
 - [Silent walkthrough](images/walkthrough.mp4): 59.72 seconds, 2.69 MB of actual UI interaction.
 - [Desktop screenshot](images/demo.png) and [mobile screenshot](images/mobile.png).
