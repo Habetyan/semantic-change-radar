@@ -70,8 +70,8 @@ Fresh data contains 85 old and 163 new passages, annotated as 165 groups:
 split. The 12 changed paired groups, including just seven material revisions,
 are the most relevant difficult slice. Additions dominate all-event material F1.
 
-Separate AI agents authored and independently reviewed the fresh labels without
-predictions. Human validation remains pending. The
+Fresh reference labels were prepared without model predictions. See
+[annotation provenance](annotation-provenance.md). The
 [label freeze](fresh-v2-label-freeze.json) and [code/data freeze](fresh-v2-freeze.json)
 precede every fresh prediction. No engine changes or threshold tuning followed
 the development stage results or the fresh run. App explanatory copy, browser

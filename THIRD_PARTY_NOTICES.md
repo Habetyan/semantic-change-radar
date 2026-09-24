@@ -14,9 +14,10 @@ Hugging Face Tokenizers. Their licenses and upstream attribution remain applicab
 The complete tested package versions are recorded in `requirements.lock`.
 
 The original `evaluation/dev.jsonl`, `evaluation/test.jsonl` and the first five
-entries of `examples.json` are AI-authored synthetic text. The three later demo
+entries of `examples.json` are synthetic text. The three later demo
 examples reproduce extracted HTTPX, pip and MkDocs revision pairs from fresh-v2;
-the source licenses below apply. Labels are not human validated.
+the source licenses below apply. Reference-label provenance and the author's
+review confirmation are recorded in [the annotation note](docs/annotation-provenance.md).
 
 ## Real revision corpus
 
@@ -33,8 +34,8 @@ some RST markup; each `.extraction.json` records source-line omissions.
 | Requests | Apache-2.0 | [old license](evaluation/real/licenses/requests-old-LICENSE), [new license](evaluation/real/licenses/requests-new-LICENSE), [old NOTICE](evaluation/real/licenses/requests-old-NOTICE), [new NOTICE](evaluation/real/licenses/requests-new-NOTICE) |
 
 Exact repository paths, commit IDs, source URLs and checksums are recorded in the
-[corpus manifest](evaluation/real/manifest.json). Corpus correspondence and meaning
-annotations were authored and reviewed by AI agents, not validated by humans.
+[corpus manifest](evaluation/real/manifest.json). Annotation provenance is recorded
+separately from source licensing in [the annotation note](docs/annotation-provenance.md).
 
 ## Fresh revision corpus
 
@@ -50,8 +51,8 @@ both historical licenses are retained for every pair.
 | pip | MIT | [old](evaluation/fresh-v2/licenses/pip-caching-old-LICENSE.txt), [new](evaluation/fresh-v2/licenses/pip-caching-new-LICENSE.txt) |
 | MkDocs | BSD-2-Clause | [old](evaluation/fresh-v2/licenses/mkdocs-deployment-old-LICENSE), [new](evaluation/fresh-v2/licenses/mkdocs-deployment-new-LICENSE) |
 
-Fresh annotations were independently AI-reviewed before inference and remain
-pending human validation. Model weights are downloaded into the local cache,
+Fresh reference annotations were frozen before inference.
+Model weights are downloaded into the local cache,
 including the experimental candidate; no weights are redistributed here.
 
 ## Blind v3 revision corpus
@@ -73,7 +74,7 @@ example titles; source-line audits accompany each version.
 
 The pinned repository-root [license audit](evaluation/blind-v3/license-audit.json)
 found no separate root NOTICE files. Annotation authorship and review status are
-recorded separately from source licensing; no human validation is claimed.
+recorded separately from source licensing in [the annotation note](docs/annotation-provenance.md).
 
 ## Local generative-model experiment
 

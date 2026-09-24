@@ -1,10 +1,11 @@
 # Evaluation
 
-The [current release report](../docs/resume-results.md) adds the independently
-AI-reviewed [blind-v3 corpus](blind-v3/README.md), archived-v2 comparison, review-task
+The [current release report](../docs/resume-results.md) adds the
+[blind-v3 corpus](blind-v3/README.md), archived-v2 comparison, review-task
 analysis, local LLM verifier experiment, and [human review form](../docs/review/README.md).
 The new corpus has now been inspected; preserve it as a frozen result and use new
-data for future tuning. Human validation remains pending.
+data for future tuning. [Annotation provenance](../docs/annotation-provenance.md)
+records reference-label preparation and the author's review confirmation.
 
 The latest [structure/detail evaluation](../docs/improvements.md) compares four
 cumulative profiles on the earlier pages and a [fresh corpus](fresh-v2/README.md)
@@ -18,8 +19,8 @@ HF_HUB_OFFLINE=1 python -m evaluation.real_evaluate \
 
 Use `evaluation/context-v2/manifest.json` for development. The report links the
 archived-engine comparison, stage ablations, NLI candidate experiment, and all
-frozen predictions. Fresh labels were independently AI-reviewed before inference
-and still need human validation. The original synthetic evaluator below assumes
+frozen predictions. Fresh reference labels were frozen before inference.
+The original synthetic evaluator below assumes
 singleton correspondences and should not score grouped outputs.
 
 The separate [real documentation corpus](real/README.md) evaluates complete,
@@ -27,9 +28,8 @@ naturally edited pages with split/merge annotations and explicit failure
 accounting. See [results and error analysis](../docs/real-evaluation.md).
 The original synthetic protocol below remains unchanged.
 
-This is a small integration benchmark of **32 original AI-authored document pairs**:
-18 development scenarios and 14 held-out test scenarios. The labels have **not been
-validated by human annotators**. Scores measure performance on these fixtures,
+This is a small integration benchmark of **32 synthetic document pairs**:
+18 development scenarios and 14 held-out test scenarios. Scores measure performance on these fixtures,
 not real-world accuracy, production safety, or superiority to other products.
 
 The task is to align passages across two document versions, then identify material

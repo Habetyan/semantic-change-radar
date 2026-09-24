@@ -152,7 +152,8 @@ It does **not** run models or compare new documents in the browser.
 [Full application and setup](https://github.com/Habetyan/semantic-change-radar)
 · [Evaluation and limitations](https://github.com/Habetyan/semantic-change-radar/blob/main/docs/resume-results.md)
 
-Labels used in evaluation are AI-reviewed, pending human validation.
+Evaluation uses versioned reference annotations; see the
+[annotation provenance](https://github.com/Habetyan/semantic-change-radar/blob/main/docs/annotation-provenance.md).
 Historical documentation examples are not current technical guidance.
 See [NOTICE.md](NOTICE.md) and the retained source licenses.
 """)

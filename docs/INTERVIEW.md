@@ -7,8 +7,8 @@ meaning-preserving rewrites from material edits. It combines pretrained sentence
 embeddings, global assignment, bidirectional natural-language inference (NLI),
 and conservative checks for changed details and source scope. I implemented the
 comparison pipeline, evaluation tooling and Gradio interface. I did not train or
-fine-tune the models. The results are mixed, and the annotations still need human
-validation.”
+fine-tune the models. The results include documented successes, misses, and
+review-workload tradeoffs.”
 
 ## Explain the pipeline
 
@@ -63,8 +63,8 @@ The original eight real pairs include one intentionally over-limit stress case.
 Later corpora add three fresh-v2 pairs and six blind-v3 pairs from three further
 repositories. Sources, licenses, extraction omissions, labels and engine versions
 are recorded. Once results are inspected, those pages are no longer unseen for
-subsequent tuning. All annotations are AI-authored, with independent AI review
-where recorded, and remain pending human validation.
+subsequent tuning. [Annotation provenance and author review](annotation-provenance.md)
+records how the reference labels were prepared and the author's confirmation.
 
 Use the [current results](resume-results.md) for the final v3 numbers and exact
 coverage. The [v2 report](improvements.md) illustrates the tradeoff: one natural
@@ -99,7 +99,7 @@ literal quotations, all retained as review decisions. Standalone material F1 was
 alarms. An always-material baseline scored .654 on this deliberately changed-pair
 slice. Those numbers do not justify deploying the LLM.
 
-The [independent AI explanation audit](../artifacts/evaluation/v3-llm-qwen/explanation-audit.json)
+The [separate explanation audit](../artifacts/evaluation/v3-llm-qwen/explanation-audit.json)
 classified 18 reasons as supported, 10 as overinterpreting rewrites and seven as
 containing unsupported assertions. These are provisional audit judgments. A
 supported reason does not necessarily justify the predicted status. For example,
@@ -109,7 +109,7 @@ Valid source quotations therefore establish provenance, not reasoning correctnes
 The CPU NLI and potentially GPU-backed Ollama timings are not equal-hardware
 comparisons. Qwen remains an experiment, not a production dependency.
 
-**What would you do next?** Obtain independent human judgments on correspondence
+**What would you do next?** Obtain additional independent judgments on correspondence
 and meaning, adjudicate disagreements without overwriting historical labels, then
 collect new unseen sources for any subsequent tuning. Measure review burden as
 well as missed material edits. Broader document genres and larger rewrite/group

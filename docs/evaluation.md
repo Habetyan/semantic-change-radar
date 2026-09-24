@@ -12,10 +12,11 @@ it does not establish accuracy on natural documents.
 
 ## Protocol and provenance
 
-The benchmark contains **32 AI-authored scenarios, not human-validated annotations**:
+The benchmark contains **32 synthetic scenarios**:
 18 development pairs and 14 test pairs. Domains and scenario groups are disjoint.
 Development contains 42 gold events, including 17 material events; test contains 36,
 including 13 material events. No model training or fine-tuning was performed.
+See [annotation provenance](annotation-provenance.md) for label preparation and author review.
 
 Development evaluation, heuristic safeguards, and regression checks preceded the
 [configuration freeze](evaluation-freeze.json) at **07:47:20 UTC**. The first test

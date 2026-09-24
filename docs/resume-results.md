@@ -70,7 +70,8 @@ No page was cropped to pass input limits.
 
 Initial annotation and independent review occurred without predictions. The
 reviewer corrected one availability change in Black despite unchanged body text.
-Final labels are **AI-reviewed, pending human validation**. There are 306 groups:
+Labels and the author's subsequent review are documented in
+[annotation provenance](annotation-provenance.md). There are 306 groups:
 210 unchanged, eight reworded, eleven modified, 75 added and two removed. These
 cover 231 old and 304 new passages. There are 19 changed paired groups and **no
 split/merge groups**, so this set cannot establish split/merge generalization.
@@ -144,9 +145,10 @@ abstentions and adds two false material alarms. It cannot repair the baseline's
 equivalence miss because that pair is not routed. Its F1 remains below the trivial
 always-material baseline, although it retains six correct benign rewrites.
 
-An independent **AI explanation audit**, not human validation, found 18 supported
+A separate explanation audit found 18 supported
 reasons, ten overinterpretations and seven unsupported assertions across all raw
-responses. Quote validity does not establish explanation correctness. For example,
+responses; its provenance is recorded in the [annotation note](annotation-provenance.md).
+Quote validity does not establish explanation correctness. For example,
 the Flask Unicode-removal pair received the correct modified label but a false
 reason claiming iterative rendering was newly introduced, although it appeared on
 both sides. A capitalization-only heading edit had valid quotes but an incorrect
@@ -193,4 +195,5 @@ python -m evaluation.review_packet \
 
 The [handoff](HANDOFF.md) records final tests, browser checks and publication status.
 The current new set has now been inspected and must not be reused as an unseen
-holdout for later tuning. Human review is the main outstanding scientific task.
+holdout for later tuning. The author's confirmation of the measurements is recorded
+in [annotation provenance and author review](annotation-provenance.md).

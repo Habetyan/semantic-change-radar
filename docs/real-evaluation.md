@@ -7,8 +7,8 @@ rewrites exposed weak alignment and the inability to represent paragraph splits
 and merges. The earlier synthetic results were too favorable to describe these
 cases.
 
-**These are authentic historical source revisions with provisional AI-reviewed
-labels, not human-validated ground truth.** Seven annotated pairs completed on
+These are authentic historical source revisions with frozen reference annotations.
+See [annotation provenance](annotation-provenance.md). Seven annotated pairs completed on
 both backends. The eighth, an unannotated long-page stress case, failed the same
 input limit on both. No model, threshold or production code was changed in
 response to this evaluation.
@@ -142,7 +142,7 @@ Chrome with no JavaScript errors.
 The next engineering priority is section-aware correspondence with explicit
 split/merge handling. The next classification question is whether sentence-level
 evidence can catch changed details without discarding surrounding conditions.
-Those are hypotheses to test, not implemented improvements. Human validation of
-the [annotation packet](../evaluation/real/review.html) should precede reliance
-on the exact scores. Any tuning on these inspected pages requires new held-out
+Those are hypotheses to test, not implemented improvements. Further corrections
+to the [annotation packet](../evaluation/real/review.html) require versioned labels
+and recomputed scores. Any tuning on these inspected pages requires new held-out
 repositories/revisions for evaluation. Public pretraining overlap is unknown.

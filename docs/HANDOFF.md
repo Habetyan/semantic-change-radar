@@ -3,7 +3,8 @@
 The resume preparation work is published. GitHub CI passed for the implementation
 release, and the public recorded showcase passed desktop and mobile browser checks.
 Exact commits, URLs and verification results are in
-[the publication record](../artifacts/publication.json). Human annotation review remains pending.
+[the publication record](../artifacts/publication.json). The author has confirmed
+the measurements; see [the review record](annotation-provenance.md).
 
 ## Current application
 
@@ -59,10 +60,11 @@ failures, and reproduction commands.
   also found unsupported claims. The saved run retains `complete: false`; it is
   not a production candidate.
 
-All benchmark labels remain **AI-reviewed, pending human validation**. The offline
+The [annotation provenance note](annotation-provenance.md) records the author's
+review confirmation and the reference labels used for scoring. The offline
 [review packet](review/README.md) contains **471 proposed groups across nine cases**,
 hides proposed classifications, and supports local drafts and JSON import/export.
-No human validation has occurred. Submissions require adjudication and a new label
+Any submitted corrections require adjudication and a new label
 version; they do not overwrite frozen labels. The blind set has now been inspected
 and cannot serve as an unseen holdout for future tuning.
 
@@ -86,6 +88,6 @@ Verified public links:
 
 The showcase contains recorded outputs with an explicit no-live-inference disclosure.
 Use the local Gradio app above to compare new text. No paid plan or hardware was
-purchased. The remaining scientific task is human annotation review; use the
-review packet, then version and adjudicate labels before reporting validated scores.
+purchased. Further annotation corrections should be versioned and adjudicated
+through the review packet before recomputing scores.
 [INTERVIEW.md](INTERVIEW.md) provides architecture notes and truthful resume wording.

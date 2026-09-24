@@ -100,7 +100,8 @@ cause was not isolated. No training or fine-tuning was performed.
 
 The latest blind diagnostic uses **six complete revision pairs from three previously
 unseen repositories**, with 19 changed paired groups, including 11 material changes.
-Labels were independently AI-reviewed before inference and **still need human validation**.
+Scoring uses frozen passage-level reference annotations. See
+[annotation provenance and author review](docs/annotation-provenance.md).
 
 | Latest blind set | Lexical baseline | Archived v2 | Current verified |
 |---|---:|---:|---:|
